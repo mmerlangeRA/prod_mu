@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "coordinate_system": "normalized_xywh",
+  "analysis_kind": "illustrative_example",
+  "notes": ["Illustrative manually estimated box on a catalogue reference, not a new detection run."],
+  "images": [{
+    "image_id": "bercy-reference",
+    "image_file": "images/banc_bercy.png",
+    "width": 626,
+    "height": 538,
+    "objects": [{
+      "object_id": "bench-1",
+      "category_id": "banc",
+      "decision": "matched",
+      "model_name": "banc_bercy",
+      "model_id": 2,
+      "category_confidence": "high",
+      "model_confidence": "high",
+      "bbox": {"x": 0.015, "y": 0.035, "width": 0.965, "height": 0.965},
+      "bbox_quality": "approximate",
+      "occluded": false,
+      "truncated": true,
+      "observed_features": ["Fine parallel metal slats on seat and back", "Nested semicircular armrest details"],
+      "alternative_candidates": [],
+      "notes": "Demonstration only; approximate visible extent includes the feet."
+    }]
+  }]
+}
