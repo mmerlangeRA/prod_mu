@@ -1,0 +1,785 @@
+{
+  "source": "groq-batch",
+  "model": "qwen/qwen3.8-27b",
+  "tiles": 4,
+  "band_rows": [
+    220,
+    760
+  ],
+  "coordinates": "0-1000 of each tile's longer side, converted to panorama pixels",
+  "seconds": 0.0,
+  "skipped_objects": 1,
+  "filtered_repetitions": [
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1737,
+        487,
+        1743,
+        499
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1740,
+        481,
+        1746,
+        493
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1743,
+        475,
+        1749,
+        487
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1746,
+        469,
+        1752,
+        481
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1749,
+        463,
+        1755,
+        475
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1752,
+        457,
+        1758,
+        469
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1755,
+        451,
+        1761,
+        463
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1758,
+        445,
+        1764,
+        457
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1761,
+        439,
+        1767,
+        451
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1764,
+        433,
+        1770,
+        445
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1767,
+        427,
+        1773,
+        439
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1770,
+        421,
+        1776,
+        433
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1773,
+        415,
+        1779,
+        427
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1776,
+        409,
+        1782,
+        421
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1779,
+        403,
+        1785,
+        415
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1782,
+        397,
+        1788,
+        409
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1785,
+        391,
+        1791,
+        403
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1788,
+        385,
+        1794,
+        397
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1791,
+        379,
+        1797,
+        391
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1794,
+        373,
+        1800,
+        385
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1797,
+        367,
+        1803,
+        379
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1800,
+        361,
+        1806,
+        373
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1803,
+        355,
+        1809,
+        367
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1806,
+        349,
+        1812,
+        361
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1809,
+        343,
+        1815,
+        355
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1812,
+        337,
+        1818,
+        349
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1815,
+        331,
+        1821,
+        343
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1818,
+        325,
+        1824,
+        337
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1821,
+        319,
+        1827,
+        331
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1824,
+        313,
+        1830,
+        325
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1827,
+        307,
+        1833,
+        319
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1830,
+        301,
+        1836,
+        313
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1833,
+        295,
+        1839,
+        307
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1836,
+        289,
+        1842,
+        301
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1839,
+        283,
+        1845,
+        295
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1842,
+        277,
+        1848,
+        289
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1845,
+        271,
+        1851,
+        283
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1848,
+        265,
+        1854,
+        277
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1851,
+        259,
+        1857,
+        271
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1854,
+        253,
+        1860,
+        265
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1857,
+        247,
+        1863,
+        259
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1860,
+        241,
+        1866,
+        253
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1863,
+        235,
+        1869,
+        247
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1866,
+        229,
+        1872,
+        241
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1869,
+        223,
+        1875,
+        235
+      ]
+    }
+  ],
+  "usage": null,
+  "calls": [
+    {
+      "tile": [
+        0,
+        220,
+        600,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 1724,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\":\n      [\n        228,\n        168,\n        310,\n        442\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Tall pole with a curved arm supporting two lamp heads\"\n      ]\n    },\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\":\n      [\n        122,\n        278,\n        162,\n        432\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Street lamp post with a curved arm and lamp head\"\n      ]\n    },\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\":\n      [\n        382,\n        418,\n        532,\n        952\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Tall street lamp post with a curved arm and lamp head\"\n      ]\n    },\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\":\n      [\n        182,\n        608,\n        232,\n        872\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Street lamp post with a curved arm and lamp head\"\n      ]\n    },\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\":\n      [\n        112,\n        728,\n        142,\n        872\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Street lamp post with a curved arm and lamp head\"\n      ]\n    },\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\":\n      [\n        722,\n        598,\n        772,\n        872\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Street lamp post with a curved arm and lamp head\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\":\n      [\n        262,\n        238,\n        402,\n        462\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Large deciduous tree with a full canopy\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\":\n      [\n        132,\n        298,\n        262,\n        452\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Deciduous tree with a full canopy\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\":\n      [\n        532,\n        448,\n        722,\n        952\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Large deciduous tree with a full canopy\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\":\n      [\n        262,\n        658,\n        422,\n        952\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Deciduous tree with a full canopy\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\":\n      [\n        0,\n        678,\n        102,\n        952\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Deciduous tree with a full canopy\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\":\n      [\n        0,\n        358,\n        52,\n        442\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Deciduous tree with a full canopy\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\":\n      [\n        452,\n        268,\n        492,\n        432\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Coniferous tree\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\":\n      [\n        492,\n        268,\n        532,\n        432\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Coniferous tree\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\":\n      [\n        532,\n        268,\n        572,\n        432\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Coniferous tree\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\":\n      [\n        572,\n        268,\n        612,\n        432\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Coniferous tree\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\":\n      [\n        612\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Coniferous tree\"\n      ]\n    }\n  ]\n}",
+      "batch_id": "batch_01m3w523vfesmtb1x2xnkzragt"
+    },
+    {
+      "tile": [
+        440,
+        220,
+        1040,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 131,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"RAL01\",\n      \"x_min\": 285,\n      \"y_min\": 555,\n      \"x_max\": 720,\n      \"y_max\": 625,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Row of white shark-tooth triangles painted across the lane on the ramp\"\n      ]\n    }\n  ]\n}",
+      "batch_id": "batch_01m3w523vfesmtb1x2xnkzragt"
+    },
+    {
+      "tile": [
+        880,
+        220,
+        1480,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 11,
+      "raw_text": "{\"objects\": []}",
+      "batch_id": "batch_01m3w523vfesmtb1x2xnkzragt"
+    },
+    {
+      "tile": [
+        1320,
+        220,
+        1920,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 5966,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        570,\n        600,\n        600,\n        700\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        630,\n        560,\n        660,\n        630\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        660,\n        520,\n        680,\n        570\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        675,\n        490,\n        690,\n        530\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        685,\n        470,\n        695,\n        500\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        690,\n        455,\n        700,\n        480\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        695,\n        445,\n        705,\n        465\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        700,\n        435,\n        710,\n        455\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        705,\n        425,\n        715,\n        445\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        710,\n        415,\n        720,\n        435\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        715,\n        405,\n        725,\n        425\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        720,\n        395,\n        730,\n        415\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        725,\n        385,\n        735,\n        405\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        730,\n        375,\n        740,\n        395\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        735,\n        365,\n        745,\n        385\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        740,\n        355,\n        750,\n        375\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        745,\n        345,\n        755,\n        365\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        750,\n        335,\n        760,\n        355\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        755,\n        325,\n        765,\n        345\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        760,\n        315,\n        770,\n        335\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        765,\n        305,\n        775,\n        325\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        770,\n        295,\n        780,\n        315\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        775,\n        285,\n        785,\n        305\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        780,\n        275,\n        790,\n        295\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        785,\n        265,\n        795,\n        285\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        790,\n        255,\n        800,\n        275\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        795,\n        245,\n        805,\n        265\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        800,\n        235,\n        810,\n        255\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        805,\n        225,\n        815,\n        245\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        810,\n        215,\n        820,\n        235\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        815,\n        205,\n        825,\n        225\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        820,\n        195,\n        830,\n        215\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        825,\n        185,\n        835,\n        205\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        830,\n        175,\n        840,\n        195\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        835,\n        165,\n        845,\n        185\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        840,\n        155,\n        850,\n        175\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        845,\n        145,\n        855,\n        165\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        850,\n        135,\n        860,\n        155\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        855,\n        125,\n        865,\n        145\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        860,\n        115,\n        870,\n        135\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        865,\n        105,\n        875,\n        125\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        870,\n        95,\n        880,\n        115\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        875,\n        85,\n        885,\n        105\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        880,\n        75,\n        890,\n        95\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        885,\n        65,\n        895,\n        85\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        890,\n        55,\n        900,\n        75\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        895,\n        45,\n        905,\n        65\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        900,\n        35,\n        910,\n        55\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        905,\n        25,\n        915,\n        45\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        910,\n        15,\n        920,\n        35\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        915,\n        5,\n        925,\n        25\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"slim cylindrical shaft\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    }\n  ]\n}",
+      "batch_id": "batch_01m3w523vfesmtb1x2xnkzragt"
+    }
+  ],
+  "output": {
+    "objects": [
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Large deciduous tree with a full canopy"
+        ],
+        "code": "ARB",
+        "x_min": 319,
+        "y_min": 489,
+        "x_max": 433,
+        "y_max": 791
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Tall street lamp post with a curved arm and lamp head"
+        ],
+        "code": "ECL_SIE_06",
+        "x_min": 229,
+        "y_min": 471,
+        "x_max": 319,
+        "y_max": 791
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Deciduous tree with a full canopy"
+        ],
+        "code": "ARB",
+        "x_min": 157,
+        "y_min": 615,
+        "x_max": 253,
+        "y_max": 791
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Large deciduous tree with a full canopy"
+        ],
+        "code": "ARB",
+        "x_min": 157,
+        "y_min": 363,
+        "x_max": 241,
+        "y_max": 497
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Row of white shark-tooth triangles painted across the lane on the ramp"
+        ],
+        "code": "RAL01",
+        "x_min": 611,
+        "y_min": 553,
+        "x_max": 872,
+        "y_max": 595
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Deciduous tree with a full canopy"
+        ],
+        "code": "ARB",
+        "x_min": 0,
+        "y_min": 627,
+        "x_max": 61,
+        "y_max": 791
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Tall pole with a curved arm supporting two lamp heads"
+        ],
+        "code": "ECL_SIE_06",
+        "x_min": 137,
+        "y_min": 321,
+        "x_max": 186,
+        "y_max": 485
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Deciduous tree with a full canopy"
+        ],
+        "code": "ARB",
+        "x_min": 79,
+        "y_min": 399,
+        "x_max": 157,
+        "y_max": 491
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Street lamp post with a curved arm and lamp head"
+        ],
+        "code": "ECL_SIE_06",
+        "x_min": 433,
+        "y_min": 579,
+        "x_max": 463,
+        "y_max": 743
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Street lamp post with a curved arm and lamp head"
+        ],
+        "code": "ECL_SIE_06",
+        "x_min": 109,
+        "y_min": 585,
+        "x_max": 139,
+        "y_max": 743
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Coniferous tree"
+        ],
+        "code": "ARB",
+        "x_min": 271,
+        "y_min": 381,
+        "x_max": 295,
+        "y_max": 479
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Coniferous tree"
+        ],
+        "code": "ARB",
+        "x_min": 295,
+        "y_min": 381,
+        "x_max": 319,
+        "y_max": 479
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Coniferous tree"
+        ],
+        "code": "ARB",
+        "x_min": 319,
+        "y_min": 381,
+        "x_max": 343,
+        "y_max": 479
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Coniferous tree"
+        ],
+        "code": "ARB",
+        "x_min": 343,
+        "y_min": 381,
+        "x_max": 367,
+        "y_max": 479
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Street lamp post with a curved arm and lamp head"
+        ],
+        "code": "ECL_SIE_06",
+        "x_min": 73,
+        "y_min": 387,
+        "x_max": 97,
+        "y_max": 479
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Deciduous tree with a full canopy"
+        ],
+        "code": "ARB",
+        "x_min": 0,
+        "y_min": 435,
+        "x_max": 31,
+        "y_max": 485
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Street lamp post with a curved arm and lamp head"
+        ],
+        "code": "ECL_SIE_06",
+        "x_min": 67,
+        "y_min": 657,
+        "x_max": 85,
+        "y_max": 743
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "slim cylindrical shaft",
+          "alternating reflective bands",
+          "wide circular flared base"
+        ],
+        "code": "POT_FEN_03",
+        "x_min": 1662,
+        "y_min": 580,
+        "x_max": 1680,
+        "y_max": 640
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "slim cylindrical shaft",
+          "alternating reflective bands",
+          "wide circular flared base"
+        ],
+        "code": "POT_FEN_03",
+        "x_min": 1698,
+        "y_min": 556,
+        "x_max": 1716,
+        "y_max": 598
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "slim cylindrical shaft",
+          "alternating reflective bands",
+          "wide circular flared base"
+        ],
+        "code": "POT_FEN_03",
+        "x_min": 1716,
+        "y_min": 532,
+        "x_max": 1728,
+        "y_max": 562
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "slim cylindrical shaft",
+          "alternating reflective bands",
+          "wide circular flared base"
+        ],
+        "code": "POT_FEN_03",
+        "x_min": 1725,
+        "y_min": 514,
+        "x_max": 1734,
+        "y_max": 538
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "slim cylindrical shaft",
+          "alternating reflective bands",
+          "wide circular flared base"
+        ],
+        "code": "POT_FEN_03",
+        "x_min": 1731,
+        "y_min": 502,
+        "x_max": 1737,
+        "y_max": 520
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "slim cylindrical shaft",
+          "alternating reflective bands",
+          "wide circular flared base"
+        ],
+        "code": "POT_FEN_03",
+        "x_min": 1734,
+        "y_min": 493,
+        "x_max": 1740,
+        "y_max": 508
+      }
+    ]
+  }
+}

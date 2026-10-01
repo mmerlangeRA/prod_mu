@@ -1,0 +1,105 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.99011669,
+     49.35191361
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_2",
+    "code": "ARB",
+    "confidence": "high",
+    "distance_m": 6.75,
+    "bearing_deg": 101.97,
+    "reliable": true,
+    "feature_id": "F0002"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.99013219,
+     49.35193982
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_3",
+    "code": "ECL_SIE_06",
+    "confidence": "medium",
+    "distance_m": 7.87,
+    "bearing_deg": 78.91,
+    "reliable": true,
+    "feature_id": "F0003"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98999787,
+     49.35191019
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_5",
+    "code": "ARB",
+    "confidence": "low",
+    "distance_m": 2.68,
+    "bearing_deg": 228.35,
+    "reliable": true,
+    "feature_id": "F0001"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98999246,
+     49.35195621
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_7",
+    "code": "RAL01",
+    "confidence": "low",
+    "distance_m": 4.11,
+    "bearing_deg": 324.35,
+    "reliable": false,
+    "feature_id": "F0005"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.99002897,
+     49.35185822
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_20",
+    "code": "POT_CHO_04",
+    "confidence": "low",
+    "distance_m": 7.56,
+    "bearing_deg": 178.1,
+    "reliable": false,
+    "feature_id": "F0004"
+   }
+  }
+ ]
+}

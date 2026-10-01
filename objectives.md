@@ -6,6 +6,29 @@ Produce an inventory of predefined street equipment for CA Val de Fensch: one re
 
 The deliverable is the deduplicated feature list. Bounding boxes are an intermediate result. The same object appears in many consecutive frames: frames are about 4 m apart, so a feature within 15 m is visible in roughly 5 to 8 frames.
 
+## Status (2026-10-02)
+
+**Chosen workflow: two stages.**
+1. **Stage 1 (category only):** a local, free vision model, `qwen3.5:9b` on Ollama, via `detect_vlm.py`.
+2. **Stage 2 (specific type):** done by Claude visually from contact sheets (`typing_sheets.py` → `decisions.json` → `apply_typing.py`).
+
+The full stage-1 run over the 783 frames (batch `ollama-qwen35-all`) was launched on 2026-10-02 (log: `logs/ollama-qwen35-all.log`; about 4–6 h). Stage 2 is the next session's task; the procedure is in `claude.md`.
+
+**Detectors compared on the first 10 frames**, against `first10-manual` (Claude's visual annotation, which has known speed-bump errors). Boxes are counted when they overlap a manual box by IoU ≥ 0.3 and lie within 15 m:
+
+| Detector | Manual boxes found | Notes | Cost for 783 frames |
+| --- | --- | --- | --- |
+| Ollama `qwen3.5:9b`, category only, 4 tiles | **59/86 (69%)** | lamps 9/11, trees 7/7, bollards 41/61, hydrants 2/3, speed bumps 0/4; 60 extra boxes (bins, signs) for stage 2 to reject | free; about 4–6 h on an M4 Pro, 24 GB |
+| Groq `qwen/qwen3.8-27b`, full codes, 4 tiles | 37–43/86 (43–50%) | invented runs of identical bollard boxes (filtered); bollards often coded `POT_FEN_01` | measured ≈ $34; ≈ $17 with Groq's Batch API, which accepts this model although its docs don't list it |
+| Groq `qwen/qwen3.6-27b` | 3/10 on one frame | more false positives, 2× slower | ≈ $50 (not in Groq's price list) |
+| Claude Sonnet 5.5 (`detect.py`) | not run (no API key) | | estimate ≈ $27–50, or $14–26 with the Batch API |
+
+**Model-specific findings:**
+- **Image budget:** Groq gives every image the same budget of about 780 tokens, so tiling is required. Ollama processes tiles at near-native resolution.
+- **Coordinate conventions differ:** Qwen 3.5 on Ollama uses 0–1000 per axis; Qwen 3.8 on Groq uses 0–1000 of the tile's longer side.
+- **Ollama 0.35 vs 0.33:** same quality (58 vs 59/86).
+- **Higher resolution:** 2880-px panoramas would probably help for small objects (bollards, hydrants) and position precision. To test with 10 frames in `queries_2880/`.
+
 ## Status (2026-10-01)
 
 The first end-to-end prototype runs on the first 10 frames (batch `first10-manual`):

@@ -25,14 +25,49 @@ The full rules are in `fensch_bbox_prompt.md`. In short:
 
 ## Pipeline
 
-Python code needs the local virtualenv: `python3 -m venv .venv && .venv/bin/pip install -r requirements.txt`. `fensch.py` holds the shared catalogue, GPS and geometry helpers.
+Python code needs the local virtualenv: `python3 -m venv .venv && .venv/bin/pip install -r requirements.txt`. Shared helpers:
+- `fensch.py`: catalogue, GPS and geometry;
+- `vlm_tools.py`: tiling, box parsing and post-filters for vision-model scripts.
+
+### Chosen workflow: two stages
+
+**Stage 1, local and free (category only): `detect_vlm.py`.**
+- **Model:** `qwen3.5:9b` on Ollama (≥ 0.35), returning the 19 English category names. Each frame is sent as 4 overlapping tiles over the horizon band.
+- **Coordinates:** boxes are on a 0–1000 scale **per axis** of each tile. Groq's Qwen 3.8 instead uses the tile's *longer* side (see `try_groq.py`).
+- **Filters:** duplicates from overlapping tiles are merged; invented runs of identical, evenly spaced boxes are dropped (`vlm_tools.repetition_runs`); boxes lying on the car are dropped (`on_vehicle`).
+- **Resumable:** progress is saved frame by frame in `analysis/raw/<batch>/`, so re-running the same command continues where it stopped. At the end it writes `analysis/<batch>.json` and runs `localize.py` and the viewer build.
+- **Codes:** categories with specific models get their fallback code, and speed bumps the placeholder `RAL01`, all with `code_status: "category_only"`. Direct categories get their final code.
+- **The full run (`ollama-qwen35-all`, 783 frames)** was launched on 2026-10-02, detached with `caffeinate`, logging to `logs/ollama-qwen35-all.log`. To check it: `tail -3 logs/ollama-qwen35-all.log`. If it stopped, re-run:
+
+  `nohup caffeinate -i .venv/bin/python -u detect_vlm.py --batch ollama-qwen35-all > logs/ollama-qwen35-all.log 2>&1 &`
+- **Measured on the first 10 frames** (against `first10-manual`): 69% of manual boxes found (lamps 9/11, trees 7/7, hydrants 2/3, bollards 41/61), about 20–30 s per frame. **Speed bumps were not found (0/4)**, and there are extra boxes (wheelie bins, signs, private planters) that stage 2 must reject.
+
+**Stage 2 (specific type), done by Claude visually in a dedicated session:**
+1. `.venv/bin/python typing_sheets.py analysis/ollama-qwen35-all.json` writes, in `analysis/raw/<batch>/typing/`:
+   - contact sheets per category (`POT_01.jpg`…): numbered crops of each merged feature's best views (closest first) with the detected box in red, under that category's reference photos and codes;
+   - `index.json`;
+   - a `decisions.json` template. An existing one is never overwritten, so the work can resume.
+2. Read `fensch_image_descriptions.json` for the category's codes. Then, for each sheet, view the image and fill `decisions.json` for every item:
+   - **`code`:** the specific model when the description is visually supported; otherwise the category fallback; or another category's code when the category is wrong (e.g. a bicycle rack taken for a bollard); or `"REJECT"` for non-equipment (wheelie bins, private bins, signs, reflections, car parts). `null` means undecided.
+   - **`confidence`:** high, medium or low.
+   - **`evidence`:** 1–2 short visible reasons.
+   - Small distant objects of the right category keep the fallback with `low` confidence; do not reject them.
+   - Stage-1 boxes can be a little off, and neighbouring bollards can be merged into one feature: judge the object nearest the red box in the clearest view.
+   - Speed bumps: choose the subtype with the rules in `fensch_bbox_prompt.md`, and reject zebra-only crossings.
+3. `.venv/bin/python apply_typing.py analysis/ollama-qwen35-all.json` writes `analysis/<batch>-typed.json` (the source batch is untouched), re-localizes it and rebuilds the viewer.
+4. Quota: this stage uses the Claude Code plan (the `get_usage` tool shows it). Measure the usage of the first 2 sheets before doing all of them; a fresh session keeps each action cheap.
+
+### Other detectors (kept for comparison)
 
 1. `detect.py --batch NAME --first N` calls `claude-sonnet-5-5` on each panorama and writes `analysis/NAME.json`, with raw responses in `analysis/raw/NAME/`.
    - It needs `ANTHROPIC_API_KEY`. Never write a key into a file.
    - `--dry-run` writes the request without calling the API.
    - `--replay DIR` reads saved responses instead of calling the API.
-2. `localize.py analysis/NAME.json` adds camera, `ground` and `features` to the batch and writes `exports/NAME.*`. It is idempotent.
-3. `node build-detection-viewer.mjs` rebuilds the viewer.
+2. `try_groq.py` runs Qwen on Groq. It reads `GROQ_API_KEY` from the git-ignored `.env`, never printed.
+   - Features: tiles, long-side coordinates, repetition filter, `--reparse` to rebuild from saved replies, and `--batch-api` (50% cheaper, with a `--max-usd` guard).
+   - Results on the first 10 frames are the `groq-qwen38-*` batches.
+3. `localize.py analysis/NAME.json` adds camera, `ground` and `features` to the batch and writes `exports/NAME.*`. It is idempotent.
+4. `node build-detection-viewer.mjs` rebuilds the viewer.
 
 To view and edit, run `python3 review_server.py` (the `review-server` entry in `.claude/launch.json`) and open http://127.0.0.1:8765/detection-viewer.html. A `file://` preview in the app pane cannot load the relative image paths.
 

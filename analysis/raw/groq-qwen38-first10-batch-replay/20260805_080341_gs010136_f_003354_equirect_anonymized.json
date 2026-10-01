@@ -1,0 +1,276 @@
+{
+  "source": "groq",
+  "model": "qwen/qwen3.8-27b",
+  "tiles": 4,
+  "band_fraction": [
+    0.229,
+    0.792
+  ],
+  "coordinates": "0-1000 of each tile's longer side, converted to panorama pixels",
+  "seconds": 0.0,
+  "skipped_objects": 0,
+  "filtered_repetitions": [],
+  "usage": null,
+  "calls": [
+    {
+      "tile": [
+        0,
+        220,
+        600,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 574,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\":\n      \"818\",\n      \"y_min\": 88,\n      \"x_max\": 983,\n      \"y_max\": 515,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Tall metal pole with two curved arms supporting downward-facing lamp heads\"\n      ]\n    },\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\": 415,\n      \"y_min\": 232,\n      \"x_max\": 438,\n      \"y_max\": 322,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Street lamp post with a single curved arm and lamp head\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\": 238,\n      \"y_min\": 288,\n      \"x_max\": 368,\n      \"y_max\": 478,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Street tree with a visible trunk and leafy canopy\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\": 458,\n      \"y_min\": 258,\n      \"x_max\": 758,\n      \"y_max\": 528,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Street tree with a visible trunk and leafy canopy\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\": 738,\n      \"y_min\": 168,\n      \"x_max\": 1000,\n      \"y_max\": 498,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Large tree with a dense canopy on the right side of the street\"\n      ]\n    }\n  ]\n}",
+      "batch_id": "batch_01m3w523vfesmtb1x2xnkzragt"
+    },
+    {
+      "tile": [
+        440,
+        220,
+        1040,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 586,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\": 88,\n      \"y_min\": 88,\n      \"x_max\": 252,\n      \"y_max\": 535,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Tall grey pole with two curved arms carrying downward-facing lamp heads at the top.\"\n      ]\n    },\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\": 798,\n      \"y_min\": 283,\n      \"x_max\": 822,\n      \"y_max\": 488,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender vertical pole with a small luminaire head at the top, visible against the sky.\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\": 0,\n      \"y_min\": 178,\n      \"x_max\": 305,\n      \"y_max\": 520,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Large leafy tree with a full green canopy on the left side of the street.\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\": 548,\n      \"y_min\": 338,\n      \"x_max\": 742,\n      \"y_max\": 410,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Dense green tree canopy visible in the background behind the houses.\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\": 938,\n      \"y_min\": 408,\n      \"x_max\": 1000,\n      \"y_max\": 462,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": true,\n      \"visible_evidence\": [\n        \"Green foliage of a tree at the right edge of the scene.\"\n      ]\n    }\n  ]\n}",
+      "batch_id": "batch_01m3w523vfesmtb1x2xnkzragt"
+    },
+    {
+      "tile": [
+        880,
+        220,
+        1480,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 11,
+      "raw_text": "{\"objects\": []}",
+      "batch_id": "batch_01m3w523vfesmtb1x2xnkzragt"
+    },
+    {
+      "tile": [
+        1320,
+        220,
+        1920,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 1198,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        375,\n        575\n      ],\n      \"y_min\": [\n        100,\n        625\n      ],\n      \"x_max\": [\n        400,\n        625\n      ],\n      \"y_max\": [\n        100,\n        625\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard with a long dark shaft and a short contrasting pale cap.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        485,\n        535\n      ],\n      \"y_min\": [\n        100,\n        595\n      ],\n      \"x_max\": [\n        505,\n        595\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard with a long dark shaft and a short contrasting pale cap.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        525,\n        515\n      ],\n      \"y_min\": [\n        100,\n        575\n      ],\n      \"x_max\": [\n        540,\n        575\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard with a long dark shaft and a short contrasting pale cap.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        555,\n        505\n      ],\n      \"y_min\": [\n        100,\n        560\n      ],\n      \"x_max\": [\n        570,\n        560\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard with a long dark shaft and a short contrasting pale cap.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        575,\n        495\n      ],\n      \"y_min\": [\n        100,\n        550\n      ],\n      \"x_max\": [\n        590,\n        550\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard with a long dark shaft and a short contrasting pale cap.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        595,\n        485\n      ],\n      \"y_min\": [\n        100,\n        540\n      ],\n      \"x_max\": [\n        610,\n        540\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard with a long dark shaft and a short contrasting pale cap.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        110,\n        595\n      ],\n      \"y_min\": [\n        100,\n        640\n      ],\n      \"x_max\": [\n        135,\n        640\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard with a long dark shaft and a short contrasting pale cap.\"\n      ]\n    },\n    {\n      \"code\": \"COR_FEN_01\",\n      \"x_min\": [\n        605,\n        465\n      ],\n      \"y_min\": [\n        100,\n        525\n      ],\n      \"x_max\": [\n        630,\n        525\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Tall dark litter bin with a rectangular or softly rounded vertical body and a large hooded opening at the top.\"\n      ]\n    }\n  ]\n}",
+      "batch_id": "batch_01m3w523vfesmtb1x2xnkzragt"
+    }
+  ],
+  "output": {
+    "objects": [
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Large leafy tree with a full green canopy on the left side of the street."
+        ],
+        "code": "ARB",
+        "x_min": 440,
+        "y_min": 327,
+        "x_max": 623,
+        "y_max": 532
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Street tree with a visible trunk and leafy canopy"
+        ],
+        "code": "ARB",
+        "x_min": 275,
+        "y_min": 375,
+        "x_max": 455,
+        "y_max": 537
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Tall grey pole with two curved arms carrying downward-facing lamp heads at the top."
+        ],
+        "code": "ECL_SIE_06",
+        "x_min": 493,
+        "y_min": 273,
+        "x_max": 591,
+        "y_max": 541
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Street tree with a visible trunk and leafy canopy"
+        ],
+        "code": "ARB",
+        "x_min": 143,
+        "y_min": 393,
+        "x_max": 221,
+        "y_max": 507
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Dense green tree canopy visible in the background behind the houses."
+        ],
+        "code": "ARB",
+        "x_min": 769,
+        "y_min": 423,
+        "x_max": 885,
+        "y_max": 466
+      },
+      {
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender vertical pole with a small luminaire head at the top, visible against the sky."
+        ],
+        "code": "ECL_SIE_06",
+        "x_min": 919,
+        "y_min": 390,
+        "x_max": 933,
+        "y_max": 513
+      },
+      {
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": true,
+        "visible_evidence": [
+          "Green foliage of a tree at the right edge of the scene."
+        ],
+        "code": "ARB",
+        "x_min": 1003,
+        "y_min": 465,
+        "x_max": 1040,
+        "y_max": 497
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Street lamp post with a single curved arm and lamp head"
+        ],
+        "code": "ECL_SIE_06",
+        "x_min": 249,
+        "y_min": 359,
+        "x_max": 263,
+        "y_max": 413
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Tall dark litter bin with a rectangular or softly rounded vertical body and a large hooded opening at the top."
+        ],
+        "code": "COR_FEN_01",
+        "x_min": 1683,
+        "y_min": 499,
+        "x_max": 1698,
+        "y_max": 535
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender cylindrical bollard with a long dark shaft and a short contrasting pale cap."
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1545,
+        "y_min": 565,
+        "x_max": 1560,
+        "y_max": 595
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender cylindrical bollard with a long dark shaft and a short contrasting pale cap."
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1611,
+        "y_min": 541,
+        "x_max": 1623,
+        "y_max": 577
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender cylindrical bollard with a long dark shaft and a short contrasting pale cap."
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1386,
+        "y_min": 577,
+        "x_max": 1401,
+        "y_max": 604
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender cylindrical bollard with a long dark shaft and a short contrasting pale cap."
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1635,
+        "y_min": 529,
+        "x_max": 1644,
+        "y_max": 565
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender cylindrical bollard with a long dark shaft and a short contrasting pale cap."
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1653,
+        "y_min": 523,
+        "x_max": 1662,
+        "y_max": 556
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender cylindrical bollard with a long dark shaft and a short contrasting pale cap."
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1665,
+        "y_min": 517,
+        "x_max": 1674,
+        "y_max": 550
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender cylindrical bollard with a long dark shaft and a short contrasting pale cap."
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1677,
+        "y_min": 511,
+        "x_max": 1686,
+        "y_max": 544
+      }
+    ]
+  }
+}

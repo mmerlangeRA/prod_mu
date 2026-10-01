@@ -1,0 +1,160 @@
+{
+  "source": "groq-batch",
+  "model": "qwen/qwen3.8-27b",
+  "tiles": 4,
+  "band_rows": [
+    220,
+    760
+  ],
+  "coordinates": "0-1000 of each tile's longer side, converted to panorama pixels",
+  "seconds": 0.0,
+  "skipped_objects": 0,
+  "filtered_repetitions": [],
+  "usage": null,
+  "calls": [
+    {
+      "tile": [
+        0,
+        220,
+        600,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 148,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"RAL01\",\n      \"x_min\": 550,\n      \"y_min\": 630,\n      \"x_max\": 1000,\n      \"y_max\": 900,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": true,\n      \"visible_evidence\": [\n        \"Row of white shark-tooth triangles painted across the lane on the ramp\",\n        \"Raised section of the carriageway visible at the right edge\"\n      ]\n    }\n  ]\n}",
+      "batch_id": "batch_01m3w523vfesmtb1x2xnkzragt"
+    },
+    {
+      "tile": [
+        440,
+        220,
+        1040,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 598,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"ARB\",\n      \"x_min\": 438,\n      \"y_min\": 328,\n      \"x_max\": 545,\n      \"y_max\": 520,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Tree with green foliage and a visible trunk standing on the sidewalk near the corner.\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\": 672,\n      \"y_min\": 275,\n      \"x_max\": 745,\n      \"y_max\": 475,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Tall coniferous tree visible in the background among other vegetation.\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\": 735,\n      \"y_min\": 305,\n      \"x_max\": 855,\n      \"y_max\": 485,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Large deciduous tree with a full canopy located on the right side of the street.\"\n      ]\n    },\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\": 385,\n      \"y_min\": 115,\n      \"x_max\": 435,\n      \"y_max\": 585,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Tall concrete utility pole with a street lamp arm extending from the top, positioned at the street corner.\"\n      ]\n    },\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\": 855,\n      \"y_min\": 265,\n      \"x_max\": 895,\n      \"y_max\": 505,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Metal street lamp post with a curved arm and double lamp heads standing on the sidewalk to the right.\"\n      ]\n    }\n  ]\n}",
+      "batch_id": "batch_01m3w523vfesmtb1x2xnkzragt"
+    },
+    {
+      "tile": [
+        880,
+        220,
+        1480,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 339,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\":\n      [\n        118,\n        252,\n        198,\n        488\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Tall street lamp pole with a curved arm and two lamp heads visible on the left side of the road.\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\":\n      [\n        0,\n        292,\n        142,\n        478\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Large leafy tree on the left side of the street.\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\":\n      [\n        338,\n        322,\n        478,\n        392\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Row of trees in the background behind the houses.\"\n      ]\n    }\n  ]\n}",
+      "batch_id": "batch_01m3w523vfesmtb1x2xnkzragt"
+    },
+    {
+      "tile": [
+        1320,
+        220,
+        1920,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 11,
+      "raw_text": "{\"objects\": []}",
+      "batch_id": "batch_01m3w523vfesmtb1x2xnkzragt"
+    }
+  ],
+  "output": {
+    "objects": [
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": true,
+        "visible_evidence": [
+          "Row of white shark-tooth triangles painted across the lane on the ramp",
+          "Raised section of the carriageway visible at the right edge"
+        ],
+        "code": "RAL01",
+        "x_min": 330,
+        "y_min": 598,
+        "x_max": 600,
+        "y_max": 760
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Large leafy tree on the left side of the street."
+        ],
+        "code": "ARB",
+        "x_min": 880,
+        "y_min": 395,
+        "x_max": 965,
+        "y_max": 507
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Tall concrete utility pole with a street lamp arm extending from the top, positioned at the street corner."
+        ],
+        "code": "ECL_SIE_06",
+        "x_min": 671,
+        "y_min": 289,
+        "x_max": 701,
+        "y_max": 571
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Tree with green foliage and a visible trunk standing on the sidewalk near the corner."
+        ],
+        "code": "ARB",
+        "x_min": 703,
+        "y_min": 417,
+        "x_max": 767,
+        "y_max": 532
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Tall street lamp pole with a curved arm and two lamp heads visible on the left side of the road."
+        ],
+        "code": "ECL_SIE_06",
+        "x_min": 951,
+        "y_min": 371,
+        "x_max": 999,
+        "y_max": 513
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Tall coniferous tree visible in the background among other vegetation."
+        ],
+        "code": "ARB",
+        "x_min": 843,
+        "y_min": 385,
+        "x_max": 887,
+        "y_max": 505
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Row of trees in the background behind the houses."
+        ],
+        "code": "ARB",
+        "x_min": 1083,
+        "y_min": 413,
+        "x_max": 1167,
+        "y_max": 455
+      }
+    ]
+  }
+}

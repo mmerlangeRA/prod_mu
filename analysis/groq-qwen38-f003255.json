@@ -1,0 +1,1736 @@
+{
+  "schema_version": "1.0.0",
+  "coordinate_system": "normalized_xywh",
+  "batch": "groq-qwen38-f003255",
+  "created_at": "2026-10-01T15:18:39+00:00",
+  "detector": {
+    "source": "replay",
+    "replay_dir": "analysis/raw/groq-qwen38-f003255-replay",
+    "model": "claude-sonnet-5-5",
+    "effort": "medium",
+    "prompt": "fensch_bbox_prompt.md",
+    "estimated_cost_usd": null
+  },
+  "images": [
+    {
+      "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+      "width": 1920,
+      "height": 960,
+      "objects": [
+        {
+          "object_id": "object_1",
+          "code": "ECL_SIE_06",
+          "category_fr": "Points d’éclairage",
+          "category_en": "Lighting points",
+          "classification": "category_fallback",
+          "bbox": {
+            "x": 0.244792,
+            "y": 0.265625,
+            "width": 0.030729,
+            "height": 0.30625
+          },
+          "bbox_px": [
+            470,
+            255,
+            529,
+            549
+          ],
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Tall concrete utility pole with a single streetlight arm and luminaire head at the top."
+          ],
+          "ground": {
+            "anchor_u": 0.260157,
+            "anchor_v": 0.571875,
+            "bearing_deg": 78.25,
+            "distance_m": 8.71,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.35194214,
+            "longitude": 5.99014318
+          },
+          "feature_id": "F0001"
+        },
+        {
+          "object_id": "object_2",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": {
+            "x": 0.058854,
+            "y": 0.409375,
+            "width": 0.075,
+            "height": 0.1
+          },
+          "bbox_px": [
+            113,
+            393,
+            257,
+            489
+          ],
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Row of green trees and shrubs visible behind the dark fence on the left side of the building."
+          ],
+          "ground": {
+            "anchor_u": 0.096354,
+            "anchor_v": 0.509375,
+            "bearing_deg": 19.28,
+            "distance_m": 67.89,
+            "status": "beyond_range"
+          }
+        },
+        {
+          "object_id": "object_3",
+          "code": "RAL01",
+          "category_fr": "Ralentisseurs",
+          "category_en": "Speed bumps",
+          "classification": "shape_subtype",
+          "bbox": {
+            "x": 0.897396,
+            "y": 0.628125,
+            "width": 0.102083,
+            "height": 0.064583
+          },
+          "bbox_px": [
+            1723,
+            603,
+            1919,
+            665
+          ],
+          "confidence": "low",
+          "occluded": true,
+          "truncated": true,
+          "visible_evidence": [
+            "row of white shark-teeth triangles painted across the lane",
+            "raised ramp edge visible at the kerb",
+            "full profile and top of the bump hidden by the vehicle"
+          ],
+          "ground": {
+            "anchor_u": 0.948437,
+            "anchor_v": 0.660417,
+            "bearing_deg": 326.03,
+            "distance_m": 3.63,
+            "status": "ok",
+            "reliable": false,
+            "latitude": 49.35195325,
+            "longitude": 5.98999753
+          },
+          "feature_id": "F0028"
+        },
+        {
+          "object_id": "object_4",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": {
+            "x": 0.274479,
+            "y": 0.434375,
+            "width": 0.0375,
+            "height": 0.09375
+          },
+          "bbox_px": [
+            527,
+            417,
+            599,
+            507
+          ],
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Green trees visible in the background on the right side of the scene."
+          ],
+          "ground": {
+            "anchor_u": 0.293229,
+            "anchor_v": 0.528125,
+            "bearing_deg": 90.16,
+            "distance_m": 22.58,
+            "status": "beyond_range"
+          }
+        },
+        {
+          "object_id": "object_5",
+          "code": "ECL_SIE_06",
+          "category_fr": "Points d’éclairage",
+          "category_en": "Lighting points",
+          "classification": "category_fallback",
+          "bbox": {
+            "x": 0.458333,
+            "y": 0.359375,
+            "width": 0.019271,
+            "height": 0.16875
+          },
+          "bbox_px": [
+            880,
+            345,
+            917,
+            507
+          ],
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Tall dark pole with a curved arm and a flat luminaire head at the top, characteristic of a public street light."
+          ],
+          "ground": {
+            "anchor_u": 0.467969,
+            "anchor_v": 0.528125,
+            "bearing_deg": 153.06,
+            "distance_m": 22.58,
+            "status": "beyond_range"
+          }
+        },
+        {
+          "object_id": "object_6",
+          "code": "POT_FEN_03",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "described_model",
+          "bbox": {
+            "x": 0.624479,
+            "y": 0.530208,
+            "width": 0.003125,
+            "height": 0.036458
+          },
+          "bbox_px": [
+            1199,
+            509,
+            1205,
+            544
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+          ],
+          "ground": {
+            "anchor_u": 0.626042,
+            "anchor_v": 0.566666,
+            "bearing_deg": 209.97,
+            "distance_m": 9.41,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.3518529,
+            "longitude": 5.98996061
+          },
+          "feature_id": "F0005"
+        },
+        {
+          "object_id": "object_7",
+          "code": "POT_FEN_03",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "described_model",
+          "bbox": {
+            "x": 0.630729,
+            "y": 0.535417,
+            "width": 0.003125,
+            "height": 0.036458
+          },
+          "bbox_px": [
+            1211,
+            514,
+            1217,
+            549
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+          ],
+          "ground": {
+            "anchor_u": 0.632292,
+            "anchor_v": 0.571875,
+            "bearing_deg": 212.22,
+            "distance_m": 8.71,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.35185996,
+            "longitude": 5.98996141
+          },
+          "feature_id": "F0006"
+        },
+        {
+          "object_id": "object_8",
+          "code": "POT_FEN_03",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "described_model",
+          "bbox": {
+            "x": 0.649479,
+            "y": 0.548958,
+            "width": 0.003125,
+            "height": 0.036458
+          },
+          "bbox_px": [
+            1247,
+            527,
+            1253,
+            562
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+          ],
+          "ground": {
+            "anchor_u": 0.651042,
+            "anchor_v": 0.585416,
+            "bearing_deg": 218.97,
+            "distance_m": 7.27,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.35187535,
+            "longitude": 5.98996235
+          },
+          "feature_id": "F0009"
+        },
+        {
+          "object_id": "object_9",
+          "code": "POT_FEN_03",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "described_model",
+          "bbox": {
+            "x": 0.655729,
+            "y": 0.554167,
+            "width": 0.003125,
+            "height": 0.036458
+          },
+          "bbox_px": [
+            1259,
+            532,
+            1265,
+            567
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+          ],
+          "ground": {
+            "anchor_u": 0.657292,
+            "anchor_v": 0.590625,
+            "bearing_deg": 221.22,
+            "distance_m": 6.83,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.35187997,
+            "longitude": 5.98996333
+          },
+          "feature_id": "F0010"
+        },
+        {
+          "object_id": "object_10",
+          "code": "POT_FEN_03",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "described_model",
+          "bbox": {
+            "x": 0.674479,
+            "y": 0.567708,
+            "width": 0.003125,
+            "height": 0.036458
+          },
+          "bbox_px": [
+            1295,
+            545,
+            1301,
+            580
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+          ],
+          "ground": {
+            "anchor_u": 0.676042,
+            "anchor_v": 0.604166,
+            "bearing_deg": 227.97,
+            "distance_m": 5.89,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.35189073,
+            "longitude": 5.98996508
+          },
+          "feature_id": "F0013"
+        },
+        {
+          "object_id": "object_11",
+          "code": "POT_FEN_03",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "described_model",
+          "bbox": {
+            "x": 0.680729,
+            "y": 0.572917,
+            "width": 0.003125,
+            "height": 0.036458
+          },
+          "bbox_px": [
+            1307,
+            550,
+            1313,
+            585
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+          ],
+          "ground": {
+            "anchor_u": 0.682292,
+            "anchor_v": 0.609375,
+            "bearing_deg": 230.22,
+            "distance_m": 5.59,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.35189404,
+            "longitude": 5.98996619
+          },
+          "feature_id": "F0014"
+        },
+        {
+          "object_id": "object_12",
+          "code": "POT_FEN_03",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "described_model",
+          "bbox": {
+            "x": 0.699479,
+            "y": 0.586458,
+            "width": 0.003125,
+            "height": 0.036458
+          },
+          "bbox_px": [
+            1343,
+            563,
+            1349,
+            598
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+          ],
+          "ground": {
+            "anchor_u": 0.701041,
+            "anchor_v": 0.622916,
+            "bearing_deg": 236.97,
+            "distance_m": 4.92,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.35190209,
+            "longitude": 5.98996856
+          },
+          "feature_id": "F0017"
+        },
+        {
+          "object_id": "object_13",
+          "code": "POT_FEN_03",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "described_model",
+          "bbox": {
+            "x": 0.705729,
+            "y": 0.591667,
+            "width": 0.003125,
+            "height": 0.036458
+          },
+          "bbox_px": [
+            1355,
+            568,
+            1361,
+            603
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+          ],
+          "ground": {
+            "anchor_u": 0.707292,
+            "anchor_v": 0.628125,
+            "bearing_deg": 239.22,
+            "distance_m": 4.7,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.35190458,
+            "longitude": 5.98996978
+          },
+          "feature_id": "F0018"
+        },
+        {
+          "object_id": "object_14",
+          "code": "POT_FEN_03",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "described_model",
+          "bbox": {
+            "x": 0.730729,
+            "y": 0.610417,
+            "width": 0.003125,
+            "height": 0.036458
+          },
+          "bbox_px": [
+            1403,
+            586,
+            1409,
+            621
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+          ],
+          "ground": {
+            "anchor_u": 0.732291,
+            "anchor_v": 0.646875,
+            "bearing_deg": 248.22,
+            "distance_m": 4.02,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.35191278,
+            "longitude": 5.98997393
+          },
+          "feature_id": "F0022"
+        },
+        {
+          "object_id": "object_15",
+          "code": "POT_FEN_03",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "described_model",
+          "bbox": {
+            "x": 0.749479,
+            "y": 0.623958,
+            "width": 0.003125,
+            "height": 0.036458
+          },
+          "bbox_px": [
+            1439,
+            599,
+            1445,
+            634
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+          ],
+          "ground": {
+            "anchor_u": 0.751042,
+            "anchor_v": 0.660416,
+            "bearing_deg": 254.97,
+            "distance_m": 3.63,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.35191774,
+            "longitude": 5.98997714
+          },
+          "feature_id": "F0025"
+        },
+        {
+          "object_id": "object_16",
+          "code": "POT_FEN_03",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "described_model",
+          "bbox": {
+            "x": 0.755729,
+            "y": 0.629167,
+            "width": 0.003125,
+            "height": 0.036458
+          },
+          "bbox_px": [
+            1451,
+            604,
+            1457,
+            639
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+          ],
+          "ground": {
+            "anchor_u": 0.757292,
+            "anchor_v": 0.665625,
+            "bearing_deg": 257.22,
+            "distance_m": 3.49,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.35191926,
+            "longitude": 5.98997851
+          },
+          "feature_id": "F0026"
+        },
+        {
+          "object_id": "object_17",
+          "code": "POT_FEN_03",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "described_model",
+          "bbox": {
+            "x": 0.724479,
+            "y": 0.605208,
+            "width": 0.003125,
+            "height": 0.036458
+          },
+          "bbox_px": [
+            1391,
+            581,
+            1397,
+            616
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+          ],
+          "ground": {
+            "anchor_u": 0.726042,
+            "anchor_v": 0.641666,
+            "bearing_deg": 245.97,
+            "distance_m": 4.19,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.35191084,
+            "longitude": 5.98997263
+          },
+          "feature_id": "F0021"
+        },
+        {
+          "object_id": "object_18",
+          "code": "POT_FEN_03",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "described_model",
+          "bbox": {
+            "x": 0.618229,
+            "y": 0.526042,
+            "width": 0.003125,
+            "height": 0.035417
+          },
+          "bbox_px": [
+            1187,
+            505,
+            1193,
+            539
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+          ],
+          "ground": {
+            "anchor_u": 0.619792,
+            "anchor_v": 0.561459,
+            "bearing_deg": 207.72,
+            "distance_m": 10.23,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.35184476,
+            "longitude": 5.98995981
+          },
+          "feature_id": "F0004"
+        },
+        {
+          "object_id": "object_19",
+          "code": "POT_FEN_03",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "described_model",
+          "bbox": {
+            "x": 0.636979,
+            "y": 0.540625,
+            "width": 0.003125,
+            "height": 0.035417
+          },
+          "bbox_px": [
+            1223,
+            519,
+            1229,
+            553
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+          ],
+          "ground": {
+            "anchor_u": 0.638541,
+            "anchor_v": 0.576042,
+            "bearing_deg": 214.47,
+            "distance_m": 8.21,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.35186531,
+            "longitude": 5.98996133
+          },
+          "feature_id": "F0007"
+        },
+        {
+          "object_id": "object_20",
+          "code": "POT_FEN_03",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "described_model",
+          "bbox": {
+            "x": 0.643229,
+            "y": 0.544792,
+            "width": 0.003125,
+            "height": 0.035417
+          },
+          "bbox_px": [
+            1235,
+            523,
+            1241,
+            557
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+          ],
+          "ground": {
+            "anchor_u": 0.644792,
+            "anchor_v": 0.580209,
+            "bearing_deg": 216.72,
+            "distance_m": 7.77,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.3518702,
+            "longitude": 5.98996137
+          },
+          "feature_id": "F0008"
+        },
+        {
+          "object_id": "object_21",
+          "code": "POT_FEN_03",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "described_model",
+          "bbox": {
+            "x": 0.661979,
+            "y": 0.559375,
+            "width": 0.003125,
+            "height": 0.035417
+          },
+          "bbox_px": [
+            1271,
+            537,
+            1277,
+            571
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+          ],
+          "ground": {
+            "anchor_u": 0.663542,
+            "anchor_v": 0.594792,
+            "bearing_deg": 223.47,
+            "distance_m": 6.52,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.35188367,
+            "longitude": 5.98996361
+          },
+          "feature_id": "F0011"
+        },
+        {
+          "object_id": "object_22",
+          "code": "POT_FEN_03",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "described_model",
+          "bbox": {
+            "x": 0.668229,
+            "y": 0.563542,
+            "width": 0.003125,
+            "height": 0.035417
+          },
+          "bbox_px": [
+            1283,
+            541,
+            1289,
+            575
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+          ],
+          "ground": {
+            "anchor_u": 0.669791,
+            "anchor_v": 0.598959,
+            "bearing_deg": 225.72,
+            "distance_m": 6.22,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.35188712,
+            "longitude": 5.98996398
+          },
+          "feature_id": "F0012"
+        },
+        {
+          "object_id": "object_23",
+          "code": "POT_FEN_03",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "described_model",
+          "bbox": {
+            "x": 0.686979,
+            "y": 0.578125,
+            "width": 0.003125,
+            "height": 0.035417
+          },
+          "bbox_px": [
+            1319,
+            555,
+            1325,
+            589
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+          ],
+          "ground": {
+            "anchor_u": 0.688542,
+            "anchor_v": 0.613542,
+            "bearing_deg": 232.47,
+            "distance_m": 5.37,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.3518968,
+            "longitude": 5.98996674
+          },
+          "feature_id": "F0015"
+        },
+        {
+          "object_id": "object_24",
+          "code": "POT_FEN_03",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "described_model",
+          "bbox": {
+            "x": 0.693229,
+            "y": 0.582292,
+            "width": 0.003125,
+            "height": 0.035417
+          },
+          "bbox_px": [
+            1331,
+            559,
+            1337,
+            593
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+          ],
+          "ground": {
+            "anchor_u": 0.694792,
+            "anchor_v": 0.617709,
+            "bearing_deg": 234.72,
+            "distance_m": 5.16,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.3518994,
+            "longitude": 5.98996735
+          },
+          "feature_id": "F0016"
+        },
+        {
+          "object_id": "object_25",
+          "code": "POT_FEN_03",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "described_model",
+          "bbox": {
+            "x": 0.711979,
+            "y": 0.596875,
+            "width": 0.003125,
+            "height": 0.035417
+          },
+          "bbox_px": [
+            1367,
+            573,
+            1373,
+            607
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+          ],
+          "ground": {
+            "anchor_u": 0.713542,
+            "anchor_v": 0.632292,
+            "bearing_deg": 241.47,
+            "distance_m": 4.53,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.35190673,
+            "longitude": 5.98997053
+          },
+          "feature_id": "F0019"
+        },
+        {
+          "object_id": "object_26",
+          "code": "POT_FEN_03",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "described_model",
+          "bbox": {
+            "x": 0.718229,
+            "y": 0.601042,
+            "width": 0.003125,
+            "height": 0.035417
+          },
+          "bbox_px": [
+            1379,
+            577,
+            1385,
+            611
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+          ],
+          "ground": {
+            "anchor_u": 0.719792,
+            "anchor_v": 0.636459,
+            "bearing_deg": 243.72,
+            "distance_m": 4.38,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.35190878,
+            "longitude": 5.98997133
+          },
+          "feature_id": "F0020"
+        },
+        {
+          "object_id": "object_27",
+          "code": "POT_FEN_03",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "described_model",
+          "bbox": {
+            "x": 0.736979,
+            "y": 0.615625,
+            "width": 0.003125,
+            "height": 0.035417
+          },
+          "bbox_px": [
+            1415,
+            591,
+            1421,
+            625
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+          ],
+          "ground": {
+            "anchor_u": 0.738542,
+            "anchor_v": 0.651042,
+            "bearing_deg": 250.47,
+            "distance_m": 3.89,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.35191449,
+            "longitude": 5.98997484
+          },
+          "feature_id": "F0023"
+        },
+        {
+          "object_id": "object_28",
+          "code": "POT_FEN_03",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "described_model",
+          "bbox": {
+            "x": 0.743229,
+            "y": 0.619792,
+            "width": 0.003125,
+            "height": 0.035417
+          },
+          "bbox_px": [
+            1427,
+            595,
+            1433,
+            629
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+          ],
+          "ground": {
+            "anchor_u": 0.744792,
+            "anchor_v": 0.655209,
+            "bearing_deg": 252.72,
+            "distance_m": 3.77,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.35191613,
+            "longitude": 5.98997578
+          },
+          "feature_id": "F0024"
+        },
+        {
+          "object_id": "object_29",
+          "code": "POT_FEN_03",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "described_model",
+          "bbox": {
+            "x": 0.761979,
+            "y": 0.634375,
+            "width": 0.003125,
+            "height": 0.035417
+          },
+          "bbox_px": [
+            1463,
+            609,
+            1469,
+            643
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+          ],
+          "ground": {
+            "anchor_u": 0.763541,
+            "anchor_v": 0.669792,
+            "bearing_deg": 259.47,
+            "distance_m": 3.39,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.35192063,
+            "longitude": 5.98997953
+          },
+          "feature_id": "F0027"
+        },
+        {
+          "object_id": "object_30",
+          "code": "POT_FEN_03",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "described_model",
+          "bbox": {
+            "x": 0.611979,
+            "y": 0.521875,
+            "width": 0.003125,
+            "height": 0.035417
+          },
+          "bbox_px": [
+            1175,
+            501,
+            1181,
+            535
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+          ],
+          "ground": {
+            "anchor_u": 0.613542,
+            "anchor_v": 0.557292,
+            "bearing_deg": 205.47,
+            "distance_m": 10.99,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.35183696,
+            "longitude": 5.98996024
+          },
+          "feature_id": "F0003"
+        },
+        {
+          "object_id": "object_31",
+          "code": "POT_FEN_03",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "described_model",
+          "bbox": {
+            "x": 0.605729,
+            "y": 0.517708,
+            "width": 0.003125,
+            "height": 0.035417
+          },
+          "bbox_px": [
+            1163,
+            497,
+            1169,
+            531
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+          ],
+          "ground": {
+            "anchor_u": 0.607291,
+            "anchor_v": 0.553125,
+            "bearing_deg": 203.22,
+            "distance_m": 11.87,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.35182808,
+            "longitude": 5.98996088
+          },
+          "feature_id": "F0002"
+        }
+      ],
+      "camera": {
+        "video_name": "20260805_080341_gs010136",
+        "frame": 3255,
+        "latitude": 49.3519262,
+        "longitude": 5.9900255,
+        "heading_deg": 164.5962,
+        "orientation": 285.40383485971404,
+        "timestamp_ms": 1785915591599
+      }
+    }
+  ],
+  "localization": {
+    "gps_source": "ncp_gps_frames.json",
+    "camera_height_m": 2.0,
+    "max_range_m": 15.0,
+    "min_range_m": 1.0,
+    "merge_radius_m": 3.0,
+    "heading": "compass heading = 90 - ncp_gps_frames.json orientation (GPS bearing as a math angle), taken as the heading of the panorama centre column"
+  },
+  "features": [
+    {
+      "feature_id": "F0001",
+      "code": "ECL_SIE_06",
+      "category_fr": "Points d’éclairage",
+      "category_en": "Lighting points",
+      "classification": "category_fallback",
+      "latitude": 49.35194214,
+      "longitude": 5.99014318,
+      "confidence": "high",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 8.71,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_1",
+          "code": "ECL_SIE_06",
+          "distance_m": 8.71
+        }
+      ]
+    },
+    {
+      "feature_id": "F0002",
+      "code": "POT_FEN_03",
+      "category_fr": "Potelets",
+      "category_en": "Bollards",
+      "classification": "described_model",
+      "latitude": 49.35182808,
+      "longitude": 5.98996088,
+      "confidence": "medium",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 11.87,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_31",
+          "code": "POT_FEN_03",
+          "distance_m": 11.87
+        }
+      ]
+    },
+    {
+      "feature_id": "F0003",
+      "code": "POT_FEN_03",
+      "category_fr": "Potelets",
+      "category_en": "Bollards",
+      "classification": "described_model",
+      "latitude": 49.35183696,
+      "longitude": 5.98996024,
+      "confidence": "medium",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 10.99,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_30",
+          "code": "POT_FEN_03",
+          "distance_m": 10.99
+        }
+      ]
+    },
+    {
+      "feature_id": "F0004",
+      "code": "POT_FEN_03",
+      "category_fr": "Potelets",
+      "category_en": "Bollards",
+      "classification": "described_model",
+      "latitude": 49.35184476,
+      "longitude": 5.98995981,
+      "confidence": "medium",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 10.23,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_18",
+          "code": "POT_FEN_03",
+          "distance_m": 10.23
+        }
+      ]
+    },
+    {
+      "feature_id": "F0005",
+      "code": "POT_FEN_03",
+      "category_fr": "Potelets",
+      "category_en": "Bollards",
+      "classification": "described_model",
+      "latitude": 49.3518529,
+      "longitude": 5.98996061,
+      "confidence": "medium",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 9.41,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_6",
+          "code": "POT_FEN_03",
+          "distance_m": 9.41
+        }
+      ]
+    },
+    {
+      "feature_id": "F0006",
+      "code": "POT_FEN_03",
+      "category_fr": "Potelets",
+      "category_en": "Bollards",
+      "classification": "described_model",
+      "latitude": 49.35185996,
+      "longitude": 5.98996141,
+      "confidence": "medium",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 8.71,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_7",
+          "code": "POT_FEN_03",
+          "distance_m": 8.71
+        }
+      ]
+    },
+    {
+      "feature_id": "F0007",
+      "code": "POT_FEN_03",
+      "category_fr": "Potelets",
+      "category_en": "Bollards",
+      "classification": "described_model",
+      "latitude": 49.35186531,
+      "longitude": 5.98996133,
+      "confidence": "medium",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 8.21,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_19",
+          "code": "POT_FEN_03",
+          "distance_m": 8.21
+        }
+      ]
+    },
+    {
+      "feature_id": "F0008",
+      "code": "POT_FEN_03",
+      "category_fr": "Potelets",
+      "category_en": "Bollards",
+      "classification": "described_model",
+      "latitude": 49.3518702,
+      "longitude": 5.98996137,
+      "confidence": "medium",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 7.77,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_20",
+          "code": "POT_FEN_03",
+          "distance_m": 7.77
+        }
+      ]
+    },
+    {
+      "feature_id": "F0009",
+      "code": "POT_FEN_03",
+      "category_fr": "Potelets",
+      "category_en": "Bollards",
+      "classification": "described_model",
+      "latitude": 49.35187535,
+      "longitude": 5.98996235,
+      "confidence": "medium",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 7.27,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_8",
+          "code": "POT_FEN_03",
+          "distance_m": 7.27
+        }
+      ]
+    },
+    {
+      "feature_id": "F0010",
+      "code": "POT_FEN_03",
+      "category_fr": "Potelets",
+      "category_en": "Bollards",
+      "classification": "described_model",
+      "latitude": 49.35187997,
+      "longitude": 5.98996333,
+      "confidence": "medium",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 6.83,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_9",
+          "code": "POT_FEN_03",
+          "distance_m": 6.83
+        }
+      ]
+    },
+    {
+      "feature_id": "F0011",
+      "code": "POT_FEN_03",
+      "category_fr": "Potelets",
+      "category_en": "Bollards",
+      "classification": "described_model",
+      "latitude": 49.35188367,
+      "longitude": 5.98996361,
+      "confidence": "medium",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 6.52,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_21",
+          "code": "POT_FEN_03",
+          "distance_m": 6.52
+        }
+      ]
+    },
+    {
+      "feature_id": "F0012",
+      "code": "POT_FEN_03",
+      "category_fr": "Potelets",
+      "category_en": "Bollards",
+      "classification": "described_model",
+      "latitude": 49.35188712,
+      "longitude": 5.98996398,
+      "confidence": "medium",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 6.22,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_22",
+          "code": "POT_FEN_03",
+          "distance_m": 6.22
+        }
+      ]
+    },
+    {
+      "feature_id": "F0013",
+      "code": "POT_FEN_03",
+      "category_fr": "Potelets",
+      "category_en": "Bollards",
+      "classification": "described_model",
+      "latitude": 49.35189073,
+      "longitude": 5.98996508,
+      "confidence": "medium",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 5.89,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_10",
+          "code": "POT_FEN_03",
+          "distance_m": 5.89
+        }
+      ]
+    },
+    {
+      "feature_id": "F0014",
+      "code": "POT_FEN_03",
+      "category_fr": "Potelets",
+      "category_en": "Bollards",
+      "classification": "described_model",
+      "latitude": 49.35189404,
+      "longitude": 5.98996619,
+      "confidence": "medium",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 5.59,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_11",
+          "code": "POT_FEN_03",
+          "distance_m": 5.59
+        }
+      ]
+    },
+    {
+      "feature_id": "F0015",
+      "code": "POT_FEN_03",
+      "category_fr": "Potelets",
+      "category_en": "Bollards",
+      "classification": "described_model",
+      "latitude": 49.3518968,
+      "longitude": 5.98996674,
+      "confidence": "medium",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 5.37,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_23",
+          "code": "POT_FEN_03",
+          "distance_m": 5.37
+        }
+      ]
+    },
+    {
+      "feature_id": "F0016",
+      "code": "POT_FEN_03",
+      "category_fr": "Potelets",
+      "category_en": "Bollards",
+      "classification": "described_model",
+      "latitude": 49.3518994,
+      "longitude": 5.98996735,
+      "confidence": "medium",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 5.16,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_24",
+          "code": "POT_FEN_03",
+          "distance_m": 5.16
+        }
+      ]
+    },
+    {
+      "feature_id": "F0017",
+      "code": "POT_FEN_03",
+      "category_fr": "Potelets",
+      "category_en": "Bollards",
+      "classification": "described_model",
+      "latitude": 49.35190209,
+      "longitude": 5.98996856,
+      "confidence": "medium",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 4.92,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_12",
+          "code": "POT_FEN_03",
+          "distance_m": 4.92
+        }
+      ]
+    },
+    {
+      "feature_id": "F0018",
+      "code": "POT_FEN_03",
+      "category_fr": "Potelets",
+      "category_en": "Bollards",
+      "classification": "described_model",
+      "latitude": 49.35190458,
+      "longitude": 5.98996978,
+      "confidence": "medium",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 4.7,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_13",
+          "code": "POT_FEN_03",
+          "distance_m": 4.7
+        }
+      ]
+    },
+    {
+      "feature_id": "F0019",
+      "code": "POT_FEN_03",
+      "category_fr": "Potelets",
+      "category_en": "Bollards",
+      "classification": "described_model",
+      "latitude": 49.35190673,
+      "longitude": 5.98997053,
+      "confidence": "medium",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 4.53,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_25",
+          "code": "POT_FEN_03",
+          "distance_m": 4.53
+        }
+      ]
+    },
+    {
+      "feature_id": "F0020",
+      "code": "POT_FEN_03",
+      "category_fr": "Potelets",
+      "category_en": "Bollards",
+      "classification": "described_model",
+      "latitude": 49.35190878,
+      "longitude": 5.98997133,
+      "confidence": "medium",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 4.38,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_26",
+          "code": "POT_FEN_03",
+          "distance_m": 4.38
+        }
+      ]
+    },
+    {
+      "feature_id": "F0021",
+      "code": "POT_FEN_03",
+      "category_fr": "Potelets",
+      "category_en": "Bollards",
+      "classification": "described_model",
+      "latitude": 49.35191084,
+      "longitude": 5.98997263,
+      "confidence": "medium",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 4.19,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_17",
+          "code": "POT_FEN_03",
+          "distance_m": 4.19
+        }
+      ]
+    },
+    {
+      "feature_id": "F0022",
+      "code": "POT_FEN_03",
+      "category_fr": "Potelets",
+      "category_en": "Bollards",
+      "classification": "described_model",
+      "latitude": 49.35191278,
+      "longitude": 5.98997393,
+      "confidence": "medium",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 4.02,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_14",
+          "code": "POT_FEN_03",
+          "distance_m": 4.02
+        }
+      ]
+    },
+    {
+      "feature_id": "F0023",
+      "code": "POT_FEN_03",
+      "category_fr": "Potelets",
+      "category_en": "Bollards",
+      "classification": "described_model",
+      "latitude": 49.35191449,
+      "longitude": 5.98997484,
+      "confidence": "medium",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 3.89,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_27",
+          "code": "POT_FEN_03",
+          "distance_m": 3.89
+        }
+      ]
+    },
+    {
+      "feature_id": "F0024",
+      "code": "POT_FEN_03",
+      "category_fr": "Potelets",
+      "category_en": "Bollards",
+      "classification": "described_model",
+      "latitude": 49.35191613,
+      "longitude": 5.98997578,
+      "confidence": "medium",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 3.77,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_28",
+          "code": "POT_FEN_03",
+          "distance_m": 3.77
+        }
+      ]
+    },
+    {
+      "feature_id": "F0025",
+      "code": "POT_FEN_03",
+      "category_fr": "Potelets",
+      "category_en": "Bollards",
+      "classification": "described_model",
+      "latitude": 49.35191774,
+      "longitude": 5.98997714,
+      "confidence": "medium",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 3.63,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_15",
+          "code": "POT_FEN_03",
+          "distance_m": 3.63
+        }
+      ]
+    },
+    {
+      "feature_id": "F0026",
+      "code": "POT_FEN_03",
+      "category_fr": "Potelets",
+      "category_en": "Bollards",
+      "classification": "described_model",
+      "latitude": 49.35191926,
+      "longitude": 5.98997851,
+      "confidence": "medium",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 3.49,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_16",
+          "code": "POT_FEN_03",
+          "distance_m": 3.49
+        }
+      ]
+    },
+    {
+      "feature_id": "F0027",
+      "code": "POT_FEN_03",
+      "category_fr": "Potelets",
+      "category_en": "Bollards",
+      "classification": "described_model",
+      "latitude": 49.35192063,
+      "longitude": 5.98997953,
+      "confidence": "medium",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 3.39,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_29",
+          "code": "POT_FEN_03",
+          "distance_m": 3.39
+        }
+      ]
+    },
+    {
+      "feature_id": "F0028",
+      "code": "RAL01",
+      "category_fr": "Ralentisseurs",
+      "category_en": "Speed bumps",
+      "classification": "shape_subtype",
+      "latitude": 49.35195325,
+      "longitude": 5.98999753,
+      "confidence": "low",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 3.63,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_3",
+          "code": "RAL01",
+          "distance_m": 3.63
+        }
+      ]
+    }
+  ]
+}

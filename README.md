@@ -27,6 +27,31 @@ To change the page, edit `viewer.template.html`, then run `node build-viewer.mjs
 
 ## Pipeline
 
+### Chosen workflow: local detection, then typing
+
+1. **Stage 1, local and free:** boxes by category with `qwen3.5:9b` on Ollama (install Ollama ≥ 0.35, then `ollama pull qwen3.5:9b`). The run is resumable; at the end it writes `analysis/<batch>.json`, localizes it and rebuilds the viewer.
+
+   ```bash
+   nohup caffeinate -i .venv/bin/python -u detect_vlm.py --batch ollama-qwen35-all > logs/ollama-qwen35-all.log 2>&1 &
+   ```
+
+2. **Stage 2, specific types:** contact sheets per category, decisions, then a new typed batch.
+
+   ```bash
+   .venv/bin/python typing_sheets.py analysis/ollama-qwen35-all.json
+   ```
+
+   Fill `analysis/raw/ollama-qwen35-all/typing/decisions.json`: for each feature, a `code`, `"REJECT"` or `null` (undecided), plus a confidence and evidence. Then:
+
+   ```bash
+   .venv/bin/python apply_typing.py analysis/ollama-qwen35-all.json
+   ```
+
+   This writes `analysis/ollama-qwen35-all-typed.json`, re-localizes it and rebuilds the viewer.
+
+### Single-stage detectors (kept for comparison)
+
+
 ```bash
 python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 ```
@@ -66,6 +91,25 @@ Code rules:
 `fensch_bbox_prompt.md` can also be used by hand with any image-capable model. Its boxes are normalized `xywh` on the displayed image: `x` and `y` are the top-left corner, and every value is in [0,1].
 
 The batch `first10-manual` was not produced by the API. Its boxes were drawn by Claude in a Claude Code session after viewing the first 10 panoramas, then replayed through `detect.py --replay`. It serves as a reference for comparing model runs.
+
+### Trying Qwen on Groq
+
+`try_groq.py` runs the detection rules with a Qwen vision model on Groq (`GROQ_API_KEY` in `.env`, which is git-ignored). It writes replay records that `detect.py --replay` turns into a batch:
+
+```bash
+.venv/bin/python try_groq.py --batch groq-qwen38-first10 --start 0 --first 10
+```
+
+How it handles the model:
+- **Tiles:** Groq gives every image the same ~780-token budget, so the horizon band is sent as 4 overlapping tiles.
+- **Coordinates:** the model uses a 0–1000 scale of each tile's longer side on both axes, converted back to panorama pixels.
+- **Invented runs:** runs of identical, evenly spaced boxes (invented bollard rows) are filtered out and kept in the record.
+- **Re-processing:** `--reparse` rebuilds objects from the saved replies without new API calls.
+
+Measured on the first 10 frames with `qwen/qwen3.8-27b`:
+- about 14 s and 27.5k input + 5.3k output tokens per frame;
+- 43% of the manual boxes recovered (lamps 55%, trees 71%, bollards 41%);
+- many extra boxes, bollards often coded `POT_FEN_01`.
 
 ## Detection viewer
 
@@ -137,7 +181,7 @@ Their Cholet inputs have been deleted. `jpeg-exif.mjs` is no longer used: positi
 
 ## Requirements
 
-Node.js builds the pages (no npm dependencies). Python 3.10+ with `requirements.txt` (Anthropic SDK, Pillow) runs the pipeline.
+Node.js builds the pages (no npm dependencies). Python 3.10+ with `requirements.txt` (Anthropic SDK, Groq SDK, Pillow) runs the pipeline; stage 1 also needs Ollama ≥ 0.35 with `qwen3.5:9b`.
 
 ```bash
 node build-viewer.mjs

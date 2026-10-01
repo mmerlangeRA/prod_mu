@@ -1,0 +1,6 @@
+﻿feature_id,code,category_fr,category_en,classification,latitude,longitude,confidence,code_agreement,n_detections,min_distance_m,frames
+F0001,ARB,Arbres,Trees,direct_category,49.35191019,5.98999787,low,1.0,1,2.68,3255
+F0002,ARB,Arbres,Trees,direct_category,49.35191361,5.99011669,high,1.0,1,6.75,3255
+F0003,ECL_SIE_06,Points d’éclairage,Lighting points,category_fallback,49.35193982,5.99013219,medium,1.0,1,7.87,3255
+F0004,POT_CHO_04,Potelets,Bollards,category_fallback,49.35185822,5.99002897,low,1.0,1,7.56,3255
+F0005,RAL01,Ralentisseurs,Speed bumps,shape_subtype,49.35195621,5.98999246,low,1.0,1,4.11,3255

@@ -1,0 +1,435 @@
+{
+  "source": "groq-batch",
+  "model": "qwen/qwen3.8-27b",
+  "tiles": 4,
+  "band_rows": [
+    220,
+    760
+  ],
+  "coordinates": "0-1000 of each tile's longer side, converted to panorama pixels",
+  "seconds": 0.0,
+  "skipped_objects": 0,
+  "filtered_repetitions": [
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1463,
+        573,
+        1469,
+        631
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1451,
+        569,
+        1457,
+        627
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1439,
+        567,
+        1445,
+        623
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1427,
+        563,
+        1433,
+        619
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1403,
+        557,
+        1409,
+        611
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1415,
+        561,
+        1421,
+        615
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1391,
+        555,
+        1397,
+        607
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1379,
+        551,
+        1385,
+        603
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1367,
+        549,
+        1373,
+        599
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1355,
+        545,
+        1361,
+        595
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1331,
+        539,
+        1337,
+        587
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1343,
+        543,
+        1349,
+        591
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1319,
+        537,
+        1325,
+        583
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1307,
+        533,
+        1313,
+        579
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1295,
+        531,
+        1301,
+        575
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1283,
+        527,
+        1289,
+        571
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1259,
+        521,
+        1265,
+        563
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1271,
+        525,
+        1277,
+        567
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1247,
+        519,
+        1253,
+        559
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1235,
+        515,
+        1241,
+        555
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1223,
+        513,
+        1229,
+        551
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1211,
+        509,
+        1217,
+        547
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1187,
+        503,
+        1193,
+        539
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1199,
+        507,
+        1205,
+        543
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1175,
+        501,
+        1181,
+        535
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1163,
+        497,
+        1169,
+        531
+      ]
+    }
+  ],
+  "usage": null,
+  "calls": [
+    {
+      "tile": [
+        0,
+        220,
+        600,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 387,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\":\n        783,\n      \"y_min\":\n        58,\n      \"x_max\":\n        882,\n      \"y_max\":\n        548,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Tall concrete utility pole with a single streetlight arm and luminaire head at the top.\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\":\n        188,\n      \"y_min\":\n        292,\n      \"x_max\":\n        428,\n      \"y_max\":\n        452,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Row of trees and shrubs visible behind the dark fence on the left side of the building.\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\":\n        878,\n      \"y_min\":\n        333,\n      \"x_max\":\n        998,\n      \"y_max\":\n        478,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Green trees visible in the background on the right side of the scene.\"\n      ]\n    }\n  ]\n}",
+      "batch_id": "batch_01m3w523vfesmtb1x2xnkzragt"
+    },
+    {
+      "tile": [
+        440,
+        220,
+        1040,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 651,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\":\n      [\n        62,\n        58,\n        152,\n        545\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Tall concrete utility pole with a street lamp arm and head at the top\"\n      ]\n    },\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\":\n      [\n        352,\n        242,\n        372,\n        478\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender metal pole with a curved arm and lamp head\"\n      ]\n    },\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\":\n      [\n        738,\n        212,\n        792,\n        492\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender metal pole with a curved arm and lamp head\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\":\n      [\n        222,\n        292,\n        412,\n        578\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Young tree with a thin trunk and leafy canopy planted in the median\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\":\n      [\n        542,\n        242,\n        622,\n        422\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Tall coniferous tree\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\":\n      [\n        622,\n        252,\n        772,\n        482\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Large deciduous tree with a full canopy\"\n      ]\n    }\n  ]\n}",
+      "batch_id": "batch_01m3w523vfesmtb1x2xnkzragt"
+    },
+    {
+      "tile": [
+        880,
+        220,
+        1480,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 3467,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\":\n        0,\n      \"y_min\": 208,\n      \"x_max\": 62,\n      \"y_max\": 488,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Tall dark pole with a curved arm and a streetlight head at the top, located on the left side of the road.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 472,\n      \"y_min\": 462,\n      \"x_max\": 482,\n      \"y_max\": 518,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white bollard with a dark band near the top, part of a row lining the parking area.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 492,\n      \"y_min\": 468,\n      \"x_max\": 502,\n      \"y_max\": 525,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white bollard with a dark band near the top, part of a row lining the parking area.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 512,\n      \"y_min\": 472,\n      \"x_max\": 522,\n      \"y_max\": 532,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white bollard with a dark band near the top, part of a row lining the parking area.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 532,\n      \"y_min\": 478,\n      \"x_max\": 542,\n      \"y_max\": 538,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white bollard with a dark band near the top, part of a row lining the parking area.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 552,\n      \"y_min\": 482,\n      \"x_max\": 562,\n      \"y_max\": 545,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white bollard with a dark band near the top, part of a row lining the parking area.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 572,\n      \"y_min\": 488,\n      \"x_max\": 582,\n      \"y_max\": 552,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white bollard with a dark band near the top, part of a row lining the parking area.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 592,\n      \"y_min\": 492,\n      \"x_max\": 602,\n      \"y_max\": 558,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white bollard with a dark band near the top, part of a row lining the parking area.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 612,\n      \"y_min\": 498,\n      \"x_max\": 622,\n      \"y_max\": 565,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white bollard with a dark band near the top, part of a row lining the parking area.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 632,\n      \"y_min\": 502,\n      \"x_max\": 642,\n      \"y_max\": 572,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white bollard with a dark band near the top, part of a row lining the parking area.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 652,\n      \"y_min\": 508,\n      \"x_max\": 662,\n      \"y_max\": 578,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white bollard with a dark band near the top, part of a row lining the parking area.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 672,\n      \"y_min\": 512,\n      \"x_max\": 682,\n      \"y_max\": 585,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white bollard with a dark band near the top, part of a row lining the parking area.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 692,\n      \"y_min\": 518,\n      \"x_max\": 702,\n      \"y_max\": 592,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white bollard with a dark band near the top, part of a row lining the parking area.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 712,\n      \"y_min\": 522,\n      \"x_max\": 722,\n      \"y_max\": 598,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white bollard with a dark band near the top, part of a row lining the parking area.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 732,\n      \"y_min\": 528,\n      \"x_max\": 742,\n      \"y_max\": 605,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white bollard with a dark band near the top, part of a row lining the parking area.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 752,\n      \"y_min\": 532,\n      \"x_max\": 762,\n      \"y_max\": 612,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white bollard with a dark band near the top, part of a row lining the parking area.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 772,\n      \"y_min\": 538,\n      \"x_max\": 782,\n      \"y_max\": 618,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white bollard with a dark band near the top, part of a row lining the parking area.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 792,\n      \"y_min\": 542,\n      \"x_max\": 802,\n      \"y_max\": 625,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white bollard with a dark band near the top, part of a row lining the parking area.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 812,\n      \"y_min\": 548,\n      \"x_max\": 822,\n      \"y_max\": 632,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white bollard with a dark band near the top, part of a row lining the parking area.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 832,\n      \"y_min\": 552,\n      \"x_max\": 842,\n      \"y_max\": 638,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white bollard with a dark band near the top, part of a row lining the parking area.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 852,\n      \"y_min\": 558,\n      \"x_max\": 862,\n      \"y_max\": 645,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white bollard with a dark band near the top, part of a row lining the parking area.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 872,\n      \"y_min\": 562,\n      \"x_max\": 882,\n      \"y_max\": 652,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white bollard with a dark band near the top, part of a row lining the parking area.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 892,\n      \"y_min\": 568,\n      \"x_max\": 902,\n      \"y_max\": 658,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white bollard with a dark band near the top, part of a row lining the parking area.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 912,\n      \"y_min\": 572,\n      \"x_max\": 922,\n      \"y_max\": 665,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white bollard with a dark band near the top, part of a row lining the parking area.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 932,\n      \"y_min\": 578,\n      \"x_max\": 942,\n      \"y_max\": 672,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white bollard with a dark band near the top, part of a row lining the parking area.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 952,\n      \"y_min\": 582,\n      \"x_max\": 962,\n      \"y_max\": 678,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white bollard with a dark band near the top, part of a row lining the parking area.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 972,\n      \"y_min\": 588,\n      \"x_max\": 982,\n      \"y_max\": 685,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white bollard with a dark band near the top, part of a row lining the parking area.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 992,\n      \"y_min\": 592,\n      \"x_max\": 1000,\n      \"y_max\": 692,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white bollard with a dark band near the top, part of a row lining the parking area.\"\n      ]\n    }\n  ]\n}",
+      "batch_id": "batch_01m3w523vfesmtb1x2xnkzragt"
+    },
+    {
+      "tile": [
+        1320,
+        220,
+        1920,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 155,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"RAL01\",\n      \"x_min\": 672,\n      \"y_min\": 638,\n      \"x_max\": 998,\n      \"y_max\": 742,\n      \"confidence\": \"low\",\n      \"occluded\": true,\n      \"truncated\": true,\n      \"visible_evidence\": [\n        \"row of white shark-teeth triangles painted across the lane\",\n        \"raised ramp edge visible at the kerb\",\n        \"full profile and top of the bump hidden by the vehicle\"\n      ]\n    }\n  ]\n}",
+      "batch_id": "batch_01m3w523vfesmtb1x2xnkzragt"
+    }
+  ],
+  "output": {
+    "objects": [
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Young tree with a thin trunk and leafy canopy planted in the median"
+        ],
+        "code": "ARB",
+        "x_min": 573,
+        "y_min": 395,
+        "x_max": 687,
+        "y_max": 567
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Tall concrete utility pole with a single streetlight arm and luminaire head at the top."
+        ],
+        "code": "ECL_SIE_06",
+        "x_min": 470,
+        "y_min": 255,
+        "x_max": 529,
+        "y_max": 549
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Row of trees and shrubs visible behind the dark fence on the left side of the building."
+        ],
+        "code": "ARB",
+        "x_min": 113,
+        "y_min": 395,
+        "x_max": 257,
+        "y_max": 491
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Large deciduous tree with a full canopy"
+        ],
+        "code": "ARB",
+        "x_min": 813,
+        "y_min": 371,
+        "x_max": 903,
+        "y_max": 509
+      },
+      {
+        "confidence": "low",
+        "occluded": true,
+        "truncated": true,
+        "visible_evidence": [
+          "row of white shark-teeth triangles painted across the lane",
+          "raised ramp edge visible at the kerb",
+          "full profile and top of the bump hidden by the vehicle"
+        ],
+        "code": "RAL01",
+        "x_min": 1723,
+        "y_min": 603,
+        "x_max": 1919,
+        "y_max": 665
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Green trees visible in the background on the right side of the scene."
+        ],
+        "code": "ARB",
+        "x_min": 527,
+        "y_min": 420,
+        "x_max": 599,
+        "y_max": 507
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Tall dark pole with a curved arm and a streetlight head at the top, located on the left side of the road."
+        ],
+        "code": "ECL_SIE_06",
+        "x_min": 880,
+        "y_min": 345,
+        "x_max": 917,
+        "y_max": 513
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Tall coniferous tree"
+        ],
+        "code": "ARB",
+        "x_min": 765,
+        "y_min": 365,
+        "x_max": 813,
+        "y_max": 473
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender metal pole with a curved arm and lamp head"
+        ],
+        "code": "ECL_SIE_06",
+        "x_min": 651,
+        "y_min": 365,
+        "x_max": 663,
+        "y_max": 507
+      },
+      {
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Short white bollard with a dark band near the top, part of a row lining the parking area."
+        ],
+        "code": "POT_FEN_03",
+        "x_min": 1475,
+        "y_min": 575,
+        "x_max": 1480,
+        "y_max": 635
+      }
+    ]
+  }
+}

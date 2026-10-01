@@ -1,0 +1,73 @@
+﻿feature_id,code,category_fr,category_en,classification,latitude,longitude,confidence,code_agreement,n_detections,min_distance_m,frames
+F0001,ARB,Arbres,Trees,direct_category,49.35171757,5.98990483,high,1.0,1,1.23,3423
+F0002,ARB,Arbres,Trees,direct_category,49.35172356,5.9899068,high,1.0,1,1.23,3423
+F0003,ARB,Arbres,Trees,direct_category,49.35172943,5.98990347,high,1.0,1,1.23,3423
+F0004,ARB,Arbres,Trees,direct_category,49.35174134,5.9899454,high,1.0,1,1.29,3402
+F0005,ARB,Arbres,Trees,direct_category,49.35174681,5.9899535,high,1.0,1,1.52,3402
+F0006,ARB,Arbres,Trees,direct_category,49.35175758,5.98995001,high,1.0,1,1.52,3402
+F0007,ARB,Arbres,Trees,direct_category,49.35176976,5.99012684,high,1.0,2,10.6,3327 3354
+F0008,ARB,Arbres,Trees,direct_category,49.35181095,5.99014696,high,1.0,1,10.6,3354
+F0009,ARB,Arbres,Trees,direct_category,49.35181257,5.99019441,high,1.0,1,13.19,3327
+F0010,ARB,Arbres,Trees,direct_category,49.35191267,5.99011753,high,1.0,1,6.83,3255
+F0011,ARB,Arbres,Trees,direct_category,49.35191603,5.99017673,high,1.0,3,11.64,3210 3294 3327
+F0012,INC,Bornes à incendie,Fire hydrants,direct_category,49.35163541,5.99003832,high,1.0,1,14.82,3402
+F0013,INC,Bornes à incendie,Fire hydrants,direct_category,49.35174008,5.98994168,high,1.0,1,1.23,3402
+F0014,COR_FEN_01,Corbeille,Litter bins,described_model,49.35191545,5.98996213,high,1.0,3,5.59,3294 3327 3354
+F0015,ECL_SIE_06,Points d’éclairage,Lighting points,category_fallback,49.35163081,5.98987097,high,1.0,2,7.0,3444 3462
+F0016,ECL_SIE_06,Points d’éclairage,Lighting points,category_fallback,49.35171253,5.98990755,high,1.0,1,1.72,3423
+F0017,ECL_SIE_06,Points d’éclairage,Lighting points,category_fallback,49.35172106,5.98990664,high,1.0,1,1.23,3423
+F0018,ECL_SIE_06,Points d’éclairage,Lighting points,category_fallback,49.35172787,5.98991223,high,1.0,1,1.72,3423
+F0019,ECL_SIE_06,Points d’éclairage,Lighting points,category_fallback,49.35173009,5.98991074,high,1.0,1,1.72,3423
+F0020,ECL_SIE_06,Points d’éclairage,Lighting points,category_fallback,49.35174395,5.98994845,high,1.0,1,1.29,3402
+F0021,ECL_SIE_06,Points d’éclairage,Lighting points,category_fallback,49.35175056,5.98995389,high,1.0,1,1.52,3402
+F0022,ECL_SIE_06,Points d’éclairage,Lighting points,category_fallback,49.35175304,5.98995417,high,1.0,1,1.59,3402
+F0023,ECL_SIE_06,Points d’éclairage,Lighting points,category_fallback,49.35176784,5.99010935,high,1.0,2,9.89,3327 3354
+F0024,ECL_SIE_06,Points d’éclairage,Lighting points,category_fallback,49.35194214,5.99014318,high,1.0,1,8.71,3255
+F0025,ECL_SIE_06,Points d’éclairage,Lighting points,category_fallback,49.35195125,5.99009656,high,1.0,1,6.52,3210
+F0026,POT_FEN_03,Potelets,Bollards,described_model,49.35171339,5.98981323,high,0.647,2,2.66,3444 3462
+F0027,POT_FEN_01,Potelets,Bollards,described_model,49.35172076,5.98977821,high,1.0,1,5.16,3462
+F0028,POT_FEN_03,Potelets,Bollards,described_model,49.35172126,5.98980826,high,0.593,2,3.34,3444 3462
+F0029,POT_FEN_01,Potelets,Bollards,described_model,49.35172532,5.98975572,high,1.0,1,6.22,3462
+F0030,POT_FEN_01,Potelets,Bollards,described_model,49.35172706,5.98972293,high,1.0,1,7.77,3462
+F0031,POT_FEN_03,Potelets,Bollards,described_model,49.35173066,5.98982275,high,0.595,2,4.23,3444 3462
+F0032,POT_FEN_03,Potelets,Bollards,described_model,49.35173958,5.98983037,high,0.577,2,5.26,3444 3462
+F0033,POT_FEN_03,Potelets,Bollards,described_model,49.35174942,5.98983913,high,0.57,2,6.37,3444 3462
+F0034,POT_FEN_03,Potelets,Bollards,described_model,49.35175395,5.98989058,high,1.0,1,3.46,3423
+F0035,POT_FEN_03,Potelets,Bollards,described_model,49.35176668,5.9898364,high,1.0,1,7.66,3444
+F0036,POT_FEN_03,Potelets,Bollards,described_model,49.35177604,5.98984509,high,1.0,1,8.71,3444
+F0037,POT_FEN_01,Potelets,Bollards,described_model,49.35177666,5.98991272,high,0.633,3,3.63,3294 3402 3423
+F0038,POT_FEN_03,Potelets,Bollards,described_model,49.35178778,5.98985418,high,1.0,1,10.05,3444
+F0039,POT_FEN_03,Potelets,Bollards,described_model,49.35179237,5.98991572,high,0.616,2,7.27,3294 3423
+F0040,POT_FEN_01,Potelets,Bollards,described_model,49.35181359,5.98993797,high,0.892,5,3.71,3294 3354 3378 3402 3423
+F0041,POT_FEN_01,Potelets,Bollards,described_model,49.35181692,5.989941,high,1.0,1,10.41,3294
+F0042,POT_FEN_01,Potelets,Bollards,described_model,49.35182602,5.98994529,high,1.0,3,5.06,3294 3378 3402
+F0043,POT_FEN_01,Potelets,Bollards,described_model,49.35182606,5.98994581,high,1.0,1,9.41,3294
+F0044,POT_FEN_01,Potelets,Bollards,described_model,49.35185007,5.98995393,high,1.0,3,6.3,3294 3378 3402
+F0045,POT_FEN_01,Potelets,Bollards,described_model,49.35185727,5.98996038,high,1.0,3,4.92,3294 3327 3354
+F0046,POT_FEN_01,Potelets,Bollards,described_model,49.35186023,5.98996392,high,1.0,2,5.53,3294 3354
+F0047,POT_FEN_01,Potelets,Bollards,described_model,49.35186578,5.98998548,high,1.0,2,3.04,3294 3327
+F0048,POT_FEN_01,Potelets,Bollards,described_model,49.35186757,5.98998806,high,1.0,2,2.91,3294 3327
+F0049,POT_FEN_01,Potelets,Bollards,described_model,49.35186803,5.98998045,high,1.0,1,4.41,3294
+F0050,POT_FEN_01,Potelets,Bollards,described_model,49.35186926,5.98999054,high,1.0,2,2.79,3294 3327
+F0051,POT_FEN_01,Potelets,Bollards,described_model,49.35187051,5.98999355,high,1.0,2,2.57,3294 3327
+F0052,POT_FEN_01,Potelets,Bollards,described_model,49.3518713,5.98998423,high,1.0,1,3.99,3294
+F0053,POT_FEN_01,Potelets,Bollards,described_model,49.35187254,5.98999456,high,1.0,2,2.37,3294 3327
+F0054,POT_FEN_01,Potelets,Bollards,described_model,49.3518733,5.9899621,high,1.0,4,4.7,3294 3327 3354 3378
+F0055,POT_FEN_01,Potelets,Bollards,described_model,49.35187408,5.98998756,high,1.0,1,3.63,3294
+F0056,POT_FEN_01,Potelets,Bollards,described_model,49.35188452,5.99000236,high,1.0,1,2.19,3294
+F0057,POT_FEN_01,Potelets,Bollards,described_model,49.35188515,5.98996239,high,1.0,4,4.45,3294 3327 3354 3378
+F0058,POT_FEN_01,Potelets,Bollards,described_model,49.3518856,5.99000431,high,1.0,1,2.03,3294
+F0059,POT_FEN_01,Potelets,Bollards,described_model,49.35188655,5.99000617,high,1.0,1,1.87,3294
+F0060,POT_FEN_01,Potelets,Bollards,described_model,49.35188739,5.99000795,high,1.0,1,1.73,3294
+F0061,POT_FEN_01,Potelets,Bollards,described_model,49.35188812,5.99000966,high,1.0,1,1.6,3294
+F0062,POT_FEN_01,Potelets,Bollards,described_model,49.35188875,5.9900113,high,1.0,1,1.47,3294
+F0063,POT_FEN_01,Potelets,Bollards,described_model,49.3518893,5.99001289,high,1.0,1,1.36,3294
+F0064,POT_FEN_01,Potelets,Bollards,described_model,49.35188976,5.99001443,high,1.0,1,1.24,3294
+F0065,POT_FEN_01,Potelets,Bollards,described_model,49.35189015,5.99001592,high,1.0,1,1.14,3294
+F0066,POT_FEN_01,Potelets,Bollards,described_model,49.35189037,5.99001735,high,1.0,1,1.04,3294
+F0067,POT_FEN_01,Potelets,Bollards,described_model,49.351903,5.9899622,high,1.0,3,5.16,3294 3327 3354
+F0068,POT_FEN_01,Potelets,Bollards,described_model,49.35190925,5.98996931,high,0.705,4,3.6,3255 3294 3327 3354
+F0069,RAL01,Ralentisseurs,Speed bumps,shape_subtype,49.35166657,5.98987973,high,1.0,1,6.3,3423
+F0070,RAL01,Ralentisseurs,Speed bumps,shape_subtype,49.35191993,5.98999311,high,1.0,1,4.38,3294
+F0071,RAL01,Ralentisseurs,Speed bumps,shape_subtype,49.35195325,5.98999753,low,1.0,1,3.63,3255
+F0072,RAL01,Ralentisseurs,Speed bumps,shape_subtype,49.35197333,5.9900385,high,1.0,1,2.62,3210

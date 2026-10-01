@@ -1,0 +1,799 @@
+{
+  "schema_version": "1.0.0",
+  "coordinate_system": "normalized_xywh",
+  "batch": "groq-qwen36-f003255",
+  "created_at": "2026-10-01T15:26:55+00:00",
+  "detector": {
+    "source": "replay",
+    "replay_dir": "analysis/raw/groq-qwen36-f003255-replay",
+    "model": "qwen/qwen3.6-27b",
+    "effort": "medium",
+    "prompt": "fensch_bbox_prompt.md",
+    "estimated_cost_usd": null
+  },
+  "images": [
+    {
+      "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+      "width": 1920,
+      "height": 960,
+      "objects": [
+        {
+          "object_id": "object_1",
+          "code": "RAL01",
+          "category_fr": "Ralentisseurs",
+          "category_en": "Speed bumps",
+          "classification": "shape_subtype",
+          "bbox": {
+            "x": 0.0,
+            "y": 0.354167,
+            "width": 0.3125,
+            "height": 0.083333
+          },
+          "bbox_px": [
+            0,
+            340,
+            600,
+            420
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": true,
+          "visible_evidence": [
+            "row of white shark-teeth triangles on the left ramp",
+            "zebra pedestrian crossing on the raised top",
+            "ramp edge and surface change indicating a raised crossing"
+          ],
+          "ground": {
+            "anchor_u": 0.15625,
+            "anchor_v": 0.395834,
+            "bearing_deg": 40.85,
+            "status": "above_horizon"
+          }
+        },
+        {
+          "object_id": "object_2",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": {
+            "x": 0.299479,
+            "y": 0.410417,
+            "width": 0.053125,
+            "height": 0.18125
+          },
+          "bbox_px": [
+            575,
+            394,
+            677,
+            568
+          ],
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "deciduous tree with trunk and leafy canopy casting shadow on the crossing"
+          ],
+          "ground": {
+            "anchor_u": 0.326041,
+            "anchor_v": 0.591667,
+            "bearing_deg": 101.97,
+            "distance_m": 6.75,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.35191361,
+            "longitude": 5.99011669
+          },
+          "feature_id": "F0002"
+        },
+        {
+          "object_id": "object_3",
+          "code": "ECL_SIE_06",
+          "category_fr": "Points d’éclairage",
+          "category_en": "Lighting points",
+          "classification": "category_fallback",
+          "bbox": {
+            "x": 0.247917,
+            "y": 0.266667,
+            "width": 0.028125,
+            "height": 0.3125
+          },
+          "bbox_px": [
+            476,
+            256,
+            530,
+            556
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "tall pole on the left with a lamp arm at the top"
+          ],
+          "ground": {
+            "anchor_u": 0.261979,
+            "anchor_v": 0.579167,
+            "bearing_deg": 78.91,
+            "distance_m": 7.87,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.35193982,
+            "longitude": 5.99013219
+          },
+          "feature_id": "F0003"
+        },
+        {
+          "object_id": "object_4",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": {
+            "x": 0.422917,
+            "y": 0.391667,
+            "width": 0.046875,
+            "height": 0.1375
+          },
+          "bbox_px": [
+            812,
+            376,
+            902,
+            508
+          ],
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "deciduous tree cluster in the background"
+          ],
+          "ground": {
+            "anchor_u": 0.446354,
+            "anchor_v": 0.529167,
+            "bearing_deg": 145.28,
+            "distance_m": 21.77,
+            "status": "beyond_range"
+          }
+        },
+        {
+          "object_id": "object_5",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": {
+            "x": 0.608333,
+            "y": 0.660417,
+            "width": 0.1375,
+            "height": 0.04375
+          },
+          "bbox_px": [
+            1168,
+            634,
+            1432,
+            676
+          ],
+          "confidence": "low",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "green tree line in the background behind the houses"
+          ],
+          "ground": {
+            "anchor_u": 0.677083,
+            "anchor_v": 0.704167,
+            "bearing_deg": 228.35,
+            "distance_m": 2.68,
+            "status": "ok",
+            "reliable": true,
+            "latitude": 49.35191019,
+            "longitude": 5.98999787
+          },
+          "feature_id": "F0001"
+        },
+        {
+          "object_id": "object_6",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": {
+            "x": 0.390104,
+            "y": 0.379167,
+            "width": 0.03125,
+            "height": 0.1375
+          },
+          "bbox_px": [
+            749,
+            364,
+            809,
+            496
+          ],
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "coniferous tree in the background"
+          ],
+          "ground": {
+            "anchor_u": 0.405729,
+            "anchor_v": 0.516667,
+            "bearing_deg": 130.66,
+            "distance_m": 38.16,
+            "status": "beyond_range"
+          }
+        },
+        {
+          "object_id": "object_7",
+          "code": "RAL01",
+          "category_fr": "Ralentisseurs",
+          "category_en": "Speed bumps",
+          "classification": "shape_subtype",
+          "bbox": {
+            "x": 0.901042,
+            "y": 0.619792,
+            "width": 0.085417,
+            "height": 0.048958
+          },
+          "bbox_px": [
+            1730,
+            595,
+            1894,
+            642
+          ],
+          "confidence": "low",
+          "occluded": true,
+          "truncated": true,
+          "visible_evidence": [
+            "row of white shark-tooth triangles painted across the lane",
+            "raised ramp not fully visible due to car occlusion",
+            "subtype uncertain (no clear flat top or ramp edge seen)"
+          ],
+          "ground": {
+            "anchor_u": 0.943751,
+            "anchor_v": 0.644271,
+            "bearing_deg": 324.35,
+            "distance_m": 4.11,
+            "status": "ok",
+            "reliable": false,
+            "latitude": 49.35195621,
+            "longitude": 5.98999246
+          },
+          "feature_id": "F0005"
+        },
+        {
+          "object_id": "object_8",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": {
+            "x": 0.090625,
+            "y": 0.297917,
+            "width": 0.0625,
+            "height": 0.04375
+          },
+          "bbox_px": [
+            174,
+            286,
+            294,
+            328
+          ],
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "green tree crowns behind the dark building"
+          ],
+          "ground": {
+            "anchor_u": 0.121875,
+            "anchor_v": 0.341667,
+            "bearing_deg": 28.47,
+            "status": "above_horizon"
+          }
+        },
+        {
+          "object_id": "object_9",
+          "code": "ECL_SIE_06",
+          "category_fr": "Points d’éclairage",
+          "category_en": "Lighting points",
+          "classification": "category_fallback",
+          "bbox": {
+            "x": 0.458854,
+            "y": 0.360417,
+            "width": 0.014063,
+            "height": 0.171875
+          },
+          "bbox_px": [
+            881,
+            346,
+            908,
+            511
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "curved street lamp pole with luminaire head on the right side of the road"
+          ],
+          "ground": {
+            "anchor_u": 0.465886,
+            "anchor_v": 0.532292,
+            "bearing_deg": 152.31,
+            "distance_m": 19.65,
+            "status": "beyond_range"
+          }
+        },
+        {
+          "object_id": "object_10",
+          "code": "ECL_SIE_06",
+          "category_fr": "Points d’éclairage",
+          "category_en": "Lighting points",
+          "classification": "category_fallback",
+          "bbox": {
+            "x": 0.463021,
+            "y": 0.294792,
+            "width": 0.026562,
+            "height": 0.078125
+          },
+          "bbox_px": [
+            889,
+            283,
+            940,
+            358
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "curved arm street lamp post with lamp head on the left side of the street"
+          ],
+          "ground": {
+            "anchor_u": 0.476302,
+            "anchor_v": 0.372917,
+            "bearing_deg": 156.06,
+            "status": "above_horizon"
+          }
+        },
+        {
+          "object_id": "object_11",
+          "code": "ECL_SIE_06",
+          "category_fr": "Points d’éclairage",
+          "category_en": "Lighting points",
+          "classification": "category_fallback",
+          "bbox": {
+            "x": 0.246875,
+            "y": 0.241667,
+            "width": 0.01875,
+            "height": 0.1
+          },
+          "bbox_px": [
+            474,
+            232,
+            510,
+            328
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "tall pole with a lateral arm carrying a streetlight head at the top"
+          ],
+          "ground": {
+            "anchor_u": 0.25625,
+            "anchor_v": 0.341667,
+            "bearing_deg": 76.85,
+            "status": "above_horizon"
+          }
+        },
+        {
+          "object_id": "object_12",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": {
+            "x": 0.901042,
+            "y": 0.376042,
+            "width": 0.019271,
+            "height": 0.096875
+          },
+          "bbox_px": [
+            1730,
+            361,
+            1767,
+            454
+          ],
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "coniferous tree (spruce) with conical crown visible in mid-distance"
+          ],
+          "ground": {
+            "anchor_u": 0.910678,
+            "anchor_v": 0.472917,
+            "bearing_deg": 312.44,
+            "status": "above_horizon"
+          }
+        },
+        {
+          "object_id": "object_13",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": {
+            "x": 0.2625,
+            "y": 0.310417,
+            "width": 0.05,
+            "height": 0.03125
+          },
+          "bbox_px": [
+            504,
+            298,
+            600,
+            328
+          ],
+          "confidence": "high",
+          "occluded": false,
+          "truncated": true,
+          "visible_evidence": [
+            "trees visible to the right of the building"
+          ],
+          "ground": {
+            "anchor_u": 0.2875,
+            "anchor_v": 0.341667,
+            "bearing_deg": 88.1,
+            "status": "above_horizon"
+          }
+        },
+        {
+          "object_id": "object_14",
+          "code": "HOR",
+          "category_fr": "Horodateurs",
+          "category_en": "Parking meters",
+          "classification": "direct_category",
+          "bbox": {
+            "x": 0.738021,
+            "y": 0.338542,
+            "width": 0.020313,
+            "height": 0.05
+          },
+          "bbox_px": [
+            1417,
+            325,
+            1456,
+            373
+          ],
+          "confidence": "medium",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "tall dark parking meter with a screen/display head on a pole at the right edge"
+          ],
+          "ground": {
+            "anchor_u": 0.748178,
+            "anchor_v": 0.388542,
+            "bearing_deg": 253.94,
+            "status": "above_horizon"
+          }
+        },
+        {
+          "object_id": "object_15",
+          "code": "POT_CHO_04",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "category_fallback",
+          "bbox": {
+            "x": 0.602604,
+            "y": 0.373958,
+            "width": 0.00625,
+            "height": 0.0375
+          },
+          "bbox_px": [
+            1157,
+            359,
+            1169,
+            395
+          ],
+          "confidence": "low",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "short white cylindrical bollard in the parking area"
+          ],
+          "ground": {
+            "anchor_u": 0.605729,
+            "anchor_v": 0.411458,
+            "bearing_deg": 202.66,
+            "status": "above_horizon"
+          }
+        },
+        {
+          "object_id": "object_16",
+          "code": "POT_CHO_04",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "category_fallback",
+          "bbox": {
+            "x": 0.618229,
+            "y": 0.379167,
+            "width": 0.00625,
+            "height": 0.034375
+          },
+          "bbox_px": [
+            1187,
+            364,
+            1199,
+            397
+          ],
+          "confidence": "low",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "short white cylindrical bollard in the parking area"
+          ],
+          "ground": {
+            "anchor_u": 0.621354,
+            "anchor_v": 0.413542,
+            "bearing_deg": 208.28,
+            "status": "above_horizon"
+          }
+        },
+        {
+          "object_id": "object_17",
+          "code": "POT_CHO_04",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "category_fallback",
+          "bbox": {
+            "x": 0.632812,
+            "y": 0.382292,
+            "width": 0.00625,
+            "height": 0.034375
+          },
+          "bbox_px": [
+            1215,
+            367,
+            1227,
+            400
+          ],
+          "confidence": "low",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "short white cylindrical bollard in the parking area"
+          ],
+          "ground": {
+            "anchor_u": 0.635937,
+            "anchor_v": 0.416667,
+            "bearing_deg": 213.53,
+            "status": "above_horizon"
+          }
+        },
+        {
+          "object_id": "object_18",
+          "code": "POT_CHO_04",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "category_fallback",
+          "bbox": {
+            "x": 0.645833,
+            "y": 0.385417,
+            "width": 0.00625,
+            "height": 0.034375
+          },
+          "bbox_px": [
+            1240,
+            370,
+            1252,
+            403
+          ],
+          "confidence": "low",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "short white cylindrical bollard in the parking area"
+          ],
+          "ground": {
+            "anchor_u": 0.648958,
+            "anchor_v": 0.419792,
+            "bearing_deg": 218.22,
+            "status": "above_horizon"
+          }
+        },
+        {
+          "object_id": "object_19",
+          "code": "POT_CHO_04",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "category_fallback",
+          "bbox": {
+            "x": 0.681771,
+            "y": 0.391667,
+            "width": 0.00625,
+            "height": 0.034375
+          },
+          "bbox_px": [
+            1309,
+            376,
+            1321,
+            409
+          ],
+          "confidence": "low",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": [
+            "short white cylindrical bollard in the parking area"
+          ],
+          "ground": {
+            "anchor_u": 0.684896,
+            "anchor_v": 0.426042,
+            "bearing_deg": 231.16,
+            "status": "above_horizon"
+          }
+        },
+        {
+          "object_id": "object_20",
+          "code": "POT_CHO_04",
+          "category_fr": "Potelets",
+          "category_en": "Bollards",
+          "classification": "category_fallback",
+          "bbox": {
+            "x": 0.533854,
+            "y": 0.554167,
+            "width": 0.007292,
+            "height": 0.028125
+          },
+          "bbox_px": [
+            1025,
+            532,
+            1039,
+            559
+          ],
+          "confidence": "low",
+          "occluded": false,
+          "truncated": true,
+          "visible_evidence": [
+            "small dark post at the right road edge, likely a bollard"
+          ],
+          "ground": {
+            "anchor_u": 0.5375,
+            "anchor_v": 0.582292,
+            "bearing_deg": 178.1,
+            "distance_m": 7.56,
+            "status": "ok",
+            "reliable": false,
+            "latitude": 49.35185822,
+            "longitude": 5.99002897
+          },
+          "feature_id": "F0004"
+        }
+      ],
+      "camera": {
+        "video_name": "20260805_080341_gs010136",
+        "frame": 3255,
+        "latitude": 49.3519262,
+        "longitude": 5.9900255,
+        "heading_deg": 164.5962,
+        "orientation": 285.40383485971404,
+        "timestamp_ms": 1785915591599
+      }
+    }
+  ],
+  "localization": {
+    "gps_source": "ncp_gps_frames.json",
+    "camera_height_m": 2.0,
+    "max_range_m": 15.0,
+    "min_range_m": 1.0,
+    "merge_radius_m": 3.0,
+    "heading": "compass heading = 90 - ncp_gps_frames.json orientation (GPS bearing as a math angle), taken as the heading of the panorama centre column"
+  },
+  "features": [
+    {
+      "feature_id": "F0001",
+      "code": "ARB",
+      "category_fr": "Arbres",
+      "category_en": "Trees",
+      "classification": "direct_category",
+      "latitude": 49.35191019,
+      "longitude": 5.98999787,
+      "confidence": "low",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 2.68,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_5",
+          "code": "ARB",
+          "distance_m": 2.68
+        }
+      ]
+    },
+    {
+      "feature_id": "F0002",
+      "code": "ARB",
+      "category_fr": "Arbres",
+      "category_en": "Trees",
+      "classification": "direct_category",
+      "latitude": 49.35191361,
+      "longitude": 5.99011669,
+      "confidence": "high",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 6.75,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_2",
+          "code": "ARB",
+          "distance_m": 6.75
+        }
+      ]
+    },
+    {
+      "feature_id": "F0003",
+      "code": "ECL_SIE_06",
+      "category_fr": "Points d’éclairage",
+      "category_en": "Lighting points",
+      "classification": "category_fallback",
+      "latitude": 49.35193982,
+      "longitude": 5.99013219,
+      "confidence": "medium",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 7.87,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_3",
+          "code": "ECL_SIE_06",
+          "distance_m": 7.87
+        }
+      ]
+    },
+    {
+      "feature_id": "F0004",
+      "code": "POT_CHO_04",
+      "category_fr": "Potelets",
+      "category_en": "Bollards",
+      "classification": "category_fallback",
+      "latitude": 49.35185822,
+      "longitude": 5.99002897,
+      "confidence": "low",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 7.56,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_20",
+          "code": "POT_CHO_04",
+          "distance_m": 7.56
+        }
+      ]
+    },
+    {
+      "feature_id": "F0005",
+      "code": "RAL01",
+      "category_fr": "Ralentisseurs",
+      "category_en": "Speed bumps",
+      "classification": "shape_subtype",
+      "latitude": 49.35195621,
+      "longitude": 5.98999246,
+      "confidence": "low",
+      "code_agreement": 1.0,
+      "n_detections": 1,
+      "min_distance_m": 4.11,
+      "detections": [
+        {
+          "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+          "object_id": "object_7",
+          "code": "RAL01",
+          "distance_m": 4.11
+        }
+      ]
+    }
+  ]
+}

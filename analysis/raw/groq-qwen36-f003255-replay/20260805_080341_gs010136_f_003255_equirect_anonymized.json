@@ -1,0 +1,327 @@
+{
+  "source": "groq",
+  "model": "qwen/qwen3.6-27b",
+  "tiles": 4,
+  "band_rows": [
+    220,
+    760
+  ],
+  "coordinates": "0-1000 of each tile's longer side, converted to panorama pixels",
+  "seconds": 24.49,
+  "skipped_objects": 0,
+  "usage": null,
+  "calls": [
+    {
+      "tile": [
+        0,
+        220,
+        600,
+        760
+      ],
+      "prompt_tokens": 6872,
+      "completion_tokens": 2684,
+      "raw_text": "[\n{\"type\":\"object\",\"properties\":{\"objects\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"code\":{\"type\":\"string\",\"enum\":[\"ABR_FEN_01\",\"ABR_FEN_02\",\"ARB\",\"BAC\",\"BAN_CHO_01\",\"BAN_FEN_01\",\"BAN_FEN_02\",\"BAN_FEN_03\",\"BAN_FEN_04\",\"BAR_CHO_03\",\"BAR_FEN_01\",\"BAR_FEN_02\",\"BAR_FEN_03\",\"BAR_FEN_04\",\"BOU-E\",\"CEN\",\"COR_CHO_01\",\"COR_FEN_01\",\"COR_FEN_02\",\"COR_FEN_03\",\"ECL_FEN_01\",\"ECL_SIE_06\",\"GRI\",\"HOR\",\"INC\",\"ORN\",\"PAPV\",\"POT_CHO_04\",\"POT_FEN_01\",\"POT_FEN_02\",\"POT_FEN_03\",\"POT_FEN_04\",\"PUB\",\"RAL01\",\"RAL02\",\"RAL03\",\"RAL04\",\"SAN\",\"VEL_FEN_01\",\"VEL_FEN_02\",\"VEL_FEN_03\",\"VEL_FEN_04\",\"VEL_FEN_05\",\"VEL_FEN_06\"]},\"x_min\":{\"type\":\"integer\"},\"y_min\":{\"type\":\"integer\"},\"x_max\":{\"type\":\"integer\"},\"y_max\":{\"type\":\"integer\"},\"confidence\":{\"type\":\"string\",\"enum\":[\"high\",\"medium\",\"low\"]},\"occluded\":{\"type\":\"boolean\"},\"truncated\":{\"type\":\"boolean\"},\"visible_evidence\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"code\",\"x_min\",\"y_min\",\"x_max\",\"y_max\",\"confidence\",\"occluded\",\"truncated\",\"visible_evidence\"],\"additionalProperties\":false}}},\"required\":[\"objects\"],\"additionalProperties\":false},\n{\"objects\": [{\"code\": \"RAL01\", \"x_min\": 0, \"y_min\": 200, \"x_max\": 1000, \"y_max\": 333, \"confidence\": \"medium\", \"occluded\": false, \"truncated\": true, \"visible_evidence\": [\"row of white shark-teeth triangles on the left ramp\", \"zebra pedestrian crossing on the raised top\", \"ramp edge and surface change indicating a raised crossing\"]}, {\"code\": \"ARB\", \"x_min\": 290, \"y_min\": 110, \"x_max\": 490, \"y_max\": 180, \"confidence\": \"high\", \"occluded\": false, \"truncated\": false, \"visible_evidence\": [\"green tree crowns behind the dark building\"]}, {\"code\": \"ARB\", \"x_min\": 840, \"y_min\": 130, \"x_max\": 1000, \"y_max\": 180, \"confidence\": \"high\", \"occluded\": false, \"truncated\": true, \"visible_evidence\": [\"trees visible to the right of the building\"]}, {\"code\": \"ECL_SIE_06\", \"x_min\": 790, \"y_min\": 20, \"x_max\": 850, \"y_max\": 180, \"confidence\": \"medium\", \"occluded\": false, \"truncated\": false, \"visible_evidence\": [\"tall pole with a lateral arm carrying a streetlight head at the top\"]}], \"additionalProperties\": false}\n]"
+    },
+    {
+      "tile": [
+        440,
+        220,
+        1040,
+        760
+      ],
+      "prompt_tokens": 6872,
+      "completion_tokens": 1902,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"ARB\",\n      \"x_min\": 225,\n      \"y_min\": 290,\n      \"x_max\": 395,\n      \"y_max\": 580,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\"deciduous tree with trunk and leafy canopy casting shadow on the crossing\"]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\": 515,\n      \"y_min\": 240,\n      \"x_max\": 615,\n      \"y_max\": 460,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\"coniferous tree in the background\"]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\": 620,\n      \"y_min\": 260,\n      \"x_max\": 770,\n      \"y_max\": 480,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\"deciduous tree cluster in the background\"]\n    },\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\": 735,\n      \"y_min\": 210,\n      \"x_max\": 780,\n      \"y_max\": 485,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\"curved street lamp pole with luminaire head on the right side of the road\"]\n    },\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\": 60,\n      \"y_min\": 60,\n      \"x_max\": 150,\n      \"y_max\": 560,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\"tall pole on the left with a lamp arm at the top\"]\n    },\n    {\n      \"code\": \"POT_CHO_04\",\n      \"x_min\": 975,\n      \"y_min\": 520,\n      \"x_max\": 998,\n      \"y_max\": 565,\n      \"confidence\": \"low\",\n      \"occluded\": false,\n      \"truncated\": true,\n      \"visible_evidence\": [\"small dark post at the right road edge, likely a bollard\"]\n    }\n  ]\n}"
+    },
+    {
+      "tile": [
+        880,
+        220,
+        1480,
+        760
+      ],
+      "prompt_tokens": 6872,
+      "completion_tokens": 4218,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\": 15,\n      \"y_min\": 105,\n      \"x_max\": 100,\n      \"y_max\": 230,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\"curved arm street lamp post with lamp head on the left side of the street\"]\n    },\n    {\n      \"code\": \"HOR\",\n      \"x_min\": 895,\n      \"y_min\": 175,\n      \"x_max\": 960,\n      \"y_max\": 255,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\"tall dark parking meter with a screen/display head on a pole at the right edge\"]\n    },\n    {\n      \"code\": \"POT_CHO_04\",\n      \"x_min\": 462,\n      \"y_min\": 232,\n      \"x_max\": 482,\n      \"y_max\": 292,\n      \"confidence\": \"low\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\"short white cylindrical bollard in the parking area\"]\n    },\n    {\n      \"code\": \"POT_CHO_04\",\n      \"x_min\": 512,\n      \"y_min\": 240,\n      \"x_max\": 532,\n      \"y_max\": 295,\n      \"confidence\": \"low\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\"short white cylindrical bollard in the parking area\"]\n    },\n    {\n      \"code\": \"POT_CHO_04\",\n      \"x_min\": 558,\n      \"y_min\": 245,\n      \"x_max\": 578,\n      \"y_max\": 300,\n      \"confidence\": \"low\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\"short white cylindrical bollard in the parking area\"]\n    },\n    {\n      \"code\": \"POT_CHO_04\",\n      \"x_min\": 600,\n      \"y_min\": 250,\n      \"x_max\": 620,\n      \"y_max\": 305,\n      \"confidence\": \"low\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\"short white cylindrical bollard in the parking area\"]\n    },\n    {\n      \"code\": \"POT_CHO_04\",\n      \"x_min\": 715,\n      \"y_min\": 260,\n      \"x_max\": 735,\n      \"y_max\": 315,\n      \"confidence\": \"low\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\"short white cylindrical bollard in the parking area\"]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\": 480,\n      \"y_min\": 690,\n      \"x_max\": 920,\n      \"y_max\": 760,\n      \"confidence\": \"low\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\"green tree line in the background behind the houses\"]\n    }\n  ]\n}"
+    },
+    {
+      "tile": [
+        1320,
+        220,
+        1920,
+        760
+      ],
+      "prompt_tokens": 6872,
+      "completion_tokens": 1210,
+      "raw_text": "{\"objects\": [{\"code\": \"RAL01\", \"x_min\": 684, \"y_min\": 625, \"x_max\": 957, \"y_max\": 703, \"confidence\": \"low\", \"occluded\": true, \"truncated\": true, \"visible_evidence\": [\"row of white shark-tooth triangles painted across the lane\", \"raised ramp not fully visible due to car occlusion\", \"subtype uncertain (no clear flat top or ramp edge seen)\"]}, {\"code\": \"ARB\", \"x_min\": 684, \"y_min\": 235, \"x_max\": 745, \"y_max\": 390, \"confidence\": \"high\", \"occluded\": false, \"truncated\": false, \"visible_evidence\": [\"coniferous tree (spruce) with conical crown visible in mid-distance\"]}]}"
+    }
+  ],
+  "output": {
+    "objects": [
+      {
+        "code": "RAL01",
+        "x_min": 0,
+        "y_min": 340,
+        "x_max": 600,
+        "y_max": 420,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": true,
+        "visible_evidence": [
+          "row of white shark-teeth triangles on the left ramp",
+          "zebra pedestrian crossing on the raised top",
+          "ramp edge and surface change indicating a raised crossing"
+        ]
+      },
+      {
+        "code": "ARB",
+        "x_min": 575,
+        "y_min": 394,
+        "x_max": 677,
+        "y_max": 568,
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "deciduous tree with trunk and leafy canopy casting shadow on the crossing"
+        ]
+      },
+      {
+        "code": "ECL_SIE_06",
+        "x_min": 476,
+        "y_min": 256,
+        "x_max": 530,
+        "y_max": 556,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "tall pole on the left with a lamp arm at the top"
+        ]
+      },
+      {
+        "code": "ARB",
+        "x_min": 812,
+        "y_min": 376,
+        "x_max": 902,
+        "y_max": 508,
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "deciduous tree cluster in the background"
+        ]
+      },
+      {
+        "code": "ARB",
+        "x_min": 1168,
+        "y_min": 634,
+        "x_max": 1432,
+        "y_max": 676,
+        "confidence": "low",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "green tree line in the background behind the houses"
+        ]
+      },
+      {
+        "code": "ARB",
+        "x_min": 749,
+        "y_min": 364,
+        "x_max": 809,
+        "y_max": 496,
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "coniferous tree in the background"
+        ]
+      },
+      {
+        "code": "RAL01",
+        "x_min": 1730,
+        "y_min": 595,
+        "x_max": 1894,
+        "y_max": 642,
+        "confidence": "low",
+        "occluded": true,
+        "truncated": true,
+        "visible_evidence": [
+          "row of white shark-tooth triangles painted across the lane",
+          "raised ramp not fully visible due to car occlusion",
+          "subtype uncertain (no clear flat top or ramp edge seen)"
+        ]
+      },
+      {
+        "code": "ARB",
+        "x_min": 174,
+        "y_min": 286,
+        "x_max": 294,
+        "y_max": 328,
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "green tree crowns behind the dark building"
+        ]
+      },
+      {
+        "code": "ECL_SIE_06",
+        "x_min": 881,
+        "y_min": 346,
+        "x_max": 908,
+        "y_max": 511,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "curved street lamp pole with luminaire head on the right side of the road"
+        ]
+      },
+      {
+        "code": "ECL_SIE_06",
+        "x_min": 889,
+        "y_min": 283,
+        "x_max": 940,
+        "y_max": 358,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "curved arm street lamp post with lamp head on the left side of the street"
+        ]
+      },
+      {
+        "code": "ECL_SIE_06",
+        "x_min": 474,
+        "y_min": 232,
+        "x_max": 510,
+        "y_max": 328,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "tall pole with a lateral arm carrying a streetlight head at the top"
+        ]
+      },
+      {
+        "code": "ARB",
+        "x_min": 1730,
+        "y_min": 361,
+        "x_max": 1767,
+        "y_max": 454,
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "coniferous tree (spruce) with conical crown visible in mid-distance"
+        ]
+      },
+      {
+        "code": "ARB",
+        "x_min": 504,
+        "y_min": 298,
+        "x_max": 600,
+        "y_max": 328,
+        "confidence": "high",
+        "occluded": false,
+        "truncated": true,
+        "visible_evidence": [
+          "trees visible to the right of the building"
+        ]
+      },
+      {
+        "code": "HOR",
+        "x_min": 1417,
+        "y_min": 325,
+        "x_max": 1456,
+        "y_max": 373,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "tall dark parking meter with a screen/display head on a pole at the right edge"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1157,
+        "y_min": 359,
+        "x_max": 1169,
+        "y_max": 395,
+        "confidence": "low",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "short white cylindrical bollard in the parking area"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1187,
+        "y_min": 364,
+        "x_max": 1199,
+        "y_max": 397,
+        "confidence": "low",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "short white cylindrical bollard in the parking area"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1215,
+        "y_min": 367,
+        "x_max": 1227,
+        "y_max": 400,
+        "confidence": "low",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "short white cylindrical bollard in the parking area"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1240,
+        "y_min": 370,
+        "x_max": 1252,
+        "y_max": 403,
+        "confidence": "low",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "short white cylindrical bollard in the parking area"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1309,
+        "y_min": 376,
+        "x_max": 1321,
+        "y_max": 409,
+        "confidence": "low",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "short white cylindrical bollard in the parking area"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1025,
+        "y_min": 532,
+        "x_max": 1039,
+        "y_max": 559,
+        "confidence": "low",
+        "occluded": false,
+        "truncated": true,
+        "visible_evidence": [
+          "small dark post at the right road edge, likely a bollard"
+        ]
+      }
+    ]
+  }
+}

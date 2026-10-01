@@ -65,7 +65,7 @@ function validateObjects(analysisFile, imageIndex, objects) {
     if (!box || !['x', 'y', 'width', 'height'].every(key => Number.isFinite(box[key]))) {
       throw new Error(`${analysisFile}: images[${imageIndex}].objects[${objectIndex}] has an invalid bbox.`);
     }
-    if (box.x < 0 || box.y < 0 || box.width <= 0 || box.height <= 0 || box.x + box.width > 1 || box.y + box.height > 1) {
+    if (box.x < 0 || box.y < 0 || box.width <= 0 || box.height <= 0 || box.x + box.width > 1 + 1e-9 || box.y + box.height > 1 + 1e-9) {
       throw new Error(`${analysisFile}: images[${imageIndex}].objects[${objectIndex}] bbox is outside normalized image bounds.`);
     }
   }

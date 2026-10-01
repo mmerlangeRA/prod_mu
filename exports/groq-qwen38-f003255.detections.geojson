@@ -1,0 +1,565 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.99014318,
+     49.35194214
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_1",
+    "code": "ECL_SIE_06",
+    "confidence": "high",
+    "distance_m": 8.71,
+    "bearing_deg": 78.25,
+    "reliable": true,
+    "feature_id": "F0001"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98999753,
+     49.35195325
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_3",
+    "code": "RAL01",
+    "confidence": "low",
+    "distance_m": 3.63,
+    "bearing_deg": 326.03,
+    "reliable": false,
+    "feature_id": "F0028"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98996061,
+     49.3518529
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_6",
+    "code": "POT_FEN_03",
+    "confidence": "medium",
+    "distance_m": 9.41,
+    "bearing_deg": 209.97,
+    "reliable": true,
+    "feature_id": "F0005"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98996141,
+     49.35185996
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_7",
+    "code": "POT_FEN_03",
+    "confidence": "medium",
+    "distance_m": 8.71,
+    "bearing_deg": 212.22,
+    "reliable": true,
+    "feature_id": "F0006"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98996235,
+     49.35187535
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_8",
+    "code": "POT_FEN_03",
+    "confidence": "medium",
+    "distance_m": 7.27,
+    "bearing_deg": 218.97,
+    "reliable": true,
+    "feature_id": "F0009"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98996333,
+     49.35187997
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_9",
+    "code": "POT_FEN_03",
+    "confidence": "medium",
+    "distance_m": 6.83,
+    "bearing_deg": 221.22,
+    "reliable": true,
+    "feature_id": "F0010"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98996508,
+     49.35189073
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_10",
+    "code": "POT_FEN_03",
+    "confidence": "medium",
+    "distance_m": 5.89,
+    "bearing_deg": 227.97,
+    "reliable": true,
+    "feature_id": "F0013"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98996619,
+     49.35189404
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_11",
+    "code": "POT_FEN_03",
+    "confidence": "medium",
+    "distance_m": 5.59,
+    "bearing_deg": 230.22,
+    "reliable": true,
+    "feature_id": "F0014"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98996856,
+     49.35190209
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_12",
+    "code": "POT_FEN_03",
+    "confidence": "medium",
+    "distance_m": 4.92,
+    "bearing_deg": 236.97,
+    "reliable": true,
+    "feature_id": "F0017"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98996978,
+     49.35190458
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_13",
+    "code": "POT_FEN_03",
+    "confidence": "medium",
+    "distance_m": 4.7,
+    "bearing_deg": 239.22,
+    "reliable": true,
+    "feature_id": "F0018"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98997393,
+     49.35191278
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_14",
+    "code": "POT_FEN_03",
+    "confidence": "medium",
+    "distance_m": 4.02,
+    "bearing_deg": 248.22,
+    "reliable": true,
+    "feature_id": "F0022"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98997714,
+     49.35191774
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_15",
+    "code": "POT_FEN_03",
+    "confidence": "medium",
+    "distance_m": 3.63,
+    "bearing_deg": 254.97,
+    "reliable": true,
+    "feature_id": "F0025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98997851,
+     49.35191926
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_16",
+    "code": "POT_FEN_03",
+    "confidence": "medium",
+    "distance_m": 3.49,
+    "bearing_deg": 257.22,
+    "reliable": true,
+    "feature_id": "F0026"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98997263,
+     49.35191084
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_17",
+    "code": "POT_FEN_03",
+    "confidence": "medium",
+    "distance_m": 4.19,
+    "bearing_deg": 245.97,
+    "reliable": true,
+    "feature_id": "F0021"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98995981,
+     49.35184476
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_18",
+    "code": "POT_FEN_03",
+    "confidence": "medium",
+    "distance_m": 10.23,
+    "bearing_deg": 207.72,
+    "reliable": true,
+    "feature_id": "F0004"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98996133,
+     49.35186531
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_19",
+    "code": "POT_FEN_03",
+    "confidence": "medium",
+    "distance_m": 8.21,
+    "bearing_deg": 214.47,
+    "reliable": true,
+    "feature_id": "F0007"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98996137,
+     49.3518702
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_20",
+    "code": "POT_FEN_03",
+    "confidence": "medium",
+    "distance_m": 7.77,
+    "bearing_deg": 216.72,
+    "reliable": true,
+    "feature_id": "F0008"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98996361,
+     49.35188367
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_21",
+    "code": "POT_FEN_03",
+    "confidence": "medium",
+    "distance_m": 6.52,
+    "bearing_deg": 223.47,
+    "reliable": true,
+    "feature_id": "F0011"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98996398,
+     49.35188712
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_22",
+    "code": "POT_FEN_03",
+    "confidence": "medium",
+    "distance_m": 6.22,
+    "bearing_deg": 225.72,
+    "reliable": true,
+    "feature_id": "F0012"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98996674,
+     49.3518968
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_23",
+    "code": "POT_FEN_03",
+    "confidence": "medium",
+    "distance_m": 5.37,
+    "bearing_deg": 232.47,
+    "reliable": true,
+    "feature_id": "F0015"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98996735,
+     49.3518994
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_24",
+    "code": "POT_FEN_03",
+    "confidence": "medium",
+    "distance_m": 5.16,
+    "bearing_deg": 234.72,
+    "reliable": true,
+    "feature_id": "F0016"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98997053,
+     49.35190673
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_25",
+    "code": "POT_FEN_03",
+    "confidence": "medium",
+    "distance_m": 4.53,
+    "bearing_deg": 241.47,
+    "reliable": true,
+    "feature_id": "F0019"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98997133,
+     49.35190878
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_26",
+    "code": "POT_FEN_03",
+    "confidence": "medium",
+    "distance_m": 4.38,
+    "bearing_deg": 243.72,
+    "reliable": true,
+    "feature_id": "F0020"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98997484,
+     49.35191449
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_27",
+    "code": "POT_FEN_03",
+    "confidence": "medium",
+    "distance_m": 3.89,
+    "bearing_deg": 250.47,
+    "reliable": true,
+    "feature_id": "F0023"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98997578,
+     49.35191613
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_28",
+    "code": "POT_FEN_03",
+    "confidence": "medium",
+    "distance_m": 3.77,
+    "bearing_deg": 252.72,
+    "reliable": true,
+    "feature_id": "F0024"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98997953,
+     49.35192063
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_29",
+    "code": "POT_FEN_03",
+    "confidence": "medium",
+    "distance_m": 3.39,
+    "bearing_deg": 259.47,
+    "reliable": true,
+    "feature_id": "F0027"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98996024,
+     49.35183696
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_30",
+    "code": "POT_FEN_03",
+    "confidence": "medium",
+    "distance_m": 10.99,
+    "bearing_deg": 205.47,
+    "reliable": true,
+    "feature_id": "F0003"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98996088,
+     49.35182808
+    ]
+   },
+   "properties": {
+    "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+    "object_id": "object_31",
+    "code": "POT_FEN_03",
+    "confidence": "medium",
+    "distance_m": 11.87,
+    "bearing_deg": 203.22,
+    "reliable": true,
+    "feature_id": "F0002"
+   }
+  }
+ ]
+}

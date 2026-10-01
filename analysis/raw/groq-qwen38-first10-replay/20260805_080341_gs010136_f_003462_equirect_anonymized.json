@@ -1,0 +1,433 @@
+{
+  "source": "groq",
+  "model": "qwen/qwen3.8-27b",
+  "tiles": 4,
+  "band_rows": [
+    220,
+    760
+  ],
+  "coordinates": "0-1000 of each tile's longer side, converted to panorama pixels",
+  "seconds": 11.55,
+  "skipped_objects": 0,
+  "filtered_repetitions": [
+    {
+      "code": "POT_FEN_01",
+      "box": [
+        1819,
+        513,
+        1831,
+        539
+      ]
+    },
+    {
+      "code": "POT_FEN_01",
+      "box": [
+        1837,
+        495,
+        1849,
+        521
+      ]
+    },
+    {
+      "code": "POT_FEN_01",
+      "box": [
+        1843,
+        489,
+        1855,
+        515
+      ]
+    },
+    {
+      "code": "POT_FEN_01",
+      "box": [
+        1861,
+        471,
+        1873,
+        497
+      ]
+    },
+    {
+      "code": "POT_FEN_01",
+      "box": [
+        1867,
+        465,
+        1879,
+        491
+      ]
+    },
+    {
+      "code": "POT_FEN_01",
+      "box": [
+        1873,
+        459,
+        1885,
+        485
+      ]
+    },
+    {
+      "code": "POT_FEN_01",
+      "box": [
+        1879,
+        453,
+        1891,
+        479
+      ]
+    },
+    {
+      "code": "POT_FEN_01",
+      "box": [
+        1885,
+        447,
+        1897,
+        473
+      ]
+    },
+    {
+      "code": "POT_FEN_01",
+      "box": [
+        1891,
+        441,
+        1903,
+        467
+      ]
+    },
+    {
+      "code": "POT_FEN_01",
+      "box": [
+        1897,
+        435,
+        1909,
+        461
+      ]
+    },
+    {
+      "code": "POT_FEN_01",
+      "box": [
+        1903,
+        429,
+        1915,
+        455
+      ]
+    },
+    {
+      "code": "POT_FEN_01",
+      "box": [
+        1849,
+        483,
+        1861,
+        509
+      ]
+    },
+    {
+      "code": "POT_FEN_01",
+      "box": [
+        1855,
+        477,
+        1867,
+        503
+      ]
+    },
+    {
+      "code": "POT_FEN_01",
+      "box": [
+        1825,
+        507,
+        1837,
+        533
+      ]
+    },
+    {
+      "code": "POT_FEN_01",
+      "box": [
+        1831,
+        501,
+        1843,
+        527
+      ]
+    },
+    {
+      "code": "POT_FEN_01",
+      "box": [
+        1909,
+        423,
+        1920,
+        449
+      ]
+    }
+  ],
+  "usage": null,
+  "calls": [
+    {
+      "tile": [
+        0,
+        220,
+        600,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 830,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\":\n        688,\n      \"y_min\":\n        90,\n      \"x_max\":\n        712,\n      \"y_max\":\n        575,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Tall vertical pole\",\n        \"Lighting fixture at the top\",\n        \"Public street lighting mast\"\n      ]\n    },\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\":\n        100,\n      \"y_min\":\n        235,\n      \"x_max\":\n        160,\n      \"y_max\":\n        450,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Tall vertical pole\",\n        \"Curved arm with two lamp heads\",\n        \"Public street lighting mast\"\n      ]\n    },\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\":\n        30,\n      \"y_min\":\n        305,\n      \"x_max\":\n        55,\n      \"y_max\":\n        440,\n      \"confidence\":\n        \"medium\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Vertical pole\",\n        \"Lighting fixture at the top\",\n        \"Public street lighting mast\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\":\n        150,\n      \"y_min\":\n        260,\n      \"x_max\":\n        300,\n      \"y_max\":\n        450,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Green leafy canopy\",\n        \"Tree trunk visible\",\n        \"Located on the roadside verge\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\":\n        250,\n      \"y_min\":\n        250,\n      \"x_max\":\n        320,\n      \"y_max\":\n        440,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Tall coniferous tree\",\n        \"Distinctive triangular shape\",\n        \"Located behind the deciduous tree\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\":\n        30,\n      \"y_min\":\n        340,\n      \"x_max\":\n        100,\n      \"y_max\":\n        440,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Green leafy canopy\",\n        \"Tree trunk visible\",\n        \"Located on the left side of the road\"\n      ]\n    }\n  ]\n}"
+    },
+    {
+      "tile": [
+        440,
+        220,
+        1040,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 187,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\": [\n        638,\n        290\n      ],\n      \"y_min\": [\n        638,\n        290\n      ],\n      \"x_max\": [\n        662,\n        480\n      ],\n      \"y_max\": [\n        662,\n        480\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Tall vertical pole\",\n        \"Lateral arm with luminaire head at the top\"\n      ]\n    }\n  ]\n}"
+    },
+    {
+      "tile": [
+        880,
+        220,
+        1480,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 11,
+      "raw_text": "{\"objects\": []}"
+    },
+    {
+      "tile": [
+        1320,
+        220,
+        1920,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 3283,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\":\n        158,\n      \"y_min\":\n        498,\n      \"x_max\":\n        178,\n      \"y_max\":\n        562,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard\",\n        \"Dark shaft\",\n        \"Short contrasting pale cap\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\":\n        292,\n      \"y_min\":\n        528,\n      \"x_max\":\n        312,\n      \"y_max\":\n        592,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard\",\n        \"Dark shaft\",\n        \"Short contrasting pale cap\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\":\n        412,\n      \"y_min\":\n        542,\n      \"x_max\":\n        432,\n      \"y_max\":\n        622,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard\",\n        \"Dark shaft\",\n        \"Short contrasting pale cap\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\":\n        552,\n      \"y_min\":\n        552,\n      \"x_max\":\n        572,\n      \"y_max\":\n        632,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard\",\n        \"Dark shaft\",\n        \"Short contrasting pale cap\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\":\n        722,\n      \"y_min\":\n        552,\n      \"x_max\":\n        742,\n      \"y_max\":\n        632,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard\",\n        \"Dark shaft\",\n        \"Short contrasting pale cap\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\":\n        772,\n      \"y_min\":\n        528,\n      \"x_max\":\n        792,\n      \"y_max\":\n        592,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard\",\n        \"Dark shaft\",\n        \"Short contrasting pale cap\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\":\n        802,\n      \"y_min\":\n        512,\n      \"x_max\":\n        822,\n      \"y_max\":\n        572,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard\",\n        \"Dark shaft\",\n        \"Short contrasting pale cap\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\":\n        822,\n      \"y_min\":\n        498,\n      \"x_max\":\n        842,\n      \"y_max\":\n        552,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard\",\n        \"Dark shaft\",\n        \"Short contrasting pale cap\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\":\n        832,\n      \"y_min\":\n        488,\n      \"x_max\":\n        852,\n      \"y_max\":\n        532,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard\",\n        \"Dark shaft\",\n        \"Short contrasting pale cap\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\":\n        842,\n      \"y_min\":\n        478,\n      \"x_max\":\n        862,\n      \"y_max\":\n        522,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard\",\n        \"Dark shaft\",\n        \"Short contrasting pale cap\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\":\n        852,\n      \"y_min\":\n        468,\n      \"x_max\":\n        872,\n      \"y_max\":\n        512,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard\",\n        \"Dark shaft\",\n        \"Short contrasting pale cap\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\":\n        862,\n      \"y_min\":\n        458,\n      \"x_max\":\n        882,\n      \"y_max\":\n        502,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard\",\n        \"Dark shaft\",\n        \"Short contrasting pale cap\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\":\n        872,\n      \"y_min\":\n        448,\n      \"x_max\":\n        892,\n      \"y_max\":\n        492,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard\",\n        \"Dark shaft\",\n        \"Short contrasting pale cap\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\":\n        882,\n      \"y_min\":\n        438,\n      \"x_max\":\n        902,\n      \"y_max\":\n        482,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard\",\n        \"Dark shaft\",\n        \"Short contrasting pale cap\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\":\n        892,\n      \"y_min\":\n        428,\n      \"x_max\":\n        912,\n      \"y_max\":\n        472,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard\",\n        \"Dark shaft\",\n        \"Short contrasting pale cap\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\":\n        902,\n      \"y_min\":\n        418,\n      \"x_max\":\n        922,\n      \"y_max\":\n        462,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard\",\n        \"Dark shaft\",\n        \"Short contrasting pale cap\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\":\n        912,\n      \"y_min\":\n        408,\n      \"x_max\":\n        932,\n      \"y_max\":\n        452,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard\",\n        \"Dark shaft\",\n        \"Short contrasting pale cap\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\":\n        922,\n      \"y_min\":\n        398,\n      \"x_max\":\n        942,\n      \"y_max\":\n        442,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard\",\n        \"Dark shaft\",\n        \"Short contrasting pale cap\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\":\n        932,\n      \"y_min\":\n        388,\n      \"x_max\":\n        952,\n      \"y_max\":\n        432,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard\",\n        \"Dark shaft\",\n        \"Short contrasting pale cap\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\":\n        942,\n      \"y_min\":\n        378,\n      \"x_max\":\n        962,\n      \"y_max\":\n        422,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard\",\n        \"Dark shaft\",\n        \"Short contrasting pale cap\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\":\n        952,\n      \"y_min\":\n        368,\n      \"x_max\":\n        972,\n      \"y_max\":\n        412,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard\",\n        \"Dark shaft\",\n        \"Short contrasting pale cap\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\":\n        962,\n      \"y_min\":\n        358,\n      \"x_max\":\n        982,\n      \"y_max\":\n        402,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard\",\n        \"Dark shaft\",\n        \"Short contrasting pale cap\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\":\n        972,\n      \"y_min\":\n        348,\n      \"x_max\":\n        992,\n      \"y_max\":\n        392,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard\",\n        \"Dark shaft\",\n        \"Short contrasting pale cap\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\":\n        982,\n      \"y_min\":\n        338,\n      \"x_max\":\n        1000,\n      \"y_max\":\n        382,\n      \"confidence\":\n        \"high\",\n      \"occluded\":\n        false,\n      \"truncated\":\n        false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard\",\n        \"Dark shaft\",\n        \"Short contrasting pale cap\"\n      ]\n    }\n  ]\n}"
+    }
+  ],
+  "output": {
+    "objects": [
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Green leafy canopy",
+          "Tree trunk visible",
+          "Located on the roadside verge"
+        ],
+        "code": "ARB",
+        "x_min": 90,
+        "y_min": 376,
+        "x_max": 180,
+        "y_max": 490
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Tall coniferous tree",
+          "Distinctive triangular shape",
+          "Located behind the deciduous tree"
+        ],
+        "code": "ARB",
+        "x_min": 150,
+        "y_min": 370,
+        "x_max": 192,
+        "y_max": 484
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Tall vertical pole",
+          "Curved arm with two lamp heads",
+          "Public street lighting mast"
+        ],
+        "code": "ECL_SIE_06",
+        "x_min": 60,
+        "y_min": 361,
+        "x_max": 96,
+        "y_max": 490
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Tall vertical pole",
+          "Lighting fixture at the top",
+          "Public street lighting mast"
+        ],
+        "code": "ECL_SIE_06",
+        "x_min": 413,
+        "y_min": 274,
+        "x_max": 427,
+        "y_max": 565
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Green leafy canopy",
+          "Tree trunk visible",
+          "Located on the left side of the road"
+        ],
+        "code": "ARB",
+        "x_min": 18,
+        "y_min": 424,
+        "x_max": 60,
+        "y_max": 484
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Tall vertical pole",
+          "Lateral arm with luminaire head at the top"
+        ],
+        "code": "ECL_SIE_06",
+        "x_min": 823,
+        "y_min": 394,
+        "x_max": 837,
+        "y_max": 508
+      },
+      {
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Vertical pole",
+          "Lighting fixture at the top",
+          "Public street lighting mast"
+        ],
+        "code": "ECL_SIE_06",
+        "x_min": 18,
+        "y_min": 403,
+        "x_max": 33,
+        "y_max": 484
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender cylindrical bollard",
+          "Dark shaft",
+          "Short contrasting pale cap"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1567,
+        "y_min": 545,
+        "x_max": 1579,
+        "y_max": 593
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender cylindrical bollard",
+          "Dark shaft",
+          "Short contrasting pale cap"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1651,
+        "y_min": 551,
+        "x_max": 1663,
+        "y_max": 599
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender cylindrical bollard",
+          "Dark shaft",
+          "Short contrasting pale cap"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1753,
+        "y_min": 551,
+        "x_max": 1765,
+        "y_max": 599
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender cylindrical bollard",
+          "Dark shaft",
+          "Short contrasting pale cap"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1415,
+        "y_min": 519,
+        "x_max": 1427,
+        "y_max": 557
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender cylindrical bollard",
+          "Dark shaft",
+          "Short contrasting pale cap"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1495,
+        "y_min": 537,
+        "x_max": 1507,
+        "y_max": 575
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender cylindrical bollard",
+          "Dark shaft",
+          "Short contrasting pale cap"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1783,
+        "y_min": 537,
+        "x_max": 1795,
+        "y_max": 575
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender cylindrical bollard",
+          "Dark shaft",
+          "Short contrasting pale cap"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1801,
+        "y_min": 527,
+        "x_max": 1813,
+        "y_max": 563
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender cylindrical bollard",
+          "Dark shaft",
+          "Short contrasting pale cap"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1813,
+        "y_min": 519,
+        "x_max": 1825,
+        "y_max": 551
+      }
+    ]
+  }
+}

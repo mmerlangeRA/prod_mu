@@ -44,17 +44,25 @@ def prompt_sections(names):
     return "\n\n".join(name + "\n" + "\n".join(sections[name]).strip() for name in names)
 
 
-def system_prompt(width, height):
+def system_prompt(width, height, coordinates="pixels"):
+    """coordinates="pixels" asks for image pixels (Claude); "per_mille" asks for a 0-1000 scale on both axes (Qwen models)."""
     rules = prompt_sections(["CATALOGUE CODE RULES", "DETECTION AND CLASSIFICATION METHOD", "SPEED BUMPS AND PEDESTRIAN CROSSINGS", "CONFIDENCE"])
-    horizon, limit = height // 2, round(height * MAX_RANGE_ROW)
+    if coordinates == "per_mille":
+        horizon, limit = "y = 500", f"y = {round(1000 * MAX_RANGE_ROW)}"
+        box_rule = ("Give integer coordinates on a 0-1000 scale relative to the image, on both axes: x_min, y_min (top-left), "
+                    "x_max, y_max (bottom-right), with 0 <= x_min < x_max <= 1000 and 0 <= y_min < y_max <= 1000.")
+    else:
+        horizon, limit = f"row {height // 2}", f"row {round(height * MAX_RANGE_ROW)}"
+        box_rule = (f"Give integer pixel coordinates in the image exactly as supplied: x_min, y_min (top-left), x_max, y_max "
+                    f"(bottom-right), with 0 <= x_min < x_max <= {width} and 0 <= y_min < y_max <= {height}.")
     return f"""You are a visual detection and classification system for public-space equipment. Inspect the supplied street panorama and return every visible object belonging to one of the requested categories, with a tight bounding box and exactly one catalogue code.
 
 PANORAMA GEOMETRY
 
 - The image is a 360° × 180° equirectangular panorama of {width} × {height} px. The horizontal centre faces the front of the vehicle. The left and right edges show the same direction (behind the vehicle) and join seamlessly.
-- The horizon is at about row {horizon}. Straight lines that are not vertical appear curved.
+- The horizon is at about {horizon}. Straight lines that are not vertical appear curved.
 - The camera is mounted on the roof of a car. The car body (roof, bonnet, windows, mirrors, rotating beacon, camera mount, cables) fills the lower part of the image and reflects the surroundings. Never report the car, its equipment or anything reflected on its body.
-- Report only objects whose base (ground contact) is below row {limit}. An object whose base is higher in the image is more than about 15 m away and will be captured from a closer frame.
+- Report only objects whose base (ground contact) is below {limit}. An object whose base is higher in the image is more than about 15 m away and will be captured from a closer frame.
 - An object cut by the left/right edge: report only the part containing its base, clipped to the image.
 
 {rules}
@@ -62,7 +70,7 @@ PANORAMA GEOMETRY
 BOUNDING BOXES
 
 - One tight axis-aligned box per physical object, around its visible extent: include attached parts (shelter roof, bench supports, bollard base, bicycle loop), exclude shadows, reflections and neighbouring objects.
-- Give integer pixel coordinates in the image exactly as supplied: x_min, y_min (top-left), x_max, y_max (bottom-right), with 0 <= x_min < x_max <= {width} and 0 <= y_min < y_max <= {height}.
+- {box_rule}
 - For a tree, the box covers trunk and canopy; its bottom edge is the trunk base.
 
 EVIDENCE
@@ -177,11 +185,12 @@ def to_objects(output, width, height, catalogue):
             "category_fr": entry["category_fr"],
             "category_en": entry["category_en"],
             "classification": entry["classification"],
+            # Round the edges, not the size, so that x + width never exceeds 1 after rounding.
             "bbox": {
                 "x": round(x_min / width, 6),
                 "y": round(y_min / height, 6),
-                "width": round((x_max - x_min) / width, 6),
-                "height": round((y_max - y_min) / height, 6),
+                "width": round(round(x_max / width, 6) - round(x_min / width, 6), 6),
+                "height": round(round(y_max / height, 6) - round(y_min / height, 6), 6),
             },
             "bbox_px": [x_min, y_min, x_max, y_max],
             "confidence": raw["confidence"],

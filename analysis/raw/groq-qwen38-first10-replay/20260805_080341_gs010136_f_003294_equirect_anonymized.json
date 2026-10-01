@@ -1,0 +1,627 @@
+{
+  "source": "groq",
+  "model": "qwen/qwen3.8-27b",
+  "tiles": 4,
+  "band_rows": [
+    220,
+    760
+  ],
+  "coordinates": "0-1000 of each tile's longer side, converted to panorama pixels",
+  "seconds": 12.81,
+  "skipped_objects": 0,
+  "filtered_repetitions": [],
+  "usage": null,
+  "calls": [
+    {
+      "tile": [
+        0,
+        220,
+        600,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 252,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"ARB\",\n      \"x_min\": 548,\n      \"y_min\": 262,\n      \"x_max\": 856,\n      \"y_max\": 520,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Leafy tree crown\",\n        \"Visible trunk rising from a paved island\"\n      ]\n    },\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\": 848,\n      \"y_min\": 218,\n      \"x_max\": 888,\n      \"y_max\": 478,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Tall vertical pole\",\n        \"Curved arm with a streetlight head at the top\"\n      ]\n    }\n  ]\n}"
+    },
+    {
+      "tile": [
+        440,
+        220,
+        1040,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 809,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\":\n      118,\n      \"y_min\": 213,\n      \"x_max\": 152,\n      \"y_max\": 438,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Tall street lamp post with a curved arm and luminaire head on the left side of the road.\"\n      ]\n    },\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\": 562,\n      \"y_min\": 181,\n      \"x_max\": 628,\n      \"y_max\": 478,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Street lamp post with a curved arm and luminaire head standing near the trees in the center.\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\": 0,\n      \"y_min\": 242,\n      \"x_max\": 142,\n      \"y_max\": 462,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Large leafy tree on the far left edge of the scene.\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\": 312,\n      \"y_min\": 282,\n      \"x_max\": 422,\n      \"y_max\": 482,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Tree with a visible trunk and green canopy in front of the white house.\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\": 422,\n      \"y_min\": 222,\n      \"x_max\": 482,\n      \"y_max\": 472,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Tall coniferous tree rising above the other vegetation.\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\": 472,\n      \"y_min\": 232,\n      \"x_max\": 612,\n      \"y_max\": 482,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Broad leafy tree with a dense canopy next to the conifer.\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\": 872,\n      \"y_min\": 332,\n      \"x_max\": 1000,\n      \"y_max\": 432,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": true,\n      \"visible_evidence\": [\n        \"Tree canopy visible on the far right side of the street.\"\n      ]\n    }\n  ]\n}"
+    },
+    {
+      "tile": [
+        880,
+        220,
+        1480,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 3127,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        450,\n        450,\n        470,\n        510\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender dark shaft\",\n        \"Stepped pale cap with horizontal bands\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        470,\n        470,\n        490,\n        520\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender dark shaft\",\n        \"Stepped pale cap with horizontal bands\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        490,\n        490,\n        510,\n        530\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender dark shaft\",\n        \"Stepped pale cap with horizontal bands\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        510,\n        510,\n        530,\n        540\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender dark shaft\",\n        \"Stepped pale cap with horizontal bands\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        530,\n        530,\n        550,\n        550\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender dark shaft\",\n        \"Stepped pale cap with horizontal bands\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        550,\n        550,\n        570,\n        560\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender dark shaft\",\n        \"Stepped pale cap with horizontal bands\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        570,\n        570,\n        590,\n        570\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender dark shaft\",\n        \"Stepped pale cap with horizontal bands\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        590,\n        590,\n        610,\n        580\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender dark shaft\",\n        \"Stepped pale cap with horizontal bands\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        610,\n        610,\n        630,\n        590\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender dark shaft\",\n        \"Stepped pale cap with horizontal bands\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        630,\n        630,\n        650,\n        600\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender dark shaft\",\n        \"Stepped pale cap with horizontal bands\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        650,\n        650,\n        670,\n        610\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender dark shaft\",\n        \"Stepped pale cap with horizontal bands\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        670,\n        670,\n        690,\n        620\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender dark shaft\",\n        \"Stepped pale cap with horizontal bands\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        690,\n        690,\n        710,\n        630\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender dark shaft\",\n        \"Stepped pale cap with horizontal bands\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        710,\n        710,\n        730,\n        640\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender dark shaft\",\n        \"Stepped pale cap with horizontal bands\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        730,\n        730,\n        750,\n        650\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender dark shaft\",\n        \"Stepped pale cap with horizontal bands\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        750,\n        750,\n        770,\n        660\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender dark shaft\",\n        \"Stepped pale cap with horizontal bands\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        770,\n        770,\n        790,\n        670\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender dark shaft\",\n        \"Stepped pale cap with horizontal bands\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        790,\n        790,\n        810,\n        680\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender dark shaft\",\n        \"Stepped pale cap with horizontal bands\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        810,\n        810,\n        830,\n        690\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender dark shaft\",\n        \"Stepped pale cap with horizontal bands\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        830,\n        830,\n        850,\n        700\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender dark shaft\",\n        \"Stepped pale cap with horizontal bands\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        850,\n        850,\n        870,\n        710\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender dark shaft\",\n        \"Stepped pale cap with horizontal bands\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        870,\n        870,\n        890,\n        720\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender dark shaft\",\n        \"Stepped pale cap with horizontal bands\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        890,\n        890,\n        910,\n        730\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender dark shaft\",\n        \"Stepped pale cap with horizontal bands\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        910,\n        910,\n        930,\n        740\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender dark shaft\",\n        \"Stepped pale cap with horizontal bands\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        930,\n        930,\n        950,\n        750\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender dark shaft\",\n        \"Stepped pale cap with horizontal bands\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        950,\n        950,\n        970,\n        760\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender dark shaft\",\n        \"Stepped pale cap with horizontal bands\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        970,\n        970,\n        990,\n        770\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender dark shaft\",\n        \"Stepped pale cap with horizontal bands\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": [\n        990,\n        990,\n        1000,\n        780\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender dark shaft\",\n        \"Stepped pale cap with horizontal bands\"\n      ]\n    }\n  ]\n}"
+    },
+    {
+      "tile": [
+        1320,
+        220,
+        1920,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 734,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": 0,\n      \"y_min\": 560,\n      \"x_max\": 25,\n      \"y_max\": 640,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard with a dark shaft and a short contrasting pale stepped cap.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": 125,\n      \"y_min\": 560,\n      \"x_max\": 155,\n      \"y_max\": 650,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard with a dark shaft and a short contrasting pale stepped cap.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": 315,\n      \"y_min\": 555,\n      \"x_max\": 340,\n      \"y_max\": 640,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard with a dark shaft and a short contrasting pale stepped cap.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_01\",\n      \"x_min\": 435,\n      \"y_min\": 545,\n      \"x_max\": 455,\n      \"y_max\": 615,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender cylindrical bollard with a dark shaft and a short contrasting pale stepped cap.\"\n      ]\n    },\n    {\n      \"code\": \"COR_FEN_01\",\n      \"x_min\": 455,\n      \"y_min\": 485,\n      \"x_max\": 555,\n      \"y_max\": 610,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Tall dark litter bin with a rectangular body and a large hooded opening at the top.\"\n      ]\n    },\n    {\n      \"code\": \"RAL01\",\n      \"x_min\": 350,\n      \"y_min\": 550,\n      \"x_max\": 1000,\n      \"y_max\": 850,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Row of white shark-teeth triangles painted on the ramp\",\n        \"Zebra crossing stripes on the raised section\"\n      ]\n    }\n  ]\n}"
+    }
+  ],
+  "output": {
+    "objects": [
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Row of white shark-teeth triangles painted on the ramp",
+          "Zebra crossing stripes on the raised section"
+        ],
+        "code": "RAL01",
+        "x_min": 1530,
+        "y_min": 550,
+        "x_max": 1920,
+        "y_max": 730
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Leafy tree crown",
+          "Visible trunk rising from a paved island"
+        ],
+        "code": "ARB",
+        "x_min": 329,
+        "y_min": 377,
+        "x_max": 514,
+        "y_max": 532
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Broad leafy tree with a dense canopy next to the conifer."
+        ],
+        "code": "ARB",
+        "x_min": 723,
+        "y_min": 359,
+        "x_max": 807,
+        "y_max": 509
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Large leafy tree on the far left edge of the scene."
+        ],
+        "code": "ARB",
+        "x_min": 440,
+        "y_min": 365,
+        "x_max": 525,
+        "y_max": 497
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Tree with a visible trunk and green canopy in front of the white house."
+        ],
+        "code": "ARB",
+        "x_min": 627,
+        "y_min": 389,
+        "x_max": 693,
+        "y_max": 509
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Street lamp post with a curved arm and luminaire head standing near the trees in the center."
+        ],
+        "code": "ECL_SIE_06",
+        "x_min": 777,
+        "y_min": 329,
+        "x_max": 817,
+        "y_max": 507
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Tall coniferous tree rising above the other vegetation."
+        ],
+        "code": "ARB",
+        "x_min": 693,
+        "y_min": 353,
+        "x_max": 729,
+        "y_max": 503
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": true,
+        "visible_evidence": [
+          "Tree canopy visible on the far right side of the street."
+        ],
+        "code": "ARB",
+        "x_min": 963,
+        "y_min": 419,
+        "x_max": 1040,
+        "y_max": 479
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Tall dark litter bin with a rectangular body and a large hooded opening at the top."
+        ],
+        "code": "COR_FEN_01",
+        "x_min": 1593,
+        "y_min": 511,
+        "x_max": 1653,
+        "y_max": 586
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Tall vertical pole",
+          "Curved arm with a streetlight head at the top"
+        ],
+        "code": "ECL_SIE_06",
+        "x_min": 509,
+        "y_min": 351,
+        "x_max": 533,
+        "y_max": 507
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender dark shaft",
+          "Stepped pale cap with horizontal bands"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1462,
+        "y_min": 682,
+        "x_max": 1474,
+        "y_max": 802
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender dark shaft",
+          "Stepped pale cap with horizontal bands"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1450,
+        "y_min": 676,
+        "x_max": 1462,
+        "y_max": 790
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender dark shaft",
+          "Stepped pale cap with horizontal bands"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1438,
+        "y_min": 670,
+        "x_max": 1450,
+        "y_max": 778
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender dark shaft",
+          "Stepped pale cap with horizontal bands"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1426,
+        "y_min": 664,
+        "x_max": 1438,
+        "y_max": 766
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender dark shaft",
+          "Stepped pale cap with horizontal bands"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1414,
+        "y_min": 658,
+        "x_max": 1426,
+        "y_max": 754
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender dark shaft",
+          "Stepped pale cap with horizontal bands"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1402,
+        "y_min": 652,
+        "x_max": 1414,
+        "y_max": 742
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender dark shaft",
+          "Stepped pale cap with horizontal bands"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1390,
+        "y_min": 646,
+        "x_max": 1402,
+        "y_max": 730
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender cylindrical bollard with a dark shaft and a short contrasting pale stepped cap."
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1395,
+        "y_min": 556,
+        "x_max": 1413,
+        "y_max": 610
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender dark shaft",
+          "Stepped pale cap with horizontal bands"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1378,
+        "y_min": 640,
+        "x_max": 1390,
+        "y_max": 718
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender dark shaft",
+          "Stepped pale cap with horizontal bands"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1366,
+        "y_min": 634,
+        "x_max": 1378,
+        "y_max": 706
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender dark shaft",
+          "Stepped pale cap with horizontal bands"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1354,
+        "y_min": 628,
+        "x_max": 1366,
+        "y_max": 694
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender cylindrical bollard with a dark shaft and a short contrasting pale stepped cap."
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1509,
+        "y_min": 553,
+        "x_max": 1524,
+        "y_max": 604
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender dark shaft",
+          "Stepped pale cap with horizontal bands"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1474,
+        "y_min": 688,
+        "x_max": 1480,
+        "y_max": 814
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender dark shaft",
+          "Stepped pale cap with horizontal bands"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1342,
+        "y_min": 622,
+        "x_max": 1354,
+        "y_max": 682
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender cylindrical bollard with a dark shaft and a short contrasting pale stepped cap."
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1320,
+        "y_min": 556,
+        "x_max": 1335,
+        "y_max": 604
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender dark shaft",
+          "Stepped pale cap with horizontal bands"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1330,
+        "y_min": 616,
+        "x_max": 1342,
+        "y_max": 670
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender dark shaft",
+          "Stepped pale cap with horizontal bands"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1318,
+        "y_min": 610,
+        "x_max": 1330,
+        "y_max": 658
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender dark shaft",
+          "Stepped pale cap with horizontal bands"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1306,
+        "y_min": 604,
+        "x_max": 1318,
+        "y_max": 646
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender cylindrical bollard with a dark shaft and a short contrasting pale stepped cap."
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1581,
+        "y_min": 547,
+        "x_max": 1593,
+        "y_max": 589
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender dark shaft",
+          "Stepped pale cap with horizontal bands"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1150,
+        "y_min": 490,
+        "x_max": 1162,
+        "y_max": 526
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender dark shaft",
+          "Stepped pale cap with horizontal bands"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1294,
+        "y_min": 598,
+        "x_max": 1306,
+        "y_max": 634
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender dark shaft",
+          "Stepped pale cap with horizontal bands"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1162,
+        "y_min": 502,
+        "x_max": 1174,
+        "y_max": 532
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender dark shaft",
+          "Stepped pale cap with horizontal bands"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1282,
+        "y_min": 592,
+        "x_max": 1294,
+        "y_max": 622
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender dark shaft",
+          "Stepped pale cap with horizontal bands"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1174,
+        "y_min": 514,
+        "x_max": 1186,
+        "y_max": 538
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender dark shaft",
+          "Stepped pale cap with horizontal bands"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1270,
+        "y_min": 586,
+        "x_max": 1282,
+        "y_max": 610
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender dark shaft",
+          "Stepped pale cap with horizontal bands"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1186,
+        "y_min": 526,
+        "x_max": 1198,
+        "y_max": 544
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender dark shaft",
+          "Stepped pale cap with horizontal bands"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1258,
+        "y_min": 580,
+        "x_max": 1270,
+        "y_max": 598
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender dark shaft",
+          "Stepped pale cap with horizontal bands"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1198,
+        "y_min": 538,
+        "x_max": 1210,
+        "y_max": 550
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender dark shaft",
+          "Stepped pale cap with horizontal bands"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1246,
+        "y_min": 574,
+        "x_max": 1258,
+        "y_max": 586
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender dark shaft",
+          "Stepped pale cap with horizontal bands"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1210,
+        "y_min": 550,
+        "x_max": 1222,
+        "y_max": 556
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Slender dark shaft",
+          "Stepped pale cap with horizontal bands"
+        ],
+        "code": "POT_FEN_01",
+        "x_min": 1234,
+        "y_min": 568,
+        "x_max": 1246,
+        "y_max": 574
+      }
+    ]
+  }
+}

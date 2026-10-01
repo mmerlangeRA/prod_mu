@@ -1,0 +1,468 @@
+{
+  "source": "groq",
+  "model": "qwen/qwen3.8-27b",
+  "tiles": 4,
+  "band_rows": [
+    220,
+    760
+  ],
+  "coordinates": "0-1000 of each tile's longer side, converted to panorama pixels",
+  "seconds": 13.07,
+  "skipped_objects": 6,
+  "usage": null,
+  "calls": [
+    {
+      "tile": [
+        0,
+        220,
+        600,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 388,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\":\n        783,\n      \"y_min\":\n        58,\n      \"x_max\":\n        882,\n      \"y_max\":\n        548,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Tall concrete utility pole with a single streetlight arm and luminaire head at the top.\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\":\n        188,\n      \"y_min\":\n        288,\n      \"x_max\":\n        428,\n      \"y_max\":\n        448,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Row of green trees and shrubs visible behind the dark fence on the left side of the building.\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\":\n        878,\n      \"y_min\":\n        328,\n      \"x_max\":\n        998,\n      \"y_max\":\n        478,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Green trees visible in the background on the right side of the scene.\"\n      ]\n    }\n  ]\n}"
+    },
+    {
+      "tile": [
+        440,
+        220,
+        1040,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 651,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\":\n      [\n        62,\n        58,\n        152,\n        545\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Tall concrete utility pole with a street lamp arm and head at the top\"\n      ]\n    },\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\":\n      [\n        352,\n        242,\n        372,\n        478\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender metal pole with a curved arm and lamp head\"\n      ]\n    },\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\":\n      [\n        738,\n        212,\n        792,\n        492\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Slender metal pole with a curved arm and lamp head\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\":\n      [\n        222,\n        292,\n        412,\n        578\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Young tree with a thin trunk and leafy canopy planted in the median\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\":\n      [\n        542,\n        242,\n        622,\n        422\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Tall coniferous tree\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\":\n      [\n        622,\n        252,\n        772,\n        482\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Large deciduous tree with a full canopy\"\n      ]\n    }\n  ]\n}"
+    },
+    {
+      "tile": [
+        880,
+        220,
+        1480,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 3368,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\":\n      0,\n      \"y_min\": 208,\n      \"x_max\": 62,\n      \"y_max\": 478,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Tall dark pole with a curved arm and a flat luminaire head at the top, characteristic of a public street light.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 472,\n      \"y_min\": 462,\n      \"x_max\": 482,\n      \"y_max\": 518,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 492,\n      \"y_min\": 468,\n      \"x_max\": 502,\n      \"y_max\": 525,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 512,\n      \"y_min\": 475,\n      \"x_max\": 522,\n      \"y_max\": 532,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 532,\n      \"y_min\": 482,\n      \"x_max\": 542,\n      \"y_max\": 540,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 552,\n      \"y_min\": 490,\n      \"x_max\": 562,\n      \"y_max\": 548,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 572,\n      \"y_min\": 498,\n      \"x_max\": 582,\n      \"y_max\": 555,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 592,\n      \"y_min\": 505,\n      \"x_max\": 602,\n      \"y_max\": 562,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 612,\n      \"y_min\": 512,\n      \"x_max\": 622,\n      \"y_max\": 570,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 632,\n      \"y_min\": 520,\n      \"x_max\": 642,\n      \"y_max\": 578,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 652,\n      \"y_min\": 528,\n      \"x_max\": 662,\n      \"y_max\": 585,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 672,\n      \"y_min\": 535,\n      \"x_max\": 682,\n      \"y_max\": 592,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 692,\n      \"y_min\": 542,\n      \"x_max\": 702,\n      \"y_max\": 600,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 712,\n      \"y_min\": 550,\n      \"x_max\": 722,\n      \"y_max\": 608,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 732,\n      \"y_min\": 558,\n      \"x_max\": 742,\n      \"y_max\": 615,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 752,\n      \"y_min\": 565,\n      \"x_max\": 762,\n      \"y_max\": 622,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 772,\n      \"y_min\": 572,\n      \"x_max\": 782,\n      \"y_max\": 630,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 792,\n      \"y_min\": 580,\n      \"x_max\": 802,\n      \"y_max\": 638,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 812,\n      \"y_min\": 588,\n      \"x_max\": 822,\n      \"y_max\": 645,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 832,\n      \"y_min\": 595,\n      \"x_max\": 842,\n      \"y_max\": 652,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 852,\n      \"y_min\": 602,\n      \"x_max\": 862,\n      \"y_max\": 660,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 872,\n      \"y_min\": 610,\n      \"x_max\": 882,\n      \"y_max\": 668,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 892,\n      \"y_min\": 618,\n      \"x_max\": 902,\n      \"y_max\": 675,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 912,\n      \"y_min\": 625,\n      \"x_max\": 922,\n      \"y_max\": 682,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 932,\n      \"y_min\": 632,\n      \"x_max\": 942,\n      \"y_max\": 690,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 952,\n      \"y_min\": 640,\n      \"x_max\": 962,\n      \"y_max\": 698,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard.\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": 972,\n      \"y_min\": 648,\n      \"x_max\": 982,\n      \"y_max\": 705,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard.\"\n      ]\n    }\n  ]\n}"
+    },
+    {
+      "tile": [
+        1320,
+        220,
+        1920,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 155,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"RAL01\",\n      \"x_min\": 672,\n      \"y_min\": 638,\n      \"x_max\": 998,\n      \"y_max\": 742,\n      \"confidence\": \"low\",\n      \"occluded\": true,\n      \"truncated\": true,\n      \"visible_evidence\": [\n        \"row of white shark-teeth triangles painted across the lane\",\n        \"raised ramp edge visible at the kerb\",\n        \"full profile and top of the bump hidden by the vehicle\"\n      ]\n    }\n  ]\n}"
+    }
+  ],
+  "output": {
+    "objects": [
+      {
+        "code": "ECL_SIE_06",
+        "x_min": 470,
+        "y_min": 255,
+        "x_max": 529,
+        "y_max": 549,
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Tall concrete utility pole with a single streetlight arm and luminaire head at the top."
+        ]
+      },
+      {
+        "code": "ARB",
+        "x_min": 113,
+        "y_min": 393,
+        "x_max": 257,
+        "y_max": 489,
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Row of green trees and shrubs visible behind the dark fence on the left side of the building."
+        ]
+      },
+      {
+        "code": "RAL01",
+        "x_min": 1723,
+        "y_min": 603,
+        "x_max": 1919,
+        "y_max": 665,
+        "confidence": "low",
+        "occluded": true,
+        "truncated": true,
+        "visible_evidence": [
+          "row of white shark-teeth triangles painted across the lane",
+          "raised ramp edge visible at the kerb",
+          "full profile and top of the bump hidden by the vehicle"
+        ]
+      },
+      {
+        "code": "ARB",
+        "x_min": 527,
+        "y_min": 417,
+        "x_max": 599,
+        "y_max": 507,
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Green trees visible in the background on the right side of the scene."
+        ]
+      },
+      {
+        "code": "ECL_SIE_06",
+        "x_min": 880,
+        "y_min": 345,
+        "x_max": 917,
+        "y_max": 507,
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Tall dark pole with a curved arm and a flat luminaire head at the top, characteristic of a public street light."
+        ]
+      },
+      {
+        "code": "POT_FEN_03",
+        "x_min": 1199,
+        "y_min": 509,
+        "x_max": 1205,
+        "y_max": 544,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+        ]
+      },
+      {
+        "code": "POT_FEN_03",
+        "x_min": 1211,
+        "y_min": 514,
+        "x_max": 1217,
+        "y_max": 549,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+        ]
+      },
+      {
+        "code": "POT_FEN_03",
+        "x_min": 1247,
+        "y_min": 527,
+        "x_max": 1253,
+        "y_max": 562,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+        ]
+      },
+      {
+        "code": "POT_FEN_03",
+        "x_min": 1259,
+        "y_min": 532,
+        "x_max": 1265,
+        "y_max": 567,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+        ]
+      },
+      {
+        "code": "POT_FEN_03",
+        "x_min": 1295,
+        "y_min": 545,
+        "x_max": 1301,
+        "y_max": 580,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+        ]
+      },
+      {
+        "code": "POT_FEN_03",
+        "x_min": 1307,
+        "y_min": 550,
+        "x_max": 1313,
+        "y_max": 585,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+        ]
+      },
+      {
+        "code": "POT_FEN_03",
+        "x_min": 1343,
+        "y_min": 563,
+        "x_max": 1349,
+        "y_max": 598,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+        ]
+      },
+      {
+        "code": "POT_FEN_03",
+        "x_min": 1355,
+        "y_min": 568,
+        "x_max": 1361,
+        "y_max": 603,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+        ]
+      },
+      {
+        "code": "POT_FEN_03",
+        "x_min": 1403,
+        "y_min": 586,
+        "x_max": 1409,
+        "y_max": 621,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+        ]
+      },
+      {
+        "code": "POT_FEN_03",
+        "x_min": 1439,
+        "y_min": 599,
+        "x_max": 1445,
+        "y_max": 634,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+        ]
+      },
+      {
+        "code": "POT_FEN_03",
+        "x_min": 1451,
+        "y_min": 604,
+        "x_max": 1457,
+        "y_max": 639,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+        ]
+      },
+      {
+        "code": "POT_FEN_03",
+        "x_min": 1391,
+        "y_min": 581,
+        "x_max": 1397,
+        "y_max": 616,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+        ]
+      },
+      {
+        "code": "POT_FEN_03",
+        "x_min": 1187,
+        "y_min": 505,
+        "x_max": 1193,
+        "y_max": 539,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+        ]
+      },
+      {
+        "code": "POT_FEN_03",
+        "x_min": 1223,
+        "y_min": 519,
+        "x_max": 1229,
+        "y_max": 553,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+        ]
+      },
+      {
+        "code": "POT_FEN_03",
+        "x_min": 1235,
+        "y_min": 523,
+        "x_max": 1241,
+        "y_max": 557,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+        ]
+      },
+      {
+        "code": "POT_FEN_03",
+        "x_min": 1271,
+        "y_min": 537,
+        "x_max": 1277,
+        "y_max": 571,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+        ]
+      },
+      {
+        "code": "POT_FEN_03",
+        "x_min": 1283,
+        "y_min": 541,
+        "x_max": 1289,
+        "y_max": 575,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+        ]
+      },
+      {
+        "code": "POT_FEN_03",
+        "x_min": 1319,
+        "y_min": 555,
+        "x_max": 1325,
+        "y_max": 589,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+        ]
+      },
+      {
+        "code": "POT_FEN_03",
+        "x_min": 1331,
+        "y_min": 559,
+        "x_max": 1337,
+        "y_max": 593,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+        ]
+      },
+      {
+        "code": "POT_FEN_03",
+        "x_min": 1367,
+        "y_min": 573,
+        "x_max": 1373,
+        "y_max": 607,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+        ]
+      },
+      {
+        "code": "POT_FEN_03",
+        "x_min": 1379,
+        "y_min": 577,
+        "x_max": 1385,
+        "y_max": 611,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+        ]
+      },
+      {
+        "code": "POT_FEN_03",
+        "x_min": 1415,
+        "y_min": 591,
+        "x_max": 1421,
+        "y_max": 625,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+        ]
+      },
+      {
+        "code": "POT_FEN_03",
+        "x_min": 1427,
+        "y_min": 595,
+        "x_max": 1433,
+        "y_max": 629,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+        ]
+      },
+      {
+        "code": "POT_FEN_03",
+        "x_min": 1463,
+        "y_min": 609,
+        "x_max": 1469,
+        "y_max": 643,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+        ]
+      },
+      {
+        "code": "POT_FEN_03",
+        "x_min": 1175,
+        "y_min": 501,
+        "x_max": 1181,
+        "y_max": 535,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+        ]
+      },
+      {
+        "code": "POT_FEN_03",
+        "x_min": 1163,
+        "y_min": 497,
+        "x_max": 1169,
+        "y_max": 531,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Short white cylindrical post with a dark reflective band near the top, consistent with a flexible delineator bollard."
+        ]
+      }
+    ]
+  }
+}

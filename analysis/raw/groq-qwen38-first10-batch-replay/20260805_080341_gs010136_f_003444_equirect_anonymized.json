@@ -1,0 +1,545 @@
+{
+  "source": "groq",
+  "model": "qwen/qwen3.8-27b",
+  "tiles": 4,
+  "band_fraction": [
+    0.229,
+    0.792
+  ],
+  "coordinates": "0-1000 of each tile's longer side, converted to panorama pixels",
+  "seconds": 0.0,
+  "skipped_objects": 0,
+  "filtered_repetitions": [
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1842,
+        474,
+        1848,
+        483
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1851,
+        471,
+        1857,
+        480
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1860,
+        468,
+        1866,
+        477
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1683,
+        525,
+        1689,
+        534
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1695,
+        522,
+        1701,
+        531
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1707,
+        519,
+        1713,
+        528
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1716,
+        516,
+        1722,
+        525
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1725,
+        513,
+        1731,
+        522
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1761,
+        501,
+        1767,
+        510
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1770,
+        498,
+        1776,
+        507
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1779,
+        495,
+        1785,
+        504
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1788,
+        492,
+        1794,
+        501
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1797,
+        489,
+        1803,
+        498
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1806,
+        486,
+        1812,
+        495
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1815,
+        483,
+        1821,
+        492
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1824,
+        480,
+        1830,
+        489
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1833,
+        477,
+        1839,
+        486
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1869,
+        465,
+        1875,
+        474
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1878,
+        462,
+        1884,
+        471
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1887,
+        459,
+        1893,
+        468
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1896,
+        456,
+        1902,
+        465
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1905,
+        453,
+        1911,
+        462
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1914,
+        450,
+        1920,
+        459
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1734,
+        510,
+        1740,
+        519
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1743,
+        507,
+        1749,
+        516
+      ]
+    },
+    {
+      "code": "POT_FEN_03",
+      "box": [
+        1752,
+        504,
+        1758,
+        513
+      ]
+    }
+  ],
+  "usage": null,
+  "calls": [
+    {
+      "tile": [
+        0,
+        220,
+        600,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 573,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\": 122,\n      \"y_min\": 208,\n      \"x_max\": 202,\n      \"y_max\": 452,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Tall street lamp post with a curved arm and two downward-facing luminaire heads\"\n      ]\n    },\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\": 42,\n      \"y_min\": 292,\n      \"x_max\": 72,\n      \"y_max\": 432,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Distant street lamp post with a curved arm and luminaire head\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\": 152,\n      \"y_min\": 242,\n      \"x_max\": 322,\n      \"y_max\": 442,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Large leafy tree with a visible trunk and dense green canopy\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\": 312,\n      \"y_min\": 252,\n      \"x_max\": 372,\n      \"y_max\": 422,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Tall coniferous tree behind the deciduous tree\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\": 392,\n      \"y_min\": 272,\n      \"x_max\": 472,\n      \"y_max\": 422,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Coniferous tree with a pointed top\"\n      ]\n    }\n  ]\n}",
+      "batch_id": "batch_01m3w523vfesmtb1x2xnkzragt"
+    },
+    {
+      "tile": [
+        440,
+        220,
+        1040,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 486,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\": 250,\n      \"y_min\": 100,\n      \"x_max\": 280,\n      \"y_max\": 550,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Tall slender pole\",\n        \"Flat LED luminaire head at the top\",\n        \"Public street lighting mast\"\n      ]\n    },\n    {\n      \"code\": \"ECL_SIE_06\",\n      \"x_min\": 670,\n      \"y_min\": 310,\n      \"x_max\": 700,\n      \"y_max\": 450,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Distant street lamp post\",\n        \"Luminaire head visible against the sky\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\": 650,\n      \"y_min\": 350,\n      \"x_max\": 780,\n      \"y_max\": 450,\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Green leafy tree\",\n        \"Located on the roadside verge\"\n      ]\n    },\n    {\n      \"code\": \"ARB\",\n      \"x_min\": 890,\n      \"y_min\": 390,\n      \"x_max\": 930,\n      \"y_max\": 440,\n      \"confidence\": \"medium\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"Distant tree\",\n        \"Visible at the end of the road\"\n      ]\n    }\n  ]\n}",
+      "batch_id": "batch_01m3w523vfesmtb1x2xnkzragt"
+    },
+    {
+      "tile": [
+        880,
+        220,
+        1480,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 11,
+      "raw_text": "{\"objects\": []}",
+      "batch_id": "batch_01m3w523vfesmtb1x2xnkzragt"
+    },
+    {
+      "tile": [
+        1320,
+        220,
+        1920,
+        760
+      ],
+      "prompt_tokens": 6869,
+      "completion_tokens": 4029,
+      "raw_text": "{\n  \"objects\": [\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        48,\n        688,\n        88,\n        762\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        198,\n        638,\n        228,\n        708\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        318,\n        598,\n        342,\n        658\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        398,\n        568,\n        418,\n        618\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        458,\n        548,\n        475,\n        588\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        508,\n        533,\n        522,\n        563\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        548,\n        523,\n        560,\n        548\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        580,\n        513,\n        590,\n        533\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        605,\n        508,\n        615,\n        523\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        625,\n        503,\n        635,\n        518\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        645,\n        498,\n        655,\n        513\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        660,\n        493,\n        670,\n        508\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        675,\n        488,\n        685,\n        503\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        690,\n        483,\n        700,\n        498\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        705,\n        478,\n        715,\n        493\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        720,\n        473,\n        730,\n        488\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        735,\n        468,\n        745,\n        483\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        750,\n        463,\n        760,\n        478\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        765,\n        458,\n        775,\n        473\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        780,\n        453,\n        790,\n        468\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        795,\n        448,\n        805,\n        463\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        810,\n        443,\n        820,\n        458\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        825,\n        438,\n        835,\n        453\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        840,\n        433,\n        850,\n        448\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        855,\n        428,\n        865,\n        443\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        870,\n        423,\n        880,\n        438\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        885,\n        418,\n        895,\n        433\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        900,\n        413,\n        910,\n        428\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        915,\n        408,\n        925,\n        423\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        930,\n        403,\n        940,\n        418\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        945,\n        398,\n        955,\n        413\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        960,\n        393,\n        970,\n        408\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        975,\n        388,\n        985,\n        403\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    },\n    {\n      \"code\": \"POT_FEN_03\",\n      \"x_min\": [\n        990,\n        383,\n        1000,\n        398\n      ],\n      \"confidence\": \"high\",\n      \"occluded\": false,\n      \"truncated\": false,\n      \"visible_evidence\": [\n        \"flexible cylindrical bollard\",\n        \"alternating reflective bands\",\n        \"wide circular flared base\"\n      ]\n    }\n  ]\n}",
+      "batch_id": "batch_01m3w523vfesmtb1x2xnkzragt"
+    }
+  ],
+  "output": {
+    "objects": [
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Large leafy tree with a visible trunk and dense green canopy"
+        ],
+        "code": "ARB",
+        "x_min": 91,
+        "y_min": 365,
+        "x_max": 193,
+        "y_max": 485
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Tall street lamp post with a curved arm and two downward-facing luminaire heads"
+        ],
+        "code": "ECL_SIE_06",
+        "x_min": 73,
+        "y_min": 345,
+        "x_max": 121,
+        "y_max": 491
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Tall slender pole",
+          "Flat LED luminaire head at the top",
+          "Public street lighting mast"
+        ],
+        "code": "ECL_SIE_06",
+        "x_min": 590,
+        "y_min": 280,
+        "x_max": 608,
+        "y_max": 550
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Green leafy tree",
+          "Located on the roadside verge"
+        ],
+        "code": "ARB",
+        "x_min": 830,
+        "y_min": 430,
+        "x_max": 908,
+        "y_max": 490
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Coniferous tree with a pointed top"
+        ],
+        "code": "ARB",
+        "x_min": 235,
+        "y_min": 383,
+        "x_max": 283,
+        "y_max": 473
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Tall coniferous tree behind the deciduous tree"
+        ],
+        "code": "ARB",
+        "x_min": 187,
+        "y_min": 371,
+        "x_max": 223,
+        "y_max": 473
+      },
+      {
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Distant street lamp post",
+          "Luminaire head visible against the sky"
+        ],
+        "code": "ECL_SIE_06",
+        "x_min": 842,
+        "y_min": 406,
+        "x_max": 860,
+        "y_max": 490
+      },
+      {
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Distant street lamp post with a curved arm and luminaire head"
+        ],
+        "code": "ECL_SIE_06",
+        "x_min": 25,
+        "y_min": 395,
+        "x_max": 43,
+        "y_max": 479
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "flexible cylindrical bollard",
+          "alternating reflective bands",
+          "wide circular flared base"
+        ],
+        "code": "POT_FEN_03",
+        "x_min": 1349,
+        "y_min": 633,
+        "x_max": 1373,
+        "y_max": 677
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "flexible cylindrical bollard",
+          "alternating reflective bands",
+          "wide circular flared base"
+        ],
+        "code": "POT_FEN_03",
+        "x_min": 1439,
+        "y_min": 603,
+        "x_max": 1457,
+        "y_max": 645
+      },
+      {
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "Distant tree",
+          "Visible at the end of the road"
+        ],
+        "code": "ARB",
+        "x_min": 974,
+        "y_min": 454,
+        "x_max": 998,
+        "y_max": 484
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "flexible cylindrical bollard",
+          "alternating reflective bands",
+          "wide circular flared base"
+        ],
+        "code": "POT_FEN_03",
+        "x_min": 1511,
+        "y_min": 579,
+        "x_max": 1525,
+        "y_max": 615
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "flexible cylindrical bollard",
+          "alternating reflective bands",
+          "wide circular flared base"
+        ],
+        "code": "POT_FEN_03",
+        "x_min": 1559,
+        "y_min": 561,
+        "x_max": 1571,
+        "y_max": 591
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "flexible cylindrical bollard",
+          "alternating reflective bands",
+          "wide circular flared base"
+        ],
+        "code": "POT_FEN_03",
+        "x_min": 1595,
+        "y_min": 549,
+        "x_max": 1605,
+        "y_max": 573
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "flexible cylindrical bollard",
+          "alternating reflective bands",
+          "wide circular flared base"
+        ],
+        "code": "POT_FEN_03",
+        "x_min": 1625,
+        "y_min": 540,
+        "x_max": 1633,
+        "y_max": 558
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "flexible cylindrical bollard",
+          "alternating reflective bands",
+          "wide circular flared base"
+        ],
+        "code": "POT_FEN_03",
+        "x_min": 1649,
+        "y_min": 534,
+        "x_max": 1656,
+        "y_max": 549
+      },
+      {
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "flexible cylindrical bollard",
+          "alternating reflective bands",
+          "wide circular flared base"
+        ],
+        "code": "POT_FEN_03",
+        "x_min": 1668,
+        "y_min": 528,
+        "x_max": 1674,
+        "y_max": 540
+      }
+    ]
+  }
+}

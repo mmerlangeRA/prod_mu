@@ -1,0 +1,150 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98999787,
+     49.35191019
+    ]
+   },
+   "properties": {
+    "feature_id": "F0001",
+    "code": "ARB",
+    "category_fr": "Arbres",
+    "category_en": "Trees",
+    "classification": "direct_category",
+    "confidence": "low",
+    "code_agreement": 1.0,
+    "n_detections": 1,
+    "min_distance_m": 2.68,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+      "object_id": "object_5",
+      "code": "ARB",
+      "distance_m": 2.68
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.99011669,
+     49.35191361
+    ]
+   },
+   "properties": {
+    "feature_id": "F0002",
+    "code": "ARB",
+    "category_fr": "Arbres",
+    "category_en": "Trees",
+    "classification": "direct_category",
+    "confidence": "high",
+    "code_agreement": 1.0,
+    "n_detections": 1,
+    "min_distance_m": 6.75,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+      "object_id": "object_2",
+      "code": "ARB",
+      "distance_m": 6.75
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.99013219,
+     49.35193982
+    ]
+   },
+   "properties": {
+    "feature_id": "F0003",
+    "code": "ECL_SIE_06",
+    "category_fr": "Points d’éclairage",
+    "category_en": "Lighting points",
+    "classification": "category_fallback",
+    "confidence": "medium",
+    "code_agreement": 1.0,
+    "n_detections": 1,
+    "min_distance_m": 7.87,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+      "object_id": "object_3",
+      "code": "ECL_SIE_06",
+      "distance_m": 7.87
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.99002897,
+     49.35185822
+    ]
+   },
+   "properties": {
+    "feature_id": "F0004",
+    "code": "POT_CHO_04",
+    "category_fr": "Potelets",
+    "category_en": "Bollards",
+    "classification": "category_fallback",
+    "confidence": "low",
+    "code_agreement": 1.0,
+    "n_detections": 1,
+    "min_distance_m": 7.56,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+      "object_id": "object_20",
+      "code": "POT_CHO_04",
+      "distance_m": 7.56
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98999246,
+     49.35195621
+    ]
+   },
+   "properties": {
+    "feature_id": "F0005",
+    "code": "RAL01",
+    "category_fr": "Ralentisseurs",
+    "category_en": "Speed bumps",
+    "classification": "shape_subtype",
+    "confidence": "low",
+    "code_agreement": 1.0,
+    "n_detections": 1,
+    "min_distance_m": 4.11,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+      "object_id": "object_7",
+      "code": "RAL01",
+      "distance_m": 4.11
+     }
+    ]
+   }
+  }
+ ]
+}
