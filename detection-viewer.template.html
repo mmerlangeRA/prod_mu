@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Detection analysis viewer</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+:root{font-family:Inter,Segoe UI,Arial,sans-serif;color:#182522;background:#f3f5f2;font-synthesis:none;--green:#17483b;--muted:#64736e;--line:#d6ddd8}*{box-sizing:border-box}body{margin:0;overflow-x:hidden}button,select,input{font:inherit}button{cursor:pointer}header{background:var(--green);color:#fff;padding:22px max(20px,calc((100vw - 1500px)/2))}h1{font-size:27px;margin:0 0 6px}header p{margin:0;color:#c9ddd5;font-size:14px}.shell{max-width:1540px;margin:auto;padding:20px}.toolbar{display:flex;gap:14px;align-items:end;flex-wrap:wrap;margin-bottom:16px;min-width:0}.toolbar label{display:flex;flex-direction:column;gap:6px;color:#50615b;font-size:12px;font-weight:600;min-width:0}.toolbar label:first-child{flex:1 1 310px}.toolbar .check{flex-direction:row;align-items:center;padding-bottom:10px}.toolbar select{width:100%;min-width:190px;max-width:100%;padding:9px 11px;border:1px solid #bdc9c1;border-radius:7px;background:#fff;color:inherit}.summary{margin-left:auto;color:var(--muted);font-size:14px;padding-bottom:10px}.layout{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:20px;align-items:start}.stage-panel,.side{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;min-width:0}.filebar{display:flex;justify-content:space-between;gap:15px;align-items:center;padding:12px 15px;border-bottom:1px solid var(--line);font-size:13px}.filebar strong{overflow-wrap:anywhere;min-width:0}.warning{color:#945014}.stage-scroll{overflow:hidden;background:#1d2422;padding:10px}.stage{position:relative;width:100%;line-height:0}.stage img{display:block;width:100%;height:auto}.box{position:absolute;padding:0;border:2px solid var(--box-color);background:color-mix(in srgb,var(--box-color) 12%,transparent);min-width:4px;min-height:4px;color:#fff}.box:hover,.box.selected{border-width:3px;background:color-mix(in srgb,var(--box-color) 24%,transparent);z-index:3}.box:focus-visible{outline:3px solid #fff;outline-offset:2px;z-index:4}.box-label{position:absolute;left:-2px;top:-25px;line-height:1;padding:5px 7px;background:var(--box-color);color:#fff;font-size:11px;font-weight:700;white-space:nowrap;border-radius:4px}.hide-labels .box-label{display:none}.side h2{font-size:17px;margin:0;padding:15px;border-bottom:1px solid var(--line)}.object-list{max-height:350px;overflow:auto;border-bottom:1px solid var(--line)}.row{display:block;width:100%;text-align:left;border:0;border-bottom:1px solid #edf0ee;background:#fff;padding:11px 14px;color:inherit}.row:hover,.row.selected{background:#edf5f1}.row strong{display:block;font-size:14px}.row span{font-size:12px;color:var(--muted)}.detail{padding:15px}.detail.empty{color:var(--muted)}.detail dl{display:grid;grid-template-columns:92px 1fr;gap:8px 10px;margin:0;font-size:13px}.detail dt{color:var(--muted)}.detail dd{margin:0;overflow-wrap:anywhere}.evidence{margin:8px 0 0;padding-left:18px;font-size:13px;line-height:1.45}.badge{display:inline-block;padding:3px 7px;border-radius:999px;background:#e6efe9;font-size:11px}.empty-state{padding:70px 20px;text-align:center;color:var(--muted)}footer{margin-top:15px;font-size:12px;color:var(--muted)}@media(max-width:900px){.layout{grid-template-columns:1fr}.summary{margin-left:0}.object-list{max-height:260px}}@media(max-width:520px){header{padding:18px}.shell{padding:12px}.toolbar label:first-child{flex-basis:100%}.toolbar label:nth-child(2){flex:1}.summary{flex-basis:100%;padding-bottom:0}.filebar{align-items:flex-start;flex-direction:column}.stage-scroll{padding:4px}}
+</style>
+<style>
+.map-panel{margin-top:20px;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}.map-head{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;padding:14px 16px;border-bottom:1px solid var(--line)}.map-head h2{font-size:17px;margin:0}.map-controls{display:flex;align-items:center;gap:9px;color:var(--muted);font-size:13px}.map-controls input{width:150px}.map-meta{padding:0 16px 13px;color:var(--muted);font-size:12px}.map{height:440px;background:#e6ebe7}.map-message{display:flex;align-items:center;justify-content:center;height:100%;padding:24px;text-align:center;color:var(--muted)}.leaflet-popup-content{line-height:1.45}.leaflet-popup-content strong{display:block}.map-note{margin:10px 16px 15px;color:#80521d;font-size:12px;line-height:1.45}@media(max-width:600px){.map{height:340px}.map-controls{width:100%}.map-controls input{flex:1}}
+</style>
+</head>
+<body>
+<header><h1>Detection analysis viewer</h1><p>Bounding boxes from <code>analysis/</code>, paired with same-name images in <code>queries/</code>.</p></header>
+<main class="shell">
+<div class="toolbar">
+<label>Analysis<select id="dataset"></select></label>
+<label>Code<select id="codeFilter"><option value="">All codes</option></select></label>
+<label class="check"><input id="showLabels" type="checkbox" checked> Show labels</label>
+<div class="summary" id="summary"></div>
+</div>
+<div class="layout">
+<section class="stage-panel">
+<div class="filebar"><strong id="imageName"></strong><span id="pairing"></span></div>
+<div class="stage-scroll"><div class="stage" id="stage"><img id="image" alt="Query image"><div id="overlay"></div></div></div>
+</section>
+<aside class="side"><h2>Detected objects</h2><div class="object-list" id="objectList"></div><div class="detail empty" id="detail">Select a box or result.</div></aside>
+</div>
+<section class="map-panel" id="mapPanel">
+<div class="map-head"><h2>Approximate map</h2><div class="map-controls"><label for="mapDistance">Nominal object distance</label><input id="mapDistance" type="range" min="5" max="60" step="5" value="20"><strong id="mapDistanceValue">20 m</strong></div></div>
+<div class="map-meta" id="mapMeta"></div><div class="map" id="map"><div class="map-message">Loading map…</div></div>
+<p class="map-note">Map positions are bearing estimates, not measured object coordinates. Each marker is projected at the selected nominal distance from the EXIF camera GPS position. Horizontal equirectangular position supplies the relative bearing; EXIF GPS destination bearing is treated as the panorama center heading.</p>
+</section>
+<footer>Boxes use normalized xywh coordinates. The viewer displays analysis data as provided; it does not rerun recognition.</footer>
+</main>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script id="data" type="application/json">/*__DETECTION_DATA__*/</script>
+<script>
+'use strict';
+const datasets=JSON.parse(document.getElementById('data').textContent),$=id=>document.getElementById(id);
+const colors=['#e5484d','#2878d0','#008f68','#a15c00','#8358c5','#c43883','#087ea4','#6b7b12'];
+let active=0,selected=null,map=null,mapLayers=null;
+const esc=value=>String(value??'');
+function colorFor(code){let hash=0;for(const char of esc(code))hash=(hash*31+char.charCodeAt(0))>>>0;return colors[hash%colors.length];}
+function addOption(select,value,label){const option=document.createElement('option');option.value=value;option.textContent=label;select.append(option);}
+function selectedData(){return datasets[active];}
+function filteredObjects(){const objects=selectedData()?.data.images[0].objects||[],code=$('codeFilter').value;return code?objects.filter(object=>object.code===code):objects;}
+function showDetail(object){
+ selected=object?.object_id??null;document.querySelectorAll('[data-object-id]').forEach(element=>element.classList.toggle('selected',element.dataset.objectId===selected));
+ if(!object){$('detail').className='detail empty';$('detail').textContent='Select a box or result.';return;}
+ $('detail').className='detail';$('detail').replaceChildren();
+ const dl=document.createElement('dl');
+ const fields=[['Object',object.object_id],['Code',object.code],['Category',`${object.category_en} / ${object.category_fr}`],['Class',object.classification],['Confidence',object.confidence],['Box',`${object.bbox.x}, ${object.bbox.y}, ${object.bbox.width}, ${object.bbox.height}`],['Occluded',object.occluded?'Yes':'No'],['Truncated',object.truncated?'Yes':'No']];
+ for(const [term,value] of fields){const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=term;dd.textContent=esc(value);dl.append(dt,dd);}$('detail').append(dl);
+ if(object.visible_evidence?.length){const heading=document.createElement('p');heading.textContent='Visible evidence';heading.style.margin='16px 0 4px';heading.style.fontWeight='600';const list=document.createElement('ul');list.className='evidence';for(const evidence of object.visible_evidence){const item=document.createElement('li');item.textContent=evidence;list.append(item);}$('detail').append(heading,list);}
+}
+function destinationPoint(latitude,longitude,bearingDegrees,distanceMeters){
+ const radius=6371000,bearing=bearingDegrees*Math.PI/180,angular=distanceMeters/radius,lat1=latitude*Math.PI/180,lon1=longitude*Math.PI/180;
+ const lat2=Math.asin(Math.sin(lat1)*Math.cos(angular)+Math.cos(lat1)*Math.sin(angular)*Math.cos(bearing));
+ const lon2=lon1+Math.atan2(Math.sin(bearing)*Math.sin(angular)*Math.cos(lat1),Math.cos(angular)-Math.sin(lat1)*Math.sin(lat2));
+ return [lat2*180/Math.PI,((lon2*180/Math.PI+540)%360)-180];
+}
+function popupNode(object,bearing,distance){const node=document.createElement('div'),title=document.createElement('strong'),details=document.createElement('span');title.textContent=object.code+' · '+object.object_id;details.textContent=`${object.category_en}; bearing ${bearing.toFixed(1)}°; nominal distance ${distance} m`;node.append(title,details);return node;}
+function renderMap(){
+ const dataset=selectedData(),metadata=dataset?.exif||{},latitude=metadata.latitude,longitude=metadata.longitude,heading=metadata.heading_deg;
+ if(!Number.isFinite(latitude)||!Number.isFinite(longitude)||!Number.isFinite(heading)){$('map').replaceChildren();const message=document.createElement('div');message.className='map-message';message.textContent='No usable EXIF GPS and heading data for this image.';$('map').append(message);$('mapMeta').textContent='';if(map){map.remove();map=null;mapLayers=null;}return;}
+ $('mapMeta').textContent=`Camera ${latitude.toFixed(7)}, ${longitude.toFixed(7)} · center heading ${heading.toFixed(1)}° (${metadata.heading_source}) · EXIF orientation ${metadata.orientation} · ${metadata.projection_type||'unknown projection'} · ${metadata.captured_at||'capture time unavailable'}`;
+ if(!window.L){$('map').replaceChildren();const message=document.createElement('div');message.className='map-message';message.textContent='Leaflet could not load. Internet access is needed for the map library and OpenStreetMap tiles.';$('map').append(message);return;}
+ if(!map){$('map').replaceChildren();map=L.map('map',{zoomControl:true});L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:20,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);mapLayers=L.layerGroup().addTo(map);}mapLayers.clearLayers();
+ const distance=Number($('mapDistance').value),bounds=[[latitude,longitude]];L.circleMarker([latitude,longitude],{radius:7,color:'#17211e',weight:3,fillColor:'#fff',fillOpacity:1}).bindTooltip('Camera GPS').addTo(mapLayers);
+ for(const object of filteredObjects()){
+  const centerX=object.bbox.x+object.bbox.width/2,bearing=(heading+(centerX-.5)*360+360)%360,point=destinationPoint(latitude,longitude,bearing,distance),color=colorFor(object.code);bounds.push(point);
+  L.polyline([[latitude,longitude],point],{color,weight:2,opacity:.65,dashArray:'5 5'}).addTo(mapLayers);
+  L.circleMarker(point,{radius:6,color:'#fff',weight:2,fillColor:color,fillOpacity:1}).bindPopup(popupNode(object,bearing,distance)).on('click',()=>showDetail(object)).addTo(mapLayers);
+ }
+ map.fitBounds(bounds,{padding:[28,28],maxZoom:20});setTimeout(()=>map.invalidateSize(),0);
+}
+function renderObjects(){
+ const objects=filteredObjects();$('overlay').replaceChildren();$('objectList').replaceChildren();$('summary').textContent=`${objects.length} visible of ${selectedData().data.images[0].objects.length} objects`;
+ for(const object of objects){
+  const color=colorFor(object.code),box=document.createElement('button');box.type='button';box.className='box';box.dataset.objectId=object.object_id;box.setAttribute('aria-label',`${object.code}, ${object.object_id}`);box.style.cssText=`left:${object.bbox.x*100}%;top:${object.bbox.y*100}%;width:${object.bbox.width*100}%;height:${object.bbox.height*100}%;--box-color:${color}`;
+  const label=document.createElement('span');label.className='box-label';label.textContent=object.code;box.append(label);box.onclick=()=>showDetail(object);$('overlay').append(box);
+  const row=document.createElement('button');row.type='button';row.className='row';row.dataset.objectId=object.object_id;const strong=document.createElement('strong'),meta=document.createElement('span');strong.textContent=object.code+' · '+object.object_id;meta.textContent=object.category_en+' · '+object.confidence;row.append(strong,meta);row.onclick=()=>showDetail(object);$('objectList').append(row);
+ }
+ if(!objects.length){const empty=document.createElement('div');empty.className='empty-state';empty.textContent='No objects for this filter.';$('objectList').append(empty);}
+ showDetail(objects.find(object=>object.object_id===selected)||objects[0]||null);
+ renderMap();
+}
+function renderDataset(){
+ const dataset=selectedData();if(!dataset)return;
+ selected=null;$('image').src=dataset.image_file;$('image').alt='Query image '+dataset.image_file;$('imageName').textContent=dataset.image_file;
+ $('pairing').textContent=dataset.internal_name_matches?'Filename matched JSON image_file':'Matched by analysis filename';$('pairing').className=dataset.internal_name_matches?'':'warning';
+ $('codeFilter').replaceChildren();addOption($('codeFilter'),'','All codes');const codes=[...new Set(dataset.data.images[0].objects.map(object=>object.code))].sort();for(const code of codes)addOption($('codeFilter'),code,code);
+ renderObjects();
+}
+for(const [index,dataset] of datasets.entries())addOption($('dataset'),String(index),dataset.display_name||dataset.analysis_file.split('/').pop());
+$('dataset').onchange=()=>{active=Number($('dataset').value);renderDataset();};$('codeFilter').onchange=renderObjects;$('showLabels').onchange=()=>$('stage').classList.toggle('hide-labels',!$('showLabels').checked);
+$('mapDistance').oninput=()=>{$('mapDistanceValue').textContent=$('mapDistance').value+' m';renderMap();};
+$('image').onerror=()=>{$('pairing').textContent='Image could not be loaded';$('pairing').className='warning';};
+if(datasets.length)renderDataset();else{$('summary').textContent='No analyses';$('stage').replaceChildren();$('objectList').textContent='Run the build script after adding matching files.';}
+</script>
+</body>
+</html>

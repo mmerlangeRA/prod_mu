@@ -1,0 +1,485 @@
+{
+  "schema_version": "1.0.0",
+  "coordinate_system": "normalized_xywh",
+  "images": [
+    {
+      "image_file": "20260810_132659_gs020160_f_002562_equirect_anonymized.jpg",
+      "width": null,
+      "height": null,
+      "objects": [
+        {
+          "object_id": "object_1",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": { "x": 0.00, "y": 0.42, "width": 0.04, "height": 0.12 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["tree with green foliage on far left", "natural vegetation alongside road"]
+        },
+        {
+          "object_id": "object_2",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": { "x": 0.06, "y": 0.40, "width": 0.06, "height": 0.15 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["tree with green canopy", "visible trunk and branching structure"]
+        },
+        {
+          "object_id": "object_3",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": { "x": 0.24, "y": 0.25, "width": 0.12, "height": 0.30 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["large tree with broad green canopy", "prominent trunk and branching visible"]
+        },
+        {
+          "object_id": "object_4",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": { "x": 0.40, "y": 0.35, "width": 0.06, "height": 0.15 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["tree with green foliage", "natural growth form"]
+        },
+        {
+          "object_id": "object_5",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": { "x": 0.51, "y": 0.35, "width": 0.05, "height": 0.15 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["tree with green canopy", "visible trunk"]
+        },
+        {
+          "object_id": "object_6",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": { "x": 0.65, "y": 0.30, "width": 0.10, "height": 0.20 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["tree with dense green foliage", "natural vegetation"]
+        },
+        {
+          "object_id": "object_7",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": { "x": 0.80, "y": 0.30, "width": 0.15, "height": 0.25 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["large tree with broad canopy", "visible trunk and branches"]
+        },
+        {
+          "object_id": "object_8",
+          "code": "ECL_SIE_06",
+          "category_fr": "Points d'éclairage",
+          "category_en": "Lighting points",
+          "classification": "category_fallback",
+          "bbox": { "x": 0.82, "y": 0.15, "width": 0.02, "height": 0.40 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["tall slender pole with horizontal arm at top", "standard street light geometry, lacks solar panel of ECL_FEN_01"]
+        },
+        {
+          "object_id": "object_9",
+          "code": "BOU-E",
+          "category_fr": "Bouches d'égout",
+          "category_en": "Manholes",
+          "classification": "direct_category",
+          "bbox": { "x": 0.01, "y": 0.55, "width": 0.02, "height": 0.03 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["circular manhole cover on road surface", "dark circular disc embedded in pavement"]
+        }
+      ]
+    },
+    {
+      "image_file": "20260810_132659_gs020160_f_002425_equirect_anonymized.jpg",
+      "width": null,
+      "height": null,
+      "objects": [
+        {
+          "object_id": "object_1",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": { "x": 0.02, "y": 0.35, "width": 0.06, "height": 0.15 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["tree with green foliage on left", "natural vegetation"]
+        },
+        {
+          "object_id": "object_2",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": { "x": 0.37, "y": 0.28, "width": 0.06, "height": 0.22 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["tall tree with green canopy", "visible trunk and branching"]
+        },
+        {
+          "object_id": "object_3",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": { "x": 0.48, "y": 0.38, "width": 0.08, "height": 0.12 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["tree with green foliage", "natural growth form"]
+        },
+        {
+          "object_id": "object_4",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": { "x": 0.58, "y": 0.30, "width": 0.15, "height": 0.20 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["tree with dense green canopy", "natural vegetation"]
+        },
+        {
+          "object_id": "object_5",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": { "x": 0.80, "y": 0.30, "width": 0.15, "height": 0.25 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["large tree with broad canopy", "visible trunk"]
+        },
+        {
+          "object_id": "object_6",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": { "x": 0.92, "y": 0.35, "width": 0.06, "height": 0.15 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["tree with green foliage on far right", "natural vegetation"]
+        },
+        {
+          "object_id": "object_7",
+          "code": "ECL_SIE_06",
+          "category_fr": "Points d'éclairage",
+          "category_en": "Lighting points",
+          "classification": "category_fallback",
+          "bbox": { "x": 0.52, "y": 0.35, "width": 0.01, "height": 0.15 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["tall thin pole with light fixture", "standard public lighting design"]
+        },
+        {
+          "object_id": "object_8",
+          "code": "ECL_SIE_06",
+          "category_fr": "Points d'éclairage",
+          "category_en": "Lighting points",
+          "classification": "category_fallback",
+          "bbox": { "x": 0.90, "y": 0.25, "width": 0.02, "height": 0.30 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["tall slender pole with horizontal arm at top", "standard street light geometry"]
+        }
+      ]
+    },
+    {
+      "image_file": "20260810_132659_gs020160_f_002230_equirect_anonymized.jpg",
+      "width": null,
+      "height": null,
+      "objects": [
+        {
+          "object_id": "object_1",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": { "x": 0.01, "y": 0.40, "width": 0.04, "height": 0.12 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["tree with green foliage on far left", "natural vegetation"]
+        },
+        {
+          "object_id": "object_2",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": { "x": 0.43, "y": 0.38, "width": 0.06, "height": 0.12 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["tree with green canopy", "visible trunk"]
+        },
+        {
+          "object_id": "object_3",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": { "x": 0.50, "y": 0.38, "width": 0.10, "height": 0.12 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["cluster of trees with green foliage", "natural vegetation"]
+        },
+        {
+          "object_id": "object_4",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": { "x": 0.65, "y": 0.30, "width": 0.12, "height": 0.20 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["tree with dense green canopy", "natural growth form"]
+        },
+        {
+          "object_id": "object_5",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": { "x": 0.82, "y": 0.30, "width": 0.15, "height": 0.25 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["large tree with broad canopy", "visible trunk and branches"]
+        },
+        {
+          "object_id": "object_6",
+          "code": "ECL_SIE_06",
+          "category_fr": "Points d'éclairage",
+          "category_en": "Lighting points",
+          "classification": "category_fallback",
+          "bbox": { "x": 0.17, "y": 0.38, "width": 0.01, "height": 0.10 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["slender vertical pole with overhead light", "typical street lighting infrastructure"]
+        },
+        {
+          "object_id": "object_7",
+          "code": "ECL_SIE_06",
+          "category_fr": "Points d'éclairage",
+          "category_en": "Lighting points",
+          "classification": "category_fallback",
+          "bbox": { "x": 0.42, "y": 0.35, "width": 0.02, "height": 0.15 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["tall slender pole with horizontal arm at top", "standard street light geometry"]
+        }
+      ]
+    },
+    {
+      "image_file": "20260810_132659_gs020160_f_001986_equirect_anonymized.jpg",
+      "width": null,
+      "height": null,
+      "objects": [
+        {
+          "object_id": "object_1",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": { "x": 0.01, "y": 0.40, "width": 0.04, "height": 0.12 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["tree with green foliage on far left", "natural vegetation"]
+        },
+        {
+          "object_id": "object_2",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": { "x": 0.40, "y": 0.35, "width": 0.08, "height": 0.15 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["tree with green canopy", "visible trunk and branching"]
+        },
+        {
+          "object_id": "object_3",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": { "x": 0.55, "y": 0.38, "width": 0.10, "height": 0.12 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["cluster of trees with green foliage", "natural vegetation"]
+        },
+        {
+          "object_id": "object_4",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": { "x": 0.75, "y": 0.35, "width": 0.10, "height": 0.20 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["tree with dense green canopy", "natural growth form"]
+        },
+        {
+          "object_id": "object_5",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": { "x": 0.88, "y": 0.35, "width": 0.10, "height": 0.20 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["large tree with broad canopy", "visible trunk"]
+        },
+        {
+          "object_id": "object_6",
+          "code": "ECL_SIE_06",
+          "category_fr": "Points d'éclairage",
+          "category_en": "Lighting points",
+          "classification": "category_fallback",
+          "bbox": { "x": 0.30, "y": 0.25, "width": 0.02, "height": 0.30 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["tall slender pole with horizontal arm at top", "standard street light geometry, lacks solar panel of ECL_FEN_01"]
+        },
+        {
+          "object_id": "object_7",
+          "code": "ECL_SIE_06",
+          "category_fr": "Points d'éclairage",
+          "category_en": "Lighting points",
+          "classification": "category_fallback",
+          "bbox": { "x": 0.50, "y": 0.40, "width": 0.01, "height": 0.08 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["slender vertical pole with overhead light", "typical street lighting infrastructure"]
+        }
+      ]
+    },
+    {
+      "image_file": "20260810_132659_gs020160_f_001935_equirect_anonymized.jpg",
+      "width": null,
+      "height": null,
+      "objects": [
+        {
+          "object_id": "object_1",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": { "x": 0.01, "y": 0.40, "width": 0.04, "height": 0.12 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["tree with green foliage on far left", "natural vegetation"]
+        },
+        {
+          "object_id": "object_2",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": { "x": 0.10, "y": 0.38, "width": 0.08, "height": 0.12 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["tree with green canopy", "visible trunk"]
+        },
+        {
+          "object_id": "object_3",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": { "x": 0.50, "y": 0.30, "width": 0.06, "height": 0.20 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["tree with green foliage", "natural growth form"]
+        },
+        {
+          "object_id": "object_4",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": { "x": 0.60, "y": 0.30, "width": 0.15, "height": 0.20 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["tree with dense green canopy", "natural vegetation"]
+        },
+        {
+          "object_id": "object_5",
+          "code": "ARB",
+          "category_fr": "Arbres",
+          "category_en": "Trees",
+          "classification": "direct_category",
+          "bbox": { "x": 0.90, "y": 0.30, "width": 0.08, "height": 0.20 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["tree with green foliage on far right", "visible trunk"]
+        },
+        {
+          "object_id": "object_6",
+          "code": "ECL_SIE_06",
+          "category_fr": "Points d'éclairage",
+          "category_en": "Lighting points",
+          "classification": "category_fallback",
+          "bbox": { "x": 0.53, "y": 0.35, "width": 0.01, "height": 0.15 },
+          "confidence": "high",
+          "occluded": false,
+          "truncated": false,
+          "visible_evidence": ["tall slender pole with horizontal arm at top", "standard street light geometry"]
+        }
+      ]
+    }
+  ]
+}

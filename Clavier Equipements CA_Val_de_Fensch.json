@@ -1,1 +1,422 @@
-{"cameraOnBackOfVanMode": false, "captureStep": 4, "groups": [], "rubrics": [{"id": 0, "name": "Equipements CA_Val_de_Fensch", "description": "Equipements CA_Val_de_Fensch", "thumbnail": "", "type": 0, "group": -1, "geometry": 16, "software": 0, "symetric": -1, "parts": [{"id": 1, "name": "Type", "type": 0, "lexicons": [{"id": 2, "name": "ABR_FEN_01", "value": "Abris Bus \u00e0 classifier ", "code": "ABR_FEN_01", "thumbnail": "", "type": 0}, {"id": 3, "name": "ABR_FEN_02", "value": "Abri AUVENT SIGNUS (+ corbeille SIGNUS)", "code": "ABR_FEN_02", "thumbnail": "", "type": 0}, {"id": 4, "name": "ARB", "value": "Arbres", "code": "ARB", "thumbnail": "", "type": 0}, {"id": 5, "name": "BAC", "value": "Bacs \u00e0 fleurs", "code": "BAC", "thumbnail": "", "type": 0}, {"id": 6, "name": "BAN_CHO_01", "value": "Banc \u00e0 classifier", "code": "BAN_CHO_01", "thumbnail": "", "type": 0}, {"id": 7, "name": "BAN_FEN_01", "value": "Banc / Table FRANCIOLI", "code": "BAN_FEN_01", "thumbnail": "", "type": 0}, {"id": 8, "name": "BAN_FEN_02", "value": "Banc FRANCIOLI", "code": "BAN_FEN_02", "thumbnail": "", "type": 0}, {"id": 9, "name": "BAN_FEN_03", "value": "Banc GIGA inox (SQUARE)", "code": "BAN_FEN_03", "thumbnail": "", "type": 0}, {"id": 10, "name": "BAN_FEN_04", "value": "Banc ch\u00eane + corten", "code": "BAN_FEN_04", "thumbnail": "", "type": 0}, {"id": 11, "name": "BAR_CHO_03", "value": "Barri\u00e8re \u00e0 classifier", "code": "BAR_CHO_03", "thumbnail": "", "type": 0}, {"id": 12, "name": "BAR_FEN_01", "value": "Croix de Saint-Andr\u00e9 (PROCITY)", "code": "BAR_FEN_01", "thumbnail": "", "type": 0}, {"id": 13, "name": "BAR_FEN_02", "value": "VNF (COVINO)", "code": "BAR_FEN_02", "thumbnail": "", "type": 0}, {"id": 14, "name": "BAR_FEN_03", "value": "Lisbonne (PROCITY)", "code": "BAR_FEN_03", "thumbnail": "", "type": 0}, {"id": 15, "name": "BAR_FEN_04", "value": "URBINO BC (GHM)", "code": "BAR_FEN_04", "thumbnail": "", "type": 0}, {"id": 16, "name": "BOU-E", "value": "Bouches d'\u00e9gout", "code": "BOU-E", "thumbnail": "", "type": 0}, {"id": 17, "name": "CEN", "value": "Cendriers", "code": "CEN", "thumbnail": "", "type": 0}, {"id": 18, "name": "COR_CHO_01", "value": "Corbeille \u00e0 d\u00e9terminer", "code": "COR_CHO_01", "thumbnail": "", "type": 0}, {"id": 19, "name": "COR_FEN_01", "value": "Corbeille DRIVE COMBO DELTA (glasdon)", "code": "COR_FEN_01", "thumbnail": "", "type": 0}, {"id": 20, "name": "COR_FEN_02", "value": "Corbeille URBINO (GHM)", "code": "COR_FEN_02", "thumbnail": "", "type": 0}, {"id": 21, "name": "COR_FEN_03", "value": "Corbeille SPENCER C (SES)", "code": "COR_FEN_03", "thumbnail": "", "type": 0}, {"id": 22, "name": "ECL_FEN_01", "value": "M\u00e2t solaire d\u00e9tecteur de pi\u00e9ton (BG Lum)", "code": "ECL_FEN_01", "thumbnail": "", "type": 0}, {"id": 23, "name": "ECL_SIE_06", "value": " Points d'\u00e9clairage \u00e0 classifier", "code": "ECL_SIE_06", "thumbnail": "", "type": 0}, {"id": 24, "name": "GRI", "value": "Grilles, avaloirs", "code": "GRI", "thumbnail": "", "type": 0}, {"id": 25, "name": "HOR", "value": "Horodateurs", "code": "HOR", "thumbnail": "", "type": 0}, {"id": 26, "name": "INC", "value": "Bornes \u00e0 incendie", "code": "INC", "thumbnail": "", "type": 0}, {"id": 27, "name": "ORN", "value": "Ornements", "code": "ORN", "thumbnail": "", "type": 0}, {"id": 28, "name": "PAPV", "value": "Points d'apport volontaire", "code": "PAPV", "thumbnail": "", "type": 0}, {"id": 29, "name": "POT_CHO_04", "value": "Potelet \u00e0 classifier", "code": "POT_CHO_04", "thumbnail": "", "type": 0}, {"id": 30, "name": "POT_FEN_01", "value": "Potelet City (PROCITY)", "code": "POT_FEN_01", "thumbnail": "", "type": 0}, {"id": 31, "name": "POT_FEN_02", "value": "Potelet URBINO P1 (GHM)", "code": "POT_FEN_02", "thumbnail": "", "type": 0}, {"id": 32, "name": "POT_FEN_03", "value": "Balise souple \u00c9CO (SOLIDOR)", "code": "POT_FEN_03", "thumbnail": "", "type": 0}, {"id": 33, "name": "POT_FEN_04", "value": "Potelet Bois + chapeau CORTEN (TERTU)", "code": "POT_FEN_04", "thumbnail": "", "type": 0}, {"id": 34, "name": "PUB", "value": "Supports publicitaires", "code": "PUB", "thumbnail": "", "type": 0}, {"id": 35, "name": "RAL01", "value": "Trap\u00e9zo\u00efdal", "code": "RAL01", "thumbnail": "", "type": 0}, {"id": 36, "name": "RAL02", "value": "Plateau", "code": "RAL02", "thumbnail": "", "type": 0}, {"id": 37, "name": "RAL03", "value": "Coussin berlinois", "code": "RAL03", "thumbnail": "", "type": 0}, {"id": 38, "name": "RAL04", "value": "Dos d'\u00e2ne", "code": "RAL04", "thumbnail": "", "type": 0}, {"id": 39, "name": "SAN", "value": "Sanitaires", "code": "SAN", "thumbnail": "", "type": 0}, {"id": 40, "name": "VEL_FEN_01", "value": "Abri v\u00e9lo FILAO (6 pl. La Ruche \u00e0 V\u00e9lo)", "code": "VEL_FEN_01", "thumbnail": "", "type": 0}, {"id": 41, "name": "VEL_FEN_02", "value": "Appui v\u00e9lo lisse bois Lavandou (TERTU)", "code": "VEL_FEN_02", "thumbnail": "", "type": 0}, {"id": 42, "name": "VEL_FEN_03", "value": "Abri v\u00e9lo FLEURY (12 pl. Abri Plus)", "code": "VEL_FEN_03", "thumbnail": "", "type": 0}, {"id": 43, "name": "VEL_FEN_04", "value": "Abri v\u00e9lo NOMAD 20 pl. Abri Plus)", "code": "VEL_FEN_04", "thumbnail": "", "type": 0}, {"id": 44, "name": "VEL_FEN_05", "value": "Appui v\u00e9lo GIGA rond (SQUARE)", "code": "VEL_FEN_05", "thumbnail": "", "type": 0}, {"id": 45, "name": "VEL_FEN_06", "value": "Supports v\u00e9los \u00e0 classifier", "code": "VEL_FEN_06", "thumbnail": "", "type": 0}], "mandatory": true}, {"id": 46, "name": "Etat", "type": 0, "lexicons": [{"id": 47, "name": "Bon", "value": "1", "code": "ECL_FEN_01", "thumbnail": "", "type": 0}, {"id": 48, "name": "Moyen", "value": "10", "code": "ECL_FEN_01", "thumbnail": "", "type": 0}, {"id": 49, "name": "Mauvais", "value": "20", "code": "ECL_FEN_01", "thumbnail": "", "type": 0}], "mandatory": true}, {"id": 49, "name": "Commentaires", "type": 0, "lexicons": [], "mandatory": false}], "variations": []}], "videosSampled": false, "version": 6}
+{
+    "cameraOnBackOfVanMode": false,
+    "captureStep": 4,
+    "groups": [],
+    "rubrics": [
+        {
+            "id": 0,
+            "name": "Equipements CA_Val_de_Fensch",
+            "description": "Equipements CA_Val_de_Fensch",
+            "thumbnail": "",
+            "type": 0,
+            "group": -1,
+            "geometry": 16,
+            "software": 0,
+            "symetric": -1,
+            "parts": [
+                {
+                    "id": 1,
+                    "name": "Type",
+                    "type": 0,
+                    "lexicons": [
+                        {
+                            "id": 2,
+                            "name": "ABR_FEN_01",
+                            "value": "Abris Bus \u00e0 classifier ",
+                            "code": "ABR_FEN_01",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 3,
+                            "name": "ABR_FEN_02",
+                            "value": "Abri AUVENT SIGNUS (+ corbeille SIGNUS)",
+                            "code": "ABR_FEN_02",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 4,
+                            "name": "ARB",
+                            "value": "Arbres",
+                            "code": "ARB",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 5,
+                            "name": "BAC",
+                            "value": "Bacs \u00e0 fleurs",
+                            "code": "BAC",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 6,
+                            "name": "BAN_CHO_01",
+                            "value": "Banc \u00e0 classifier",
+                            "code": "BAN_CHO_01",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 7,
+                            "name": "BAN_FEN_01",
+                            "value": "Banc / Table FRANCIOLI",
+                            "code": "BAN_FEN_01",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 8,
+                            "name": "BAN_FEN_02",
+                            "value": "Banc FRANCIOLI",
+                            "code": "BAN_FEN_02",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 9,
+                            "name": "BAN_FEN_03",
+                            "value": "Banc GIGA inox (SQUARE)",
+                            "code": "BAN_FEN_03",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 10,
+                            "name": "BAN_FEN_04",
+                            "value": "Banc ch\u00eane + corten",
+                            "code": "BAN_FEN_04",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 11,
+                            "name": "BAR_CHO_03",
+                            "value": "Barri\u00e8re \u00e0 classifier",
+                            "code": "BAR_CHO_03",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 12,
+                            "name": "BAR_FEN_01",
+                            "value": "Croix de Saint-Andr\u00e9 (PROCITY)",
+                            "code": "BAR_FEN_01",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 13,
+                            "name": "BAR_FEN_02",
+                            "value": "VNF (COVINO)",
+                            "code": "BAR_FEN_02",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 14,
+                            "name": "BAR_FEN_03",
+                            "value": "Lisbonne (PROCITY)",
+                            "code": "BAR_FEN_03",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 15,
+                            "name": "BAR_FEN_04",
+                            "value": "URBINO BC (GHM)",
+                            "code": "BAR_FEN_04",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 16,
+                            "name": "BOU-E",
+                            "value": "Bouches d'\u00e9gout",
+                            "code": "BOU-E",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 17,
+                            "name": "CEN",
+                            "value": "Cendriers",
+                            "code": "CEN",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 18,
+                            "name": "COR_CHO_01",
+                            "value": "Corbeille \u00e0 d\u00e9terminer",
+                            "code": "COR_CHO_01",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 19,
+                            "name": "COR_FEN_01",
+                            "value": "Corbeille DRIVE COMBO DELTA (glasdon)",
+                            "code": "COR_FEN_01",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 20,
+                            "name": "COR_FEN_02",
+                            "value": "Corbeille URBINO (GHM)",
+                            "code": "COR_FEN_02",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 21,
+                            "name": "COR_FEN_03",
+                            "value": "Corbeille SPENCER C (SES)",
+                            "code": "COR_FEN_03",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 22,
+                            "name": "ECL_FEN_01",
+                            "value": "M\u00e2t solaire d\u00e9tecteur de pi\u00e9ton (BG Lum)",
+                            "code": "ECL_FEN_01",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 23,
+                            "name": "ECL_SIE_06",
+                            "value": " Points d'\u00e9clairage \u00e0 classifier",
+                            "code": "ECL_SIE_06",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 24,
+                            "name": "GRI",
+                            "value": "Grilles, avaloirs",
+                            "code": "GRI",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 25,
+                            "name": "HOR",
+                            "value": "Horodateurs",
+                            "code": "HOR",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 26,
+                            "name": "INC",
+                            "value": "Bornes \u00e0 incendie",
+                            "code": "INC",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 27,
+                            "name": "ORN",
+                            "value": "Ornements",
+                            "code": "ORN",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 28,
+                            "name": "PAPV",
+                            "value": "Points d'apport volontaire",
+                            "code": "PAPV",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 29,
+                            "name": "POT_CHO_04",
+                            "value": "Potelet \u00e0 classifier",
+                            "code": "POT_CHO_04",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 30,
+                            "name": "POT_FEN_01",
+                            "value": "Potelet City (PROCITY)",
+                            "code": "POT_FEN_01",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 31,
+                            "name": "POT_FEN_02",
+                            "value": "Potelet URBINO P1 (GHM)",
+                            "code": "POT_FEN_02",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 32,
+                            "name": "POT_FEN_03",
+                            "value": "Balise souple \u00c9CO (SOLIDOR)",
+                            "code": "POT_FEN_03",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 33,
+                            "name": "POT_FEN_04",
+                            "value": "Potelet Bois + chapeau CORTEN (TERTU)",
+                            "code": "POT_FEN_04",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 34,
+                            "name": "PUB",
+                            "value": "Supports publicitaires",
+                            "code": "PUB",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 35,
+                            "name": "RAL01",
+                            "value": "Trap\u00e9zo\u00efdal",
+                            "code": "RAL01",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 36,
+                            "name": "RAL02",
+                            "value": "Plateau",
+                            "code": "RAL02",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 37,
+                            "name": "RAL03",
+                            "value": "Coussin berlinois",
+                            "code": "RAL03",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 38,
+                            "name": "RAL04",
+                            "value": "Dos d'\u00e2ne",
+                            "code": "RAL04",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 39,
+                            "name": "SAN",
+                            "value": "Sanitaires",
+                            "code": "SAN",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 40,
+                            "name": "VEL_FEN_01",
+                            "value": "Abri v\u00e9lo FILAO (6 pl. La Ruche \u00e0 V\u00e9lo)",
+                            "code": "VEL_FEN_01",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 41,
+                            "name": "VEL_FEN_02",
+                            "value": "Appui v\u00e9lo lisse bois Lavandou (TERTU)",
+                            "code": "VEL_FEN_02",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 42,
+                            "name": "VEL_FEN_03",
+                            "value": "Abri v\u00e9lo FLEURY (12 pl. Abri Plus)",
+                            "code": "VEL_FEN_03",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 43,
+                            "name": "VEL_FEN_04",
+                            "value": "Abri v\u00e9lo NOMAD 20 pl. Abri Plus)",
+                            "code": "VEL_FEN_04",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 44,
+                            "name": "VEL_FEN_05",
+                            "value": "Appui v\u00e9lo GIGA rond (SQUARE)",
+                            "code": "VEL_FEN_05",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 45,
+                            "name": "VEL_FEN_06",
+                            "value": "Supports v\u00e9los \u00e0 classifier",
+                            "code": "VEL_FEN_06",
+                            "thumbnail": "",
+                            "type": 0
+                        }
+                    ],
+                    "mandatory": true
+                },
+                {
+                    "id": 46,
+                    "name": "Etat",
+                    "type": 0,
+                    "lexicons": [
+                        {
+                            "id": 47,
+                            "name": "Bon",
+                            "value": "1",
+                            "code": "ECL_FEN_01",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 48,
+                            "name": "Moyen",
+                            "value": "10",
+                            "code": "ECL_FEN_01",
+                            "thumbnail": "",
+                            "type": 0
+                        },
+                        {
+                            "id": 49,
+                            "name": "Mauvais",
+                            "value": "20",
+                            "code": "ECL_FEN_01",
+                            "thumbnail": "",
+                            "type": 0
+                        }
+                    ],
+                    "mandatory": true
+                },
+                {
+                    "id": 49,
+                    "name": "Commentaires",
+                    "type": 0,
+                    "lexicons": [],
+                    "mandatory": false
+                }
+            ],
+            "variations": []
+        }
+    ],
+    "videosSampled": false,
+    "version": 6
+}

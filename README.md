@@ -4,7 +4,7 @@ Offline tools for exploring reference images and reviewing likely objects detect
 
 ## Catalogue
 
-Open `index.html` in a browser. Search the 39 lexicon entries, inspect the 36 images, and export a named image ZIP. The maximum export width defaults to 128 px; aspect ratio and transparency are preserved, and smaller images are not enlarged.
+Open `index.html` in a browser, then select one or more files using **Clavier JSON**. The page starts empty: no catalogue data is embedded or loaded automatically. Selected files replace the catalogue for the current session only. Thumbnail fields are ignored. For each entry, the page looks in `images/` for a file whose basename exactly matches the entry's `code`, trying `.png`, `.jpg`, `.jpeg`, `.webp`, then `.gif`. For example, code `BAN_FEN_01` resolves to `images/BAN_FEN_01.png` when that file exists. Entries without a matching image still display their names and values. Search the loaded entries, inspect their images, and export a named image ZIP. The maximum export width defaults to 128 px; aspect ratio and transparency are preserved, and smaller images are not enlarged.
 
 `llm_description.json` groups the 32 physical model references and four fallback icons into `banc`, `barriere`, `corbeille`, and `potelet`. Each model has detailed visual descriptions, discriminating features, viewpoint guidance and known confusions. Bicycle stands are included under `potelet`.
 
@@ -20,7 +20,11 @@ The agent must view the photographs, not infer results from filenames. If no pho
 
 ## View bounding boxes
 
-Open **`detection-viewer.html`** directly in a browser; no server or installation is required.
+Place analysis JSON files in `analysis/` and referenced query images in `queries/`, then run `node build-detection-viewer.mjs`. The builder first matches each `images[].image_file` to an exact filename in `queries/`; for a legacy single-image JSON with a generic internal filename, it falls back to an image sharing the analysis JSON's basename. Batch JSON files containing multiple `images[]` entries are supported. Open **`detection-viewer.html`** directly in a browser; no server or installation is required. The generated viewer embeds the analysis JSON but keeps query images as relative file references.
+
+The viewer also reads JPEG EXIF GPS, capture time, orientation and heading during the build. For equirectangular panoramas, it estimates each detection's compass bearing from the horizontal centre of its bounding box, using `GPSDestBearing` as the panorama centre heading (and `GPSImgDirection` as a fallback). The Leaflet map projects detections along those bearings at an adjustable nominal distance; these are approximate display positions because the images contain no object-depth measurement. Leaflet and OpenStreetMap tiles are loaded from the internet, while bounding-box viewing continues to work offline.
+
+For a drop-and-refresh workflow, start `node build-detection-viewer.mjs --watch` once and leave it running. It rebuilds the HTML whenever `analysis/` or `queries/` changes; refresh the browser after a successful rebuild. Without the watcher, run the one-off build command after adding files. A static browser page cannot enumerate local folders on refresh by itself.
 
 1. Choose a detection JSON file.
 2. Choose the query image files (multiple selection), or use the image-folder picker.
