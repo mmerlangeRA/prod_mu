@@ -77,6 +77,13 @@ python3 review_server.py
 
 Then open http://127.0.0.1:8765/detection-viewer.html. Opening `detection-viewer.html` directly also works for viewing, but saving edits then falls back to a download.
 
+On screens at least 900 px wide the viewer fills the window:
+- the panorama is at the top; *Fit* shows it whole;
+- the map is below, and the bar between them can be dragged to resize it (double-click resets);
+- objects and the edit form are on the right.
+
+Selection is shared between boxes, list rows and map markers, and hovering any of them highlights the same object in the other two. Narrower screens use a stacked, scrolling layout.
+
 ◀ ▶ above the image move between the images of the current batch, with a position counter. Page Up and Page Down do the same, and so do the ← → keys outside edit mode; in edit mode the arrows nudge the selected box.
 
 **Street View ↗** (next to ◀ ▶) opens Google Street View in a separate browser window that you can move and resize, at the frame's GPS position.
@@ -96,7 +103,7 @@ Tick **Edit boxes**:
 - Arrow keys nudge the selected box by 1 px (Shift: 10 px). Esc cancels.
 - **Zoom** (up to 6×) helps with small bollards.
 
-Edits are kept in this browser until you save. **Save reviewed batch** writes `analysis/<batch>-reviewed.json`; the original batch is never modified. It then recomputes positions with `localize.py`, rebuilds the viewer and reloads it. Edited and added boxes are marked (dashed outline, tag in the list), and deleted boxes are listed in each image's `review.deleted`.
+Edits are kept in this browser until you save. **Save review** writes `analysis/<batch>-reviewed.json`; the original batch is never modified. It then recomputes positions with `localize.py`, rebuilds the viewer and reloads it. Edited and added boxes are marked (dashed outline, tag in the list), and deleted boxes are listed in each image's `review.deleted`.
 
 Without the review server, Save downloads the JSON instead: put it in `analysis/`, then run `localize.py` and the build.
 

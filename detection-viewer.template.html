@@ -15,33 +15,55 @@
 .nav .sv-button{width:auto;padding:0 10px}.nav .sv-target{height:30px;padding:0 6px;border:1px solid #bdc9c1;border-radius:7px;background:#fff;color:inherit;font-size:12px}
 
 .editbar{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;padding:9px 15px;border-bottom:1px solid var(--line);font-size:13px}.editbar label{display:flex;align-items:center;gap:6px;color:#50615b}.editbar select{padding:5px 7px;border:1px solid #bdc9c1;border-radius:6px;background:#fff;color:inherit;max-width:280px}.editbar button,.edit-form button{padding:6px 10px;border:1px solid #bdc9c1;border-radius:7px;background:#fff;color:inherit;font-size:13px}.editbar button:disabled{opacity:.45;cursor:default}.editbar button.primary{background:var(--green);border-color:var(--green);color:#fff}.editbar button.active{background:#e6efe9;border-color:var(--green)}.edit-status{color:var(--muted);flex:1 1 220px;text-align:right}.edit-status.warning{color:#945014}
-.stage-scroll{overflow:auto;max-height:78vh}.stage.editing{touch-action:none;user-select:none}.stage.editing .box{cursor:move}.stage.drawing,.stage.drawing .box{cursor:crosshair}.box.edited{border-style:dashed}.handle{position:absolute;width:11px;height:11px;background:#fff;border:2px solid var(--box-color);border-radius:2px;padding:0}.handle.nw{left:-7px;top:-7px;cursor:nwse-resize}.handle.ne{right:-7px;top:-7px;cursor:nesw-resize}.handle.sw{left:-7px;bottom:-7px;cursor:nesw-resize}.handle.se{right:-7px;bottom:-7px;cursor:nwse-resize}.draft-box{position:absolute;border:2px dashed #fff;outline:1px dashed #000;pointer-events:none}
+.stage-scroll{overflow:auto;max-height:78vh;padding:6px}.stage.editing{touch-action:none;user-select:none}.stage.editing .box{cursor:move}.stage.drawing,.stage.drawing .box{cursor:crosshair}.box.edited{border-style:dashed}.handle{position:absolute;width:11px;height:11px;background:#fff;border:2px solid var(--box-color);border-radius:2px;padding:0}.handle.nw{left:-7px;top:-7px;cursor:nwse-resize}.handle.ne{right:-7px;top:-7px;cursor:nesw-resize}.handle.sw{left:-7px;bottom:-7px;cursor:nesw-resize}.handle.se{right:-7px;bottom:-7px;cursor:nwse-resize}.draft-box{position:absolute;border:2px dashed #fff;outline:1px dashed #000;pointer-events:none}
 .edit-form label{display:flex;flex-direction:column;gap:4px;font-size:12px;font-weight:600;color:#50615b;margin-bottom:11px}.edit-form label.inline{flex-direction:row;align-items:center;font-weight:400;color:inherit;margin-bottom:6px}.edit-form select,.edit-form textarea{width:100%;padding:7px 8px;border:1px solid #bdc9c1;border-radius:6px;background:#fff;color:inherit;font:inherit;font-weight:400}.edit-form textarea{min-height:70px;resize:vertical}.edit-form .meta{font-size:12px;color:var(--muted);margin:4px 0 12px;line-height:1.45}.edit-form button.danger{color:#b42318;border-color:#e3b4ae}.edit-form button.danger:hover{background:#fdf0ee}.row .tag{margin-left:6px;padding:1px 6px;border-radius:999px;background:#fff1d6;color:#7a4b00;font-size:11px}
 </style>
+<style>
+/* Workspace layout: image above, resizable map below, objects on the right; the page itself does not scroll. */
+.topbar{display:flex;align-items:center;gap:10px 22px;flex-wrap:wrap;padding:9px 16px}.topbar h1{font-size:17px;margin:0;white-space:nowrap}
+.topbar .toolbar{flex:1;margin:0;gap:8px 16px;align-items:center}.topbar .toolbar label{flex-direction:row;align-items:center;gap:7px;color:#c9ddd5}.topbar .toolbar label:first-child{flex:0 1 520px}.topbar .toolbar select{min-width:150px;padding:6px 9px;color:#182522}.topbar .toolbar .check{padding:0}.topbar .summary{color:#c9ddd5;padding:0}
+.map-panel{margin-top:0}.map-head{gap:6px 14px;padding:8px 12px}.map-head h2{font-size:15px;white-space:nowrap}.map-head .info{display:inline-block;color:var(--muted);font-weight:400;cursor:help}.map-meta{flex:1 1 200px;padding:0;font-size:12px;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.map-controls{gap:10px;font-size:12px}.map-controls button{padding:4px 8px;font-size:12px}
+.splitter{display:none}.box.hover,.row.hover{z-index:3}.box.hover{border-width:3px;background:color-mix(in srgb,var(--box-color) 30%,transparent)}.row.hover{background:#f3f8f5}
+.help{margin:0;padding:8px 14px;border-top:1px solid var(--line);line-height:1.45}.help summary{cursor:pointer;color:var(--green);font-weight:600}.help p{margin:6px 0 2px}
+.filebar{padding:8px 12px}.filebar .frame-name{display:flex;flex-direction:column;flex:1;min-width:0;line-height:1.3}.filebar .frame-name small{color:var(--muted);font-weight:400;font-size:11px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.editbar{padding:7px 12px;gap:6px 10px}.editbar select{max-width:230px}.edit-status{flex:1 1 140px;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.editbar button{white-space:nowrap}
+@media(min-width:900px){
+ html,body.app{height:100%}body.app{display:flex;flex-direction:column;overflow:hidden}
+ .workspace{flex:1;min-height:0;display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:10px;padding:10px;max-width:none}
+ .left{display:flex;flex-direction:column;min-height:0;min-width:0}
+ .stage-panel{flex:1 1 auto;min-height:170px;display:flex;flex-direction:column}
+ .stage-scroll{flex:1;min-height:0;max-height:none;padding:6px}.stage{margin:0 auto}
+ .splitter{display:flex;flex:none;height:12px;align-items:center;justify-content:center;cursor:row-resize;touch-action:none}.splitter span{width:56px;height:4px;border-radius:2px;background:#b7c4bd}.splitter:hover span,.splitter:focus-visible span,.splitter.dragging span{background:var(--green)}.splitter:focus-visible{outline:none}
+ .map-panel{flex:none;height:35%;min-height:120px;display:flex;flex-direction:column}.map{flex:1;height:auto;min-height:0}
+ .side{display:flex;flex-direction:column;min-height:0}.side h2{padding:11px 14px;font-size:15px}.object-list{flex:1 1 38%;max-height:none;min-height:90px}.detail{flex:1 1 62%;overflow:auto;min-height:0}
+}
+@media(max-width:899px){.topbar{flex-direction:column;align-items:stretch}.topbar .toolbar{flex-direction:column;align-items:stretch;gap:8px}.topbar .toolbar label,.topbar .toolbar label:first-child{flex:none;flex-direction:column;align-items:stretch;gap:4px}.topbar .toolbar label.check{flex-direction:row;align-items:center}.topbar .toolbar select{width:100%;min-width:0}.workspace{display:block;padding:10px}.stage-panel,.side{margin-bottom:12px}.stage-scroll{max-height:70vh}.map-panel{height:360px;display:flex;flex-direction:column;margin-bottom:12px}.map{flex:1;height:auto}}
+</style>
 </head>
-<body>
-<header><h1>Detection analysis viewer</h1><p>Bounding boxes from <code>analysis/</code>, paired with same-name images in <code>queries/</code>.</p></header>
-<main class="shell">
+<body class="app">
+<header class="topbar"><h1>Detection analysis viewer</h1>
 <div class="toolbar">
 <label>Analysis<select id="dataset"></select></label>
 <label>Code<select id="codeFilter"><option value="">All codes</option></select></label>
-<label class="check"><input id="showLabels" type="checkbox" checked> Show labels</label>
+<label class="check"><input id="showLabels" type="checkbox" checked> Labels</label>
 <div class="summary" id="summary"></div>
-</div>
-<div class="layout">
+</div></header>
+<main class="workspace">
+<div class="left" id="leftColumn">
 <section class="stage-panel">
-<div class="filebar"><div class="nav"><button id="prevImage" type="button" title="Previous image (Page Up, or ← outside edit mode)" aria-label="Previous image">◀</button><span id="imagePosition"></span><button id="nextImage" type="button" title="Next image (Page Down, or → outside edit mode)" aria-label="Next image">▶</button><button id="openStreetView" class="sv-button" type="button" title="Open Google Street View at this frame's GPS position in a separate window; it follows the frames you open">Street View ↗</button><select id="streetViewTarget" class="sv-target" aria-label="Street View direction"><option value="camera">facing the frame heading</option><option value="object">facing the selected object</option></select></div><strong id="imageName"></strong><span id="pairing"></span></div>
-<div class="editbar"><label><input id="editMode" type="checkbox"> Edit boxes</label><button id="drawBox" type="button" disabled title="Then drag on the image (shortcut N)">Draw box</button><label>New box code<select id="newCode" disabled></select></label><label>Zoom<select id="zoom"><option value="1">Fit</option><option value="2">2×</option><option value="3">3×</option><option value="4">4×</option><option value="6">6×</option></select></label><span class="edit-status" id="editStatus"></span><button id="discardEdits" type="button" disabled>Discard edits</button><button id="saveReview" class="primary" type="button" disabled>Save reviewed batch</button></div>
+<div class="filebar"><div class="nav"><button id="prevImage" type="button" title="Previous image (Page Up, or ← outside edit mode)" aria-label="Previous image">◀</button><span id="imagePosition"></span><button id="nextImage" type="button" title="Next image (Page Down, or → outside edit mode)" aria-label="Next image">▶</button><button id="openStreetView" class="sv-button" type="button" title="Open Google Street View at this frame's GPS position in a separate window; it follows the frames you open">Street View ↗</button><select id="streetViewTarget" class="sv-target" aria-label="Street View direction"><option value="camera">facing the frame heading</option><option value="object">facing the selected object</option></select></div><div class="frame-name"><strong id="imageName"></strong><small id="imageFile"></small></div><span id="pairing"></span></div>
+<div class="editbar"><label><input id="editMode" type="checkbox"> Edit boxes</label><button id="drawBox" type="button" disabled title="Then drag on the image (shortcut N)">Draw box</button><label title="Code given to boxes you draw">New code<select id="newCode" disabled></select></label><label>Zoom<select id="zoom"><option value="1">Fit</option><option value="2">2×</option><option value="3">3×</option><option value="4">4×</option><option value="6">6×</option></select></label><span class="edit-status" id="editStatus"></span><button id="discardEdits" type="button" disabled title="Discard all unsaved edits of this batch">Discard</button><button id="saveReview" class="primary" type="button" disabled title="Write analysis/&lt;batch&gt;-reviewed.json and recompute positions">Save review</button></div>
 <div class="stage-scroll"><div class="stage" id="stage"><img id="image" alt="Query image" draggable="false"><div id="overlay"></div></div></div>
 </section>
-<aside class="side"><h2>Detected objects</h2><div class="object-list" id="objectList"></div><div class="detail empty" id="detail">Select a box or result.</div></aside>
-</div>
+<div class="splitter" id="splitter" role="separator" aria-orientation="horizontal" aria-label="Resize the map (drag, or arrow keys; double-click resets)" tabindex="0"><span></span></div>
 <section class="map-panel" id="mapPanel">
-<div class="map-head"><h2>Map</h2><div class="map-controls"><label><input id="showTrack" type="checkbox" checked> Capture track</label><label><input id="showFeatures" type="checkbox" checked> Merged features</label><button id="exportGeojson" type="button">Export features (GeoJSON)</button><button id="exportCsv" type="button">Export features (CSV)</button></div></div>
-<div class="map-meta" id="mapMeta"></div><div class="map" id="map"><div class="map-message">Loading map…</div></div>
-<p class="map-note">Positions are estimates. Camera positions and headings come from <code>ncp_gps_frames.json</code> (compass heading = 90 − orientation). Each detection is projected on a flat ground plane from its box's ground-contact point, for a level camera at the batch's camera height; detections beyond the range limit are not placed. Dashed lines join the camera to this frame's detections; large rings are features merged across frames. Click a track point to open that frame when it has been analysed.</p>
+<div class="map-head"><h2>Map <span class="info" tabindex="0" title="Positions are estimates. Camera positions and headings come from ncp_gps_frames.json (compass heading = 90 − orientation). Each detection is projected on a flat ground plane from its box's ground-contact point, for a level camera at the batch's camera height; detections beyond the range limit are not placed. Dashed lines join the camera to this frame's detections; large rings are features merged across frames. Click a track point to open that frame when it has been analysed.">ⓘ</span></h2><div class="map-meta" id="mapMeta"></div><div class="map-controls"><label><input id="showTrack" type="checkbox" checked> Track</label><label><input id="showFeatures" type="checkbox" checked> Features</label><button id="exportGeojson" type="button" title="Export the batch's merged features as GeoJSON">GeoJSON</button><button id="exportCsv" type="button" title="Export the batch's merged features as CSV">CSV</button></div></div>
+<div class="map" id="map"><div class="map-message">Loading map…</div></div>
 </section>
-<footer>Boxes use normalized xywh coordinates. ◀ ▶, Page Up / Page Down (or ← → outside edit mode) move between the images of the current batch. Edit mode: drag a box to move it, drag a corner to resize, Delete removes the selected box, arrow keys nudge it by 1 px (Shift: 10 px), N draws a new box, Esc cancels. Edits are kept in this browser until saved; saving writes <code>analysis/&lt;batch&gt;-reviewed.json</code> through <code>review_server.py</code> (or downloads it when the server is not running), then positions are recomputed.</footer>
+</div>
+<aside class="side"><h2>Detected objects</h2><div class="object-list" id="objectList"></div><div class="detail empty" id="detail">Select a box or result.</div>
+<details class="help"><summary>Shortcuts and help</summary><p>Hover a box, list row or map marker to highlight the same object everywhere; click to select it. Drag the bar above the map to resize it (double-click resets). ◀ ▶, Page Up / Page Down (or ← → outside edit mode) move between the images of the current batch. Edit mode: drag a box to move it, drag a corner to resize, Delete removes the selected box, arrow keys nudge it by 1 px (Shift: 10 px), N draws a new box, Esc cancels. Edits are kept in this browser until saved; saving writes <code>analysis/&lt;batch&gt;-reviewed.json</code> through <code>review_server.py</code> (or downloads it when the server is not running), then positions are recomputed.</p></details>
+</aside>
 </main>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script id="data" type="application/json">/*__DETECTION_DATA__*/</script>
@@ -49,7 +71,8 @@
 'use strict';
 const payload=JSON.parse(document.getElementById('data').textContent),datasets=payload.datasets||[],batches=payload.batches||[],track=payload.track||[],catalogue=payload.catalogue||[],$=id=>document.getElementById(id);
 const catalogueByCode=new Map(catalogue.map(entry=>[entry.code,entry])),dirtyBatches=new Set();
-let editMode=false,drawing=false,drag=null;
+let editMode=false,drawing=false,drag=null,hovered=null;
+const markerById=new Map();
 const colors=['#e5484d','#2878d0','#008f68','#a15c00','#8358c5','#c43883','#087ea4','#6b7b12'];
 let active=0,selected=null,map=null,mapLayers=null,fittedDataset=null;
 const esc=value=>String(value??'');
@@ -90,7 +113,7 @@ function renderMap(){
  $('mapMeta').textContent=`Frame ${camera.frame} · camera ${camera.latitude.toFixed(7)}, ${camera.longitude.toFixed(7)} · heading ${camera.heading_deg.toFixed(1)}°`+(localization?` · camera height ${localization.camera_height_m} m, range ≤ ${localization.max_range_m} m, merge radius ${localization.merge_radius_m} m · ${batch.features.length} merged features in batch ${batch.name}`:' · batch not localized yet (run localize.py)');
  if(!window.L){mapMessage('Leaflet could not load. Internet access is needed for the map library and OpenStreetMap tiles.');return;}
  if(!map){$('map').replaceChildren();map=L.map('map',{zoomControl:true,maxZoom:21});L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxNativeZoom:19,maxZoom:21,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);mapLayers=L.layerGroup().addTo(map);}
- mapLayers.clearLayers();
+ mapLayers.clearLayers();markerById.clear();
  if($('showTrack').checked&&track.length){
   const analysed=new Set(datasets.map(d=>d.image_file));
   L.polyline(track.map(t=>[t.latitude,t.longitude]),{color:'#5b6b66',weight:2,opacity:.6}).addTo(mapLayers);
@@ -109,8 +132,10 @@ function renderMap(){
   const ground=object.ground;if(ground?.status!=='ok')continue;
   const point=[ground.latitude,ground.longitude],color=colorFor(object.code);bounds.push(point);
   L.polyline([cameraPoint,point],{color,weight:2,opacity:.7,dashArray:'5 5'}).addTo(mapLayers);
-  L.circleMarker(point,{radius:5,color:'#fff',weight:2,fillColor:color,fillOpacity:ground.reliable?1:.45}).bindPopup(textPopup(`${object.code} · ${object.object_id}`,[object.category_en,groundText(ground),`feature ${object.feature_id||'—'}`])).on('click',()=>showDetail(object)).addTo(mapLayers);
+  const marker=L.circleMarker(point,{fillColor:color}).bindTooltip(`${object.code} · ${object.object_id} · ${groundText(ground)}`).on('click',()=>selectObject(object,{fromMap:true})).on('mouseover',()=>setHover(object.object_id,true)).on('mouseout',()=>setHover(object.object_id,false)).addTo(mapLayers);
+  markerById.set(object.object_id,{marker,reliable:ground.reliable});
  }
+ updateMarkerStyles();
  map.invalidateSize();
  if(fittedDataset!==active){fittedDataset=active;if(bounds.length===1)map.setView(cameraPoint,19);else map.fitBounds(bounds,{padding:[40,40],maxZoom:20});}
 }
@@ -130,13 +155,38 @@ function exportFeatures(format){
 function imageOf(dataset){return dataset.data.images[0];}
 function findObject(id){return imageOf(selectedData()).objects.find(object=>object.object_id===id)||null;}
 function batchDatasets(index){return datasets.filter(dataset=>dataset.batch_index===index).sort((a,b)=>a.analysis_image_index-b.analysis_image_index);}
+function markerStyle(id,reliable){const active=id===selected,hover=id===hovered;return {radius:active||hover?8:5,weight:active?3:2,color:active||hover?'#17211e':'#fff',fillOpacity:reliable?1:.45,opacity:1};}
+function updateMarkerStyles(){for(const [id,{marker,reliable}] of markerById){marker.setStyle(markerStyle(id,reliable));if(id===selected||id===hovered)marker.bringToFront();}}
+function setHover(id,on){
+ hovered=on?id:(hovered===id?null:hovered);
+ for(const element of document.querySelectorAll('.box[data-object-id],.row[data-object-id]'))element.classList.toggle('hover',element.dataset.objectId===hovered);
+ updateMarkerStyles();
+}
+function scrollBoxIntoView(id){
+ const element=boxElement(id),scroll=$('stage').parentElement;if(!element)return;
+ const x=$('stage').offsetLeft+element.offsetLeft+element.offsetWidth/2,y=$('stage').offsetTop+element.offsetTop+element.offsetHeight/2;
+ if(x<scroll.scrollLeft||x>scroll.scrollLeft+scroll.clientWidth||y<scroll.scrollTop||y>scroll.scrollTop+scroll.clientHeight)scroll.scrollTo({left:x-scroll.clientWidth/2,top:y-scroll.clientHeight/2,behavior:'smooth'});
+}
+// Fit = the whole panorama inside the image panel (width and height); zoom multiplies that size.
+function fitStage(){
+ const scroll=$('stage').parentElement,style=getComputedStyle(scroll),image=selectedData()&&imageOf(selectedData());
+ const width=scroll.offsetWidth-parseFloat(style.paddingLeft)-parseFloat(style.paddingRight),height=scroll.offsetHeight-parseFloat(style.paddingTop)-parseFloat(style.paddingBottom);
+ const aspect=image?.width&&image?.height?image.width/image.height:($('image').naturalWidth/$('image').naturalHeight||2);
+ const fit=matchMedia('(min-width:900px)').matches?Math.min(width,height*aspect):width;
+ $('stage').style.width=Math.max(80,Math.floor(fit*Number($('zoom').value)))+'px';
+}
+function setMapHeight(pixels,persist){
+ const left=$('leftColumn'),max=Math.max(120,left.clientHeight-200),height=Math.round(Math.max(120,Math.min(max,pixels)));
+ $('mapPanel').style.height=height+'px';if(map)map.invalidateSize();fitStage();
+ if(persist)try{localStorage.setItem('fensch-map-height',String(height));}catch{}
+}
 function renderOverlay(){
  const objects=filteredObjects();$('overlay').replaceChildren();
  for(const object of objects){
   const color=colorFor(object.code),box=document.createElement('button');box.type='button';box.className='box'+(object.review?' edited':'')+(object.object_id===selected?' selected':'');box.dataset.objectId=object.object_id;box.setAttribute('aria-label',`${object.code}, ${object.object_id}`);box.style.cssText=`left:${object.bbox.x*100}%;top:${object.bbox.y*100}%;width:${object.bbox.width*100}%;height:${object.bbox.height*100}%;--box-color:${color}`;
   const label=document.createElement('span');label.className='box-label';label.textContent=object.code;box.append(label);
   if(editMode&&object.object_id===selected)for(const corner of ['nw','ne','sw','se']){const handle=document.createElement('span');handle.className='handle '+corner;handle.dataset.handle=corner;box.append(handle);}
-  box.onclick=()=>{if(!editMode)selectObject(object);};$('overlay').append(box);
+  box.onclick=()=>{if(!editMode)selectObject(object);};box.onmouseenter=()=>setHover(object.object_id,true);box.onmouseleave=()=>setHover(object.object_id,false);$('overlay').append(box);
  }
 }
 function renderList(){
@@ -144,7 +194,7 @@ function renderList(){
  for(const object of objects){
   const row=document.createElement('button');row.type='button';row.className='row'+(object.object_id===selected?' selected':'');row.dataset.objectId=object.object_id;const strong=document.createElement('strong'),meta=document.createElement('span');strong.textContent=object.code+' · '+object.object_id;
   if(object.review){const tag=document.createElement('span');tag.className='tag';tag.textContent=object.review;strong.append(tag);}
-  meta.textContent=object.category_en+' · '+object.confidence;row.append(strong,meta);row.onclick=()=>selectObject(object);$('objectList').append(row);
+  meta.textContent=object.category_en+' · '+object.confidence;row.append(strong,meta);row.onclick=()=>selectObject(object);row.onmouseenter=()=>setHover(object.object_id,true);row.onmouseleave=()=>setHover(object.object_id,false);$('objectList').append(row);
  }
  if(!objects.length){const empty=document.createElement('div');empty.className='empty-state';empty.textContent='No objects for this filter.';$('objectList').append(empty);}
 }
@@ -154,7 +204,11 @@ function renderObjects(){
  if(editMode)renderOverlay();
  renderMap();
 }
-function selectObject(object){selected=object?.object_id??null;renderOverlay();showDetail(object);updateStreetView();}
+function selectObject(object,options={}){
+ selected=object?.object_id??null;renderOverlay();showDetail(object);updateStreetView();updateMarkerStyles();
+ const entry=selected&&markerById.get(selected);if(entry&&map&&!map.getBounds().contains(entry.marker.getLatLng()))map.panTo(entry.marker.getLatLng());
+ if(options.fromMap&&selected){scrollBoxIntoView(selected);for(const row of $('objectList').children)if(row.dataset.objectId===selected)row.scrollIntoView({block:'nearest'});}
+}
 function refreshCodeFilter(){
  const current=$('codeFilter').value,codes=[...new Set(imageOf(selectedData()).objects.map(object=>object.code))].sort();
  $('codeFilter').replaceChildren();addOption($('codeFilter'),'','All codes');for(const code of codes)addOption($('codeFilter'),code,code);
@@ -171,9 +225,11 @@ function updateNavigation(){
 }
 function renderDataset(){
  const dataset=selectedData();if(!dataset)return;updateNavigation();
- selected=null;drawing=false;drag=null;$('image').src=dataset.image_file;$('image').alt='Query image '+dataset.image_file;$('imageName').textContent=dataset.image_file;
- $('pairing').textContent=dataset.internal_name_matches?'Filename matched JSON image_file':'Matched by analysis filename';$('pairing').className=dataset.internal_name_matches?'':'warning';
- $('codeFilter').value='';refreshCodeFilter();updateEditBar();renderObjects();$('streetViewTarget').value='camera';updateStreetView();
+ selected=null;drawing=false;drag=null;$('image').src=dataset.image_file;$('image').alt='Query image '+dataset.image_file;
+ $('imageName').textContent=dataset.camera?`Frame ${dataset.camera.frame} · heading ${dataset.camera.heading_deg.toFixed(0)}°`:dataset.image_file.split('/').pop();
+ $('imageFile').textContent=dataset.image_file;$('imageFile').title=dataset.image_file;
+ $('pairing').textContent=dataset.internal_name_matches?'':'Matched by analysis filename';$('pairing').className=dataset.internal_name_matches?'':'warning';
+ $('codeFilter').value='';refreshCodeFilter();updateEditBar();fitStage();renderObjects();$('streetViewTarget').value='camera';updateStreetView();
 }
 
 // ---- Editing -------------------------------------------------------------------------------------------------
@@ -338,7 +394,18 @@ $('dataset').onchange=()=>{active=Number($('dataset').value);renderDataset();};$
 $('showTrack').onchange=renderMap;$('showFeatures').onchange=renderMap;$('exportGeojson').onclick=()=>exportFeatures('geojson');$('exportCsv').onclick=()=>exportFeatures('csv');
 $('editMode').onchange=()=>{editMode=$('editMode').checked;drawing=false;updateEditBar();renderObjects();};
 $('drawBox').onclick=()=>{drawing=!drawing;updateEditBar();};
-$('zoom').onchange=()=>{$('stage').style.width=Number($('zoom').value)*100+'%';};
+$('zoom').onchange=()=>{fitStage();if(selected)scrollBoxIntoView(selected);};
+$('image').addEventListener('load',fitStage);new ResizeObserver(()=>fitStage()).observe($('stage').parentElement);
+{
+ const splitter=$('splitter');let resizing=false;
+ splitter.addEventListener('pointerdown',event=>{resizing=true;splitter.classList.add('dragging');splitter.setPointerCapture(event.pointerId);event.preventDefault();});
+ splitter.addEventListener('pointermove',event=>{if(resizing)setMapHeight($('leftColumn').getBoundingClientRect().bottom-event.clientY-6,false);});
+ const stop=()=>{if(!resizing)return;resizing=false;splitter.classList.remove('dragging');setMapHeight($('mapPanel').offsetHeight,true);};
+ splitter.addEventListener('pointerup',stop);splitter.addEventListener('pointercancel',stop);
+ splitter.addEventListener('keydown',event=>{const step={ArrowUp:24,ArrowDown:-24}[event.key];if(step){setMapHeight($('mapPanel').offsetHeight+step,true);event.preventDefault();}event.stopPropagation();});
+ splitter.addEventListener('dblclick',()=>{$('mapPanel').style.height='';try{localStorage.removeItem('fensch-map-height');}catch{}if(map)map.invalidateSize();fitStage();});
+ try{const saved=Number(localStorage.getItem('fensch-map-height'));if(saved&&matchMedia('(min-width:900px)').matches)setMapHeight(saved,false);}catch{}
+}
 $('saveReview').onclick=saveReview;$('openStreetView').onclick=openStreetView;$('streetViewTarget').onchange=updateStreetView;$('prevImage').onclick=()=>goTo(batchNeighbours().previous);$('nextImage').onclick=()=>goTo(batchNeighbours().next);$('discardEdits').onclick=discardEdits;
 $('image').onerror=()=>{$('pairing').textContent='Image could not be loaded';$('pairing').className='warning';};
 restoreDrafts();
