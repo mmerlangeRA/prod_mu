@@ -1,0 +1,94 @@
+{
+  "source": "manual_visual",
+  "note": "Mimicked API response: boxes drawn by Claude (Claude Code session) after viewing the panorama with pixel grids and zoomed crops; not produced by the API.",
+  "model": "manual",
+  "usage": null,
+  "output": {
+    "objects": [
+      {
+        "code": "ECL_SIE_06",
+        "x_min": 304,
+        "y_min": 278,
+        "x_max": 399,
+        "y_max": 528,
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "pole with two curved arms carrying bell-shaped lanterns",
+          "no tilted solar panel or round detector, unlike ECL_FEN_01"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1562,
+        "y_min": 582,
+        "x_max": 1581,
+        "y_max": 635,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "thick white cylindrical post with a grooved upper band and rounded top",
+          "not the slender dark shaft with small pale cap of POT_FEN_01, no flared ribbed base of POT_FEN_03"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1642,
+        "y_min": 554,
+        "x_max": 1653,
+        "y_max": 599,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "thick white cylindrical post with a grooved upper band and rounded top",
+          "not the slender dark shaft with small pale cap of POT_FEN_01, no flared ribbed base of POT_FEN_03"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1670,
+        "y_min": 535,
+        "x_max": 1678,
+        "y_max": 573,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "thick white cylindrical post with a grooved upper band and rounded top",
+          "not the slender dark shaft with small pale cap of POT_FEN_01, no flared ribbed base of POT_FEN_03"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1682,
+        "y_min": 523,
+        "x_max": 1688,
+        "y_max": 555,
+        "confidence": "low",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "small white upright post in a curb-side row of identical bollards",
+          "too small to resolve the cap; design matches the nearer fallback bollards of the row"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1689,
+        "y_min": 518,
+        "x_max": 1693,
+        "y_max": 546,
+        "confidence": "low",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "small white upright post in a curb-side row of identical bollards",
+          "too small to resolve the cap; design matches the nearer fallback bollards of the row"
+        ]
+      }
+    ]
+  }
+}

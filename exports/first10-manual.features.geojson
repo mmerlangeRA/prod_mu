@@ -1,0 +1,1251 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.99013079,
+     49.35175716
+    ]
+   },
+   "properties": {
+    "feature_id": "F0001",
+    "code": "ARB",
+    "category_fr": "Arbres",
+    "category_en": "Trees",
+    "classification": "direct_category",
+    "confidence": "medium",
+    "code_agreement": 1.0,
+    "n_detections": 1,
+    "min_distance_m": 11.42,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003354_equirect_anonymized.jpg",
+      "object_id": "object_2",
+      "code": "ARB",
+      "distance_m": 11.42
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.99014651,
+     49.35181374
+    ]
+   },
+   "properties": {
+    "feature_id": "F0002",
+    "code": "ARB",
+    "category_fr": "Arbres",
+    "category_en": "Trees",
+    "classification": "direct_category",
+    "confidence": "high",
+    "code_agreement": 1.0,
+    "n_detections": 3,
+    "min_distance_m": 9.89,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003354_equirect_anonymized.jpg",
+      "object_id": "object_3",
+      "code": "ARB",
+      "distance_m": 9.89
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003327_equirect_anonymized.jpg",
+      "object_id": "object_2",
+      "code": "ARB",
+      "distance_m": 11.64
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003294_equirect_anonymized.jpg",
+      "object_id": "object_3",
+      "code": "ARB",
+      "distance_m": 12.63
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.99015583,
+     49.35191136
+    ]
+   },
+   "properties": {
+    "feature_id": "F0003",
+    "code": "ARB",
+    "category_fr": "Arbres",
+    "category_en": "Trees",
+    "classification": "direct_category",
+    "confidence": "high",
+    "code_agreement": 1.0,
+    "n_detections": 3,
+    "min_distance_m": 9.12,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+      "object_id": "object_3",
+      "code": "ARB",
+      "distance_m": 9.12
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003210_equirect_anonymized.jpg",
+      "object_id": "object_2",
+      "code": "ARB",
+      "distance_m": 10.6
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003294_equirect_anonymized.jpg",
+      "object_id": "object_2",
+      "code": "ARB",
+      "distance_m": 10.6
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.99003504,
+     49.35165565
+    ]
+   },
+   "properties": {
+    "feature_id": "F0004",
+    "code": "INC",
+    "category_fr": "Bornes à incendie",
+    "category_en": "Fire hydrants",
+    "classification": "direct_category",
+    "confidence": "medium",
+    "code_agreement": 1.0,
+    "n_detections": 2,
+    "min_distance_m": 12.9,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003402_equirect_anonymized.jpg",
+      "object_id": "object_1",
+      "code": "INC",
+      "distance_m": 12.9
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003423_equirect_anonymized.jpg",
+      "object_id": "object_2",
+      "code": "INC",
+      "distance_m": 13.19
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.99000097,
+     49.35167606
+    ]
+   },
+   "properties": {
+    "feature_id": "F0005",
+    "code": "INC",
+    "category_fr": "Bornes à incendie",
+    "category_en": "Fire hydrants",
+    "classification": "direct_category",
+    "confidence": "low",
+    "code_agreement": 1.0,
+    "n_detections": 1,
+    "min_distance_m": 11.87,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003444_equirect_anonymized.jpg",
+      "object_id": "object_2",
+      "code": "INC",
+      "distance_m": 11.87
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98987329,
+     49.35164126
+    ]
+   },
+   "properties": {
+    "feature_id": "F0006",
+    "code": "ECL_SIE_06",
+    "category_fr": "Points d’éclairage",
+    "category_en": "Lighting points",
+    "classification": "category_fallback",
+    "confidence": "medium",
+    "code_agreement": 1.0,
+    "n_detections": 3,
+    "min_distance_m": 6.92,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003462_equirect_anonymized.jpg",
+      "object_id": "object_1",
+      "code": "ECL_SIE_06",
+      "distance_m": 6.92
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003444_equirect_anonymized.jpg",
+      "object_id": "object_1",
+      "code": "ECL_SIE_06",
+      "distance_m": 7.18
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003423_equirect_anonymized.jpg",
+      "object_id": "object_1",
+      "code": "ECL_SIE_06",
+      "distance_m": 7.66
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.99011905,
+     49.35176729
+    ]
+   },
+   "properties": {
+    "feature_id": "F0007",
+    "code": "ECL_SIE_06",
+    "category_fr": "Points d’éclairage",
+    "category_en": "Lighting points",
+    "classification": "category_fallback",
+    "confidence": "high",
+    "code_agreement": 1.0,
+    "n_detections": 3,
+    "min_distance_m": 9.89,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003354_equirect_anonymized.jpg",
+      "object_id": "object_1",
+      "code": "ECL_SIE_06",
+      "distance_m": 9.89
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003327_equirect_anonymized.jpg",
+      "object_id": "object_1",
+      "code": "ECL_SIE_06",
+      "distance_m": 10.41
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003378_equirect_anonymized.jpg",
+      "object_id": "object_1",
+      "code": "ECL_SIE_06",
+      "distance_m": 12.63
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.99011871,
+     49.35180246
+    ]
+   },
+   "properties": {
+    "feature_id": "F0008",
+    "code": "ECL_SIE_06",
+    "category_fr": "Points d’éclairage",
+    "category_en": "Lighting points",
+    "classification": "category_fallback",
+    "confidence": "medium",
+    "code_agreement": 1.0,
+    "n_detections": 2,
+    "min_distance_m": 11.87,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003294_equirect_anonymized.jpg",
+      "object_id": "object_1",
+      "code": "ECL_SIE_06",
+      "distance_m": 11.87
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+      "object_id": "object_2",
+      "code": "ECL_SIE_06",
+      "distance_m": 14.82
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.99013619,
+     49.35194197
+    ]
+   },
+   "properties": {
+    "feature_id": "F0009",
+    "code": "ECL_SIE_06",
+    "category_fr": "Points d’éclairage",
+    "category_en": "Lighting points",
+    "classification": "category_fallback",
+    "confidence": "medium",
+    "code_agreement": 1.0,
+    "n_detections": 2,
+    "min_distance_m": 8.21,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+      "object_id": "object_1",
+      "code": "ECL_SIE_06",
+      "distance_m": 8.21
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003210_equirect_anonymized.jpg",
+      "object_id": "object_4",
+      "code": "ECL_SIE_06",
+      "distance_m": 9.26
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98979816,
+     49.35171582
+    ]
+   },
+   "properties": {
+    "feature_id": "F0010",
+    "code": "POT_CHO_04",
+    "category_fr": "Potelets",
+    "category_en": "Bollards",
+    "classification": "category_fallback",
+    "confidence": "medium",
+    "code_agreement": 1.0,
+    "n_detections": 1,
+    "min_distance_m": 4.45,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003462_equirect_anonymized.jpg",
+      "object_id": "object_5",
+      "code": "POT_CHO_04",
+      "distance_m": 4.45
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98977811,
+     49.35171872
+    ]
+   },
+   "properties": {
+    "feature_id": "F0011",
+    "code": "POT_CHO_04",
+    "category_fr": "Potelets",
+    "category_en": "Bollards",
+    "classification": "category_fallback",
+    "confidence": "medium",
+    "code_agreement": 1.0,
+    "n_detections": 2,
+    "min_distance_m": 4.87,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003462_equirect_anonymized.jpg",
+      "object_id": "object_4",
+      "code": "POT_CHO_04",
+      "distance_m": 4.87
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003444_equirect_anonymized.jpg",
+      "object_id": "object_5",
+      "code": "POT_CHO_04",
+      "distance_m": 5.31
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98983529,
+     49.35171917
+    ]
+   },
+   "properties": {
+    "feature_id": "F0012",
+    "code": "POT_CHO_04",
+    "category_fr": "Potelets",
+    "category_en": "Bollards",
+    "classification": "category_fallback",
+    "confidence": "medium",
+    "code_agreement": 1.0,
+    "n_detections": 2,
+    "min_distance_m": 2.61,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003444_equirect_anonymized.jpg",
+      "object_id": "object_6",
+      "code": "POT_CHO_04",
+      "distance_m": 2.61
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003462_equirect_anonymized.jpg",
+      "object_id": "object_6",
+      "code": "POT_CHO_04",
+      "distance_m": 4.45
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98976057,
+     49.3517209
+    ]
+   },
+   "properties": {
+    "feature_id": "F0013",
+    "code": "POT_CHO_04",
+    "category_fr": "Potelets",
+    "category_en": "Bollards",
+    "classification": "category_fallback",
+    "confidence": "medium",
+    "code_agreement": 1.0,
+    "n_detections": 2,
+    "min_distance_m": 5.89,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003462_equirect_anonymized.jpg",
+      "object_id": "object_3",
+      "code": "POT_CHO_04",
+      "distance_m": 5.89
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003444_equirect_anonymized.jpg",
+      "object_id": "object_4",
+      "code": "POT_CHO_04",
+      "distance_m": 6.02
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98973345,
+     49.35172345
+    ]
+   },
+   "properties": {
+    "feature_id": "F0014",
+    "code": "POT_CHO_04",
+    "category_fr": "Potelets",
+    "category_en": "Bollards",
+    "classification": "category_fallback",
+    "confidence": "medium",
+    "code_agreement": 1.0,
+    "n_detections": 2,
+    "min_distance_m": 7.27,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003462_equirect_anonymized.jpg",
+      "object_id": "object_2",
+      "code": "POT_CHO_04",
+      "distance_m": 7.27
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003444_equirect_anonymized.jpg",
+      "object_id": "object_3",
+      "code": "POT_CHO_04",
+      "distance_m": 7.77
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98984551,
+     49.35172595
+    ]
+   },
+   "properties": {
+    "feature_id": "F0015",
+    "code": "POT_CHO_04",
+    "category_fr": "Potelets",
+    "category_en": "Bollards",
+    "classification": "category_fallback",
+    "confidence": "medium",
+    "code_agreement": 1.0,
+    "n_detections": 2,
+    "min_distance_m": 3.46,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003444_equirect_anonymized.jpg",
+      "object_id": "object_7",
+      "code": "POT_CHO_04",
+      "distance_m": 3.46
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003462_equirect_anonymized.jpg",
+      "object_id": "object_7",
+      "code": "POT_CHO_04",
+      "distance_m": 5.53
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98984226,
+     49.35173016
+    ]
+   },
+   "properties": {
+    "feature_id": "F0016",
+    "code": "POT_CHO_04",
+    "category_fr": "Potelets",
+    "category_en": "Bollards",
+    "classification": "category_fallback",
+    "confidence": "low",
+    "code_agreement": 1.0,
+    "n_detections": 1,
+    "min_distance_m": 6.92,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003462_equirect_anonymized.jpg",
+      "object_id": "object_8",
+      "code": "POT_CHO_04",
+      "distance_m": 6.92
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98988274,
+     49.35174832
+    ]
+   },
+   "properties": {
+    "feature_id": "F0017",
+    "code": "POT_CHO_04",
+    "category_fr": "Potelets",
+    "category_en": "Bollards",
+    "classification": "category_fallback",
+    "confidence": "medium",
+    "code_agreement": 1.0,
+    "n_detections": 2,
+    "min_distance_m": 3.26,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003423_equirect_anonymized.jpg",
+      "object_id": "object_3",
+      "code": "POT_CHO_04",
+      "distance_m": 3.26
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003444_equirect_anonymized.jpg",
+      "object_id": "object_8",
+      "code": "POT_CHO_04",
+      "distance_m": 4.97
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98987326,
+     49.3517512
+    ]
+   },
+   "properties": {
+    "feature_id": "F0018",
+    "code": "POT_CHO_04",
+    "category_fr": "Potelets",
+    "category_en": "Bollards",
+    "classification": "category_fallback",
+    "confidence": "medium",
+    "code_agreement": 1.0,
+    "n_detections": 2,
+    "min_distance_m": 6.67,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003444_equirect_anonymized.jpg",
+      "object_id": "object_9",
+      "code": "POT_CHO_04",
+      "distance_m": 6.67
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003462_equirect_anonymized.jpg",
+      "object_id": "object_9",
+      "code": "POT_CHO_04",
+      "distance_m": 8.98
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98991334,
+     49.3517749
+    ]
+   },
+   "properties": {
+    "feature_id": "F0019",
+    "code": "POT_CHO_04",
+    "category_fr": "Potelets",
+    "category_en": "Bollards",
+    "classification": "category_fallback",
+    "confidence": "medium",
+    "code_agreement": 1.0,
+    "n_detections": 3,
+    "min_distance_m": 3.46,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003402_equirect_anonymized.jpg",
+      "object_id": "object_2",
+      "code": "POT_CHO_04",
+      "distance_m": 3.46
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003423_equirect_anonymized.jpg",
+      "object_id": "object_4",
+      "code": "POT_CHO_04",
+      "distance_m": 4.61
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003327_equirect_anonymized.jpg",
+      "object_id": "object_4",
+      "code": "POT_CHO_04",
+      "distance_m": 8.84
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98990651,
+     49.35177708
+    ]
+   },
+   "properties": {
+    "feature_id": "F0020",
+    "code": "POT_CHO_04",
+    "category_fr": "Potelets",
+    "category_en": "Bollards",
+    "classification": "category_fallback",
+    "confidence": "medium",
+    "code_agreement": 1.0,
+    "n_detections": 1,
+    "min_distance_m": 6.16,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003423_equirect_anonymized.jpg",
+      "object_id": "object_5",
+      "code": "POT_CHO_04",
+      "distance_m": 6.16
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98993794,
+     49.35180639
+    ]
+   },
+   "properties": {
+    "feature_id": "F0021",
+    "code": "POT_CHO_04",
+    "category_fr": "Potelets",
+    "category_en": "Bollards",
+    "classification": "category_fallback",
+    "confidence": "medium",
+    "code_agreement": 1.0,
+    "n_detections": 6,
+    "min_distance_m": 3.6,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003378_equirect_anonymized.jpg",
+      "object_id": "object_2",
+      "code": "POT_CHO_04",
+      "distance_m": 3.6
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003354_equirect_anonymized.jpg",
+      "object_id": "object_4",
+      "code": "POT_CHO_04",
+      "distance_m": 4.41
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003402_equirect_anonymized.jpg",
+      "object_id": "object_3",
+      "code": "POT_CHO_04",
+      "distance_m": 4.7
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003423_equirect_anonymized.jpg",
+      "object_id": "object_6",
+      "code": "POT_CHO_04",
+      "distance_m": 7.87
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003327_equirect_anonymized.jpg",
+      "object_id": "object_5",
+      "code": "POT_CHO_04",
+      "distance_m": 8.58
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003294_equirect_anonymized.jpg",
+      "object_id": "object_5",
+      "code": "POT_CHO_04",
+      "distance_m": 8.98
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.9899462,
+     49.35182633
+    ]
+   },
+   "properties": {
+    "feature_id": "F0022",
+    "code": "POT_CHO_04",
+    "category_fr": "Potelets",
+    "category_en": "Bollards",
+    "classification": "category_fallback",
+    "confidence": "medium",
+    "code_agreement": 1.0,
+    "n_detections": 4,
+    "min_distance_m": 4.87,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003378_equirect_anonymized.jpg",
+      "object_id": "object_3",
+      "code": "POT_CHO_04",
+      "distance_m": 4.87
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003327_equirect_anonymized.jpg",
+      "object_id": "object_6",
+      "code": "POT_CHO_04",
+      "distance_m": 5.37
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003402_equirect_anonymized.jpg",
+      "object_id": "object_4",
+      "code": "POT_CHO_04",
+      "distance_m": 6.52
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003294_equirect_anonymized.jpg",
+      "object_id": "object_7",
+      "code": "POT_CHO_04",
+      "distance_m": 8.21
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98995201,
+     49.35182973
+    ]
+   },
+   "properties": {
+    "feature_id": "F0023",
+    "code": "POT_CHO_04",
+    "category_fr": "Potelets",
+    "category_en": "Bollards",
+    "classification": "category_fallback",
+    "confidence": "low",
+    "code_agreement": 1.0,
+    "n_detections": 3,
+    "min_distance_m": 8.45,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003402_equirect_anonymized.jpg",
+      "object_id": "object_5",
+      "code": "POT_CHO_04",
+      "distance_m": 8.45
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003294_equirect_anonymized.jpg",
+      "object_id": "object_6",
+      "code": "POT_CHO_04",
+      "distance_m": 8.71
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+      "object_id": "object_5",
+      "code": "POT_CHO_04",
+      "distance_m": 10.41
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.9899608,
+     49.35185353
+    ]
+   },
+   "properties": {
+    "feature_id": "F0024",
+    "code": "POT_CHO_04",
+    "category_fr": "Potelets",
+    "category_en": "Bollards",
+    "classification": "category_fallback",
+    "confidence": "medium",
+    "code_agreement": 1.0,
+    "n_detections": 5,
+    "min_distance_m": 4.34,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003354_equirect_anonymized.jpg",
+      "object_id": "object_5",
+      "code": "POT_CHO_04",
+      "distance_m": 4.34
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003327_equirect_anonymized.jpg",
+      "object_id": "object_7",
+      "code": "POT_CHO_04",
+      "distance_m": 4.38
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003294_equirect_anonymized.jpg",
+      "object_id": "object_9",
+      "code": "POT_CHO_04",
+      "distance_m": 5.16
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003378_equirect_anonymized.jpg",
+      "object_id": "object_4",
+      "code": "POT_CHO_04",
+      "distance_m": 6.37
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+      "object_id": "object_6",
+      "code": "POT_CHO_04",
+      "distance_m": 7.98
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98996615,
+     49.35186777
+    ]
+   },
+   "properties": {
+    "feature_id": "F0025",
+    "code": "POT_CHO_04",
+    "category_fr": "Potelets",
+    "category_en": "Bollards",
+    "classification": "category_fallback",
+    "confidence": "medium",
+    "code_agreement": 1.0,
+    "n_detections": 5,
+    "min_distance_m": 5.89,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003294_equirect_anonymized.jpg",
+      "object_id": "object_8",
+      "code": "POT_CHO_04",
+      "distance_m": 5.89
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+      "object_id": "object_7",
+      "code": "POT_CHO_04",
+      "distance_m": 6.37
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003354_equirect_anonymized.jpg",
+      "object_id": "object_7",
+      "code": "POT_CHO_04",
+      "distance_m": 6.67
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003378_equirect_anonymized.jpg",
+      "object_id": "object_5",
+      "code": "POT_CHO_04",
+      "distance_m": 7.98
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003210_equirect_anonymized.jpg",
+      "object_id": "object_5",
+      "code": "POT_CHO_04",
+      "distance_m": 9.12
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98996654,
+     49.35187871
+    ]
+   },
+   "properties": {
+    "feature_id": "F0026",
+    "code": "POT_CHO_04",
+    "category_fr": "Potelets",
+    "category_en": "Bollards",
+    "classification": "category_fallback",
+    "confidence": "medium",
+    "code_agreement": 1.0,
+    "n_detections": 6,
+    "min_distance_m": 4.49,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003294_equirect_anonymized.jpg",
+      "object_id": "object_10",
+      "code": "POT_CHO_04",
+      "distance_m": 4.49
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003327_equirect_anonymized.jpg",
+      "object_id": "object_8",
+      "code": "POT_CHO_04",
+      "distance_m": 4.87
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+      "object_id": "object_9",
+      "code": "POT_CHO_04",
+      "distance_m": 5.16
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003354_equirect_anonymized.jpg",
+      "object_id": "object_6",
+      "code": "POT_CHO_04",
+      "distance_m": 5.71
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003210_equirect_anonymized.jpg",
+      "object_id": "object_6",
+      "code": "POT_CHO_04",
+      "distance_m": 8.45
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003378_equirect_anonymized.jpg",
+      "object_id": "object_6",
+      "code": "POT_CHO_04",
+      "distance_m": 9.12
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98996734,
+     49.35189599
+    ]
+   },
+   "properties": {
+    "feature_id": "F0027",
+    "code": "POT_CHO_04",
+    "category_fr": "Potelets",
+    "category_en": "Bollards",
+    "classification": "category_fallback",
+    "confidence": "medium",
+    "code_agreement": 1.0,
+    "n_detections": 5,
+    "min_distance_m": 4.61,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003294_equirect_anonymized.jpg",
+      "object_id": "object_11",
+      "code": "POT_CHO_04",
+      "distance_m": 4.61
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+      "object_id": "object_10",
+      "code": "POT_CHO_04",
+      "distance_m": 4.78
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003327_equirect_anonymized.jpg",
+      "object_id": "object_9",
+      "code": "POT_CHO_04",
+      "distance_m": 5.59
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003354_equirect_anonymized.jpg",
+      "object_id": "object_8",
+      "code": "POT_CHO_04",
+      "distance_m": 7.66
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003210_equirect_anonymized.jpg",
+      "object_id": "object_7",
+      "code": "POT_CHO_04",
+      "distance_m": 7.87
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98996811,
+     49.35189705
+    ]
+   },
+   "properties": {
+    "feature_id": "F0028",
+    "code": "POT_CHO_04",
+    "category_fr": "Potelets",
+    "category_en": "Bollards",
+    "classification": "category_fallback",
+    "confidence": "medium",
+    "code_agreement": 1.0,
+    "n_detections": 5,
+    "min_distance_m": 5.16,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003294_equirect_anonymized.jpg",
+      "object_id": "object_12",
+      "code": "POT_CHO_04",
+      "distance_m": 5.16
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+      "object_id": "object_8",
+      "code": "POT_CHO_04",
+      "distance_m": 5.83
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003327_equirect_anonymized.jpg",
+      "object_id": "object_10",
+      "code": "POT_CHO_04",
+      "distance_m": 6.37
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003210_equirect_anonymized.jpg",
+      "object_id": "object_8",
+      "code": "POT_CHO_04",
+      "distance_m": 7.77
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003354_equirect_anonymized.jpg",
+      "object_id": "object_9",
+      "code": "POT_CHO_04",
+      "distance_m": 8.45
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98995732,
+     49.35190473
+    ]
+   },
+   "properties": {
+    "feature_id": "F0029",
+    "code": "POT_CHO_04",
+    "category_fr": "Potelets",
+    "category_en": "Bollards",
+    "classification": "category_fallback",
+    "confidence": "low",
+    "code_agreement": 1.0,
+    "n_detections": 2,
+    "min_distance_m": 7.98,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003327_equirect_anonymized.jpg",
+      "object_id": "object_11",
+      "code": "POT_CHO_04",
+      "distance_m": 7.98
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003354_equirect_anonymized.jpg",
+      "object_id": "object_10",
+      "code": "POT_CHO_04",
+      "distance_m": 9.72
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.98999994,
+     49.35189538
+    ]
+   },
+   "properties": {
+    "feature_id": "F0030",
+    "code": "RAL01",
+    "category_fr": "Ralentisseurs",
+    "category_en": "Speed bumps",
+    "classification": "shape_subtype",
+    "confidence": "medium",
+    "code_agreement": 1.0,
+    "n_detections": 1,
+    "min_distance_m": 5.21,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003327_equirect_anonymized.jpg",
+      "object_id": "object_3",
+      "code": "RAL01",
+      "distance_m": 5.21
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.9900581,
+     49.35191789
+    ]
+   },
+   "properties": {
+    "feature_id": "F0031",
+    "code": "RAL01",
+    "category_fr": "Ralentisseurs",
+    "category_en": "Speed bumps",
+    "classification": "shape_subtype",
+    "confidence": "medium",
+    "code_agreement": 1.0,
+    "n_detections": 2,
+    "min_distance_m": 2.96,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003255_equirect_anonymized.jpg",
+      "object_id": "object_4",
+      "code": "RAL01",
+      "distance_m": 2.96
+     },
+     {
+      "image_file": "20260805_080341_gs010136_f_003294_equirect_anonymized.jpg",
+      "object_id": "object_4",
+      "code": "RAL01",
+      "distance_m": 2.96
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.99004418,
+     49.35196341
+    ]
+   },
+   "properties": {
+    "feature_id": "F0032",
+    "code": "RAL01",
+    "category_fr": "Ralentisseurs",
+    "category_en": "Speed bumps",
+    "classification": "shape_subtype",
+    "confidence": "medium",
+    "code_agreement": 1.0,
+    "n_detections": 1,
+    "min_distance_m": 2.65,
+    "detections": [
+     {
+      "image_file": "20260805_080341_gs010136_f_003210_equirect_anonymized.jpg",
+      "object_id": "object_1",
+      "code": "RAL01",
+      "distance_m": 2.65
+     }
+    ]
+   }
+  }
+ ]
+}

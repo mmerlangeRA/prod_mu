@@ -37,7 +37,7 @@ CATALOGUE CODE RULES
 - Ashtrays / Cendriers: use `CEN`.
 - Waste and recycling drop-off points / Points d’apport volontaire: use `PAPV`.
 - Fire hydrants / Bornes à incendie: use `INC`.
-- Speed bumps / Ralentisseurs have no generic fallback. Use `RAL01` for a trapezoidal raised crossing/profile, `RAL02` for a broad raised plateau, `RAL03` for the described localized Berlin speed cushion, or `RAL04` for a rounded speed hump. If the subtype is not visually decidable, do not output a speed-bump detection.
+- Speed bumps / Ralentisseurs have no generic fallback: always use one of the subtypes `RAL01` (trapezoidal), `RAL02` (plateau), `RAL03` (Berlin cushion) or `RAL04` (rounded hump). Follow the section SPEED BUMPS AND PEDESTRIAN CROSSINGS: it decides when a speed bump is present and which subtype to choose.
 
 DETECTION AND CLASSIFICATION METHOD
 
@@ -48,6 +48,20 @@ DETECTION AND CLASSIFICATION METHOD
 5. When the category is clear but none of its described specific designs matches, use that category's fallback code. A fallback code means “this category, another design”; it does not mean the image is too blurry to classify.
 6. If visibility is insufficient even to establish the category, omit the object. Do not turn uncertainty, blur or severe occlusion into a fallback detection.
 7. Do not output objects outside the CSV category list. Do not assign one physical object both a specific code and its fallback code. An accessory integrated into a larger item is not a second detection unless it is a visibly distinct collectable object in its own right.
+
+SPEED BUMPS AND PEDESTRIAN CROSSINGS
+
+- A speed bump is a raised section of the carriageway that vehicles drive over. A pedestrian crossing is only paint on the road: parallel white bars across the carriageway. Pedestrian crossings are not a requested category. Never report a speed bump because of zebra stripes alone, however wide or close they are.
+- The main evidence of a speed bump is a row of white triangles ("dents de requin", shark teeth) painted side by side across the lane, on the ramp. Shark teeth are enough on their own: when you see them, report the speed bump.
+- Other evidence of a raised section: a ramp edge or step line running across the lane, a bounded patch of different surface (red or ochre coating, block paving, another asphalt), a slope visible through shading or through the bending of lane markings, or a road surface that rises to kerb level.
+- A zebra crossing can lie on a speed bump (a raised crossing). Report the speed bump only when shark teeth, a ramp or a surface change show that the crossing is raised. Then box the whole raised section (both ramps and the top, including the shark teeth), not only the stripes.
+- Do not miss partly visible speed bumps. One visible ramp is enough. The vehicle often drives over the bump, so the part under the car is hidden: box the visible part on the road surface and set occluded or truncated. Both ramps and the top of one bump form one object. Separate rows of shark teeth on different roads of a junction belong to separate bumps unless a continuous raised surface joins them.
+- Choose the subtype from the profile and extent:
+  - `RAL01` trapezoidal: two straight ramps with a short flat top a few metres long, across the whole lane or road; it often carries a pedestrian crossing.
+  - `RAL02` plateau: a long flat raised area, roughly 10 m or more, often covering a whole junction or a street section, with ramps far apart and often a different surface.
+  - `RAL03` Berlin cushion: a rectangular cushion covering only part of the lane width, as in the description; wheels can straddle it.
+  - `RAL04` rounded hump: a curved profile with no flat top, short (about 4 m) and across the whole lane.
+- When a speed bump is clearly present but its subtype is uncertain (for example only one ramp is visible), choose the most likely subtype with confidence `low`, and name the missing discriminator in `visible_evidence`. Omit a speed bump only when its presence itself is uncertain.
 
 BOUNDING BOX RULES
 
@@ -62,7 +76,7 @@ CONFIDENCE
 
 - `high`: category and code are supported by clear, distinctive visible geometry.
 - `medium`: the result is likely but a useful discriminator is small, partly occluded or affected by viewpoint.
-- `low`: use only for a category fallback or broad direct category that is still more likely than alternatives. Never use low confidence to force a specific described design.
+- `low`: use only for a category fallback or broad direct category that is still more likely than alternatives, or for a speed-bump subtype when the speed bump itself is certain. Never use low confidence to force a specific described design.
 
 OUTPUT
 

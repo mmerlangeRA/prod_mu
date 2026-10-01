@@ -1,0 +1,80 @@
+{
+  "source": "manual_visual",
+  "note": "Mimicked API response: boxes drawn by Claude (Claude Code session) after viewing the panorama with pixel grids and zoomed crops; not produced by the API.",
+  "model": "manual",
+  "usage": null,
+  "output": {
+    "objects": [
+      {
+        "code": "INC",
+        "x_min": 584,
+        "y_min": 498,
+        "x_max": 592,
+        "y_max": 527,
+        "confidence": "medium",
+        "occluded": true,
+        "truncated": false,
+        "visible_evidence": [
+          "short red post standing in the grass verge",
+          "colour, height and rounded top typical of a fire hydrant"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1622,
+        "y_min": 586,
+        "x_max": 1638,
+        "y_max": 640,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "thick white cylindrical post with a grooved upper band and rounded top",
+          "not the slender dark shaft with small pale cap of POT_FEN_01, no flared ribbed base of POT_FEN_03"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1680,
+        "y_min": 557,
+        "x_max": 1688,
+        "y_max": 603,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "thick white cylindrical post with a grooved upper band and rounded top",
+          "not the slender dark shaft with small pale cap of POT_FEN_01, no flared ribbed base of POT_FEN_03"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1701,
+        "y_min": 533,
+        "x_max": 1710,
+        "y_max": 571,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "thick white cylindrical post with a grooved upper band and rounded top",
+          "not the slender dark shaft with small pale cap of POT_FEN_01, no flared ribbed base of POT_FEN_03"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1714,
+        "y_min": 520,
+        "x_max": 1721,
+        "y_max": 551,
+        "confidence": "low",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "small white upright post in a curb-side row of identical bollards",
+          "too small to resolve the cap; design matches the nearer fallback bollards of the row"
+        ]
+      }
+    ]
+  }
+}

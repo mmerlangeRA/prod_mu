@@ -7,7 +7,7 @@ description: Inspect supplied street-scene photographs against this project's Ch
 
 Paths below are relative to the repository root (two directories above this skill).
 
-Read `llm_description.json` for category definitions, exact names/IDs, diagnostic traits, and known ambiguities. Read `detections.schema.json` for the output contract and the detection section of `README.md` for coordinate conventions. `recognition_prompt.md` provides comparison guidance; its recognition-only response example is superseded by the detection schema for this workflow.
+Read `fensch_image_descriptions.json` for category definitions, exact names/IDs, diagnostic traits, and known ambiguities. Read `detections.schema.json` for the output contract and the detection section of `README.md` for coordinate conventions. `fensch_bbox_prompt.md` provides comparison guidance; its recognition-only response example is superseded by the detection schema for this workflow.
 
 ## Inspect and classify
 

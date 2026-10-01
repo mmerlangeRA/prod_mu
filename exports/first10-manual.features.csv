@@ -1,0 +1,33 @@
+﻿feature_id,code,category_fr,category_en,classification,latitude,longitude,confidence,code_agreement,n_detections,min_distance_m,frames
+F0001,ARB,Arbres,Trees,direct_category,49.35175716,5.99013079,medium,1.0,1,11.42,3354
+F0002,ARB,Arbres,Trees,direct_category,49.35181374,5.99014651,high,1.0,3,9.89,3294 3327 3354
+F0003,ARB,Arbres,Trees,direct_category,49.35191136,5.99015583,high,1.0,3,9.12,3210 3255 3294
+F0004,INC,Bornes à incendie,Fire hydrants,direct_category,49.35165565,5.99003504,medium,1.0,2,12.9,3402 3423
+F0005,INC,Bornes à incendie,Fire hydrants,direct_category,49.35167606,5.99000097,low,1.0,1,11.87,3444
+F0006,ECL_SIE_06,Points d’éclairage,Lighting points,category_fallback,49.35164126,5.98987329,medium,1.0,3,6.92,3423 3444 3462
+F0007,ECL_SIE_06,Points d’éclairage,Lighting points,category_fallback,49.35176729,5.99011905,high,1.0,3,9.89,3327 3354 3378
+F0008,ECL_SIE_06,Points d’éclairage,Lighting points,category_fallback,49.35180246,5.99011871,medium,1.0,2,11.87,3255 3294
+F0009,ECL_SIE_06,Points d’éclairage,Lighting points,category_fallback,49.35194197,5.99013619,medium,1.0,2,8.21,3210 3255
+F0010,POT_CHO_04,Potelets,Bollards,category_fallback,49.35171582,5.98979816,medium,1.0,1,4.45,3462
+F0011,POT_CHO_04,Potelets,Bollards,category_fallback,49.35171872,5.98977811,medium,1.0,2,4.87,3444 3462
+F0012,POT_CHO_04,Potelets,Bollards,category_fallback,49.35171917,5.98983529,medium,1.0,2,2.61,3444 3462
+F0013,POT_CHO_04,Potelets,Bollards,category_fallback,49.3517209,5.98976057,medium,1.0,2,5.89,3444 3462
+F0014,POT_CHO_04,Potelets,Bollards,category_fallback,49.35172345,5.98973345,medium,1.0,2,7.27,3444 3462
+F0015,POT_CHO_04,Potelets,Bollards,category_fallback,49.35172595,5.98984551,medium,1.0,2,3.46,3444 3462
+F0016,POT_CHO_04,Potelets,Bollards,category_fallback,49.35173016,5.98984226,low,1.0,1,6.92,3462
+F0017,POT_CHO_04,Potelets,Bollards,category_fallback,49.35174832,5.98988274,medium,1.0,2,3.26,3423 3444
+F0018,POT_CHO_04,Potelets,Bollards,category_fallback,49.3517512,5.98987326,medium,1.0,2,6.67,3444 3462
+F0019,POT_CHO_04,Potelets,Bollards,category_fallback,49.3517749,5.98991334,medium,1.0,3,3.46,3327 3402 3423
+F0020,POT_CHO_04,Potelets,Bollards,category_fallback,49.35177708,5.98990651,medium,1.0,1,6.16,3423
+F0021,POT_CHO_04,Potelets,Bollards,category_fallback,49.35180639,5.98993794,medium,1.0,6,3.6,3294 3327 3354 3378 3402 3423
+F0022,POT_CHO_04,Potelets,Bollards,category_fallback,49.35182633,5.9899462,medium,1.0,4,4.87,3294 3327 3378 3402
+F0023,POT_CHO_04,Potelets,Bollards,category_fallback,49.35182973,5.98995201,low,1.0,3,8.45,3255 3294 3402
+F0024,POT_CHO_04,Potelets,Bollards,category_fallback,49.35185353,5.9899608,medium,1.0,5,4.34,3255 3294 3327 3354 3378
+F0025,POT_CHO_04,Potelets,Bollards,category_fallback,49.35186777,5.98996615,medium,1.0,5,5.89,3210 3255 3294 3354 3378
+F0026,POT_CHO_04,Potelets,Bollards,category_fallback,49.35187871,5.98996654,medium,1.0,6,4.49,3210 3255 3294 3327 3354 3378
+F0027,POT_CHO_04,Potelets,Bollards,category_fallback,49.35189599,5.98996734,medium,1.0,5,4.61,3210 3255 3294 3327 3354
+F0028,POT_CHO_04,Potelets,Bollards,category_fallback,49.35189705,5.98996811,medium,1.0,5,5.16,3210 3255 3294 3327 3354
+F0029,POT_CHO_04,Potelets,Bollards,category_fallback,49.35190473,5.98995732,low,1.0,2,7.98,3327 3354
+F0030,RAL01,Ralentisseurs,Speed bumps,shape_subtype,49.35189538,5.98999994,medium,1.0,1,5.21,3327
+F0031,RAL01,Ralentisseurs,Speed bumps,shape_subtype,49.35191789,5.9900581,medium,1.0,2,2.96,3255 3294
+F0032,RAL01,Ralentisseurs,Speed bumps,shape_subtype,49.35196341,5.99004418,medium,1.0,1,2.65,3210

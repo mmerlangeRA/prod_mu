@@ -1,0 +1,136 @@
+{
+  "source": "manual_visual",
+  "note": "Mimicked API response: boxes drawn by Claude (Claude Code session) after viewing the panorama with pixel grids and zoomed crops; not produced by the API.",
+  "model": "manual",
+  "usage": null,
+  "output": {
+    "objects": [
+      {
+        "code": "ECL_SIE_06",
+        "x_min": 589,
+        "y_min": 283,
+        "x_max": 603,
+        "y_max": 563,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "tall slender pole with a single small luminaire head at its top",
+          "no tilted solar panel or round detector, unlike ECL_FEN_01"
+        ]
+      },
+      {
+        "code": "INC",
+        "x_min": 260,
+        "y_min": 499,
+        "x_max": 267,
+        "y_max": 531,
+        "confidence": "low",
+        "occluded": true,
+        "truncated": false,
+        "visible_evidence": [
+          "short dark-red post in the grass verge, partly hidden by vegetation",
+          "colour and height consistent with a fire hydrant"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1272,
+        "y_min": 527,
+        "x_max": 1279,
+        "y_max": 557,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "thick white cylindrical post with a grooved upper band and rounded top",
+          "not the slender dark shaft with small pale cap of POT_FEN_01, no flared ribbed base of POT_FEN_03"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1282,
+        "y_min": 543,
+        "x_max": 1290,
+        "y_max": 578,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "thick white cylindrical post with a grooved upper band and rounded top",
+          "not the slender dark shaft with small pale cap of POT_FEN_01, no flared ribbed base of POT_FEN_03"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1301,
+        "y_min": 563,
+        "x_max": 1312,
+        "y_max": 590,
+        "confidence": "medium",
+        "occluded": true,
+        "truncated": false,
+        "visible_evidence": [
+          "thick white cylindrical post with a grooved upper band and rounded top",
+          "not the slender dark shaft with small pale cap of POT_FEN_01, no flared ribbed base of POT_FEN_03"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1638,
+        "y_min": 623,
+        "x_max": 1657,
+        "y_max": 680,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "thick white cylindrical post with a grooved upper band and rounded top",
+          "not the slender dark shaft with small pale cap of POT_FEN_01, no flared ribbed base of POT_FEN_03"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1708,
+        "y_min": 585,
+        "x_max": 1722,
+        "y_max": 640,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "thick white cylindrical post with a grooved upper band and rounded top",
+          "not the slender dark shaft with small pale cap of POT_FEN_01, no flared ribbed base of POT_FEN_03"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1749,
+        "y_min": 551,
+        "x_max": 1759,
+        "y_max": 597,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "thick white cylindrical post with a grooved upper band and rounded top",
+          "not the slender dark shaft with small pale cap of POT_FEN_01, no flared ribbed base of POT_FEN_03"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1761,
+        "y_min": 521,
+        "x_max": 1772,
+        "y_max": 569,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "thick white cylindrical post with a grooved upper band and rounded top",
+          "not the slender dark shaft with small pale cap of POT_FEN_01, no flared ribbed base of POT_FEN_03"
+        ]
+      }
+    ]
+  }
+}

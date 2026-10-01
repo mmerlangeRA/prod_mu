@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "review-server",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["review_server.py", "--port", "8765"],
+      "port": 8765
+    }
+  ]
+}

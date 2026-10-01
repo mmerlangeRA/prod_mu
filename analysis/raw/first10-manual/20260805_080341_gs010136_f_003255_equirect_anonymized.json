@@ -1,0 +1,150 @@
+{
+  "source": "manual_visual",
+  "note": "Mimicked API response: boxes drawn by Claude (Claude Code session) after viewing the panorama with pixel grids and zoomed crops; not produced by the API.",
+  "model": "manual",
+  "usage": null,
+  "output": {
+    "objects": [
+      {
+        "code": "ECL_SIE_06",
+        "x_min": 480,
+        "y_min": 256,
+        "x_max": 533,
+        "y_max": 553,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "utility pole with a lateral arm carrying a flat luminaire",
+          "no solar panel, unlike ECL_FEN_01"
+        ]
+      },
+      {
+        "code": "ECL_SIE_06",
+        "x_min": 879,
+        "y_min": 349,
+        "x_max": 917,
+        "y_max": 521,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "pole with two curved arms carrying bell-shaped lanterns",
+          "no tilted solar panel or round detector, unlike ECL_FEN_01"
+        ]
+      },
+      {
+        "code": "ARB",
+        "x_min": 582,
+        "y_min": 388,
+        "x_max": 696,
+        "y_max": 546,
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "woody trunk rising from the ground",
+          "leafy canopy"
+        ]
+      },
+      {
+        "code": "RAL01",
+        "x_min": 385,
+        "y_min": 566,
+        "x_max": 825,
+        "y_max": 757,
+        "confidence": "medium",
+        "occluded": true,
+        "truncated": false,
+        "visible_evidence": [
+          "white shark-teeth triangles marking a ramp",
+          "zebra crossing on the raised section"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1166,
+        "y_min": 510,
+        "x_max": 1174,
+        "y_max": 538,
+        "confidence": "low",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "small white upright post in a curb-side row of identical bollards",
+          "too small to resolve the cap; design matches the nearer fallback bollards of the row"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1184,
+        "y_min": 527,
+        "x_max": 1191,
+        "y_max": 555,
+        "confidence": "low",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "small white upright post in a curb-side row of identical bollards",
+          "too small to resolve the cap; design matches the nearer fallback bollards of the row"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1225,
+        "y_min": 541,
+        "x_max": 1233,
+        "y_max": 573,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "thick white cylindrical post with a grooved upper band and rounded top",
+          "not the slender dark shaft with small pale cap of POT_FEN_01, no flared ribbed base of POT_FEN_03"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1257,
+        "y_min": 550,
+        "x_max": 1265,
+        "y_max": 581,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "thick white cylindrical post with a grooved upper band and rounded top",
+          "not the slender dark shaft with small pale cap of POT_FEN_01, no flared ribbed base of POT_FEN_03"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1306,
+        "y_min": 559,
+        "x_max": 1318,
+        "y_max": 593,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "thick white cylindrical post with a grooved upper band and rounded top",
+          "not the slender dark shaft with small pale cap of POT_FEN_01, no flared ribbed base of POT_FEN_03"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1372,
+        "y_min": 568,
+        "x_max": 1389,
+        "y_max": 601,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "thick white cylindrical post with a grooved upper band and rounded top",
+          "not the slender dark shaft with small pale cap of POT_FEN_01, no flared ribbed base of POT_FEN_03"
+        ]
+      }
+    ]
+  }
+}

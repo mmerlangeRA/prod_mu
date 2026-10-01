@@ -1,0 +1,122 @@
+{
+  "source": "manual_visual",
+  "note": "Mimicked API response: boxes drawn by Claude (Claude Code session) after viewing the panorama with pixel grids and zoomed crops; not produced by the API.",
+  "model": "manual",
+  "usage": null,
+  "output": {
+    "objects": [
+      {
+        "code": "RAL01",
+        "x_min": 305,
+        "y_min": 555,
+        "x_max": 900,
+        "y_max": 800,
+        "confidence": "medium",
+        "occluded": true,
+        "truncated": false,
+        "visible_evidence": [
+          "white shark-teeth triangles marking a ramp",
+          "zebra crossing on the raised section"
+        ]
+      },
+      {
+        "code": "ARB",
+        "x_min": 703,
+        "y_min": 398,
+        "x_max": 772,
+        "y_max": 537,
+        "confidence": "high",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "woody trunk rising from the ground",
+          "leafy canopy"
+        ]
+      },
+      {
+        "code": "ECL_SIE_06",
+        "x_min": 950,
+        "y_min": 377,
+        "x_max": 982,
+        "y_max": 520,
+        "confidence": "medium",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "pole with two curved arms carrying bell-shaped lanterns",
+          "no tilted solar panel or round detector, unlike ECL_FEN_01"
+        ]
+      },
+      {
+        "code": "ECL_SIE_06",
+        "x_min": 664,
+        "y_min": 290,
+        "x_max": 702,
+        "y_max": 545,
+        "confidence": "low",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "tall pole with a side arm at its top; the luminaire is partly hidden by sun glare",
+          "no solar panel visible"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1165,
+        "y_min": 516,
+        "x_max": 1171,
+        "y_max": 546,
+        "confidence": "low",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "small white upright post in a curb-side row of identical bollards",
+          "too small to resolve the cap; design matches the nearer fallback bollards of the row"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1174,
+        "y_min": 526,
+        "x_max": 1180,
+        "y_max": 551,
+        "confidence": "low",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "small white upright post in a curb-side row of identical bollards",
+          "too small to resolve the cap; design matches the nearer fallback bollards of the row"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1182,
+        "y_min": 532,
+        "x_max": 1188,
+        "y_max": 556,
+        "confidence": "low",
+        "occluded": false,
+        "truncated": false,
+        "visible_evidence": [
+          "small white upright post in a curb-side row of identical bollards",
+          "too small to resolve the cap; design matches the nearer fallback bollards of the row"
+        ]
+      },
+      {
+        "code": "POT_CHO_04",
+        "x_min": 1191,
+        "y_min": 536,
+        "x_max": 1196,
+        "y_max": 557,
+        "confidence": "low",
+        "occluded": true,
+        "truncated": false,
+        "visible_evidence": [
+          "small white upright post in a curb-side row of identical bollards",
+          "too small to resolve the cap; design matches the nearer fallback bollards of the row"
+        ]
+      }
+    ]
+  }
+}
