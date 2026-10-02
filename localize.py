@@ -81,6 +81,7 @@ def merge(detections, radius, catalogue):
         code = max(votes, key=votes.get)
         chosen = [m for m in cluster["members"] if m["code"] == code]
         entry = catalogue[code]
+        state = feature_state(chosen)
         features.append({
             "feature_id": f"F{number:04d}",
             "code": code,
@@ -91,12 +92,25 @@ def merge(detections, radius, catalogue):
             "longitude": round(cluster["longitude"], 8),
             "confidence": max((m["confidence"] for m in chosen), key=CONFIDENCE_WEIGHT.get),
             "code_agreement": round(votes[code] / sum(votes.values()), 3),
+            "state": state,
+            "etat": fensch.ETAT_BY_STATE.get(state),
             "n_detections": len(cluster["members"]),
             "min_distance_m": min(m["ground"]["distance_m"] for m in cluster["members"]),
             "detections": [{"image_file": m["image_file"], "object_id": m["object_id"], "code": m["code"],
                             "distance_m": m["ground"]["distance_m"]} for m in cluster["members"]],
         })
     return features
+
+
+def feature_state(members):
+    """Weighted vote over the members' stage-2 states; a tie goes to the worse state. None when no member has one."""
+    votes = {}
+    for member in members:
+        if member.get("state") in fensch.STATES:
+            votes[member["state"]] = votes.get(member["state"], 0.0) + member_weight(member)
+    if not votes:
+        return None
+    return max(votes, key=lambda state: (votes[state], fensch.STATES.index(state)))
 
 
 def member_weight(det):
@@ -119,11 +133,11 @@ def write_exports(batch_name, data, features):
     with open(f"{stem}.features.csv", "w", encoding="utf-8-sig", newline="") as handle:
         writer = csv.writer(handle)
         writer.writerow(["feature_id", "code", "category_fr", "category_en", "classification", "latitude", "longitude",
-                         "confidence", "code_agreement", "n_detections", "min_distance_m", "frames"])
+                         "confidence", "code_agreement", "state", "etat", "n_detections", "min_distance_m", "frames"])
         for f in features:
             frames = sorted({fensch.frame_key(d["image_file"])[1] for d in f["detections"]})
             writer.writerow([f["feature_id"], f["code"], f["category_fr"], f["category_en"], f["classification"],
-                             f["latitude"], f["longitude"], f["confidence"], f["code_agreement"], f["n_detections"],
+                             f["latitude"], f["longitude"], f["confidence"], f["code_agreement"], f["state"], f["etat"], f["n_detections"],
                              f["min_distance_m"], " ".join(str(n) for n in frames)])
 
     detection_features = []
@@ -136,7 +150,8 @@ def write_exports(batch_name, data, features):
                 "type": "Feature",
                 "geometry": {"type": "Point", "coordinates": [ground["longitude"], ground["latitude"]]},
                 "properties": {"image_file": image["image_file"], "object_id": obj["object_id"], "code": obj["code"],
-                               "confidence": obj["confidence"], "distance_m": ground["distance_m"],
+                               "confidence": obj["confidence"], "state": obj.get("state"),
+                               "distance_m": ground["distance_m"],
                                "bearing_deg": ground["bearing_deg"], "reliable": ground["reliable"],
                                "feature_id": obj.get("feature_id")},
             })

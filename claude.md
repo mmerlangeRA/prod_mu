@@ -50,11 +50,12 @@ Python code needs the local virtualenv: `python3 -m venv .venv && .venv/bin/pip 
 2. Read `fensch_image_descriptions.json` for the category's codes. Then, for each sheet, view the image and fill `decisions.json` for every item:
    - **`code`:** the specific model when the description is visually supported; otherwise the category fallback; or another category's code when the category is wrong (e.g. a bicycle rack taken for a bollard); or `"REJECT"` for non-equipment (wheelie bins, private bins, signs, reflections, car parts). `null` means undecided.
    - **`confidence`:** high, medium or low.
-   - **`evidence`:** 1–2 short visible reasons.
+   - **`state`:** `good` (the norm), `damaged` (already significantly deteriorated: leaning, dented, broken part, heavy rust…) or `bad` (not or barely functional: knocked down, broken off…); `null` for `REJECT`. It maps to the Clavier's mandatory `Etat` part (Bon / Moyen / Mauvais) and is exported as `state` and `etat` per feature. Small distant objects with no visible defect are `good`.
+   - **`evidence`:** 1–2 short visible reasons, including the reason for a `damaged` or `bad` state.
    - Small distant objects of the right category keep the fallback with `low` confidence; do not reject them.
    - Stage-1 boxes can be a little off, and neighbouring bollards can be merged into one feature: judge the object nearest the red box in the clearest view.
    - Speed bumps: choose the subtype with the rules in `fensch_bbox_prompt.md`, and reject zebra-only crossings.
-3. `.venv/bin/python apply_typing.py analysis/ollama-qwen35-all.json` writes `analysis/<batch>-typed.json` (the source batch is untouched), re-localizes it and rebuilds the viewer.
+3. `.venv/bin/python apply_typing.py analysis/ollama-qwen35-all.json` copies code, confidence, state and evidence onto every detection of each decided feature and writes `analysis/<batch>-typed.json` (the source batch is untouched), re-localizes it and rebuilds the viewer.
 4. Quota: this stage uses the Claude Code plan (the `get_usage` tool shows it). Measure the usage of the first 2 sheets before doing all of them; a fresh session keeps each action cheap.
 
 ### Other detectors (kept for comparison)

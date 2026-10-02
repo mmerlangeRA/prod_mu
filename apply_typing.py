@@ -7,9 +7,11 @@ Reads analysis/raw/<batch>/typing/decisions.json (written by typing_sheets.py an
   "code": a catalogue code (it may be in another category, e.g. a "bollard" that is really a bicycle rack),
           "REJECT" (not equipment: wheelie bin, sign, reflection...), or null (undecided: left unchanged);
   "confidence": "high" | "medium" | "low";
-  "evidence": short visible reasons.
-Every detection of a decided feature gets the code, its category and classification, code_status "typed" and the
-evidence; rejected features lose all their detections (kept under the image's typing.rejected). The result is written
+  "state": "good" | "damaged" | "bad" (null for REJECT): good is the norm, damaged is significantly deteriorated
+           (leaning, dented, broken part, heavy rust...), bad is not or barely functional (knocked down, broken off...);
+  "evidence": short visible reasons, including the reason for a damaged or bad state.
+Every detection of a decided feature gets the code, its category and classification, code_status "typed", the state
+and the evidence; rejected features lose all their detections (kept under the image's typing.rejected). The result is written
 to analysis/<batch>-typed.json (the source batch is never modified), then localize.py and the viewer build are run.
 """
 import argparse
@@ -42,6 +44,8 @@ def main():
 
     problems = [f"{fid}: unknown code {d['code']!r}" for fid, d in decisions.items()
                 if d.get("code") not in (None, "REJECT") and d["code"] not in catalogue]
+    problems += [f"{fid}: state must be one of {', '.join(fensch.STATES)}" for fid, d in decisions.items()
+                 if d.get("code") not in (None, "REJECT") and d.get("state") is not None and d["state"] not in fensch.STATES]
     problems += [f"{fid}: unknown feature" for fid in decisions if fid not in {f["feature_id"] for f in data.get("features", [])}]
     if problems:
         raise SystemExit("Invalid decisions:\n" + "\n".join(problems))
@@ -74,6 +78,8 @@ def main():
                         "code_status": "typed", "typed_from_feature": feature_id})
             if decision.get("confidence") in ("high", "medium", "low"):
                 obj["confidence"] = decision["confidence"]
+            if decision.get("state") in fensch.STATES:
+                obj["state"] = decision["state"]
             if decision.get("evidence"):
                 obj["visible_evidence"] = list(decision["evidence"])
             typed += 1
@@ -83,7 +89,9 @@ def main():
     data["batch"] = name
     data["typing"] = {"source_batch": batch, "decisions_file": str(decisions_file.resolve().relative_to(fensch.ROOT) if decisions_file.resolve().is_relative_to(fensch.ROOT) else decisions_file),
                       "decided_features": sum(d.get("code") is not None for d in decisions.values()),
-                      "undecided_features": sum(d.get("code") is None for d in decisions.values())}
+                      "undecided_features": sum(d.get("code") is None for d in decisions.values()),
+                      "states": {state: sum(d.get("code") not in (None, "REJECT") and d.get("state") == state
+                                            for d in decisions.values()) for state in fensch.STATES}}
     data.pop("features", None)
     target.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Wrote {target}: {typed} detections typed, {rejected} rejected, "

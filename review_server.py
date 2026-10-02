@@ -49,6 +49,8 @@ def check_document(document, catalogue):
                 problems.append(f"{where}: bbox outside the image")
             if obj.get("confidence") not in ("high", "medium", "low"):
                 problems.append(f"{where}: confidence must be high, medium or low")
+            if obj.get("state") is not None and obj["state"] not in fensch.STATES:
+                problems.append(f"{where}: state must be one of {', '.join(fensch.STATES)}")
     return problems
 
 

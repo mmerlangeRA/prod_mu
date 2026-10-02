@@ -62,7 +62,7 @@
 </section>
 </div>
 <aside class="side"><h2>Detected objects</h2><div class="object-list" id="objectList"></div><div class="detail empty" id="detail">Select a box or result.</div>
-<details class="help"><summary>Shortcuts and help</summary><p>Hover a box, list row or map marker to highlight the same object everywhere; click to select it. Drag the bar above the map to resize it (double-click resets). ◀ ▶, Page Up / Page Down (or ← → outside edit mode) move between the images of the current batch. Edit mode: drag a box to move it, drag a corner to resize, Delete removes the selected box, arrow keys nudge it by 1 px (Shift: 10 px), N draws a new box, Esc cancels. Edits are kept in this browser until saved; saving writes <code>analysis/&lt;batch&gt;-reviewed.json</code> through <code>review_server.py</code> (or downloads it when the server is not running), then positions are recomputed.</p></details>
+<details class="help"><summary>Shortcuts and help</summary><p>Hover a box, list row or map marker to highlight the same object everywhere; click to select it. Drag the bar above the map to resize it (double-click resets). ◀ ▶, Page Up / Page Down (or ← → outside edit mode) move between the images of the current batch. Edit mode: drag a box to move it, drag a corner to resize, Delete or D removes the selected box, arrow keys nudge it by 1 px (Shift: 10 px), N draws a new box, Esc cancels. Edits are kept in this browser until saved; saving writes <code>analysis/&lt;batch&gt;-reviewed.json</code> through <code>review_server.py</code> (or downloads it when the server is not running), then positions are recomputed.</p></details>
 </aside>
 </main>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -86,7 +86,7 @@ function showDetail(object){
  if(editMode){showEditForm(object);return;}
  $('detail').className='detail';$('detail').replaceChildren();
  const dl=document.createElement('dl');
- const fields=[['Object',object.object_id],['Code',object.code],['Category',`${object.category_en} / ${object.category_fr}`],['Class',object.classification],['Confidence',object.confidence],['Box',`${object.bbox.x}, ${object.bbox.y}, ${object.bbox.width}, ${object.bbox.height}`],['Occluded',object.occluded?'Yes':'No'],['Truncated',object.truncated?'Yes':'No'],['Ground',object.review?'recomputed when the reviewed batch is saved':groundText(object.ground)],['Feature',object.feature_id||'—'],['Review',object.review||'—']];
+ const fields=[['Object',object.object_id],['Code',object.code],['Category',`${object.category_en} / ${object.category_fr}`],['Class',object.classification],['Confidence',object.confidence],['State',object.state||'—'],['Box',`${object.bbox.x}, ${object.bbox.y}, ${object.bbox.width}, ${object.bbox.height}`],['Occluded',object.occluded?'Yes':'No'],['Truncated',object.truncated?'Yes':'No'],['Ground',object.review?'recomputed when the reviewed batch is saved':groundText(object.ground)],['Feature',object.feature_id||'—'],['Review',object.review||'—']];
  for(const [term,value] of fields){const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=term;dd.textContent=esc(value);dl.append(dt,dd);}$('detail').append(dl);
  if(object.visible_evidence?.length){const heading=document.createElement('p');heading.textContent='Visible evidence';heading.style.margin='16px 0 4px';heading.style.fontWeight='600';const list=document.createElement('ul');list.className='evidence';for(const evidence of object.visible_evidence){const item=document.createElement('li');item.textContent=evidence;list.append(item);}$('detail').append(heading,list);}
 }
@@ -123,7 +123,7 @@ function renderMap(){
  if($('showFeatures').checked&&batch)for(const feature of batch.features){
   if(code&&feature.code!==code)continue;
   const color=colorFor(feature.code),here=linked.has(feature.feature_id);
-  L.circleMarker([feature.latitude,feature.longitude],{radius:here?11:8,color,weight:here?4:2,fillColor:color,fillOpacity:.15}).bindPopup(textPopup(`${feature.feature_id} · ${feature.code}`,[`${feature.category_en} / ${feature.category_fr}`,`${feature.n_detections} detection(s), closest ${feature.min_distance_m} m`,`confidence ${feature.confidence}, code agreement ${Math.round(feature.code_agreement*100)}%`,`${feature.latitude.toFixed(7)}, ${feature.longitude.toFixed(7)}`])).addTo(mapLayers);
+  L.circleMarker([feature.latitude,feature.longitude],{radius:here?11:8,color,weight:here?4:2,fillColor:color,fillOpacity:.15}).bindPopup(textPopup(`${feature.feature_id} · ${feature.code}`,[`${feature.category_en} / ${feature.category_fr}`,`${feature.n_detections} detection(s), closest ${feature.min_distance_m} m`,`confidence ${feature.confidence}, code agreement ${Math.round(feature.code_agreement*100)}%`,`state ${feature.state||'—'}`,`${feature.latitude.toFixed(7)}, ${feature.longitude.toFixed(7)}`])).addTo(mapLayers);
  }
  const cameraPoint=[camera.latitude,camera.longitude],bounds=[cameraPoint];
  L.polyline([cameraPoint,destinationPoint(camera.latitude,camera.longitude,camera.heading_deg,8)],{color:'#17211e',weight:3}).bindTooltip('Panorama centre heading').addTo(mapLayers);
@@ -147,8 +147,8 @@ function exportFeatures(format){
   download(`${batch.name}.features.geojson`,'application/geo+json',JSON.stringify(collection,null,1));
  }else{
   const cell=value=>{const text=String(value??'');return /[",\n]/.test(text)?'"'+text.replace(/"/g,'""')+'"':text;};
-  const header=['feature_id','code','category_fr','category_en','classification','latitude','longitude','confidence','code_agreement','n_detections','min_distance_m','images'];
-  const rows=batch.features.map(f=>[f.feature_id,f.code,f.category_fr,f.category_en,f.classification,f.latitude,f.longitude,f.confidence,f.code_agreement,f.n_detections,f.min_distance_m,f.detections.map(d=>d.image_file).join(' ')]);
+  const header=['feature_id','code','category_fr','category_en','classification','latitude','longitude','confidence','code_agreement','state','etat','n_detections','min_distance_m','images'];
+  const rows=batch.features.map(f=>[f.feature_id,f.code,f.category_fr,f.category_en,f.classification,f.latitude,f.longitude,f.confidence,f.code_agreement,f.state||'',f.etat||'',f.n_detections,f.min_distance_m,f.detections.map(d=>d.image_file).join(' ')]);
   download(`${batch.name}.features.csv`,'text/csv',"﻿"+[header,...rows].map(row=>row.map(cell).join(',')).join('\r\n'));
  }
 }
@@ -287,10 +287,11 @@ function showEditForm(object){
  const field=(text,control)=>{const label=document.createElement('label');label.append(text,control);form.append(label);return control;};
  const code=field('Code',codeSelect(object.code));code.onchange=()=>{setCode(object,code.value);$('newCode').value=code.value;afterEdit(object);};
  const confidence=field('Confidence',document.createElement('select'));for(const level of ['high','medium','low'])addOption(confidence,level,level);confidence.value=object.confidence;confidence.onchange=()=>{object.confidence=confidence.value;afterEdit(object);};
+ const state=field('State',document.createElement('select'));addOption(state,'','—');for(const level of ['good','damaged','bad'])addOption(state,level,level);state.value=object.state||'';state.onchange=()=>{if(state.value)object.state=state.value;else delete object.state;afterEdit(object);};
  for(const key of ['occluded','truncated']){const label=document.createElement('label'),box=document.createElement('input');label.className='inline';box.type='checkbox';box.checked=!!object[key];box.onchange=()=>{object[key]=box.checked;afterEdit(object);};label.append(box,key==='occluded'?'Occluded (base or body hidden)':'Truncated (cut by the image edge)');form.append(label);}
  const evidence=field('Visible evidence (one per line)',document.createElement('textarea'));evidence.value=(object.visible_evidence||[]).join('\n');evidence.onchange=()=>{object.visible_evidence=evidence.value.split('\n').map(line=>line.trim()).filter(Boolean);afterEdit(object);};
  const meta=document.createElement('p');meta.className='meta';const px=object.bbox_px||[];meta.textContent=`${object.object_id} · ${object.classification} · box ${px.join(', ')} px`+(object.review?` · ${object.review}; ground position recomputed on save`:` · ground ${groundText(object.ground)}`);form.append(meta);
- const remove=document.createElement('button');remove.type='button';remove.className='danger';remove.textContent='Delete box';remove.onclick=()=>deleteObject(object);form.append(remove);
+ const remove=document.createElement('button');remove.type='button';remove.className='danger';remove.textContent='Delete box (D)';remove.onclick=()=>deleteObject(object);form.append(remove);
 }
 function pointer(event){const rect=$('stage').getBoundingClientRect(),clamp=v=>Math.max(0,Math.min(1,v));return {x:clamp((event.clientX-rect.left)/rect.width),y:clamp((event.clientY-rect.top)/rect.height)};}
 function boxElement(id){return [...$('overlay').children].find(element=>element.dataset.objectId===id);}
@@ -342,7 +343,7 @@ document.addEventListener('keydown',event=>{
  if(event.key==='Escape'){if(drag?.ghost)drag.ghost.remove();drag=null;drawing=false;updateEditBar();renderOverlay();return;}
  if(event.key==='n'||event.key==='N'){drawing=true;updateEditBar();event.preventDefault();return;}
  if(!object)return;
- if(event.key==='Delete'||event.key==='Backspace'){deleteObject(object);event.preventDefault();return;}
+ if(event.key==='Delete'||event.key==='Backspace'||((event.key==='d'||event.key==='D')&&!event.ctrlKey&&!event.metaKey&&!event.altKey)){deleteObject(object);event.preventDefault();return;}
  const steps={ArrowLeft:[-1,0],ArrowRight:[1,0],ArrowUp:[0,-1],ArrowDown:[0,1]}[event.key];
  if(steps){const image=imageOf(selectedData()),k=event.shiftKey?10:1,b=object.bbox,dx=Math.max(-b.x,Math.min(1-b.x-b.width,steps[0]*k/image.width)),dy=Math.max(-b.y,Math.min(1-b.y-b.height,steps[1]*k/image.height));setBox(object,b.x+dx,b.y+dy,b.x+b.width+dx,b.y+b.height+dy);afterEdit(object);event.preventDefault();}
 });

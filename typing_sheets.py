@@ -12,7 +12,7 @@ a strip with that category's reference photos (images/<code>.png) and codes.
 Output in analysis/raw/<batch>/typing/:
   <category>_<n>.jpg   sheets to inspect, items numbered #1, #2... (numbering is global to the batch)
   index.json           item number -> feature_id, category, candidate codes, views
-  decisions.json       template to fill: one entry per feature, "code": null until decided (see apply_typing.py)
+  decisions.json       template to fill: one entry per feature, "code" and "state" null until decided (see apply_typing.py)
 An existing decisions.json is never overwritten.
 """
 import argparse
@@ -185,7 +185,7 @@ def main():
         print(f"Kept existing {decisions_file}")
     else:
         template = {entry["feature_id"]: {"number": entry["number"], "category_en": entry["category_en"], "code": None,
-                                          "confidence": None, "evidence": []} for entry in index}
+                                          "confidence": None, "state": None, "evidence": []} for entry in index}
         decisions_file.write_text(json.dumps(template, ensure_ascii=False, indent=1), encoding="utf-8")
         print(f"Wrote {decisions_file} ({len(template)} features to decide)")
     print(f"{len(index)} features on sheets in {out_dir}")

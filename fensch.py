@@ -44,6 +44,11 @@ CATEGORY_BY_PREFIX = {
 # Objects lying on the ground: localize their box centre instead of the bottom edge.
 FLAT_PREFIXES = {"BOU-E", "GRI", "RAL"}
 
+# Condition set during stage-2 typing, best to worst: good is the norm, damaged is significantly deteriorated, bad is
+# not or barely functional. Mapped to the Clavier's mandatory "Etat" part (Bon / Moyen / Mauvais).
+STATES = ("good", "damaged", "bad")
+ETAT_BY_STATE = {"good": "Bon", "damaged": "Moyen", "bad": "Mauvais"}
+
 
 def code_prefix(code):
     return code if code in CATEGORY_BY_PREFIX else code.split("_")[0].rstrip("0123456789")
