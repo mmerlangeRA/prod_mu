@@ -41,7 +41,9 @@ CATEGORY_RULES = """Rules:
 - One box per physical object; a row of bollards gives one box per bollard. Never invent repeated boxes.
 - Bicycle racks are "Bicycle racks and shelters", not bollards. A pole carrying a lamp is a lighting point, not a bollard.
 - Zebra stripes alone are not a speed bump; report a speed bump only with shark-teeth triangles, a ramp or a raised section.
-- Ignore the car (roof, bonnet, mirrors, beacon, camera mount) and reflections on it. Ignore private bins and fences."""
+- Ignore the car (roof, bonnet, mirrors, beacon, camera mount) and reflections on it.
+- Public equipment only: ignore anything on private property (gardens, driveways, private car parks, behind fences or hedges), e.g. wheelie bins, garden trees, private planters, fences and gates.
+- Trees: only street trees and trees in squares, public parks and public car parks; ignore woods, forest, hedgerows and trees in fields."""
 
 
 def category_codes(catalogue):

@@ -39,6 +39,13 @@ CATALOGUE CODE RULES
 - Fire hydrants / Bornes à incendie: use `INC`.
 - Speed bumps / Ralentisseurs have no generic fallback: always use one of the subtypes `RAL01` (trapezoidal), `RAL02` (plateau), `RAL03` (Berlin cushion) or `RAL04` (rounded hump). Follow the section SPEED BUMPS AND PEDESTRIAN CROSSINGS: it decides when a speed bump is present and which subtype to choose.
 
+SCOPE: PUBLIC EQUIPMENT ONLY
+
+- Report only equipment that is probably installed and maintained by the city or the agglomeration, in public space: streets, pavements, squares, public car parks, public parks and green spaces, cycle and footpaths.
+- Ignore anything on private property, even when it is clearly visible from the street: gardens, front yards, driveways, private car parks, company, shop or farm grounds, and everything behind a fence, wall, gate or hedge that marks a property line. Typical examples are garden trees, wheelie bins, private planters and flower pots, garden fences and gates, private barriers, and lamps fixed to house walls.
+- Trees: report only trees the city probably maintains: street trees along roads and pavements (often planted in a row, in tree pits or grass strips), and trees in squares, public parks and public car parks. Ignore trees in woods and forests, roadside woodland, hedgerows, fields and other open country outside built-up areas, and trees in private gardens.
+- Keep an object when it is probably public; omit it when it is probably private or probably not maintained by the city.
+
 DETECTION AND CLASSIFICATION METHOD
 
 1. Inspect the image itself. Do not infer an object from the filename, location, nearby text, expected inventory or scene context alone.

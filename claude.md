@@ -21,6 +21,7 @@ The full rules are in `fensch_bbox_prompt.md`. In short:
 - A fallback code (`ABR_FEN_01`, `BAN_CHO_01`, `BAR_CHO_03`, `COR_CHO_01`, `ECL_SIE_06`, `POT_CHO_04`, `VEL_FEN_06`) means "the category is clear, but the design is not one of the described models". It is not a label for blur or uncertainty. If even the category is uncertain, omit the object.
 - Bicycle racks and shelters have their own category (`VEL_FEN_*`). They are not bollards.
 - Speed bumps have no fallback code. A zebra crossing alone is never a speed bump. Shark-teeth triangles, a ramp or a surface change across the lane are evidence of one. When a speed bump is certain but its subtype is not, choose the likeliest subtype with `low` confidence instead of omitting it. Details: SPEED BUMPS AND PEDESTRIAN CROSSINGS in `fensch_bbox_prompt.md`.
+- Public equipment only: ignore anything on private property (gardens, front yards, driveways, private car parks, company or farm grounds, behind a fence, wall or hedge marking a property line), even when visible from the street. Count only trees the city probably maintains: street trees and trees in squares, public parks and public car parks, not woods, roadside woodland, hedgerows, fields or private gardens. When an object is probably private or probably not maintained by the city, omit it. Details: SCOPE in `fensch_bbox_prompt.md`.
 - Never invent, translate or concatenate codes. Never infer detections from filenames, location or expected inventory.
 
 ## Pipeline
@@ -48,7 +49,7 @@ Python code needs the local virtualenv: `python3 -m venv .venv && .venv/bin/pip 
    - `index.json`;
    - a `decisions.json` template. An existing one is never overwritten, so the work can resume.
 2. Read `fensch_image_descriptions.json` for the category's codes. Then, for each sheet, view the image and fill `decisions.json` for every item:
-   - **`code`:** the specific model when the description is visually supported; otherwise the category fallback; or another category's code when the category is wrong (e.g. a bicycle rack taken for a bollard); or `"REJECT"` for non-equipment (wheelie bins, private bins, signs, reflections, car parts). `null` means undecided.
+   - **`code`:** the specific model when the description is visually supported; otherwise the category fallback; or another category's code when the category is wrong (e.g. a bicycle rack taken for a bollard); or `"REJECT"` for non-equipment (wheelie bins, signs, reflections, car parts) and for anything out of scope: equipment on private property, and trees not maintained by the city. `null` means undecided.
    - **`confidence`:** high, medium or low.
    - **`state`:** `good` (the norm), `damaged` (already significantly deteriorated: leaning, dented, broken part, heavy rust…) or `bad` (not or barely functional: knocked down, broken off…); `null` for `REJECT`. It maps to the Clavier's mandatory `Etat` part (Bon / Moyen / Mauvais) and is exported as `state` and `etat` per feature. Small distant objects with no visible defect are `good`.
    - **`evidence`:** 1–2 short visible reasons, including the reason for a `damaged` or `bad` state.
