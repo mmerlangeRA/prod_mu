@@ -8,7 +8,9 @@ Usage:
 Each frame is cut into overlapping tiles over the horizon band (vlm_tools.tiles). The model returns one of the 19
 English category names and a box on a 0-1000 scale PER AXIS of the tile (Qwen 3.5 through Ollama; Groq's Qwen 3.8
 uses the longer side instead, see try_groq.py). Boxes are converted to panorama pixels, duplicates from overlapping
-tiles are merged, invented runs of identical boxes and boxes lying on the vehicle are dropped.
+tiles are merged, invented runs of identical boxes and boxes lying on the vehicle are dropped. When the video has a car
+mask (car_mask.py: car_masks/<video>/mask.png), the car is painted grey in the tiles before the model sees them and a
+box that lies mostly on the car is dropped; without a mask, a rough fixed region is used instead (on_vehicle).
 
 Every frame's raw replies are saved in analysis/raw/<batch>/<image stem>.json; frames already saved are skipped, so the
 run can be interrupted and restarted. When all requested frames are done, analysis/<batch>.json is written and
@@ -88,8 +90,15 @@ def ask_ollama(host, model, text, image_bytes, response_schema, retries=2):
             time.sleep(10 * (attempt + 1))
 
 
-def on_vehicle(box, width, height):
-    """The car body fills the bottom of the panorama: drop boxes lying on it (reflections, roof equipment)."""
+CAR_GREY = (128, 128, 128)
+MAX_CAR_SHARE = 0.5  # a box with at least this share of its area on the car mask is dropped
+
+
+def on_vehicle(box, width, height, mask=None):
+    """Whether a box lies on the car (reflections, roof equipment): by the car mask when there is one."""
+    if mask is not None:
+        return fensch.mask_share(mask, *box) >= MAX_CAR_SHARE
+    # Fallback without a mask: the car body fills the bottom of the panorama.
     cx, top = (box[0] + box[2]) / 2 / width, box[1] / height
     # Whole box below the roof edge in the middle of the image, or anywhere in the bottom fifth (bonnet, bars).
     return top >= 0.80 or (top >= 0.62 and 0.44 <= cx <= 0.76)
@@ -98,6 +107,9 @@ def on_vehicle(box, width, height):
 def detect_frame(args, image_path, names, response_schema):
     image = Image.open(image_path).convert("RGB")
     width, height = image.size
+    mask = fensch.car_mask_for(image_path.name)
+    if mask is not None:
+        image = Image.composite(Image.new("RGB", image.size, CAR_GREY), image, mask)
     calls, found = [], []
     text = prompt(names)
     for x0, y0, x1, y1 in tiles(width, height, args.tiles):
@@ -129,11 +141,12 @@ def detect_frame(args, image_path, names, response_schema):
         if not any(obj["category"] == other["category"] and iou(obj["box"], other["box"]) > 0.4 for other in kept):
             kept.append(obj)
     flagged = repetition_runs(kept)
-    vehicle = [obj for i, obj in enumerate(kept) if i not in flagged and on_vehicle(obj["box"], width, height)]
+    vehicle = [obj for i, obj in enumerate(kept) if i not in flagged and on_vehicle(obj["box"], width, height, mask)]
     final = [obj for i, obj in enumerate(kept) if i not in flagged and obj not in vehicle]
     return {
         "source": "ollama", "model": args.model, "tiles": args.tiles, "band_fraction": list(BAND),
         "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+        "car_mask": mask is not None,
         "width": width, "height": height, "seconds": round(sum(c["seconds"] for c in calls), 2),
         "filtered_repetitions": [{"category": kept[i]["category"], "box": [round(v) for v in kept[i]["box"]]} for i in sorted(flagged)],
         "filtered_vehicle": [{"category": o["category"], "box": [round(v) for v in o["box"]]} for o in vehicle],
@@ -160,6 +173,8 @@ def assemble(args, images, raw_dir, catalogue):
         "schema_version": "1.0.0", "coordinate_system": "normalized_xywh", "batch": args.batch,
         "created_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "detector": {"source": "ollama", "model": args.model, "tiles": args.tiles, "stage": "category",
+                     "car_mask": sorted({str((fensch.CAR_MASK_DIR / fensch.frame_key(p.name)[0] / "mask.png").relative_to(fensch.ROOT))
+                                         for p in images if fensch.car_mask_for(p.name) is not None}),
                      "note": "codes with code_status category_only still need stage 2 typing"},
         "images": result_images,
     }

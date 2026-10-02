@@ -1,3 +1,4 @@
 anthropic>=1.11
 groq>=1.7
 pillow>=12
+numpy>=2

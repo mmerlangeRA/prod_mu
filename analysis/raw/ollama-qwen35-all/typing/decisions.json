@@ -7729,12 +7729,12 @@
  "F2313": {
   "number": 758,
   "category_en": "Bollards",
-  "code": "POT_FEN_03",
-  "confidence": "low",
-  "state": "good",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
   "evidence": [
-   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top in a row along cycle lane",
-   "flared base not resolved"
+   "J11 flexible traffic delineator: smooth white cylindrical post with reflective bands in a row along the cycle lane; no ribbed lower shaft or flared base of POT_FEN_03 (SOLIDOR)",
+   "road signalling, not a bollard"
   ]
  },
  "F2308": {
@@ -7771,45 +7771,45 @@
  "F2320": {
   "number": 762,
   "category_en": "Bollards",
-  "code": "POT_FEN_03",
-  "confidence": "low",
-  "state": "good",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
   "evidence": [
-   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top in a row along cycle lane",
-   "flared base not resolved"
+   "J11 flexible traffic delineator: smooth white cylindrical post with reflective bands in a row along the cycle lane; no ribbed lower shaft or flared base of POT_FEN_03 (SOLIDOR)",
+   "road signalling, not a bollard"
   ]
  },
  "F2324": {
   "number": 763,
   "category_en": "Bollards",
-  "code": "POT_FEN_03",
-  "confidence": "low",
-  "state": "good",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
   "evidence": [
-   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top in a row along cycle lane",
-   "flared base not resolved"
+   "J11 flexible traffic delineator: smooth white cylindrical post with reflective bands in a row along the cycle lane; no ribbed lower shaft or flared base of POT_FEN_03 (SOLIDOR)",
+   "road signalling, not a bollard"
   ]
  },
  "F2316": {
   "number": 764,
   "category_en": "Bollards",
-  "code": "POT_FEN_03",
-  "confidence": "low",
-  "state": "good",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
   "evidence": [
-   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top in a row along cycle lane",
-   "flared base not resolved"
+   "J11 flexible traffic delineator: smooth white cylindrical post with reflective bands in a row along the cycle lane; no ribbed lower shaft or flared base of POT_FEN_03 (SOLIDOR)",
+   "road signalling, not a bollard"
   ]
  },
  "F2330": {
   "number": 765,
   "category_en": "Bollards",
-  "code": "POT_FEN_03",
-  "confidence": "low",
-  "state": "good",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
   "evidence": [
-   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top in a row along cycle lane",
-   "flared base not resolved"
+   "J11 flexible traffic delineator: smooth white cylindrical post with reflective bands in a row along the cycle lane; no ribbed lower shaft or flared base of POT_FEN_03 (SOLIDOR)",
+   "road signalling, not a bollard"
   ]
  },
  "F2310": {
@@ -7825,89 +7825,89 @@
  "F2334": {
   "number": 767,
   "category_en": "Bollards",
-  "code": "POT_FEN_03",
-  "confidence": "low",
-  "state": "good",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
   "evidence": [
-   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top in a row along cycle lane",
-   "flared base not resolved"
+   "J11 flexible traffic delineator: smooth white cylindrical post with reflective bands in a row along the cycle lane; no ribbed lower shaft or flared base of POT_FEN_03 (SOLIDOR)",
+   "road signalling, not a bollard"
   ]
  },
  "F2338": {
   "number": 768,
   "category_en": "Bollards",
-  "code": "POT_FEN_03",
-  "confidence": "low",
-  "state": "good",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
   "evidence": [
-   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
-   "flared base not resolved"
+   "J11 flexible traffic delineator: smooth white cylindrical post with reflective bands in a row along the cycle lane; no ribbed lower shaft or flared base of POT_FEN_03 (SOLIDOR)",
+   "road signalling, not a bollard"
   ]
  },
  "F2314": {
   "number": 769,
   "category_en": "Bollards",
-  "code": "POT_FEN_03",
-  "confidence": "low",
-  "state": "good",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
   "evidence": [
-   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
-   "flared base not resolved"
+   "J11 flexible traffic delineator: smooth white cylindrical post with reflective bands in a row along the cycle lane; no ribbed lower shaft or flared base of POT_FEN_03 (SOLIDOR)",
+   "road signalling, not a bollard"
   ]
  },
  "F2332": {
   "number": 770,
   "category_en": "Bollards",
-  "code": "POT_FEN_03",
-  "confidence": "low",
-  "state": "good",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
   "evidence": [
-   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
-   "flared base not resolved"
+   "J11 flexible traffic delineator: smooth white cylindrical post with reflective bands in a row along the cycle lane; no ribbed lower shaft or flared base of POT_FEN_03 (SOLIDOR)",
+   "road signalling, not a bollard"
   ]
  },
  "F2315": {
   "number": 771,
   "category_en": "Bollards",
-  "code": "POT_FEN_03",
-  "confidence": "low",
-  "state": "good",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
   "evidence": [
-   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
-   "flared base not resolved"
+   "J11 flexible traffic delineator: smooth white cylindrical post with reflective bands in a row along the cycle lane; no ribbed lower shaft or flared base of POT_FEN_03 (SOLIDOR)",
+   "road signalling, not a bollard"
   ]
  },
  "F2339": {
   "number": 772,
   "category_en": "Bollards",
-  "code": "POT_FEN_03",
-  "confidence": "low",
-  "state": "good",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
   "evidence": [
-   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
-   "flared base not resolved"
+   "J11 flexible traffic delineator: smooth white cylindrical post with reflective bands in a row along the cycle lane; no ribbed lower shaft or flared base of POT_FEN_03 (SOLIDOR)",
+   "road signalling, not a bollard"
   ]
  },
  "F2340": {
   "number": 773,
   "category_en": "Bollards",
-  "code": "POT_FEN_03",
-  "confidence": "low",
-  "state": "good",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
   "evidence": [
-   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
-   "flared base not resolved"
+   "J11 flexible traffic delineator: smooth white cylindrical post with reflective bands in a row along the cycle lane; no ribbed lower shaft or flared base of POT_FEN_03 (SOLIDOR)",
+   "road signalling, not a bollard"
   ]
  },
  "F2337": {
   "number": 774,
   "category_en": "Bollards",
-  "code": "POT_FEN_03",
-  "confidence": "low",
-  "state": "good",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
   "evidence": [
-   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
-   "flared base not resolved"
+   "J11 flexible traffic delineator: smooth white cylindrical post with reflective bands in a row along the cycle lane; no ribbed lower shaft or flared base of POT_FEN_03 (SOLIDOR)",
+   "road signalling, not a bollard"
   ]
  },
  "F2309": {
@@ -7924,100 +7924,100 @@
  "F2317": {
   "number": 776,
   "category_en": "Bollards",
-  "code": "POT_FEN_03",
-  "confidence": "low",
-  "state": "good",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
   "evidence": [
-   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
-   "flared base not resolved"
+   "J11 flexible traffic delineator: smooth white cylindrical post with reflective bands in a row along the cycle lane; no ribbed lower shaft or flared base of POT_FEN_03 (SOLIDOR)",
+   "road signalling, not a bollard"
   ]
  },
  "F2327": {
   "number": 777,
   "category_en": "Bollards",
-  "code": "POT_FEN_03",
-  "confidence": "low",
-  "state": "good",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
   "evidence": [
-   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
-   "flared base not resolved"
+   "J11 flexible traffic delineator: smooth white cylindrical post with reflective bands in a row along the cycle lane; no ribbed lower shaft or flared base of POT_FEN_03 (SOLIDOR)",
+   "road signalling, not a bollard"
   ]
  },
  "F2336": {
   "number": 778,
   "category_en": "Bollards",
-  "code": "POT_FEN_03",
-  "confidence": "low",
-  "state": "good",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
   "evidence": [
-   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
-   "flared base not resolved"
+   "J11 flexible traffic delineator: smooth white cylindrical post with reflective bands in a row along the cycle lane; no ribbed lower shaft or flared base of POT_FEN_03 (SOLIDOR)",
+   "road signalling, not a bollard"
   ]
  },
  "F2329": {
   "number": 779,
   "category_en": "Bollards",
-  "code": "POT_FEN_03",
-  "confidence": "low",
-  "state": "good",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
   "evidence": [
-   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
-   "flared base not resolved"
+   "J11 flexible traffic delineator: smooth white cylindrical post with reflective bands in a row along the cycle lane; no ribbed lower shaft or flared base of POT_FEN_03 (SOLIDOR)",
+   "road signalling, not a bollard"
   ]
  },
  "F2322": {
   "number": 780,
   "category_en": "Bollards",
-  "code": "POT_FEN_03",
-  "confidence": "low",
-  "state": "good",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
   "evidence": [
-   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
-   "flared base not resolved"
+   "J11 flexible traffic delineator: smooth white cylindrical post with reflective bands in a row along the cycle lane; no ribbed lower shaft or flared base of POT_FEN_03 (SOLIDOR)",
+   "road signalling, not a bollard"
   ]
  },
  "F2318": {
   "number": 781,
   "category_en": "Bollards",
-  "code": "POT_FEN_03",
-  "confidence": "low",
-  "state": "good",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
   "evidence": [
-   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
-   "flared base not resolved"
+   "J11 flexible traffic delineator: smooth white cylindrical post with reflective bands in a row along the cycle lane; no ribbed lower shaft or flared base of POT_FEN_03 (SOLIDOR)",
+   "road signalling, not a bollard"
   ]
  },
  "F2319": {
   "number": 782,
   "category_en": "Bollards",
-  "code": "POT_FEN_03",
-  "confidence": "low",
-  "state": "good",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
   "evidence": [
-   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
-   "flared base not resolved"
+   "J11 flexible traffic delineator: smooth white cylindrical post with reflective bands in a row along the cycle lane; no ribbed lower shaft or flared base of POT_FEN_03 (SOLIDOR)",
+   "road signalling, not a bollard"
   ]
  },
  "F2321": {
   "number": 783,
   "category_en": "Bollards",
-  "code": "POT_FEN_03",
-  "confidence": "low",
-  "state": "good",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
   "evidence": [
-   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
-   "flared base not resolved"
+   "J11 flexible traffic delineator: smooth white cylindrical post with reflective bands in a row along the cycle lane; no ribbed lower shaft or flared base of POT_FEN_03 (SOLIDOR)",
+   "road signalling, not a bollard"
   ]
  },
  "F2335": {
   "number": 784,
   "category_en": "Bollards",
-  "code": "POT_FEN_03",
-  "confidence": "low",
-  "state": "good",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
   "evidence": [
-   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
-   "flared base not resolved"
+   "J11 flexible traffic delineator: smooth white cylindrical post with reflective bands in a row along the cycle lane; no ribbed lower shaft or flared base of POT_FEN_03 (SOLIDOR)",
+   "road signalling, not a bollard"
   ]
  },
  "F2305": {
@@ -8043,45 +8043,45 @@
  "F2333": {
   "number": 787,
   "category_en": "Bollards",
-  "code": "POT_FEN_03",
-  "confidence": "low",
-  "state": "good",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
   "evidence": [
-   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
-   "flared base not resolved"
+   "J11 flexible traffic delineator: smooth white cylindrical post with reflective bands in a row along the cycle lane; no ribbed lower shaft or flared base of POT_FEN_03 (SOLIDOR)",
+   "road signalling, not a bollard"
   ]
  },
  "F2325": {
   "number": 788,
   "category_en": "Bollards",
-  "code": "POT_FEN_03",
-  "confidence": "low",
-  "state": "good",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
   "evidence": [
-   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
-   "flared base not resolved"
+   "J11 flexible traffic delineator: smooth white cylindrical post with reflective bands in a row along the cycle lane; no ribbed lower shaft or flared base of POT_FEN_03 (SOLIDOR)",
+   "road signalling, not a bollard"
   ]
  },
  "F2323": {
   "number": 789,
   "category_en": "Bollards",
-  "code": "POT_FEN_03",
-  "confidence": "low",
-  "state": "good",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
   "evidence": [
-   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
-   "flared base not resolved"
+   "J11 flexible traffic delineator: smooth white cylindrical post with reflective bands in a row along the cycle lane; no ribbed lower shaft or flared base of POT_FEN_03 (SOLIDOR)",
+   "road signalling, not a bollard"
   ]
  },
  "F2331": {
   "number": 790,
   "category_en": "Bollards",
-  "code": "POT_FEN_03",
-  "confidence": "low",
-  "state": "good",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
   "evidence": [
-   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
-   "flared base not resolved"
+   "J11 flexible traffic delineator: smooth white cylindrical post with reflective bands in a row along the cycle lane; no ribbed lower shaft or flared base of POT_FEN_03 (SOLIDOR)",
+   "road signalling, not a bollard"
   ]
  },
  "F2326": {

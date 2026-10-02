@@ -1699,38 +1699,13 @@ F1697,ECL_SIE_06,Points d’éclairage,Lighting points,category_fallback,49.3517
 F1698,ECL_SIE_06,Points d’éclairage,Lighting points,category_fallback,49.35179912,5.99012124,high,1.0,good,Bon,False,49.35179912,5.99012124,2,12.63,3255 3294
 F1699,POT_CHO_04,Potelets,Bollards,category_fallback,49.33296456,5.97792408,low,1.0,good,Bon,False,49.33296456,5.97792408,1,2.07,36285
 F1700,POT_FEN_04,Potelets,Bollards,described_model,49.34701612,5.98193144,low,1.0,damaged,Moyen,False,49.34701612,5.98193144,2,5.48,8913 8943
-F1701,POT_FEN_03,Potelets,Bollards,described_model,49.35172011,5.9898357,low,1.0,good,Bon,False,49.35172011,5.9898357,3,2.64,3444 3462 3497
-F1702,POT_FEN_03,Potelets,Bollards,described_model,49.35172061,5.98978852,low,1.0,good,Bon,False,49.35172061,5.98978852,4,4.66,3444 3462 3479 3497
-F1703,POT_FEN_03,Potelets,Bollards,described_model,49.35172252,5.98977883,low,1.0,good,Bon,False,49.35172252,5.98977883,4,5.21,3444 3462 3479 3497
-F1704,POT_FEN_03,Potelets,Bollards,described_model,49.35172769,5.98984624,low,1.0,good,Bon,False,49.35172769,5.98984624,3,3.57,3444 3462 3497
-F1705,POT_FEN_03,Potelets,Bollards,described_model,49.35172784,5.98975819,low,1.0,good,Bon,False,49.35172784,5.98975819,3,6.37,3462 3479 3497
-F1706,POT_FEN_03,Potelets,Bollards,described_model,49.35173003,5.98972705,low,1.0,good,Bon,False,49.35173003,5.98972705,3,7.46,3462 3479 3497
-F1707,POT_FEN_03,Potelets,Bollards,described_model,49.35174337,5.98986244,low,1.0,good,Bon,False,49.35174337,5.98986244,2,7.56,3378 3462
-F1708,POT_FEN_03,Potelets,Bollards,described_model,49.35174904,5.98988472,low,1.0,good,Bon,False,49.35174904,5.98988472,4,3.31,3354 3378 3423 3444
-F1709,POT_FEN_03,Potelets,Bollards,described_model,49.35175339,5.98987008,low,1.0,good,Bon,False,49.35175339,5.98987008,3,7.56,3354 3378 3462
-F1710,POT_FEN_03,Potelets,Bollards,described_model,49.35175454,5.98988346,low,1.0,good,Bon,False,49.35175454,5.98988346,4,7.0,3327 3354 3378 3444
-F1711,POT_FEN_03,Potelets,Bollards,described_model,49.35176552,5.98972097,low,1.0,good,Bon,False,49.35176552,5.98972097,1,12.63,3479
-F1712,POT_FEN_03,Potelets,Bollards,described_model,49.35177586,5.98991294,low,1.0,good,Bon,False,49.35177586,5.98991294,4,3.44,3294 3327 3402 3423
-F1713,POT_FEN_03,Potelets,Bollards,described_model,49.35177895,5.98989586,low,1.0,good,Bon,False,49.35177895,5.98989586,3,11.87,3294 3327 3462
-F1714,POT_FEN_03,Potelets,Bollards,described_model,49.35178654,5.98991428,low,1.0,good,Bon,False,49.35178654,5.98991428,4,6.83,3294 3327 3423 3444
-F1715,POT_FEN_03,Potelets,Bollards,described_model,49.35180985,5.98993217,low,1.0,good,Bon,False,49.35180985,5.98993217,4,6.92,3255 3294 3402 3423
-F1716,POT_FEN_03,Potelets,Bollards,described_model,49.35181174,5.98993887,low,1.0,good,Bon,False,49.35181174,5.98993887,6,3.71,3255 3294 3354 3378 3402 3423
-F1717,POT_FEN_03,Potelets,Bollards,described_model,49.35181557,5.98994932,low,1.0,good,Bon,False,49.35181557,5.98994932,1,13.48,3255
-F1718,POT_FEN_03,Potelets,Bollards,described_model,49.35184438,5.98995026,low,1.0,good,Bon,False,49.35184438,5.98995026,6,5.16,3255 3294 3327 3354 3378 3402
-F1719,POT_FEN_03,Potelets,Bollards,described_model,49.35184636,5.98995535,low,1.0,good,Bon,False,49.35184636,5.98995535,1,10.23,3255
-F1720,POT_FEN_03,Potelets,Bollards,described_model,49.35185224,5.98995905,low,1.0,good,Bon,False,49.35185224,5.98995905,5,4.38,3255 3294 3327 3354 3378
-F1721,POT_FEN_03,Potelets,Bollards,described_model,49.35185546,5.98995245,low,1.0,good,Bon,False,49.35185546,5.98995245,2,7.56,3255 3378
-F1722,POT_FEN_03,Potelets,Bollards,described_model,49.35187197,5.98995675,low,1.0,good,Bon,False,49.35187197,5.98995675,3,6.83,3255 3354 3378
-F1723,POT_FEN_03,Potelets,Bollards,described_model,49.35188448,5.98995984,low,1.0,good,Bon,False,49.35188448,5.98995984,5,5.37,3255 3294 3327 3354 3378
-F1724,POT_FEN_03,Potelets,Bollards,described_model,49.35188733,5.98996363,low,1.0,good,Bon,False,49.35188733,5.98996363,5,4.49,3255 3294 3327 3354 3378
-F1725,POT_FEN_03,Potelets,Bollards,described_model,49.35190023,5.98995762,low,1.0,good,Bon,False,49.35190023,5.98995762,5,5.21,3255 3294 3327 3354 3378
-F1726,POT_FEN_03,Potelets,Bollards,described_model,49.35190253,5.98996752,low,0.772,good,Bon,False,49.35190253,5.98996752,4,5.31,3210 3255 3294 3327
-F1727,RAL01,Ralentisseurs,Speed bumps,shape_subtype,49.34657975,5.98063504,medium,1.0,good,Bon,False,49.34657975,5.98063504,1,14.12,11272
-F1728,PUB,Supports publicitaires,Advertising displays,direct_category,49.33488353,5.9812431,medium,1.0,,,False,49.33488353,5.9812431,2,4.02,33947 34010
-F1729,PUB,Supports publicitaires,Advertising displays,direct_category,49.34625318,5.98104565,medium,1.0,,,False,49.34625318,5.98104565,2,4.92,16157 16207
-F1730,PUB,Supports publicitaires,Advertising displays,direct_category,49.34627292,5.98106057,medium,1.0,,,False,49.34627292,5.98106057,3,3.1,16082 16207 16247
-F1731,PUB,Supports publicitaires,Advertising displays,direct_category,49.34628757,5.98110301,medium,1.0,,,False,49.34628757,5.98110301,1,12.9,10672
-F1732,PUB,Supports publicitaires,Advertising displays,direct_category,49.34648503,5.98125035,medium,1.0,,,False,49.34648503,5.98125035,1,4.7,10046
-F1733,PUB,Supports publicitaires,Advertising displays,direct_category,49.34657568,5.98131046,medium,1.0,,,False,49.34657568,5.98131046,3,3.74,9410 9485 10543
-F1734,PUB,Supports publicitaires,Advertising displays,direct_category,49.34657583,5.98123942,medium,1.0,,,False,49.34657583,5.98123942,1,9.89,9366
-F1735,PUB,Supports publicitaires,Advertising displays,direct_category,49.34660942,5.98128183,medium,1.0,,,False,49.34660942,5.98128183,1,10.41,9596
+F1701,POT_CHO_04,Potelets,Bollards,category_fallback,49.35190032,5.98998079,low,1.0,good,Bon,False,49.35190032,5.98998079,1,7.0,3210
+F1702,RAL01,Ralentisseurs,Speed bumps,shape_subtype,49.34657975,5.98063504,medium,1.0,good,Bon,False,49.34657975,5.98063504,1,14.12,11272
+F1703,PUB,Supports publicitaires,Advertising displays,direct_category,49.33488353,5.9812431,medium,1.0,,,False,49.33488353,5.9812431,2,4.02,33947 34010
+F1704,PUB,Supports publicitaires,Advertising displays,direct_category,49.34625318,5.98104565,medium,1.0,,,False,49.34625318,5.98104565,2,4.92,16157 16207
+F1705,PUB,Supports publicitaires,Advertising displays,direct_category,49.34627292,5.98106057,medium,1.0,,,False,49.34627292,5.98106057,3,3.1,16082 16207 16247
+F1706,PUB,Supports publicitaires,Advertising displays,direct_category,49.34628757,5.98110301,medium,1.0,,,False,49.34628757,5.98110301,1,12.9,10672
+F1707,PUB,Supports publicitaires,Advertising displays,direct_category,49.34648503,5.98125035,medium,1.0,,,False,49.34648503,5.98125035,1,4.7,10046
+F1708,PUB,Supports publicitaires,Advertising displays,direct_category,49.34657568,5.98131046,medium,1.0,,,False,49.34657568,5.98131046,3,3.74,9410 9485 10543
+F1709,PUB,Supports publicitaires,Advertising displays,direct_category,49.34657583,5.98123942,medium,1.0,,,False,49.34657583,5.98123942,1,9.89,9366
+F1710,PUB,Supports publicitaires,Advertising displays,direct_category,49.34660942,5.98128183,medium,1.0,,,False,49.34660942,5.98128183,1,10.41,9596

@@ -34,7 +34,7 @@ def anchor_point(obj):
     return u, box["y"] + box["height"]
 
 
-def locate(obj, camera, args):
+def locate(obj, camera, args, mask=None):
     u, v = anchor_point(obj)
     bearing = (camera["heading_deg"] + (u - 0.5) * 360.0) % 360.0
     elevation = (0.5 - v) * math.pi
@@ -51,8 +51,9 @@ def locate(obj, camera, args):
     return {
         **ground,
         "status": "ok",
-        # A hidden or cut base makes the box bottom, and therefore the distance, unreliable.
-        "reliable": not (obj["occluded"] or obj["truncated"]),
+        # A hidden or cut base makes the box bottom, and therefore the distance, unreliable; so does a contact point on
+        # the car mask (car_mask.py), where the car hides the base.
+        "reliable": not (obj["occluded"] or obj["truncated"] or (mask is not None and fensch.on_car(mask, u, v))),
         "latitude": round(latitude, 8),
         "longitude": round(longitude, 8),
     }
@@ -216,7 +217,7 @@ def main():
                                       "frame": fensch.frame_key(image["image_file"])[1], **camera}
         for obj in image["objects"]:
             obj.pop("feature_id", None)
-            obj["ground"] = locate(obj, camera, args) if camera else {"status": "no_gps"}
+            obj["ground"] = locate(obj, camera, args, fensch.car_mask_for(image["image_file"])) if camera else {"status": "no_gps"}
             counts[obj["ground"]["status"]] = counts.get(obj["ground"]["status"], 0) + 1
             update_manual_position(obj)
             manual = obj.get("manual_position")

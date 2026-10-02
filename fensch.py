@@ -5,10 +5,13 @@ import math
 import re
 from pathlib import Path
 
+from PIL import Image
+
 ROOT = Path(__file__).resolve().parent
 QUERY_DIR = ROOT / "queries"
 ANALYSIS_DIR = ROOT / "analysis"
 EXPORT_DIR = ROOT / "exports"
+CAR_MASK_DIR = ROOT / "car_masks"
 
 CLAVIER_FILE = ROOT / "Clavier Equipements CA_Val_de_Fensch.json"
 CATEGORIES_FILE = ROOT / "categories_to_collect_fr_en.csv"
@@ -133,3 +136,33 @@ def ground_distance_m(lat1, lon1, lat2, lon2):
     dx = math.radians(lon2 - lon1) * math.cos(mean_lat)
     dy = math.radians(lat2 - lat1)
     return 6371000.0 * math.hypot(dx, dy)
+
+
+_car_masks = {}
+
+
+def load_car_mask(video):
+    """The car mask of a video (PIL "L" image, 255 = car) from car_masks/<video>/mask.png, or None (car_mask.py)."""
+    if video not in _car_masks:
+        path = CAR_MASK_DIR / video / "mask.png"
+        _car_masks[video] = Image.open(path).convert("L") if path.exists() else None
+    return _car_masks[video]
+
+
+def car_mask_for(image_file):
+    return load_car_mask(frame_key(image_file)[0])
+
+
+def mask_share(mask, x0, y0, x1, y1):
+    """Share of the pixel box (x0, y0, x1, y1) that lies on the car."""
+    box = tuple(round(v) for v in (max(0, x0), max(0, y0), min(mask.width, x1), min(mask.height, y1)))
+    if box[2] <= box[0] or box[3] <= box[1]:
+        return 0.0
+    histogram = mask.crop(box).histogram()
+    return sum(histogram[128:]) / sum(histogram)
+
+
+def on_car(mask, u, v):
+    """Whether the normalized point (u, v) lies on the car."""
+    x, y = min(mask.width - 1, max(0, int(u * mask.width))), min(mask.height - 1, max(0, int(v * mask.height)))
+    return mask.getpixel((x, y)) > 127

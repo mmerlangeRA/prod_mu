@@ -25,6 +25,7 @@ CATALOGUE CODE RULES
 - Litter bins / Corbeille: use `COR_FEN_01`, `COR_FEN_02` or `COR_FEN_03` only when supported by the corresponding description; otherwise use fallback `COR_CHO_01` for another litter-bin design.
 - Lighting points / Points d’éclairage: use `ECL_FEN_01` for the described solar pedestrian-detection mast; otherwise use fallback `ECL_SIE_06` for another public lighting point.
 - Bollards / Potelets: use `POT_FEN_01`, `POT_FEN_02`, `POT_FEN_03` or `POT_FEN_04` only when supported by the corresponding description; otherwise use fallback `POT_CHO_04` for another bollard design.
+  - Flexible traffic delineators (French "balise J11": plastic posts with reflective bands, often in rows along cycle lanes, islands and road edges) are road signalling, not bollards: omit them, and never give them `POT_CHO_04`. The one exception is `POT_FEN_03`, the SOLIDOR product of its reference photo: use it only when its ribbed or studded flexible lower shaft and its wide circular flared base are visible. A smooth cylindrical delineator, white or coloured, is another J11: omit it.
 - Bicycle racks and shelters / Supports vélos: use `VEL_FEN_01`, `VEL_FEN_02`, `VEL_FEN_03`, `VEL_FEN_04` or `VEL_FEN_05` only when supported by the corresponding description; otherwise use fallback `VEL_FEN_06` for another bicycle rack, stand or shelter design.
 - Manholes / Bouches d’égout: use `BOU-E`.
 - Drainage grates and stormwater inlets / Grilles, avaloirs: use `GRI`.

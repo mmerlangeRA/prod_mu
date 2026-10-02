@@ -20,6 +20,7 @@ The repository was migrated from an earlier Cholet catalogue. The Cholet sources
 The full rules are in `fensch_bbox_prompt.md`. In short:
 - A fallback code (`ABR_FEN_01`, `BAN_CHO_01`, `BAR_CHO_03`, `COR_CHO_01`, `ECL_SIE_06`, `POT_CHO_04`, `VEL_FEN_06`) means "the category is clear, but the design is not one of the described models". It is not a label for blur or uncertainty. If even the category is uncertain, omit the object.
 - Bicycle racks and shelters have their own category (`VEL_FEN_*`). They are not bollards.
+- Flexible traffic delineators (J11 balises) are road signalling, not bollards: ignore them. The only exception is `POT_FEN_03` (SOLIDOR), used only when its ribbed flexible lower shaft and wide flared base are visible. Smooth cylindrical delineators, such as the white posts along cycle lanes, are rejected.
 - Speed bumps have no fallback code. A zebra crossing alone is never a speed bump. Shark-teeth triangles, a ramp or a surface change across the lane are evidence of one. When a speed bump is certain but its subtype is not, choose the likeliest subtype with `low` confidence instead of omitting it. Details: SPEED BUMPS AND PEDESTRIAN CROSSINGS in `fensch_bbox_prompt.md`.
 - Public equipment only: ignore anything on private property (gardens, front yards, driveways, private car parks, company or farm grounds, behind a fence, wall or hedge marking a property line), even when visible from the street. Count only trees the city probably maintains: street trees and trees in squares, public parks and public car parks, not woods, roadside woodland, hedgerows, fields or private gardens. When an object is probably private or probably not maintained by the city, omit it. Details: SCOPE in `fensch_bbox_prompt.md`.
 - Never invent, translate or concatenate codes. Never infer detections from filenames, location or expected inventory.
@@ -30,34 +31,52 @@ Python code needs the local virtualenv: `python3 -m venv .venv && .venv/bin/pip 
 - `fensch.py`: catalogue, GPS and geometry;
 - `vlm_tools.py`: tiling, box parsing and post-filters for vision-model scripts.
 
-### Chosen workflow: two stages
+### Process, step by step
 
-**Stage 1, local and free (category only): `detect_vlm.py`.**
-- **Model:** `qwen3.5:9b` on Ollama (≥ 0.35), returning the 19 English category names. Each frame is sent as 4 overlapping tiles over the horizon band.
+`run_pipeline.py` chains the steps on a range of frames. Every step is resumable, and `--status` shows what is done:
+
+```
+.venv/bin/python run_pipeline.py --batch first100 --first 100           # steps 1-4, then stops for step 5
+.venv/bin/python run_pipeline.py --batch first100 --first 100 --apply   # step 6
+.venv/bin/python run_pipeline.py --batch first100 --status
+```
+
+**Step 1. Car mask: `car_mask.py`, once per video.** The camera is fixed on the car, so one mask serves every frame of a video.
+- `car_mask.py prepare` writes `car_masks/<video>/median.jpg`, `stable_edges.png` and gridded crops from 60 frames spread over the video. In the median and stable-edge images the car stays sharp and the moving scene blurs out.
+- The outline is traced by hand once, into `car_masks/<video>/outline.json` (`top_line`: the car's upper outline from u = 0 to 1, with spikes for the mast, beacon and mirror). It can't be fully automatic: the glossy body reflects the scene, and its outline has gaps.
+- `car_mask.py render` writes `mask.png` (widened by 4 px) and `check.jpg`, and reports the share of the car's stable edges left outside the mask. For `20260805_080341_gs010136`: 29.6% of the panorama is masked, and 0.45% of the stable edges are missed.
+- Validation on the full run: the mask filter would have removed 485 of the 497 features that stage 2 rejected as car parts, and none of the 156 real objects.
+- Check the mask again after any change in camera mounting, and trace a new one for each new video.
+
+**Step 2. Stage 1, categories, local and free: `detect_vlm.py`.**
+- **Model:** `qwen3.5:9b` on Ollama (≥ 0.35), returning the 19 English category names. Each frame is sent as 4 overlapping tiles over the horizon band, with the car painted grey from the mask.
 - **Coordinates:** boxes are on a 0–1000 scale **per axis** of each tile. Groq's Qwen 3.8 instead uses the tile's *longer* side (see `try_groq.py`).
-- **Filters:** duplicates from overlapping tiles are merged; invented runs of identical, evenly spaced boxes are dropped (`vlm_tools.repetition_runs`); boxes lying on the car are dropped (`on_vehicle`).
-- **Resumable:** progress is saved frame by frame in `analysis/raw/<batch>/`, so re-running the same command continues where it stopped. At the end it writes `analysis/<batch>.json` and runs `localize.py` and the viewer build.
+- **Filters:** duplicates from overlapping tiles are merged; invented runs of identical, evenly spaced boxes are dropped (`vlm_tools.repetition_runs`); boxes with at least half their area on the car mask are dropped (`on_vehicle`, which falls back to a fixed region when a video has no mask).
+- **Resumable:** progress is saved frame by frame in `analysis/raw/<batch>/`, so re-running the same command continues where it stopped. At the end it writes `analysis/<batch>.json` and runs step 3.
 - **Codes:** categories with specific models get their fallback code, and speed bumps the placeholder `RAL01`, all with `code_status: "category_only"`. Direct categories get their final code.
-- **The full run (`ollama-qwen35-all`, 783 frames)** was launched on 2026-10-02, detached with `caffeinate`, logging to `logs/ollama-qwen35-all.log`. To check it: `tail -3 logs/ollama-qwen35-all.log`. If it stopped, re-run:
+- **About 20–30 s per frame** on an M4 Pro. Long runs go in the background: `nohup caffeinate -i .venv/bin/python -u run_pipeline.py --batch NAME > logs/NAME.log 2>&1 &`.
+- **Measured on the first 10 frames, before the mask** (against `first10-manual`): 69% of manual boxes found (lamps 9/11, trees 7/7, hydrants 2/3, bollards 41/61). **Speed bumps were not found (0/4)**, and there are extra boxes (wheelie bins, signs, private planters) that stage 2 must reject. The full run without a mask is `ollama-qwen35-all`.
 
-  `nohup caffeinate -i .venv/bin/python -u detect_vlm.py --batch ollama-qwen35-all > logs/ollama-qwen35-all.log 2>&1 &`
-- **Measured on the first 10 frames** (against `first10-manual`): 69% of manual boxes found (lamps 9/11, trees 7/7, hydrants 2/3, bollards 41/61), about 20–30 s per frame. **Speed bumps were not found (0/4)**, and there are extra boxes (wheelie bins, signs, private planters) that stage 2 must reject.
+**Step 3. Localization and merge: `localize.py`** (run by step 2 and by step 6): ground positions, features, exports and the viewer build. A contact point on the car mask is flagged unreliable.
 
-**Stage 2 (specific type), done by Claude visually in a dedicated session:**
-1. `.venv/bin/python typing_sheets.py analysis/ollama-qwen35-all.json` writes, in `analysis/raw/<batch>/typing/`:
-   - contact sheets per category (`POT_01.jpg`…): numbered crops of each merged feature's best views (closest first) with the detected box in red, under that category's reference photos and codes;
-   - `index.json`;
-   - a `decisions.json` template. An existing one is never overwritten, so the work can resume.
-2. Read `fensch_image_descriptions.json` for the category's codes. Then, for each sheet, view the image and fill `decisions.json` for every item:
-   - **`code`:** the specific model when the description is visually supported; otherwise the category fallback; or another category's code when the category is wrong (e.g. a bicycle rack taken for a bollard); or `"REJECT"` for non-equipment (wheelie bins, signs, reflections, car parts) and for anything out of scope: equipment on private property, and trees not maintained by the city. `null` means undecided.
+**Step 4. Stage-2 sheets: `typing_sheets.py analysis/<batch>.json`** writes, in `analysis/raw/<batch>/typing/`:
+- contact sheets per category (`POT_01.jpg`…): numbered crops of each merged feature's best views (closest first) with the detected box in red, under that category's reference photos and codes;
+- `index.json`;
+- a `decisions.json` template. An existing one is never overwritten, so the work can resume.
+
+**Step 5. Stage-2 decisions, done by Claude visually.** Read `fensch_image_descriptions.json` for the category's codes. Then, for each sheet, view the image and fill `decisions.json` for every item:
+   - **`code`:** the specific model when the description is visually supported; otherwise the category fallback; or another category's code when the category is wrong (e.g. a bicycle rack taken for a bollard); or `"REJECT"` for non-equipment (wheelie bins, signs, reflections, car parts) and for anything out of scope: equipment on private property, trees not maintained by the city, and J11 flexible delineators other than `POT_FEN_03`. `null` means undecided.
    - **`confidence`:** high, medium or low.
    - **`state`:** `good` (the norm), `damaged` (already significantly deteriorated: leaning, dented, broken part, heavy rust…) or `bad` (not or barely functional: knocked down, broken off…); `null` for `REJECT`. It maps to the Clavier's mandatory `Etat` part (Bon / Moyen / Mauvais) and is exported as `state` and `etat` per feature. Small distant objects with no visible defect are `good`.
    - **`evidence`:** 1–2 short visible reasons, including the reason for a `damaged` or `bad` state.
    - Small distant objects of the right category keep the fallback with `low` confidence; do not reject them.
    - Stage-1 boxes can be a little off, and neighbouring bollards can be merged into one feature: judge the object nearest the red box in the clearest view.
    - Speed bumps: choose the subtype with the rules in `fensch_bbox_prompt.md`, and reject zebra-only crossings.
-3. `.venv/bin/python apply_typing.py analysis/ollama-qwen35-all.json` copies code, confidence, state and evidence onto every detection of each decided feature and writes `analysis/<batch>-typed.json` (the source batch is untouched), re-localizes it and rebuilds the viewer.
-4. Quota: this stage uses the Claude Code plan (the `get_usage` tool shows it). Measure the usage of the first 2 sheets before doing all of them; a fresh session keeps each action cheap.
+- Quota: this step uses the Claude Code plan (the `get_usage` tool shows it). On the full run, 73 sheets used about 14% of the 5-hour window and 2% of the weekly limit.
+
+**Step 6. Apply: `run_pipeline.py --batch NAME --apply`** (that is, `apply_typing.py analysis/<batch>.json`). It copies code, confidence, state and evidence onto every detection of each decided feature, writes `analysis/<batch>-typed.json` (the source batch is untouched), re-localizes it and rebuilds the viewer.
+
+**Step 7. Review in the viewer** (see below). Saving writes `analysis/<batch>-typed-reviewed.json`.
 
 ### Other detectors (kept for comparison)
 

@@ -12,13 +12,14 @@ The deliverable is the deduplicated feature list. Bounding boxes are an intermed
 1. **Stage 1 (category only):** a local, free vision model, `qwen3.5:9b` on Ollama, via `detect_vlm.py`.
 2. **Stage 2 (specific type):** done by Claude visually from contact sheets (`typing_sheets.py` → `decisions.json` → `apply_typing.py`).
 
-The full stage-1 run over the 783 frames (batch `ollama-qwen35-all`) was launched on 2026-10-02 (log: `logs/ollama-qwen35-all.log`; about 4–6 h). It finished the same day: 5010 boxes, 2364 features. Stage 2 was then done on its 808 specific-category features (73 sheets): 626 rejected and 182 typed, each with a condition `state` (good / damaged / bad, mapped to the Clavier `Etat`). Result: `analysis/ollama-qwen35-all-typed.json`. See the stage-2 findings below.
+The full stage-1 run over the 783 frames (batch `ollama-qwen35-all`) was launched on 2026-10-02 (log: `logs/ollama-qwen35-all.log`; about 4–6 h). It finished the same day: 5010 boxes, 2364 features. Stage 2 was then done on its 808 specific-category features (73 sheets): 652 rejected and 156 typed, each with a condition `state` (good / damaged / bad, mapped to the Clavier `Etat`). Result: `analysis/ollama-qwen35-all-typed.json`. See the stage-2 findings below.
 
 **Stage-2 findings on the full run:**
 - About 77% of the stage-1 features in these categories were false. Most were the survey car itself: the orange roof beacon and the camera mast were taken for lighting points, the roof rails for barriers, and their reflections on the bonnet for speed bumps. Road crash guardrails (glissières) were also taken for barriers. Masking a fixed car region in `detect_vlm.py` (beacon, mast, roof rails) would remove most of them before stage 2.
-- Kept: 77 lighting points (all `ECL_SIE_06`; no solar `ECL_FEN_01` mast seen), 49 + 14 barriers (wooden railings as fallback, red/white `BAR_FEN_02` gates, `BAR_FEN_01` cycle chicanes), 26 `POT_FEN_03` delineators, 5 `BAN_FEN_01` picnic tables, 1 `RAL01`. Stage 1 found only one speed bump.
+- Kept: 77 lighting points (all `ECL_SIE_06`; no solar `ECL_FEN_01` mast seen), 49 + 14 barriers (wooden railings as fallback, red/white `BAR_FEN_02` gates, `BAR_FEN_01` cycle chicanes), 5 `BAN_FEN_01` picnic tables, 1 `RAL01`. Stage 1 found only one speed bump.
+- The 26 white banded posts along the cycle lane, first typed `POT_FEN_03`, were rejected after the J11 rule: flexible traffic delineators are road signalling, and `POT_FEN_03` is kept only for the SOLIDOR product, which has a ribbed lower shaft and a flared base.
 - Only 2 features are `damaged` and none `bad`. At 1920 px most items are too small to show wear, so `good` mostly means "no visible defect".
-- Features are counted after re-localization (179); a long railing is still split into several features.
+- Features are counted after re-localization (154); a long railing is still split into several features.
 - The direct categories (trees, grates, manholes…) were not reviewed and have no state yet. Trees alone are 1446 features, many of them duplicates.
 
 **Detectors compared on the first 10 frames**, against `first10-manual` (Claude's visual annotation, which has known speed-bump errors). Boxes are counted when they overlap a manual box by IoU ≥ 0.3 and lie within 15 m:
