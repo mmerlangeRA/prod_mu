@@ -80,7 +80,12 @@ The viewer's edit mode adds, moves, resizes and deletes boxes and changes their 
 
 The viewer's **Street View ↗** button opens the documented Maps URLs pano view (`map_action=pano&viewpoint=…&heading=…`) in a separate named window, which then follows frame and selection changes. Open it only on user request, because it sends the position to Google.
 
-Reviewed objects carry `review: "added" | "edited"`, and each image keeps `review.deleted`. Treat reviewed batches as the human-corrected reference when evaluating model runs.
+Reviewed objects carry `review: "added" | "edited"`, and each image keeps `review.deleted`. Positions are separate from boxes:
+- `ground` is the automatic position computed from the box. `manual_position` (`latitude`, `longitude`, `edited`) is the one shown on the map and exported. `localize.py` keeps it as a copy of the automatic one until a reviewer moves it, after which `edited: true` and it is kept as is.
+- In edit mode the map markers can be dragged. Shift+click and Shift+drag build a multi-selection that moves together, by mouse or with the arrow keys (0.2 m per press, 1 m with Shift). Moving a feature moves all its detections, in every frame, to its new point. "Reset position to automatic" undoes a move.
+- A feature sits at the mean of its moved detections when it has any, otherwise at the usual weighted mean. `auto_latitude` and `auto_longitude` keep the purely automatic estimate, and `position_edited` flags moved features in the exports.
+
+Treat reviewed batches as the human-corrected reference when evaluating model runs.
 
 When you stand in for the API by annotating images yourself:
 - write responses in the `detect.py` response format, with `"source": "manual_visual"`;

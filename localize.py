@@ -5,9 +5,14 @@ Usage:
 
 Camera positions and headings come only from ncp_gps_frames.json. Each detection is projected on a flat ground plane
 from a level camera; detections of the same category from different frames that fall within --merge-radius are merged
-into one feature. The analysis file is updated in place (camera, per-object `ground`, `localization`, `features`), and
-exports/NAME.features.geojson, exports/NAME.features.csv and exports/NAME.detections.geojson are written.
+into one feature. The analysis file is updated in place (camera, per-object `ground`, `manual_position`, `localization`,
+`features`), and exports/NAME.features.geojson, exports/NAME.features.csv and exports/NAME.detections.geojson are written.
 Re-running recomputes everything from the detections.
+
+Positions: `ground` is the automatic position computed from the box. `manual_position` is the position shown on the map
+and exported: a copy of the automatic one (`edited: false`, refreshed on every run) until a reviewer moves it in the
+viewer (`edited: true`, then kept as is). A feature's position is the mean of its moved detections when it has any,
+otherwise the weighted mean of its detections; `auto_latitude`/`auto_longitude` keep the purely automatic estimate.
 """
 import argparse
 import csv
@@ -56,12 +61,12 @@ def locate(obj, camera, args):
 def merge(detections, radius, catalogue):
     """Greedy merge, nearest sightings first; one feature never takes two detections from the same image."""
     clusters = []
-    for det in sorted(detections, key=lambda d: d["ground"]["distance_m"]):
+    for det in sorted(detections, key=lambda d: d["distance_m"]):
         best, best_distance = None, None
         for cluster in clusters:
             if cluster["category_fr"] != det["category_fr"] or det["image_file"] in cluster["images"]:
                 continue
-            gap = fensch.ground_distance_m(cluster["latitude"], cluster["longitude"], det["ground"]["latitude"], det["ground"]["longitude"])
+            gap = fensch.ground_distance_m(cluster["latitude"], cluster["longitude"], *det["position"])
             if gap <= radius and (best is None or gap < best_distance):
                 best, best_distance = cluster, gap
         if best is None:
@@ -69,19 +74,20 @@ def merge(detections, radius, catalogue):
             clusters.append(best)
         best["members"].append(det)
         best["images"].add(det["image_file"])
-        weights = [member_weight(m) / max(m["ground"]["distance_m"], 1.0) ** 2 for m in best["members"]]
-        best["latitude"] = sum(w * m["ground"]["latitude"] for w, m in zip(weights, best["members"])) / sum(weights)
-        best["longitude"] = sum(w * m["ground"]["longitude"] for w, m in zip(weights, best["members"])) / sum(weights)
+        best["latitude"], best["longitude"] = cluster_position(best["members"], lambda m: m["position"])
 
     features = []
     for number, cluster in enumerate(sorted(clusters, key=lambda c: (c["category_fr"], c["latitude"], c["longitude"])), start=1):
         votes = {}
         for member in cluster["members"]:
-            votes[member["code"]] = votes.get(member["code"], 0.0) + member_weight(member) / max(member["ground"]["distance_m"], 1.0)
+            votes[member["code"]] = votes.get(member["code"], 0.0) + member_weight(member) / max(member["distance_m"], 1.0)
         code = max(votes, key=votes.get)
         chosen = [m for m in cluster["members"] if m["code"] == code]
         entry = catalogue[code]
         state = feature_state(chosen)
+        automatic = [m for m in cluster["members"] if m["ground"].get("status") == "ok"]
+        auto_position = cluster_position(automatic, lambda m: (m["ground"]["latitude"], m["ground"]["longitude"]), manual=False) \
+            if automatic else (None, None)
         features.append({
             "feature_id": f"F{number:04d}",
             "code": code,
@@ -90,16 +96,41 @@ def merge(detections, radius, catalogue):
             "classification": entry["classification"],
             "latitude": round(cluster["latitude"], 8),
             "longitude": round(cluster["longitude"], 8),
+            "position_edited": any(m["edited"] for m in cluster["members"]),
+            "auto_latitude": auto_position[0] and round(auto_position[0], 8),
+            "auto_longitude": auto_position[1] and round(auto_position[1], 8),
             "confidence": max((m["confidence"] for m in chosen), key=CONFIDENCE_WEIGHT.get),
             "code_agreement": round(votes[code] / sum(votes.values()), 3),
             "state": state,
             "etat": fensch.ETAT_BY_STATE.get(state),
             "n_detections": len(cluster["members"]),
-            "min_distance_m": min(m["ground"]["distance_m"] for m in cluster["members"]),
+            "min_distance_m": min(m["distance_m"] for m in cluster["members"]),
             "detections": [{"image_file": m["image_file"], "object_id": m["object_id"], "code": m["code"],
-                            "distance_m": m["ground"]["distance_m"]} for m in cluster["members"]],
+                            "distance_m": m["distance_m"]} for m in cluster["members"]],
         })
     return features
+
+
+def cluster_position(members, position, manual=True):
+    """Mean of the moved members when there are any (manual positions win), else weighted by confidence / distance²."""
+    edited = [m for m in members if manual and m["edited"]]
+    if edited:
+        return (sum(position(m)[0] for m in edited) / len(edited), sum(position(m)[1] for m in edited) / len(edited))
+    weights = [member_weight(m) / max(m["distance_m"], 1.0) ** 2 for m in members]
+    return (sum(w * position(m)[0] for w, m in zip(weights, members)) / sum(weights),
+            sum(w * position(m)[1] for w, m in zip(weights, members)) / sum(weights))
+
+
+def update_manual_position(obj):
+    """Keep a moved manual position; otherwise copy the automatic one (or drop it when there is none)."""
+    manual = obj.get("manual_position")
+    if manual and manual.get("edited"):
+        return
+    ground = obj["ground"]
+    if ground.get("status") == "ok":
+        obj["manual_position"] = {"latitude": ground["latitude"], "longitude": ground["longitude"], "edited": False}
+    else:
+        obj.pop("manual_position", None)
 
 
 def feature_state(members):
@@ -114,7 +145,7 @@ def feature_state(members):
 
 
 def member_weight(det):
-    return CONFIDENCE_WEIGHT[det["confidence"]] * (1.0 if det["ground"].get("reliable") else 0.5)
+    return CONFIDENCE_WEIGHT[det["confidence"]] * (1.0 if det["edited"] or det["ground"].get("reliable") else 0.5)
 
 
 def write_exports(batch_name, data, features):
@@ -133,26 +164,32 @@ def write_exports(batch_name, data, features):
     with open(f"{stem}.features.csv", "w", encoding="utf-8-sig", newline="") as handle:
         writer = csv.writer(handle)
         writer.writerow(["feature_id", "code", "category_fr", "category_en", "classification", "latitude", "longitude",
-                         "confidence", "code_agreement", "state", "etat", "n_detections", "min_distance_m", "frames"])
+                         "confidence", "code_agreement", "state", "etat", "position_edited", "auto_latitude", "auto_longitude",
+                         "n_detections", "min_distance_m", "frames"])
         for f in features:
             frames = sorted({fensch.frame_key(d["image_file"])[1] for d in f["detections"]})
             writer.writerow([f["feature_id"], f["code"], f["category_fr"], f["category_en"], f["classification"],
-                             f["latitude"], f["longitude"], f["confidence"], f["code_agreement"], f["state"], f["etat"], f["n_detections"],
+                             f["latitude"], f["longitude"], f["confidence"], f["code_agreement"], f["state"], f["etat"], f["position_edited"],
+                             f["auto_latitude"], f["auto_longitude"], f["n_detections"],
                              f["min_distance_m"], " ".join(str(n) for n in frames)])
 
     detection_features = []
     for image in data["images"]:
         for obj in image["objects"]:
-            ground = obj.get("ground", {})
-            if ground.get("status") != "ok":
+            ground, manual = obj.get("ground", {}), obj.get("manual_position")
+            if not manual:
                 continue
+            automatic = ground.get("status") == "ok"
             detection_features.append({
                 "type": "Feature",
-                "geometry": {"type": "Point", "coordinates": [ground["longitude"], ground["latitude"]]},
+                "geometry": {"type": "Point", "coordinates": [manual["longitude"], manual["latitude"]]},
                 "properties": {"image_file": image["image_file"], "object_id": obj["object_id"], "code": obj["code"],
                                "confidence": obj["confidence"], "state": obj.get("state"),
-                               "distance_m": ground["distance_m"],
-                               "bearing_deg": ground["bearing_deg"], "reliable": ground["reliable"],
+                               "position_edited": bool(manual.get("edited")),
+                               "auto_latitude": ground["latitude"] if automatic else None,
+                               "auto_longitude": ground["longitude"] if automatic else None,
+                               "distance_m": ground.get("distance_m"),
+                               "bearing_deg": ground.get("bearing_deg"), "reliable": ground.get("reliable"),
                                "feature_id": obj.get("feature_id")},
             })
     Path(f"{stem}.detections.geojson").write_text(
@@ -181,8 +218,15 @@ def main():
             obj.pop("feature_id", None)
             obj["ground"] = locate(obj, camera, args) if camera else {"status": "no_gps"}
             counts[obj["ground"]["status"]] = counts.get(obj["ground"]["status"], 0) + 1
-            if obj["ground"]["status"] == "ok":
-                located.append({**obj, "image_file": image["image_file"]})
+            update_manual_position(obj)
+            manual = obj.get("manual_position")
+            if manual:
+                position = (manual["latitude"], manual["longitude"])
+                # A moved position can exist without an automatic one (e.g. a box beyond range placed by hand).
+                distance = obj["ground"].get("distance_m") if obj["ground"].get("status") == "ok" else \
+                    (fensch.ground_distance_m(camera["latitude"], camera["longitude"], *position) if camera else 1.0)
+                located.append({**obj, "image_file": image["image_file"], "position": position, "distance_m": distance,
+                                "edited": bool(manual.get("edited"))})
 
     features = merge(located, args.merge_radius, catalogue)
     feature_of = {(d["image_file"], d["object_id"]): f["feature_id"] for f in features for d in f["detections"]}

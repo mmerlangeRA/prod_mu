@@ -51,6 +51,11 @@ def check_document(document, catalogue):
                 problems.append(f"{where}: confidence must be high, medium or low")
             if obj.get("state") is not None and obj["state"] not in fensch.STATES:
                 problems.append(f"{where}: state must be one of {', '.join(fensch.STATES)}")
+            manual = obj.get("manual_position")
+            if manual is not None and not (isinstance(manual, dict) and isinstance(manual.get("edited"), bool)
+                                           and all(isinstance(manual.get(k), (int, float)) for k in ("latitude", "longitude"))
+                                           and -90 <= manual["latitude"] <= 90 and -180 <= manual["longitude"] <= 180):
+                problems.append(f"{where}: manual_position must have numeric latitude, longitude and a boolean edited")
     return problems
 
 

@@ -12,7 +12,10 @@
 </style>
 <style>
 .nav{display:flex;align-items:center;gap:8px;flex:none}.nav button{width:34px;height:30px;border:1px solid #bdc9c1;border-radius:7px;background:#fff;color:inherit;font-size:13px;line-height:1}.nav button:hover:not(:disabled){background:#edf5f1}.nav button:disabled{opacity:.4;cursor:default}.nav span{min-width:52px;text-align:center;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}.filebar strong{flex:1}
-.nav .sv-button{width:auto;padding:0 10px}.nav .sv-target{height:30px;padding:0 6px;border:1px solid #bdc9c1;border-radius:7px;background:#fff;color:inherit;font-size:12px}
+.nav .sv-button{width:auto;padding:0 10px}.nav .sv-button[aria-pressed="true"]{background:var(--green);border-color:var(--green);color:#fff}
+.map.editing .leaflet-interactive,.map .leaflet-interactive.map-selected{cursor:move}.map.box-select,.map.box-select .leaflet-grab{cursor:crosshair}
+.map-controls button[aria-pressed="true"]{background:var(--green);border-color:var(--green);color:#fff}.map-controls button:disabled{opacity:.45;cursor:default}
+.stage.rear{overflow:hidden;background-repeat:repeat-x;background-size:200% 100%;background-position:150% 0}.stage.rear img{display:none}.nav .sv-target{height:30px;padding:0 6px;border:1px solid #bdc9c1;border-radius:7px;background:#fff;color:inherit;font-size:12px}
 
 .editbar{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;padding:9px 15px;border-bottom:1px solid var(--line);font-size:13px}.editbar label{display:flex;align-items:center;gap:6px;color:#50615b}.editbar select{padding:5px 7px;border:1px solid #bdc9c1;border-radius:6px;background:#fff;color:inherit;max-width:280px}.editbar button,.edit-form button{padding:6px 10px;border:1px solid #bdc9c1;border-radius:7px;background:#fff;color:inherit;font-size:13px}.editbar button:disabled{opacity:.45;cursor:default}.editbar button.primary{background:var(--green);border-color:var(--green);color:#fff}.editbar button.active{background:#e6efe9;border-color:var(--green)}.edit-status{color:var(--muted);flex:1 1 220px;text-align:right}.edit-status.warning{color:#945014}
 .stage-scroll{overflow:auto;max-height:78vh;padding:6px}.stage.editing{touch-action:none;user-select:none}.stage.editing .box{cursor:move}.stage.drawing,.stage.drawing .box{cursor:crosshair}.box.edited{border-style:dashed}.handle{position:absolute;width:11px;height:11px;background:#fff;border:2px solid var(--box-color);border-radius:2px;padding:0}.handle.nw{left:-7px;top:-7px;cursor:nwse-resize}.handle.ne{right:-7px;top:-7px;cursor:nesw-resize}.handle.sw{left:-7px;bottom:-7px;cursor:nesw-resize}.handle.se{right:-7px;bottom:-7px;cursor:nwse-resize}.draft-box{position:absolute;border:2px dashed #fff;outline:1px dashed #000;pointer-events:none}
@@ -51,18 +54,18 @@
 <main class="workspace">
 <div class="left" id="leftColumn">
 <section class="stage-panel">
-<div class="filebar"><div class="nav"><button id="prevImage" type="button" title="Previous image (Page Up, or ← outside edit mode)" aria-label="Previous image">◀</button><span id="imagePosition"></span><button id="nextImage" type="button" title="Next image (Page Down, or → outside edit mode)" aria-label="Next image">▶</button><button id="openStreetView" class="sv-button" type="button" title="Open Google Street View at this frame's GPS position in a separate window; it follows the frames you open">Street View ↗</button><select id="streetViewTarget" class="sv-target" aria-label="Street View direction"><option value="camera">facing the frame heading</option><option value="object">facing the selected object</option></select></div><div class="frame-name"><strong id="imageName"></strong><small id="imageFile"></small></div><span id="pairing"></span></div>
+<div class="filebar"><div class="nav"><button id="prevImage" type="button" title="Previous image (Page Up, or ← outside edit mode)" aria-label="Previous image">◀</button><span id="imagePosition"></span><button id="nextImage" type="button" title="Next image (Page Down, or → outside edit mode)" aria-label="Next image">▶</button><button id="rearView" class="sv-button" type="button" aria-pressed="false" title="Show only the rear half of the panorama: 180° centred behind the car (shortcut R)">Rear view</button><button id="openStreetView" class="sv-button" type="button" title="Open Google Street View at this frame's GPS position in a separate window; it follows the frames you open">Street View ↗</button><select id="streetViewTarget" class="sv-target" aria-label="Street View direction"><option value="camera">facing the frame heading</option><option value="object">facing the selected object</option></select></div><div class="frame-name"><strong id="imageName"></strong><small id="imageFile"></small></div><span id="pairing"></span></div>
 <div class="editbar"><label><input id="editMode" type="checkbox"> Edit boxes</label><button id="drawBox" type="button" disabled title="Then drag on the image (shortcut N)">Draw box</button><label title="Code given to boxes you draw">New code<select id="newCode" disabled></select></label><label>Zoom<select id="zoom"><option value="1">Fit</option><option value="2">2×</option><option value="3">3×</option><option value="4">4×</option><option value="6">6×</option></select></label><span class="edit-status" id="editStatus"></span><button id="discardEdits" type="button" disabled title="Discard all unsaved edits of this batch">Discard</button><button id="saveReview" class="primary" type="button" disabled title="Write analysis/&lt;batch&gt;-reviewed.json and recompute positions">Save review</button></div>
 <div class="stage-scroll"><div class="stage" id="stage"><img id="image" alt="Query image" draggable="false"><div id="overlay"></div></div></div>
 </section>
 <div class="splitter" id="splitter" role="separator" aria-orientation="horizontal" aria-label="Resize the map (drag, or arrow keys; double-click resets)" tabindex="0"><span></span></div>
 <section class="map-panel" id="mapPanel">
-<div class="map-head"><h2>Map <span class="info" tabindex="0" title="Positions are estimates. Camera positions and headings come from ncp_gps_frames.json (compass heading = 90 − orientation). Each detection is projected on a flat ground plane from its box's ground-contact point, for a level camera at the batch's camera height; detections beyond the range limit are not placed. Dashed lines join the camera to this frame's detections; large rings are features merged across frames. Click a track point to open that frame when it has been analysed.">ⓘ</span></h2><div class="map-meta" id="mapMeta"></div><div class="map-controls"><label><input id="showTrack" type="checkbox" checked> Track</label><label><input id="showFeatures" type="checkbox" checked> Features</label><button id="exportGeojson" type="button" title="Export the batch's merged features as GeoJSON">GeoJSON</button><button id="exportCsv" type="button" title="Export the batch's merged features as CSV">CSV</button></div></div>
+<div class="map-head"><h2>Map <span class="info" tabindex="0" title="Positions are estimates. Camera positions and headings come from ncp_gps_frames.json (compass heading = 90 − orientation). Each detection is projected on a flat ground plane from its box's ground-contact point, for a level camera at the batch's camera height; detections beyond the range limit are not placed. Dashed lines join the camera to this frame's detections; large rings are features merged across frames. Click a track point to open that frame when it has been analysed.">ⓘ</span></h2><div class="map-meta" id="mapMeta"></div><div class="map-controls"><label><input id="showTrack" type="checkbox" checked> Track</label><label><input id="showFeatures" type="checkbox" checked> Features</label><button id="boxSelect" type="button" aria-pressed="false" title="Left-drag on the map draws a selection box instead of panning (Shift+drag works without this; Shift adds to the selection)">Select box</button><button id="exportGeojson" type="button" title="Export the batch's merged features as GeoJSON">GeoJSON</button><button id="exportCsv" type="button" title="Export the batch's merged features as CSV">CSV</button></div></div>
 <div class="map" id="map"><div class="map-message">Loading map…</div></div>
 </section>
 </div>
 <aside class="side"><h2>Detected objects</h2><div class="object-list" id="objectList"></div><div class="detail empty" id="detail">Select a box or result.</div>
-<details class="help"><summary>Shortcuts and help</summary><p>Hover a box, list row or map marker to highlight the same object everywhere; click to select it. Drag the bar above the map to resize it (double-click resets). ◀ ▶, Page Up / Page Down (or ← → outside edit mode) move between the images of the current batch. Edit mode: drag a box to move it, drag a corner to resize, Delete or D removes the selected box, arrow keys nudge it by 1 px (Shift: 10 px), N draws a new box, Esc cancels. Edits are kept in this browser until saved; saving writes <code>analysis/&lt;batch&gt;-reviewed.json</code> through <code>review_server.py</code> (or downloads it when the server is not running), then positions are recomputed.</p></details>
+<details class="help"><summary>Shortcuts and help</summary><p>Hover a box, list row or map marker to highlight the same object everywhere; click to select it. Drag the bar above the map to resize it (double-click resets). ◀ ▶, Page Up / Page Down (or ← → outside edit mode) move between the images of the current batch. Click a map marker to select its object (it turns amber); a feature with no sighting in this frame opens the frame where it is seen closest (outside edit mode). Map positions can be corrected without touching the boxes: drag a selected marker (in edit mode, any marker) to place it by hand; a grey ring marks the automatic position, and moving a feature moves all its detections. Shift+click adds or removes a marker from the selection; Shift+drag draws a selection box that adds to it, and with "Select box" on a plain left-drag draws one that replaces it. The selection moves together by mouse or with the arrow keys (0.2 m, Shift: 1 m; ← → change frame only when nothing is selected on the map); click the map or press Esc to clear it. Rear view (R) shows only the 180° behind the car, with the rear in the middle; only the boxes in that half are listed and mapped. Edit mode: drag a box to move it, drag a corner to resize, Delete or D removes the selected box, arrow keys nudge it by 1 px (Shift: 10 px), N draws a new box, Esc cancels. Edits are kept in this browser until saved; saving writes <code>analysis/&lt;batch&gt;-reviewed.json</code> through <code>review_server.py</code> (or downloads it when the server is not running), then positions are recomputed.</p></details>
 </aside>
 </main>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -72,21 +75,27 @@
 const payload=JSON.parse(document.getElementById('data').textContent),datasets=payload.datasets||[],batches=payload.batches||[],track=payload.track||[],catalogue=payload.catalogue||[],$=id=>document.getElementById(id);
 const catalogueByCode=new Map(catalogue.map(entry=>[entry.code,entry])),dirtyBatches=new Set();
 let editMode=false,drawing=false,drag=null,hovered=null;
-const markerById=new Map();
+const markerById=new Map(),featureMarkerById=new Map(),mapSelection=new Set();
+const SELECTION_COLOR='#ffbf00',movablePaths=new WeakSet();let suppressMapClick=false,boxSelectMode=false;
 const colors=['#e5484d','#2878d0','#008f68','#a15c00','#8358c5','#c43883','#087ea4','#6b7b12'];
 let active=0,selected=null,map=null,mapLayers=null,fittedDataset=null;
 const esc=value=>String(value??'');
 function colorFor(code){let hash=0;for(const char of esc(code))hash=(hash*31+char.charCodeAt(0))>>>0;return colors[hash%colors.length];}
 function addOption(select,value,label){const option=document.createElement('option');option.value=value;option.textContent=label;select.append(option);}
 function selectedData(){return datasets[active];}
-function filteredObjects(){const objects=selectedData()?.data.images[0].objects||[],code=$('codeFilter').value;return code?objects.filter(object=>object.code===code):objects;}
+// Rear view: the half panorama u ∈ [0.75, 1] ∪ [0, 0.25] laid out as one image, with the rear (u = 0 = 1) in the middle.
+// Boxes never cross the u = 0 seam, so each one lies on a single side of the view.
+let rearView=false;
+function toDisplay(box){if(!rearView)return box;const left=box.x+box.width/2>=.5?box.x-.75:box.x+.25;return {x:left*2,y:box.y,width:box.width*2,height:box.height};}
+function inView(box){const shown=toDisplay(box);return shown.x<1&&shown.x+shown.width>0;}
+function filteredObjects(){const objects=(selectedData()?.data.images[0].objects||[]).filter(object=>inView(object.bbox)),code=$('codeFilter').value;return code?objects.filter(object=>object.code===code):objects;}
 function showDetail(object){
  selected=object?.object_id??null;document.querySelectorAll('[data-object-id]').forEach(element=>element.classList.toggle('selected',element.dataset.objectId===selected));
  if(!object){$('detail').className='detail empty';$('detail').textContent=editMode?'Select a box, or draw a new one.':'Select a box or result.';return;}
  if(editMode){showEditForm(object);return;}
  $('detail').className='detail';$('detail').replaceChildren();
  const dl=document.createElement('dl');
- const fields=[['Object',object.object_id],['Code',object.code],['Category',`${object.category_en} / ${object.category_fr}`],['Class',object.classification],['Confidence',object.confidence],['State',object.state||'—'],['Box',`${object.bbox.x}, ${object.bbox.y}, ${object.bbox.width}, ${object.bbox.height}`],['Occluded',object.occluded?'Yes':'No'],['Truncated',object.truncated?'Yes':'No'],['Ground',object.review?'recomputed when the reviewed batch is saved':groundText(object.ground)],['Feature',object.feature_id||'—'],['Review',object.review||'—']];
+ const fields=[['Object',object.object_id],['Code',object.code],['Category',`${object.category_en} / ${object.category_fr}`],['Class',object.classification],['Confidence',object.confidence],['State',object.state||'—'],['Box',`${object.bbox.x}, ${object.bbox.y}, ${object.bbox.width}, ${object.bbox.height}`],['Occluded',object.occluded?'Yes':'No'],['Truncated',object.truncated?'Yes':'No'],['Ground',object.review?'recomputed when the reviewed batch is saved':groundText(object.ground)],['Position',positionText(object)],['Feature',object.feature_id||'—'],['Review',object.review||'—']];
  for(const [term,value] of fields){const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=term;dd.textContent=esc(value);dl.append(dt,dd);}$('detail').append(dl);
  if(object.visible_evidence?.length){const heading=document.createElement('p');heading.textContent='Visible evidence';heading.style.margin='16px 0 4px';heading.style.fontWeight='600';const list=document.createElement('ul');list.className='evidence';for(const evidence of object.visible_evidence){const item=document.createElement('li');item.textContent=evidence;list.append(item);}$('detail').append(heading,list);}
 }
@@ -112,8 +121,9 @@ function renderMap(){
  const localization=batch?.localization;
  $('mapMeta').textContent=`Frame ${camera.frame} · camera ${camera.latitude.toFixed(7)}, ${camera.longitude.toFixed(7)} · heading ${camera.heading_deg.toFixed(1)}°`+(localization?` · camera height ${localization.camera_height_m} m, range ≤ ${localization.max_range_m} m, merge radius ${localization.merge_radius_m} m · ${batch.features.length} merged features in batch ${batch.name}`:' · batch not localized yet (run localize.py)');
  if(!window.L){mapMessage('Leaflet could not load. Internet access is needed for the map library and OpenStreetMap tiles.');return;}
- if(!map){$('map').replaceChildren();map=L.map('map',{zoomControl:true,maxZoom:21});L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxNativeZoom:19,maxZoom:21,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);mapLayers=L.layerGroup().addTo(map);}
- mapLayers.clearLayers();markerById.clear();
+ if(!map){$('map').replaceChildren();map=L.map('map',{zoomControl:true,maxZoom:21}).setView([camera.latitude,camera.longitude],19);L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxNativeZoom:19,maxZoom:21,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);mapLayers=L.layerGroup().addTo(map);map.on('click',event=>{if(suppressMapClick)return;if(!event.originalEvent.shiftKey&&mapSelection.size){mapSelection.clear();updateMarkerStyles();}});}
+ mapLayers.clearLayers();markerById.clear();featureMarkerById.clear();
+ $('map').classList.toggle('editing',editMode);map.boxZoom.disable();
  if($('showTrack').checked&&track.length){
   const analysed=new Set(datasets.map(d=>d.image_file));
   L.polyline(track.map(t=>[t.latitude,t.longitude]),{color:'#5b6b66',weight:2,opacity:.6}).addTo(mapLayers);
@@ -122,23 +132,116 @@ function renderMap(){
  const objects=filteredObjects(),code=$('codeFilter').value,linked=new Set(objects.map(o=>o.feature_id).filter(Boolean));
  if($('showFeatures').checked&&batch)for(const feature of batch.features){
   if(code&&feature.code!==code)continue;
-  const color=colorFor(feature.code),here=linked.has(feature.feature_id);
-  L.circleMarker([feature.latitude,feature.longitude],{radius:here?11:8,color,weight:here?4:2,fillColor:color,fillOpacity:.15}).bindPopup(textPopup(`${feature.feature_id} · ${feature.code}`,[`${feature.category_en} / ${feature.category_fr}`,`${feature.n_detections} detection(s), closest ${feature.min_distance_m} m`,`confidence ${feature.confidence}, code agreement ${Math.round(feature.code_agreement*100)}%`,`state ${feature.state||'—'}`,`${feature.latitude.toFixed(7)}, ${feature.longitude.toFixed(7)}`])).addTo(mapLayers);
+  const color=colorFor(feature.code),here=linked.has(feature.feature_id),point=[feature.latitude,feature.longitude];
+  if(feature.position_edited&&feature.auto_latitude!=null)ghost([feature.auto_latitude,feature.auto_longitude],point,'automatic position of '+feature.feature_id);
+  const base={radius:here?11:8,color,weight:here?4:2,fillColor:color,fillOpacity:.15};
+  const info=textPopup(`${feature.feature_id} · ${feature.code}`,[`${feature.category_en} / ${feature.category_fr}`,`${feature.n_detections} detection(s), closest ${feature.min_distance_m} m`,`confidence ${feature.confidence}, code agreement ${Math.round(feature.code_agreement*100)}%`,`state ${feature.state||'—'}`,`${feature.latitude.toFixed(7)}, ${feature.longitude.toFixed(7)}`+(feature.position_edited?' (moved by hand)':'')]);
+  const marker=L.circleMarker(point,{...base,bubblingMouseEvents:false}).addTo(mapLayers);
+  marker.bindTooltip(info).on('click',event=>{if(!event.originalEvent.shiftKey)selectFeature(feature);});
+  movablePaths.add(marker.getElement());L.DomEvent.on(marker.getElement(),'pointerdown',event=>startMapDrag(event,'f:'+feature.feature_id));
+  featureMarkerById.set(feature.feature_id,{marker,base});
  }
  const cameraPoint=[camera.latitude,camera.longitude],bounds=[cameraPoint];
  L.polyline([cameraPoint,destinationPoint(camera.latitude,camera.longitude,camera.heading_deg,8)],{color:'#17211e',weight:3}).bindTooltip('Panorama centre heading').addTo(mapLayers);
  L.circleMarker(cameraPoint,{radius:7,color:'#17211e',weight:3,fillColor:'#fff',fillOpacity:1}).bindTooltip(`Camera, frame ${camera.frame}`).addTo(mapLayers);
  for(const object of objects){
-  const ground=object.ground;if(ground?.status!=='ok')continue;
-  const point=[ground.latitude,ground.longitude],color=colorFor(object.code);bounds.push(point);
+  const ground=object.ground,point=shownPoint(object);if(!point)continue;
+  const color=colorFor(object.code),moved=!!object.manual_position?.edited;bounds.push(point);
+  if(moved&&autoPoint(object))ghost(autoPoint(object),point,'automatic position of '+object.object_id);
   L.polyline([cameraPoint,point],{color,weight:2,opacity:.7,dashArray:'5 5'}).addTo(mapLayers);
-  const marker=L.circleMarker(point,{fillColor:color}).bindTooltip(`${object.code} · ${object.object_id} · ${groundText(ground)}`).on('click',()=>selectObject(object,{fromMap:true})).on('mouseover',()=>setHover(object.object_id,true)).on('mouseout',()=>setHover(object.object_id,false)).addTo(mapLayers);
-  markerById.set(object.object_id,{marker,reliable:ground.reliable});
+  const marker=L.circleMarker(point,{fillColor:color,bubblingMouseEvents:false}).bindTooltip(`${object.code} · ${object.object_id} · ${moved?'moved by hand':groundText(ground)}`).on('click',event=>{if(!event.originalEvent.shiftKey){selectObject(object,{fromMap:true});selectOnMap('d:'+object.object_id);}}).on('mouseover',()=>setHover(object.object_id,true)).on('mouseout',()=>setHover(object.object_id,false)).addTo(mapLayers);
+  movablePaths.add(marker.getElement());L.DomEvent.on(marker.getElement(),'pointerdown',event=>startMapDrag(event,'d:'+object.object_id));
+  markerById.set(object.object_id,{marker,reliable:moved||ground?.reliable!==false});
  }
- updateMarkerStyles();
+ updateMarkerStyles();raiseSelection();
  map.invalidateSize();
  if(fittedDataset!==active){fittedDataset=active;if(bounds.length===1)map.setView(cameraPoint,19);else map.fitBounds(bounds,{padding:[40,40],maxZoom:20});}
 }
+// ---- Positions -------------------------------------------------------------------------------------------------
+// `ground` is the automatic position computed from the box; `manual_position` is the one shown and exported. localize.py
+// keeps it as a copy of the automatic one until it is moved here (edited: true). A feature sits at the mean of its moved
+// detections; moving a feature moves all its detections, in every frame, to its new position.
+function autoPoint(object){const ground=object.ground;return ground?.status==='ok'?[ground.latitude,ground.longitude]:null;}
+function shownPoint(object){const manual=object.manual_position;return manual?[manual.latitude,manual.longitude]:autoPoint(object);}
+function positionText(object){const point=shownPoint(object);if(!point)return object.review?'recomputed when the reviewed batch is saved':'not placed';return `${point[0].toFixed(7)}, ${point[1].toFixed(7)} · `+(object.manual_position?.edited?'moved by hand':'automatic');}
+function ghost(from,to,label){
+ L.polyline([from,to],{color:'#7d8b86',weight:1.5,dashArray:'2 4',interactive:false}).addTo(mapLayers);
+ L.circleMarker(from,{radius:4,color:'#7d8b86',weight:1.5,fill:false,interactive:true}).bindTooltip(label).addTo(mapLayers);
+}
+function setManual(object,latitude,longitude){const r=value=>Math.round(value*1e8)/1e8;object.manual_position={latitude:r(latitude),longitude:r(longitude),edited:true};}
+function markImageEdited(dataset){const image=imageOf(dataset);image.review=image.review||{deleted:[]};dirtyBatches.add(dataset.batch_index);}
+function batchMembers(index){const byImage=new Map(batchDatasets(index).map(dataset=>[imageOf(dataset).image_file,dataset]));return detection=>{const dataset=byImage.get(detection.image_file),object=dataset&&imageOf(dataset).objects.find(item=>item.object_id===detection.object_id);return object?{dataset,object}:null;};}
+// Same rule as localize.py: the mean of the moved detections, or back to the automatic estimate when none is moved.
+function refreshFeatures(index){
+ const memberOf=batchMembers(index);
+ for(const feature of batches[index].features){
+  const moved=feature.detections.map(memberOf).filter(member=>member?.object.manual_position?.edited).map(member=>member.object.manual_position);
+  if(moved.length){feature.latitude=moved.reduce((sum,p)=>sum+p.latitude,0)/moved.length;feature.longitude=moved.reduce((sum,p)=>sum+p.longitude,0)/moved.length;feature.position_edited=true;}
+  else if(feature.position_edited&&feature.auto_latitude!=null){feature.latitude=feature.auto_latitude;feature.longitude=feature.auto_longitude;feature.position_edited=false;}
+ }
+}
+function moveSelection(dLat,dLng){
+ const dataset=selectedData(),index=dataset.batch_index,memberOf=batchMembers(index),touched=new Set();
+ for(const key of mapSelection)if(key.startsWith('d:')){const object=findObject(key.slice(2)),point=object&&shownPoint(object);if(point){setManual(object,point[0]+dLat,point[1]+dLng);touched.add(dataset);}}
+ for(const key of mapSelection)if(key.startsWith('f:')){
+  const feature=batches[index].features.find(item=>item.feature_id===key.slice(2));if(!feature)continue;
+  for(const detection of feature.detections){const member=memberOf(detection);if(member){setManual(member.object,feature.latitude+dLat,feature.longitude+dLng);touched.add(member.dataset);}}
+ }
+ for(const item of touched)markImageEdited(item);
+ refreshFeatures(index);storeDraft(index);updateEditBar();renderMap();
+ const object=selected&&findObject(selected);if(object)showDetail(object);
+}
+function resetPosition(object){
+ const point=autoPoint(object);if(point)object.manual_position={latitude:point[0],longitude:point[1],edited:false};else delete object.manual_position;
+ const dataset=selectedData();markImageEdited(dataset);refreshFeatures(dataset.batch_index);storeDraft(dataset.batch_index);updateEditBar();renderMap();showDetail(object);
+}
+// Clicking a feature selects its detection in the current frame; outside edit mode, when it has none here, the viewer
+// opens the frame with its closest sighting and selects it there, keeping the map view.
+function selectOnMap(key){if(mapSelection.size!==1||!mapSelection.has(key)){mapSelection.clear();mapSelection.add(key);updateMarkerStyles();raiseSelection();}}
+function selectFeature(feature){
+ const dataset=selectedData(),here=feature.detections.find(detection=>detection.image_file===imageOf(dataset).image_file),object=here&&findObject(here.object_id);
+ if(object){selectObject(object,{fromMap:true});selectOnMap('f:'+feature.feature_id);return;}
+ if(editMode){selectOnMap('f:'+feature.feature_id);return;}
+ const closest=[...feature.detections].sort((a,b)=>a.distance_m-b.distance_m)[0],member=closest&&batchMembers(dataset.batch_index)(closest);
+ if(member)goTo(member.dataset,{select:closest.object_id,keepView:true});
+ if(batches[dataset.batch_index].features.includes(feature))selectOnMap('f:'+feature.feature_id);
+}
+function clearMapSelection(){if(mapSelection.size){mapSelection.clear();updateMarkerStyles();}}
+// Drag a marker (or the whole selection) to move it; Shift+click adds or removes a marker from the selection.
+// Pointer events with preventDefault: the browser then sends no mousedown, so Leaflet neither pans nor reacts.
+// Outside edit mode only a marker that is already selected can be dragged: a first click selects, and dragging an
+// unselected marker pans the map as usual.
+function startMapDrag(event,key){
+ if(event.button!==0||(!editMode&&!event.shiftKey&&!mapSelection.has(key)))return;
+ event.preventDefault();event.stopPropagation();
+ if(event.shiftKey){if(mapSelection.has(key))mapSelection.delete(key);else mapSelection.add(key);updateMarkerStyles();return;}
+ if(!mapSelection.has(key)){mapSelection.clear();mapSelection.add(key);updateMarkerStyles();}
+ if(key.startsWith('d:')&&selected!==key.slice(2))selectObject(findObject(key.slice(2)));
+ const markers=[...mapSelection].map(item=>(item.startsWith('d:')?markerById.get(item.slice(2)):featureMarkerById.get(item.slice(2)))?.marker).filter(Boolean);
+ const starts=markers.map(marker=>marker.getLatLng()),start=map.mouseEventToLatLng(event);let moved=false;
+ const move=ev=>{const at=map.mouseEventToLatLng(ev),dLat=at.lat-start.lat,dLng=at.lng-start.lng;moved=true;markers.forEach((marker,i)=>marker.setLatLng([starts[i].lat+dLat,starts[i].lng+dLng]));};
+ const up=ev=>{document.removeEventListener('pointermove',move);document.removeEventListener('pointerup',up);if(moved){const end=map.mouseEventToLatLng(ev);moveSelection(end.lat-start.lat,end.lng-start.lng);}};
+ document.addEventListener('pointermove',move);document.addEventListener('pointerup',up);
+}
+// Shift+drag (or a plain drag with "Select box" on) draws a selection box. A plain box replaces the selection,
+// a Shift box adds to it.
+function startBoxSelection(event){
+ if(!map||!(event.shiftKey||boxSelectMode)||event.button!==0||movablePaths.has(event.target)||event.target.closest('.leaflet-control'))return;
+ event.preventDefault();event.stopPropagation();
+ const adding=event.shiftKey;
+ const start=map.mouseEventToLatLng(event),box=L.rectangle([start,start],{color:SELECTION_COLOR,weight:1.5,dashArray:'4 3',fillOpacity:.08,interactive:false}).addTo(map);
+ const move=ev=>box.setBounds([start,map.mouseEventToLatLng(ev)]);
+ const up=()=>{
+  document.removeEventListener('pointermove',move);document.removeEventListener('pointerup',up);
+  const bounds=box.getBounds();box.remove();suppressMapClick=true;setTimeout(()=>{suppressMapClick=false;},0);
+  if(!adding)mapSelection.clear();
+  for(const [id,{marker}] of markerById)if(bounds.contains(marker.getLatLng()))mapSelection.add('d:'+id);
+  for(const [id,{marker}] of featureMarkerById)if(bounds.contains(marker.getLatLng()))mapSelection.add('f:'+id);
+  updateMarkerStyles();raiseSelection();
+ };
+ document.addEventListener('pointermove',move);document.addEventListener('pointerup',up);
+}
+$('map').addEventListener('pointerdown',startBoxSelection,true);
 function download(name,type,text){const link=document.createElement('a');link.href=URL.createObjectURL(new Blob([text],{type}));link.download=name;document.body.append(link);link.click();setTimeout(()=>{URL.revokeObjectURL(link.href);link.remove();},0);}
 function exportFeatures(format){
  const batch=activeBatch();if(!batch?.features.length){alert('This batch has no merged features. Run localize.py on it first.');return;}
@@ -156,7 +259,20 @@ function imageOf(dataset){return dataset.data.images[0];}
 function findObject(id){return imageOf(selectedData()).objects.find(object=>object.object_id===id)||null;}
 function batchDatasets(index){return datasets.filter(dataset=>dataset.batch_index===index).sort((a,b)=>a.analysis_image_index-b.analysis_image_index);}
 function markerStyle(id,reliable){const active=id===selected,hover=id===hovered;return {radius:active||hover?8:5,weight:active?3:2,color:active||hover?'#17211e':'#fff',fillOpacity:reliable?1:.45,opacity:1};}
-function updateMarkerStyles(){for(const [id,{marker,reliable}] of markerById){marker.setStyle(markerStyle(id,reliable));if(id===selected||id===hovered)marker.bringToFront();}}
+// Bringing a marker to the front re-appends its SVG path; doing that under the cursor (on hover) makes the browser send
+// the next mousedown and click to the parent element. Markers are therefore only raised when the selection changes.
+function toFront(marker){if(marker?._path?.nextSibling)marker.bringToFront();}
+function raiseSelection(){for(const key of mapSelection)toFront((key.startsWith('d:')?markerById:featureMarkerById).get(key.slice(2))?.marker);toFront(markerById.get(selected)?.marker);}
+function updateMarkerStyles(){
+ const selectedFeature=selected&&selectedData()&&findObject(selected)?.feature_id;
+ for(const [id,{marker,base}] of featureMarkerById)marker.setStyle(mapSelection.has('f:'+id)?{...base,color:SELECTION_COLOR,weight:5}:id===selectedFeature?{...base,weight:6,fillOpacity:.35}:base);
+ for(const [id,{marker}] of featureMarkerById)marker.getElement()?.classList.toggle('map-selected',mapSelection.has('f:'+id));
+ for(const [id,{marker,reliable}] of markerById){
+  marker.getElement()?.classList.toggle('map-selected',mapSelection.has('d:'+id));
+  const style=markerStyle(id,reliable);if(mapSelection.has('d:'+id))Object.assign(style,{color:SELECTION_COLOR,weight:4,radius:Math.max(style.radius,7)});
+  marker.setStyle(style);
+ }
+}
 function setHover(id,on){
  hovered=on?id:(hovered===id?null:hovered);
  for(const element of document.querySelectorAll('.box[data-object-id],.row[data-object-id]'))element.classList.toggle('hover',element.dataset.objectId===hovered);
@@ -171,7 +287,8 @@ function scrollBoxIntoView(id){
 function fitStage(){
  const scroll=$('stage').parentElement,style=getComputedStyle(scroll),image=selectedData()&&imageOf(selectedData());
  const width=scroll.offsetWidth-parseFloat(style.paddingLeft)-parseFloat(style.paddingRight),height=scroll.offsetHeight-parseFloat(style.paddingTop)-parseFloat(style.paddingBottom);
- const aspect=image?.width&&image?.height?image.width/image.height:($('image').naturalWidth/$('image').naturalHeight||2);
+ let aspect=image?.width&&image?.height?image.width/image.height:($('image').naturalWidth/$('image').naturalHeight||2);
+ if(rearView)aspect/=2;$('stage').style.aspectRatio=rearView?String(aspect):'';
  const fit=matchMedia('(min-width:900px)').matches?Math.min(width,height*aspect):width;
  $('stage').style.width=Math.max(80,Math.floor(fit*Number($('zoom').value)))+'px';
 }
@@ -183,7 +300,7 @@ function setMapHeight(pixels,persist){
 function renderOverlay(){
  const objects=filteredObjects();$('overlay').replaceChildren();
  for(const object of objects){
-  const color=colorFor(object.code),box=document.createElement('button');box.type='button';box.className='box'+(object.review?' edited':'')+(object.object_id===selected?' selected':'');box.dataset.objectId=object.object_id;box.setAttribute('aria-label',`${object.code}, ${object.object_id}`);box.style.cssText=`left:${object.bbox.x*100}%;top:${object.bbox.y*100}%;width:${object.bbox.width*100}%;height:${object.bbox.height*100}%;--box-color:${color}`;
+  const color=colorFor(object.code),box=document.createElement('button');box.type='button';box.className='box'+(object.review?' edited':'')+(object.object_id===selected?' selected':'');box.dataset.objectId=object.object_id;box.setAttribute('aria-label',`${object.code}, ${object.object_id}`);const shown=toDisplay(object.bbox);box.style.cssText=`left:${shown.x*100}%;top:${shown.y*100}%;width:${shown.width*100}%;height:${shown.height*100}%;--box-color:${color}`;
   const label=document.createElement('span');label.className='box-label';label.textContent=object.code;box.append(label);
   if(editMode&&object.object_id===selected)for(const corner of ['nw','ne','sw','se']){const handle=document.createElement('span');handle.className='handle '+corner;handle.dataset.handle=corner;box.append(handle);}
   box.onclick=()=>{if(!editMode)selectObject(object);};box.onmouseenter=()=>setHover(object.object_id,true);box.onmouseleave=()=>setHover(object.object_id,false);$('overlay').append(box);
@@ -205,7 +322,7 @@ function renderObjects(){
  renderMap();
 }
 function selectObject(object,options={}){
- selected=object?.object_id??null;renderOverlay();showDetail(object);updateStreetView();updateMarkerStyles();
+ selected=object?.object_id??null;renderOverlay();showDetail(object);updateStreetView();updateMarkerStyles();raiseSelection();
  const entry=selected&&markerById.get(selected);if(entry&&map&&!map.getBounds().contains(entry.marker.getLatLng()))map.panTo(entry.marker.getLatLng());
  if(options.fromMap&&selected){scrollBoxIntoView(selected);for(const row of $('objectList').children)if(row.dataset.objectId===selected)row.scrollIntoView({block:'nearest'});}
 }
@@ -218,18 +335,21 @@ function batchNeighbours(){
  const dataset=selectedData(),members=batchDatasets(dataset.batch_index),position=members.indexOf(dataset);
  return {members,position,previous:members[position-1]||null,next:members[position+1]||null};
 }
-function goTo(dataset){if(!dataset||drag)return;active=datasets.indexOf(dataset);$('dataset').value=String(active);renderDataset();}
+function goTo(dataset,options){if(!dataset||drag)return;active=datasets.indexOf(dataset);$('dataset').value=String(active);renderDataset(options);}
 function updateNavigation(){
  const {members,position,previous,next}=batchNeighbours();
  $('prevImage').disabled=!previous;$('nextImage').disabled=!next;$('imagePosition').textContent=`${position+1} / ${members.length}`;
 }
-function renderDataset(){
+// options.select: object to select once shown; options.keepView: leave the map where it is instead of fitting the frame.
+function renderDataset(options={}){
  const dataset=selectedData();if(!dataset)return;updateNavigation();
- selected=null;drawing=false;drag=null;$('image').src=dataset.image_file;$('image').alt='Query image '+dataset.image_file;
+ selected=null;drawing=false;drag=null;mapSelection.clear();$('image').src=dataset.image_file;$('stage').style.backgroundImage=`url(${JSON.stringify(dataset.image_file)})`;$('image').alt='Query image '+dataset.image_file;
  $('imageName').textContent=dataset.camera?`Frame ${dataset.camera.frame} · heading ${dataset.camera.heading_deg.toFixed(0)}°`:dataset.image_file.split('/').pop();
  $('imageFile').textContent=dataset.image_file;$('imageFile').title=dataset.image_file;
  $('pairing').textContent=dataset.internal_name_matches?'':'Matched by analysis filename';$('pairing').className=dataset.internal_name_matches?'':'warning';
+ if(options.keepView)fittedDataset=active;
  $('codeFilter').value='';refreshCodeFilter();updateEditBar();fitStage();renderObjects();$('streetViewTarget').value='camera';updateStreetView();
+ const chosen=options.select&&findObject(options.select);if(chosen)selectObject(chosen,{fromMap:true});
 }
 
 // ---- Editing -------------------------------------------------------------------------------------------------
@@ -256,7 +376,7 @@ function updateEditBar(){
 function markEdited(object){
  const dataset=selectedData(),image=imageOf(dataset);
  if(object&&object.review!=='added')object.review='edited';
- if(object){delete object.ground;delete object.feature_id;}
+ if(object){delete object.ground;delete object.feature_id;if(!object.manual_position?.edited)delete object.manual_position;}
  image.review=image.review||{deleted:[]};dirtyBatches.add(dataset.batch_index);storeDraft(dataset.batch_index);updateEditBar();
 }
 function setBox(object,x0,y0,x1,y1){
@@ -291,12 +411,15 @@ function showEditForm(object){
  for(const key of ['occluded','truncated']){const label=document.createElement('label'),box=document.createElement('input');label.className='inline';box.type='checkbox';box.checked=!!object[key];box.onchange=()=>{object[key]=box.checked;afterEdit(object);};label.append(box,key==='occluded'?'Occluded (base or body hidden)':'Truncated (cut by the image edge)');form.append(label);}
  const evidence=field('Visible evidence (one per line)',document.createElement('textarea'));evidence.value=(object.visible_evidence||[]).join('\n');evidence.onchange=()=>{object.visible_evidence=evidence.value.split('\n').map(line=>line.trim()).filter(Boolean);afterEdit(object);};
  const meta=document.createElement('p');meta.className='meta';const px=object.bbox_px||[];meta.textContent=`${object.object_id} · ${object.classification} · box ${px.join(', ')} px`+(object.review?` · ${object.review}; ground position recomputed on save`:` · ground ${groundText(object.ground)}`);form.append(meta);
+ const position=document.createElement('p');position.className='meta';position.textContent='Map position: '+positionText(object);form.append(position);
+ if(object.manual_position?.edited){const reset=document.createElement('button');reset.type='button';reset.textContent='Reset position to automatic';reset.onclick=()=>resetPosition(object);form.append(reset);}
  const remove=document.createElement('button');remove.type='button';remove.className='danger';remove.textContent='Delete box (D)';remove.onclick=()=>deleteObject(object);form.append(remove);
 }
 function pointer(event){const rect=$('stage').getBoundingClientRect(),clamp=v=>Math.max(0,Math.min(1,v));return {x:clamp((event.clientX-rect.left)/rect.width),y:clamp((event.clientY-rect.top)/rect.height)};}
 function boxElement(id){return [...$('overlay').children].find(element=>element.dataset.objectId===id);}
 function placeElement(element,box){if(element){element.style.left=box.x*100+'%';element.style.top=box.y*100+'%';element.style.width=box.width*100+'%';element.style.height=box.height*100+'%';}}
 $('stage').addEventListener('pointerdown',event=>{
+ clearMapSelection();
  if(!editMode||event.button!==0||!selectedData())return;
  const point=pointer(event);
  if(drawing){const ghost=document.createElement('div');ghost.className='draft-box';$('overlay').append(ghost);drag={type:'draw',start:point,ghost};}
@@ -309,19 +432,22 @@ $('stage').addEventListener('pointerdown',event=>{
  $('stage').setPointerCapture(event.pointerId);event.preventDefault();
 });
 $('stage').addEventListener('pointermove',event=>{
- if(!drag)return;const point=pointer(event),dx=point.x-drag.start.x,dy=point.y-drag.start.y;
+ if(!drag)return;const point=pointer(event),dy=point.y-drag.start.y;let dx=point.x-drag.start.x;
  if(drag.type==='draw'){placeElement(drag.ghost,{x:Math.min(point.x,drag.start.x),y:Math.min(point.y,drag.start.y),width:Math.abs(dx),height:Math.abs(dy)});return;}
  drag.moved=drag.moved||Math.abs(dx)+Math.abs(dy)>0.0005;if(!drag.moved)return;
+ if(rearView)dx/=2;
  const b=drag.box;let x0=b.x,y0=b.y,x1=b.x+b.width,y1=b.y+b.height;
  if(drag.type==='move'){const mx=Math.max(-x0,Math.min(1-x1,dx)),my=Math.max(-y0,Math.min(1-y1,dy));x0+=mx;x1+=mx;y0+=my;y1+=my;}
  else{if(drag.corner.includes('w'))x0+=dx;else x1+=dx;if(drag.corner.includes('n'))y0+=dy;else y1+=dy;}
- setBox(drag.object,x0,y0,x1,y1);placeElement(boxElement(drag.object.object_id),drag.object.bbox);
+ setBox(drag.object,x0,y0,x1,y1);placeElement(boxElement(drag.object.object_id),toDisplay(drag.object.bbox));
 });
 function endDrag(){
  if(!drag)return;const current=drag;drag=null;
  if(current.type==='draw'){
   current.ghost.remove();const image=imageOf(selectedData()),g=current.ghost.style;
-  const left=parseFloat(g.left)/100,top=parseFloat(g.top)/100,width=parseFloat(g.width)/100,height=parseFloat(g.height)/100;
+  let left=parseFloat(g.left)/100,width=parseFloat(g.width)/100;const top=parseFloat(g.top)/100,height=parseFloat(g.height)/100;
+  if(rearView){// keep the side of the rear seam that holds most of the drawn box, then map it back to the panorama
+   const right=left+width,leftSide=.5-left>=right-.5;if(leftSide){width=Math.min(right,.5)-left;left=left/2+.75;}else{left=Math.max(left,.5);width=right-left;left=left/2-.25;}width/=2;}
   drawing=false;updateEditBar();
   if(!(width*image.width>=2&&height*image.height>=2))return;
   const object={object_id:nextObjectId(image),code:'',bbox:null,confidence:'medium',occluded:false,truncated:false,visible_evidence:[],review:'added'};
@@ -334,13 +460,18 @@ function endDrag(){
 $('stage').addEventListener('pointerup',endDrag);$('stage').addEventListener('pointercancel',endDrag);
 document.addEventListener('keydown',event=>{
  if(!selectedData()||event.altKey||event.ctrlKey||event.metaKey||['INPUT','SELECT','TEXTAREA'].includes(document.activeElement?.tagName))return;
+ // A map selection takes the arrow keys in both modes: 0.2 m per press (Shift: 1 m), up = north. Esc clears it.
+ const mapStep={ArrowLeft:[0,-1],ArrowRight:[0,1],ArrowUp:[1,0],ArrowDown:[-1,0]}[event.key];
+ if(mapStep&&mapSelection.size){const metres=event.shiftKey?1:.2,latitude=selectedData().camera?.latitude??0;moveSelection(mapStep[0]*metres/111320,mapStep[1]*metres/(111320*Math.cos(latitude*Math.PI/180)));event.preventDefault();return;}
+ if(event.key==='Escape')clearMapSelection();
  const step=event.key==='PageUp'||(!editMode&&event.key==='ArrowLeft')?'previous':event.key==='PageDown'||(!editMode&&event.key==='ArrowRight')?'next':null;
  if(step){const target=batchNeighbours()[step];if(target){goTo(target);event.preventDefault();}}
+ else if((event.key==='r'||event.key==='R')&&!drag){setRearView(!rearView);event.preventDefault();}
 });
 document.addEventListener('keydown',event=>{
- if(!editMode||['INPUT','SELECT','TEXTAREA'].includes(document.activeElement?.tagName))return;
+ if(!editMode||event.defaultPrevented||['INPUT','SELECT','TEXTAREA'].includes(document.activeElement?.tagName))return;
  const object=selected&&findObject(selected);
- if(event.key==='Escape'){if(drag?.ghost)drag.ghost.remove();drag=null;drawing=false;updateEditBar();renderOverlay();return;}
+ if(event.key==='Escape'){if(drag?.ghost)drag.ghost.remove();drag=null;drawing=false;clearMapSelection();updateEditBar();renderOverlay();return;}
  if(event.key==='n'||event.key==='N'){drawing=true;updateEditBar();event.preventDefault();return;}
  if(!object)return;
  if(event.key==='Delete'||event.key==='Backspace'||((event.key==='d'||event.key==='D')&&!event.ctrlKey&&!event.metaKey&&!event.altKey)){deleteObject(object);event.preventDefault();return;}
@@ -369,7 +500,7 @@ async function saveReview(){
 let streetViewWindow=null,streetViewLastUrl=null;
 function streetViewUrl(){
  const dataset=selectedData(),camera=dataset?.camera,object=selected&&findObject(selected);if(!camera)return null;
- const heading=$('streetViewTarget').value==='object'&&object?(object.ground?.bearing_deg??((camera.heading_deg+(object.bbox.x+object.bbox.width/2-.5)*360)%360+360)%360):camera.heading_deg;
+ const heading=$('streetViewTarget').value==='object'&&object?(object.ground?.bearing_deg??((camera.heading_deg+(object.bbox.x+object.bbox.width/2-.5)*360)%360+360)%360):(camera.heading_deg+(rearView?180:0))%360;
  return `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${camera.latitude.toFixed(7)},${camera.longitude.toFixed(7)}&heading=${heading.toFixed(1)}&pitch=0&fov=90`;
 }
 function openStreetView(){
@@ -382,6 +513,13 @@ function openStreetView(){
 function updateStreetView(){
  if(!streetViewWindow||streetViewWindow.closed)return;
  const url=streetViewUrl();if(url&&url!==streetViewLastUrl){streetViewLastUrl=url;try{streetViewWindow.location.href=url;}catch{}}
+}
+function setBoxSelect(on){boxSelectMode=on;$('boxSelect').setAttribute('aria-pressed',String(boxSelectMode));$('map').classList.toggle('box-select',boxSelectMode);}
+function setRearView(on){
+ rearView=on;$('rearView').setAttribute('aria-pressed',String(on));$('stage').classList.toggle('rear',on);
+ $('streetViewTarget').options[0].textContent=on?'facing the rear':'facing the frame heading';
+ try{localStorage.setItem('fensch-rear-view',on?'1':'0');}catch{}
+ if($('image').getAttribute('src')){fitStage();renderObjects();updateStreetView();}
 }
 function discardEdits(){
  const index=selectedData().batch_index;if(!confirm(`Discard all unsaved edits in ${batches[index].name}?`))return;
@@ -407,9 +545,10 @@ $('image').addEventListener('load',fitStage);new ResizeObserver(()=>fitStage()).
  splitter.addEventListener('dblclick',()=>{$('mapPanel').style.height='';try{localStorage.removeItem('fensch-map-height');}catch{}if(map)map.invalidateSize();fitStage();});
  try{const saved=Number(localStorage.getItem('fensch-map-height'));if(saved&&matchMedia('(min-width:900px)').matches)setMapHeight(saved,false);}catch{}
 }
+$('rearView').onclick=()=>setRearView(!rearView);$('boxSelect').onclick=()=>setBoxSelect(!boxSelectMode);try{if(localStorage.getItem('fensch-rear-view')==='1')setRearView(true);}catch{}
 $('saveReview').onclick=saveReview;$('openStreetView').onclick=openStreetView;$('streetViewTarget').onchange=updateStreetView;$('prevImage').onclick=()=>goTo(batchNeighbours().previous);$('nextImage').onclick=()=>goTo(batchNeighbours().next);$('discardEdits').onclick=discardEdits;
 $('image').onerror=()=>{$('pairing').textContent='Image could not be loaded';$('pairing').className='warning';};
-restoreDrafts();
+restoreDrafts();for(const index of dirtyBatches)refreshFeatures(index);
 try{const open=JSON.parse(sessionStorage.getItem('fensch-open')||'null');sessionStorage.removeItem('fensch-open');if(open){const index=datasets.findIndex(d=>d.analysis_file===open.analysis_file&&d.image_file===open.image_file);if(index>=0){active=index;$('dataset').value=String(index);}}}catch{}
 if(datasets.length)renderDataset();else{$('summary').textContent='No analyses';$('stage').replaceChildren();$('objectList').textContent='Run the build script after adding matching files.';}
 </script>
