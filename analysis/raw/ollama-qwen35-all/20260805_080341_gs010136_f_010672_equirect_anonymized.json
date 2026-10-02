@@ -1,0 +1,193 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 27.04,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 8.58,
+   "prompt_tokens": 605,
+   "completion_tokens": 263,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [0, 175, 194, 563]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [184, 175, 380, 498]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [368, 175, 500, 498]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [484, 175, 644, 498]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [630, 175, 780, 498]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [764, 175, 999, 498]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 6.23,
+   "prompt_tokens": 605,
+   "completion_tokens": 169,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        38,\n        645,\n        519\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        637,\n        2,\n        1000,\n        618\n      ]\n    },\n    {\n      \"category\": \"Advertising displays\",\n      \"bbox_2d\": [\n        705,\n        409,\n        773,\n        568\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 7.56,
+   "prompt_tokens": 605,
+   "completion_tokens": 222,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        15,\n        346,\n        628\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        347,\n        239,\n        480,\n        591\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        480,\n        268,\n        728,\n        583\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        729,\n        371,\n        999,\n        460\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 4.67,
+   "prompt_tokens": 605,
+   "completion_tokens": 107,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        445, 83, 999, 516\n      ]\n    },\n    {\n      \"category\": \"Lighting points\",\n      \"bbox_2d\": [\n        87, 269, 170, 505\n      ]\n    }\n  ]\n}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    241,
+    827,
+    500
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1587,
+    265,
+    1919,
+    499
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    822,
+    221,
+    1040,
+    554
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1168,
+    365,
+    1317,
+    535
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    458,
+    314,
+    599,
+    489
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    0,
+    314,
+    116,
+    524
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    110,
+    314,
+    228,
+    489
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    290,
+    314,
+    386,
+    489
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    378,
+    314,
+    468,
+    489
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1088,
+    349,
+    1168,
+    539
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    221,
+    314,
+    300,
+    489
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1317,
+    420,
+    1479,
+    468
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1372,
+    365,
+    1422,
+    493
+   ]
+  },
+  {
+   "category": "Advertising displays",
+   "box": [
+    863,
+    441,
+    904,
+    527
+   ]
+  }
+ ]
+}

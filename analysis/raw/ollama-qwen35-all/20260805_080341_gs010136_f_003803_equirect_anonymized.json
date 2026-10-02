@@ -1,0 +1,139 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 20.46,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 4.33,
+   "prompt_tokens": 605,
+   "completion_tokens": 67,
+   "raw_text": "{\n    \"objects\": [\n        {\n            \"category\": \"Lighting points\",\n            \"bbox_2d\": [\n                83,\n                379,\n                100,\n                504\n            ]\n        }\n    ]\n}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 6.83,
+   "prompt_tokens": 605,
+   "completion_tokens": 179,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Drainage grates and stormwater inlets\",\n      \"bbox_2d\": [\n        278,\n        896,\n        415,\n        970\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        318,\n        778,\n        486\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        859,\n        348,\n        988,\n        510\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 4.12,
+   "prompt_tokens": 605,
+   "completion_tokens": 70,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [134, 385, 256, 579]}, {\"category\": \"Barriers\", \"bbox_2d\": [240, 200, 999, 464]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 5.18,
+   "prompt_tokens": 605,
+   "completion_tokens": 111,
+   "raw_text": "{\"objects\": [{\"category\": \"Lighting points\", \"bbox_2d\": [738, 234, 796, 596]}, {\"category\": \"Litter bins\", \"bbox_2d\": [661, 478, 720, 585]}, {\"category\": \"Waste and recycling drop-off points\", \"bbox_2d\": [720, 478, 783, 592]}]}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Barriers",
+   "box": [
+    1024,
+    328,
+    1479,
+    471
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    392,
+    907,
+    482
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    960,
+    428,
+    1034,
+    533
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1763,
+    346,
+    1798,
+    542
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    607,
+    704,
+    689,
+    744
+   ]
+  },
+  {
+   "category": "Waste and recycling drop-off points",
+   "box": [
+    1752,
+    478,
+    1790,
+    540
+   ]
+  },
+  {
+   "category": "Litter bins",
+   "box": [
+    1717,
+    478,
+    1752,
+    536
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    50,
+    425,
+    60,
+    492
+   ]
+  }
+ ]
+}

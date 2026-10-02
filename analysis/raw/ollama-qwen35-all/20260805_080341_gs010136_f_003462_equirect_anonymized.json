@@ -1,0 +1,283 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 46.41,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 8.16,
+   "prompt_tokens": 605,
+   "completion_tokens": 167,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [45, 367, 148, 492]}, {\"category\": \"Trees\", \"bbox_2d\": [130, 294, 240, 492]}, {\"category\": \"Trees\", \"bbox_2d\": [240, 285, 307, 469]}, {\"category\": \"Lighting points\", \"bbox_2d\": [91, 261, 157, 492]}, {\"category\": \"Lighting points\", \"bbox_2d\": [690, 100, 713, 630]}]}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 4.56,
+   "prompt_tokens": 605,
+   "completion_tokens": 71,
+   "raw_text": "{\"objects\": [{\"category\": \"Lighting points\", \"bbox_2d\": [643, 335, 667, 548]}, {\"category\": \"Trees\", \"bbox_2d\": [619, 408, 750, 544]}]}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 4.65,
+   "prompt_tokens": 605,
+   "completion_tokens": 73,
+   "raw_text": "{\"objects\": [{\"category\": \"Planters\", \"bbox_2d\": [814, 563, 879, 614]}, {\"category\": \"Lighting points\", \"bbox_2d\": [909, 432, 961, 1000]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 29.04,
+   "prompt_tokens": 605,
+   "completion_tokens": 836,
+   "raw_text": "{\n    \"objects\": [\n        {\n            \"category\": \"Bollards\",\n            \"bbox_2d\": [\n                156,\n                564,\n                178,\n                630\n            ]\n        },\n        {\n            \"category\": \"Bollards\",\n            \"bbox_2d\": [\n                289,\n                584,\n                309,\n                654\n            ]\n        },\n        {\n            \"category\": \"Bollards\",\n            \"bbox_2d\": [\n                412,\n                607,\n                436,\n                688\n            ]\n        },\n        {\n            \"category\": \"Bollards\",\n            \"bbox_2d\": [\n                559,\n                620,\n                581,\n                712\n            ]\n        },\n        {\n            \"category\": \"Bollards\",\n            \"bbox_2d\": [\n                724,\n                623,\n                744,\n                709\n            ]\n        },\n        {\n            \"category\": \"Bollards\",\n            \"bbox_2d\": [\n                765,\n                581,\n                784,\n                663\n            ]\n        },\n        {\n            \"category\": \"Bollards\",\n            \"bbox_2d\": [\n                798,\n                550,\n                815,\n                627\n            ]\n        },\n        {\n            \"category\": \"Bollards\",\n            \"bbox_2d\": [\n                814,\n                530,\n                829,\n                598\n            ]\n        },\n        {\n            \"category\": \"Bollards\",\n            \"bbox_2d\": [\n                826,\n                517,\n                840,\n                573\n            ]\n        },\n        {\n            \"category\": \"Bollards\",\n            \"bbox_2d\": [\n                839,\n                506,\n                851,\n                554\n            ]\n        },\n        {\n            \"category\": \"Bollards\",\n            \"bbox_2d\": [\n                850,\n                497,\n                861,\n                538\n            ]\n        },\n        {\n            \"category\": \"Bollards\",\n            \"bbox_2d\": [\n                860,\n                490,\n                870,\n                525\n            ]\n        },\n        {\n            \"category\": \"Bollards\",\n            \"bbox_2d\": [\n                868,\n                483,\n                878,\n                514\n            ]\n        },\n        {\n            \"category\": \"Bollards\",\n            \"bbox_2d\": [\n                876,\n                479,\n                885,\n                508\n            ]\n        },\n        {\n            \"category\": \"Trees\",\n            \"bbox_2d\": [\n                861,\n                391,\n                961,\n                479\n            ]\n        }\n    ]\n}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Lighting points",
+   "box": [
+    1425,
+    453,
+    1457,
+    760
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    78,
+    379,
+    144,
+    486
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    811,
+    440,
+    890,
+    514
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    55,
+    361,
+    94,
+    486
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    27,
+    418,
+    89,
+    486
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    144,
+    374,
+    184,
+    473
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    414,
+    274,
+    428,
+    560
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1837,
+    431,
+    1897,
+    479
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    826,
+    401,
+    840,
+    516
+   ]
+  },
+  {
+   "category": "Planters",
+   "box": [
+    1368,
+    524,
+    1407,
+    552
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1655,
+    555,
+    1669,
+    604
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1567,
+    548,
+    1582,
+    592
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1754,
+    556,
+    1766,
+    603
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1779,
+    534,
+    1790,
+    578
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1414,
+    525,
+    1427,
+    560
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1493,
+    535,
+    1505,
+    573
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1799,
+    517,
+    1809,
+    559
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1808,
+    506,
+    1817,
+    543
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1816,
+    499,
+    1824,
+    529
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1823,
+    493,
+    1831,
+    519
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1830,
+    488,
+    1837,
+    511
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1836,
+    485,
+    1842,
+    504
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1841,
+    481,
+    1847,
+    498
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1846,
+    479,
+    1851,
+    494
+   ]
+  }
+ ]
+}

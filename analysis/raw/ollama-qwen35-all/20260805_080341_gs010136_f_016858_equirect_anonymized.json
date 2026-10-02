@@ -1,0 +1,157 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 17.7,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 5.01,
+   "prompt_tokens": 605,
+   "completion_tokens": 117,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        57,\n        764,\n        589\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        781,\n        173,\n        1000,\n        528\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 3.79,
+   "prompt_tokens": 605,
+   "completion_tokens": 68,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [54, 0, 998, 653]},{\"category\": \"Lighting points\", \"bbox_2d\": [761, 505, 778, 653]}]}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 3.63,
+   "prompt_tokens": 605,
+   "completion_tokens": 67,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 634]}, {\"category\": \"Lighting points\", \"bbox_2d\": [917, 435, 958, 574]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 5.27,
+   "prompt_tokens": 605,
+   "completion_tokens": 131,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 175, 196, 483]}, {\"category\": \"Trees\", \"bbox_2d\": [188, 255, 406, 483]}, {\"category\": \"Trees\", \"bbox_2d\": [378, 25, 999, 625]}, {\"category\": \"Litter bins\", \"bbox_2d\": [81, 527, 104, 565]}]}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    220,
+    1479,
+    562
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    472,
+    220,
+    1039,
+    573
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    0,
+    251,
+    458,
+    538
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1547,
+    234,
+    1919,
+    558
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    469,
+    313,
+    600,
+    505
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    314,
+    1438,
+    481
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1433,
+    358,
+    1564,
+    481
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1430,
+    455,
+    1455,
+    530
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    897,
+    493,
+    907,
+    573
+   ]
+  },
+  {
+   "category": "Litter bins",
+   "box": [
+    1369,
+    505,
+    1382,
+    525
+   ]
+  }
+ ]
+}

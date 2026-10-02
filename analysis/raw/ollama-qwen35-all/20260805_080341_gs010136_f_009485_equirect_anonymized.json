@@ -1,0 +1,121 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 14.32,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 2.15,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 4.81,
+   "prompt_tokens": 605,
+   "completion_tokens": 99,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 108, 379, 546]}, {\"category\": \"Trees\", \"bbox_2d\": [379, 174, 514, 546]}, {\"category\": \"Trees\", \"bbox_2d\": [508, 318, 999, 546]}]}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 3.72,
+   "prompt_tokens": 605,
+   "completion_tokens": 58,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        265, 0, 998, 671\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 3.64,
+   "prompt_tokens": 605,
+   "completion_tokens": 67,
+   "raw_text": "{\"objects\": [{\"category\": \"Advertising displays\", \"bbox_2d\": [354, 216, 637, 689]}, {\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 689]}]}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    220,
+    1920,
+    592
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1039,
+    220,
+    1479,
+    582
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    278,
+    667,
+    515
+   ]
+  },
+  {
+   "category": "Advertising displays",
+   "box": [
+    1532,
+    337,
+    1702,
+    592
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    745,
+    392,
+    1039,
+    515
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    667,
+    314,
+    748,
+    515
+   ]
+  }
+ ]
+}

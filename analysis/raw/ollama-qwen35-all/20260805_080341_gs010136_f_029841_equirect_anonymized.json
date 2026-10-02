@@ -1,0 +1,121 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 13.95,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 5.22,
+   "prompt_tokens": 605,
+   "completion_tokens": 132,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [0, 48, 95, 536]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [71, 345, 140, 568]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [139, 0, 999, 738]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 2.17,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 4.45,
+   "prompt_tokens": 605,
+   "completion_tokens": 101,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [38, 0, 997, 745]},{\"category\": \"Lighting points\", \"bbox_2d\": [916, 432, 966, 745]},{\"category\": \"Manholes\", \"bbox_2d\": [242, 598, 260, 628]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 2.11,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    903,
+    220,
+    1478,
+    622
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    83,
+    220,
+    599,
+    619
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    0,
+    246,
+    57,
+    509
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1430,
+    453,
+    1460,
+    622
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    43,
+    406,
+    84,
+    527
+   ]
+  },
+  {
+   "category": "Manholes",
+   "box": [
+    1025,
+    543,
+    1036,
+    559
+   ]
+  }
+ ]
+}

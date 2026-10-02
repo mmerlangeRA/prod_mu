@@ -1,0 +1,1499 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 145.81,
+ "filtered_repetitions": [
+  {
+   "category": "Lighting points",
+   "box": [
+    945,
+    474,
+    949,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    963,
+    474,
+    967,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    981,
+    474,
+    985,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    999,
+    474,
+    1003,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1017,
+    474,
+    1021,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1035,
+    474,
+    1039,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1053,
+    474,
+    1057,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1071,
+    474,
+    1075,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1089,
+    474,
+    1093,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1107,
+    474,
+    1111,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1125,
+    474,
+    1129,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1143,
+    474,
+    1147,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1161,
+    474,
+    1165,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1179,
+    474,
+    1183,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1197,
+    474,
+    1201,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1215,
+    474,
+    1219,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1233,
+    474,
+    1237,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1251,
+    474,
+    1255,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1269,
+    474,
+    1273,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1287,
+    474,
+    1291,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1305,
+    474,
+    1309,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1323,
+    474,
+    1327,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1341,
+    474,
+    1345,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1359,
+    474,
+    1363,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1377,
+    474,
+    1381,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1395,
+    474,
+    1399,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1413,
+    474,
+    1417,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1431,
+    474,
+    1435,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1028,
+    474,
+    1031,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1046,
+    474,
+    1049,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1064,
+    474,
+    1067,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1082,
+    474,
+    1085,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1100,
+    474,
+    1103,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1118,
+    474,
+    1121,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1136,
+    474,
+    1139,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1154,
+    474,
+    1157,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1172,
+    474,
+    1175,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1190,
+    474,
+    1193,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1208,
+    474,
+    1211,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1226,
+    474,
+    1229,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1244,
+    474,
+    1247,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1262,
+    474,
+    1265,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1280,
+    474,
+    1283,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1298,
+    474,
+    1301,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1316,
+    474,
+    1319,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1334,
+    474,
+    1337,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1352,
+    474,
+    1355,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1370,
+    474,
+    1373,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1388,
+    474,
+    1391,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1406,
+    474,
+    1409,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1424,
+    474,
+    1427,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1427,
+    474,
+    1431,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    952,
+    474,
+    956,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    956,
+    474,
+    959,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    970,
+    474,
+    974,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    974,
+    474,
+    977,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    988,
+    474,
+    992,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    992,
+    474,
+    995,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1006,
+    474,
+    1010,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1010,
+    474,
+    1013,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    941,
+    474,
+    945,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    959,
+    474,
+    963,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    977,
+    474,
+    981,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    995,
+    474,
+    999,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1013,
+    474,
+    1017,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1024,
+    474,
+    1028,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1031,
+    474,
+    1035,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1042,
+    474,
+    1046,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1049,
+    474,
+    1053,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1060,
+    474,
+    1064,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1067,
+    474,
+    1071,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1078,
+    474,
+    1082,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1085,
+    474,
+    1089,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1096,
+    474,
+    1100,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1103,
+    474,
+    1107,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1114,
+    474,
+    1118,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1121,
+    474,
+    1125,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1132,
+    474,
+    1136,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1139,
+    474,
+    1143,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1150,
+    474,
+    1154,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1157,
+    474,
+    1161,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1168,
+    474,
+    1172,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1175,
+    474,
+    1179,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1186,
+    474,
+    1190,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1193,
+    474,
+    1197,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1204,
+    474,
+    1208,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1211,
+    474,
+    1215,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1222,
+    474,
+    1226,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1229,
+    474,
+    1233,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1240,
+    474,
+    1244,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1247,
+    474,
+    1251,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1258,
+    474,
+    1262,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1265,
+    474,
+    1269,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1276,
+    474,
+    1280,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1283,
+    474,
+    1287,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1294,
+    474,
+    1298,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1301,
+    474,
+    1305,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1312,
+    474,
+    1316,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1319,
+    474,
+    1323,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1330,
+    474,
+    1334,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1337,
+    474,
+    1341,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1348,
+    474,
+    1352,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1355,
+    474,
+    1359,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1366,
+    474,
+    1370,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1373,
+    474,
+    1377,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1384,
+    474,
+    1388,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1391,
+    474,
+    1395,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1402,
+    474,
+    1406,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1409,
+    474,
+    1413,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1420,
+    474,
+    1424,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1438,
+    474,
+    1442,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1442,
+    474,
+    1445,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    949,
+    474,
+    952,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    967,
+    474,
+    970,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    985,
+    474,
+    988,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1003,
+    474,
+    1006,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1021,
+    474,
+    1024,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1039,
+    474,
+    1042,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1057,
+    474,
+    1060,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1075,
+    474,
+    1078,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1093,
+    474,
+    1096,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1111,
+    474,
+    1114,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1129,
+    474,
+    1132,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1147,
+    474,
+    1150,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1165,
+    474,
+    1168,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1183,
+    474,
+    1186,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1201,
+    474,
+    1204,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1219,
+    474,
+    1222,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1237,
+    474,
+    1240,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1255,
+    474,
+    1258,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1273,
+    474,
+    1276,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1291,
+    474,
+    1294,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1309,
+    474,
+    1312,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1327,
+    474,
+    1330,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1345,
+    474,
+    1348,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1363,
+    474,
+    1366,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1381,
+    474,
+    1384,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1399,
+    474,
+    1402,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1417,
+    474,
+    1420,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1435,
+    474,
+    1438,
+    485
+   ]
+  }
+ ],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 2.27,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 4.36,
+   "prompt_tokens": 605,
+   "completion_tokens": 97,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [334, 325, 710, 526]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [869, 321, 999, 568]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 135.25,
+   "prompt_tokens": 605,
+   "completion_tokens": 5265,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [145, 328, 826, 570]},{\"category\": \"Lighting points\", \"bbox_2d\": [91, 422, 112, 510]},{\"category\": \"Lighting points\", \"bbox_2d\": [912, 430, 968, 700]},{\"category\": \"Trees\", \"bbox_2d\": [0, 450, 100, 520]},{\"category\": \"Trees\", \"bbox_2d\": [100, 450, 130, 508]},{\"category\": \"Lighting points\", \"bbox_2d\": [96, 470, 102, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [102, 470, 108, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [108, 470, 115, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [115, 470, 120, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [120, 470, 126, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [126, 470, 132, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [132, 470, 138, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [138, 470, 145, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [145, 470, 150, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [150, 470, 156, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [156, 470, 162, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [162, 470, 168, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [168, 470, 175, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [175, 470, 180, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [180, 470, 186, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [186, 470, 192, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [192, 470, 198, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [198, 470, 205, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [205, 470, 210, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [210, 470, 216, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [216, 470, 222, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [222, 470, 228, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [228, 470, 235, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [235, 470, 240, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [240, 470, 246, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [246, 470, 252, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [252, 470, 258, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [258, 470, 265, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [265, 470, 270, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [270, 470, 276, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [276, 470, 282, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [282, 470, 288, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [288, 470, 295, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [295, 470, 300, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [300, 470, 306, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [306, 470, 312, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [312, 470, 318, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [318, 470, 325, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [325, 470, 330, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [330, 470, 336, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [336, 470, 342, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [342, 470, 348, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [348, 470, 355, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [355, 470, 360, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [360, 470, 366, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [366, 470, 372, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [372, 470, 378, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [378, 470, 385, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [385, 470, 390, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [390, 470, 396, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [396, 470, 402, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [402, 470, 408, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [408, 470, 415, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [415, 470, 420, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [420, 470, 426, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [426, 470, 432, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [432, 470, 438, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [438, 470, 445, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [445, 470, 450, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [450, 470, 456, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [456, 470, 462, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [462, 470, 468, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [468, 470, 475, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [475, 470, 480, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [480, 470, 486, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [486, 470, 492, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [492, 470, 498, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [498, 470, 505, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [505, 470, 510, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [510, 470, 516, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [516, 470, 522, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [522, 470, 528, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [528, 470, 535, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [535, 470, 540, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [540, 470, 546, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [546, 470, 552, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [552, 470, 558, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [558, 470, 565, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [565, 470, 570, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [570, 470, 576, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [576, 470, 582, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [582, 470, 588, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [588, 470, 595, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [595, 470, 600, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [600, 470, 606, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [606, 470, 612, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [612, 470, 618, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [618, 470, 625, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [625, 470, 630, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [630, 470, 636, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [636, 470, 642, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [642, 470, 648, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [648, 470, 655, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [655, 470, 660, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [660, 470, 666, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [666, 470, 672, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [672, 470, 678, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [678, 470, 685, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [685, 470, 690, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [690, 470, 696, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [696, 470, 702, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [702, 470, 708, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [708, 470, 715, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [715, 470, 720, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [720, 470, 726, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [726, 470, 732, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [732, 470, 738, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [738, 470, 745, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [745, 470, 750, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [750, 470, 756, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [756, 470, 762, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [762, 470, 768, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [768, 470, 775, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [775, 470, 780, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [780, 470, 786, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [786, 470, 792, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [792, 470, 798, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [798, 470, 805, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [805, 470, 810, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [810, 470, 816, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [816, 470, 822, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [822, 470, 828, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [828, 470, 835, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [835, 470, 840, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [840, 470, 846, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [846, 470, 852, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [852, 470, 858, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [858, 470, 865, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [865, 470, 870, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [870, 470, 876, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [876, 470, 882, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [882, 470, 888, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [888, 470, 895, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [895, 470, 900, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [900, 470, 906, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [906, 470, 912, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [912, 470, 918, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [918, 470, 925, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [925, 470, 930, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [930, 470, 936, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [936, 470, 942, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [942, 470, 948, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [948, 470, 955, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [955, 470, 960, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [960, 470, 966, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [966, 470, 972, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [972, 470, 978, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [978, 470, 985, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [985, 470, 990, 490]},{\"category\": \"Lighting points\", \"bbox_2d\": [990, 470, 996, 490]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 3.93,
+   "prompt_tokens": 605,
+   "completion_tokens": 68,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 345, 106, 528]}, {\"category\": \"Trees\", \"bbox_2d\": [847, 349, 1000, 490]}]}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    967,
+    397,
+    1376,
+    528
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    640,
+    396,
+    866,
+    504
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    961,
+    393,
+    1039,
+    527
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1828,
+    408,
+    1920,
+    485
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    406,
+    1384,
+    505
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1427,
+    452,
+    1461,
+    598
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    463,
+    940,
+    501
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    935,
+    448,
+    947,
+    495
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    940,
+    463,
+    958,
+    494
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1449,
+    474,
+    1453,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1467,
+    474,
+    1471,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1445,
+    474,
+    1449,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1463,
+    474,
+    1467,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    938,
+    474,
+    941,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1456,
+    474,
+    1460,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1460,
+    474,
+    1463,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1474,
+    474,
+    1478,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1453,
+    474,
+    1456,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1471,
+    474,
+    1474,
+    485
+   ]
+  }
+ ]
+}

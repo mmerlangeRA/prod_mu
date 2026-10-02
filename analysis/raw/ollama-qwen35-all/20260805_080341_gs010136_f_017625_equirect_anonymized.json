@@ -1,0 +1,148 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 16.98,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 3.64,
+   "prompt_tokens": 605,
+   "completion_tokens": 66,
+   "raw_text": "{\"objects\": [{\"category\": \"Manholes\", \"bbox_2d\": [23, 904, 245, 978]}, {\"category\": \"Trees\", \"bbox_2d\": [1, 1, 1000, 526]}]}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 3.61,
+   "prompt_tokens": 605,
+   "completion_tokens": 67,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [54, 0, 998, 673]}, {\"category\": \"Trees\", \"bbox_2d\": [881, 318, 1000, 528]}]}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 3.59,
+   "prompt_tokens": 605,
+   "completion_tokens": 65,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 305, 684]}, {\"category\": \"Trees\", \"bbox_2d\": [179, 108, 999, 574]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 6.14,
+   "prompt_tokens": 605,
+   "completion_tokens": 169,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        124,\n        875,\n        603\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        859,\n        88,\n        1000,\n        464\n      ]\n    },\n    {\n      \"category\": \"Barriers\",\n      \"bbox_2d\": [\n        0,\n        473,\n        859,\n        603\n      ]\n    }\n  ]\n}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    472,
+    220,
+    1039,
+    583
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1,
+    221,
+    600,
+    504
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    287,
+    1845,
+    546
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    987,
+    278,
+    1479,
+    530
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    220,
+    1063,
+    589
+   ]
+  },
+  {
+   "category": "Barriers",
+   "box": [
+    1320,
+    475,
+    1835,
+    546
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1835,
+    268,
+    1920,
+    471
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    969,
+    392,
+    1040,
+    505
+   ]
+  },
+  {
+   "category": "Manholes",
+   "box": [
+    14,
+    708,
+    147,
+    748
+   ]
+  }
+ ]
+}

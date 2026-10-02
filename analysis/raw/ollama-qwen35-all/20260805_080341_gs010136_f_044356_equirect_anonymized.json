@@ -1,0 +1,130 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 15.27,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 2.2,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 4.69,
+   "prompt_tokens": 605,
+   "completion_tokens": 98,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [354, 329, 736, 528]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [860, 341, 1000, 548]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 4.74,
+   "prompt_tokens": 605,
+   "completion_tokens": 103,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [138, 345, 796, 555]},{\"category\": \"Lighting points\", \"bbox_2d\": [90, 423, 118, 505]},{\"category\": \"Manholes\", \"bbox_2d\": [245, 591, 267, 623]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 3.64,
+   "prompt_tokens": 605,
+   "completion_tokens": 67,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 364, 70, 538]}, {\"category\": \"Trees\", \"bbox_2d\": [869, 341, 1000, 504]}]}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    963,
+    406,
+    1358,
+    520
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    652,
+    398,
+    882,
+    505
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    956,
+    404,
+    1040,
+    516
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1841,
+    404,
+    1920,
+    492
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    417,
+    1362,
+    511
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    934,
+    448,
+    951,
+    493
+   ]
+  },
+  {
+   "category": "Manholes",
+   "box": [
+    1027,
+    539,
+    1040,
+    556
+   ]
+  }
+ ]
+}

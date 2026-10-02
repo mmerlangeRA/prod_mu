@@ -1,0 +1,148 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 18.28,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 4.33,
+   "prompt_tokens": 605,
+   "completion_tokens": 96,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [65, 1, 998, 614]\n    },\n    {\n      \"category\": \"Bollards\",\n      \"bbox_2d\": [613, 597, 636, 679]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 4.74,
+   "prompt_tokens": 605,
+   "completion_tokens": 114,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        0,\n        804,\n        613\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        719,\n        0,\n        1000,\n        540\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 4.85,
+   "prompt_tokens": 605,
+   "completion_tokens": 117,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        0,\n        1000,\n        735\n      ]\n    },\n    {\n      \"category\": \"Barriers\",\n      \"bbox_2d\": [\n        234,\n        536,\n        258,\n        609\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 4.36,
+   "prompt_tokens": 605,
+   "completion_tokens": 96,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [1, 0, 996, 834]}, {\"category\": \"Trees\", \"bbox_2d\": [575, 0, 998, 638]}, {\"category\": \"Trees\", \"bbox_2d\": [895, 218, 998, 500]}]}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    1321,
+    220,
+    1918,
+    670
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    220,
+    1480,
+    617
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    39,
+    221,
+    599,
+    552
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    220,
+    922,
+    551
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1665,
+    220,
+    1919,
+    565
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    871,
+    220,
+    1040,
+    512
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1857,
+    338,
+    1919,
+    490
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    368,
+    542,
+    382,
+    587
+   ]
+  },
+  {
+   "category": "Barriers",
+   "box": [
+    1020,
+    509,
+    1035,
+    549
+   ]
+  }
+ ]
+}

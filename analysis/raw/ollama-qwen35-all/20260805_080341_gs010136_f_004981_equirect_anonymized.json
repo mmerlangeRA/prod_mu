@@ -1,0 +1,157 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 20.38,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 4.16,
+   "prompt_tokens": 605,
+   "completion_tokens": 67,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [325, 146, 998, 557]}, {\"category\": \"Trees\", \"bbox_2d\": [0, 414, 156, 500]}]}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 6.23,
+   "prompt_tokens": 605,
+   "completion_tokens": 154,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        48, 135, 467, 490\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        467, 285, 640, 405\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        830, 395, 1000, 605\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 5.01,
+   "prompt_tokens": 605,
+   "completion_tokens": 106,
+   "raw_text": "{\n    \"objects\": [\n        {\n            \"category\": \"Trees\",\n            \"bbox_2d\": [\n                248, 0, 999, 731\n            ]\n        },\n        {\n            \"category\": \"Lighting points\",\n            \"bbox_2d\": [\n                536, 85, 604, 628\n            ]\n        }\n    ]\n}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 4.98,
+   "prompt_tokens": 605,
+   "completion_tokens": 101,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 605]},{\"category\": \"Lighting points\", \"bbox_2d\": [174, 430, 240, 805]},{\"category\": \"Lighting points\", \"bbox_2d\": [288, 785, 396, 875]}]}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    220,
+    1919,
+    547
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1029,
+    220,
+    1479,
+    615
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    195,
+    299,
+    599,
+    521
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    469,
+    293,
+    720,
+    485
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1202,
+    266,
+    1242,
+    559
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    938,
+    433,
+    1040,
+    547
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1424,
+    452,
+    1464,
+    655
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    720,
+    374,
+    824,
+    439
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    0,
+    444,
+    94,
+    490
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1493,
+    644,
+    1558,
+    692
+   ]
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 14.63,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 4.02,
+   "prompt_tokens": 605,
+   "completion_tokens": 63,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        0,\n        998,\n        1000\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 3.92,
+   "prompt_tokens": 605,
+   "completion_tokens": 64,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [3, 0, 845, 906]}, {\"category\": \"Trees\", \"bbox_2d\": [791, 0, 1000, 598]}]}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 4.03,
+   "prompt_tokens": 605,
+   "completion_tokens": 67,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 734]}, {\"category\": \"Lighting points\", \"bbox_2d\": [916, 435, 964, 734]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 2.66,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    0,
+    220,
+    599,
+    760
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    442,
+    220,
+    947,
+    709
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    220,
+    1479,
+    616
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    915,
+    220,
+    1040,
+    543
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1430,
+    455,
+    1458,
+    616
+   ]
+  }
+ ]
+}

@@ -1,0 +1,139 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 15.21,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 2.15,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 4.67,
+   "prompt_tokens": 605,
+   "completion_tokens": 109,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 1000]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [687, 685, 734, 738]},{\"category\": \"Barriers\", \"bbox_2d\": [439, 627, 810, 1000]}]}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 6.23,
+   "prompt_tokens": 605,
+   "completion_tokens": 171,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 645]},{\"category\": \"Trees\", \"bbox_2d\": [0, 137, 298, 645]},{\"category\": \"Lighting points\", \"bbox_2d\": [908, 432, 975, 998]},{\"category\": \"Speed bumps\", \"bbox_2d\": [245, 591, 268, 628]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [243, 590, 270, 628]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 2.16,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    220,
+    1039,
+    760
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    220,
+    1479,
+    568
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    294,
+    1059,
+    568
+   ]
+  },
+  {
+   "category": "Barriers",
+   "box": [
+    703,
+    559,
+    926,
+    760
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1425,
+    453,
+    1465,
+    759
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    852,
+    590,
+    880,
+    619
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1026,
+    539,
+    1042,
+    559
+   ]
+  },
+  {
+   "category": "Speed bumps",
+   "box": [
+    1027,
+    539,
+    1041,
+    559
+   ]
+  }
+ ]
+}

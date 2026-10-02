@@ -1,0 +1,130 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 18.93,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 3.54,
+   "prompt_tokens": 605,
+   "completion_tokens": 63,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        43,\n        998,\n        996\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 5.73,
+   "prompt_tokens": 605,
+   "completion_tokens": 153,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        84, 97, 536, 851\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        408, 264, 608, 601\n      ]\n    },\n    {\n      \"category\": \"Benches\",\n      \"bbox_2d\": [\n        753, 539, 911, 591\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 6.15,
+   "prompt_tokens": 605,
+   "completion_tokens": 169,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Benches\",\n      \"bbox_2d\": [\n        19,\n        534,\n        186,\n        607\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        172,\n        289,\n        594\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        263,\n        0,\n        1000,\n        744\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 3.51,
+   "prompt_tokens": 605,
+   "completion_tokens": 62,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        0,\n        998,\n        765\n      ]\n    }\n  ]\n}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    0,
+    243,
+    599,
+    758
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    220,
+    1919,
+    633
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1038,
+    220,
+    1480,
+    622
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    490,
+    272,
+    762,
+    680
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    313,
+    1053,
+    541
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    685,
+    363,
+    805,
+    545
+   ]
+  },
+  {
+   "category": "Benches",
+   "box": [
+    891,
+    508,
+    992,
+    548
+   ]
+  }
+ ]
+}

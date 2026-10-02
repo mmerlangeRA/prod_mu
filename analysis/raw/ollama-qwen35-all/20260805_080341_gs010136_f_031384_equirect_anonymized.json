@@ -1,0 +1,121 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 13.52,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 3.48,
+   "prompt_tokens": 605,
+   "completion_tokens": 62,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        3,\n        0,\n        998,\n        976\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 5.11,
+   "prompt_tokens": 605,
+   "completion_tokens": 127,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 997]},{\"category\": \"Trees\", \"bbox_2d\": [654, 431, 730, 544]},{\"category\": \"Trees\", \"bbox_2d\": [775, 315, 998, 620]},{\"category\": \"Trees\", \"bbox_2d\": [775, 0, 998, 320]}]}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 2.82,
+   "prompt_tokens": 605,
+   "completion_tokens": 33,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [3, 0, 998, 745]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 2.11,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    220,
+    1039,
+    758
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    2,
+    220,
+    599,
+    747
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    882,
+    220,
+    1479,
+    622
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    905,
+    220,
+    1039,
+    393
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    905,
+    390,
+    1039,
+    555
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    832,
+    453,
+    878,
+    514
+   ]
+  }
+ ]
+}

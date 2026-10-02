@@ -1,0 +1,121 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 16.26,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 2.71,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 5.84,
+   "prompt_tokens": 605,
+   "completion_tokens": 140,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [304, 228, 516, 427]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [514, 319, 716, 431]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [840, 185, 1000, 545]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 3.86,
+   "prompt_tokens": 605,
+   "completion_tokens": 69,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [135, 164, 547, 589]}, {\"category\": \"Trees\", \"bbox_2d\": [470, 185, 999, 714]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 3.85,
+   "prompt_tokens": 605,
+   "completion_tokens": 64,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        145,\n        963,\n        785\n      ]\n    }\n  ]\n}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    298,
+    1898,
+    644
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1162,
+    320,
+    1479,
+    606
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    961,
+    309,
+    1208,
+    538
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    944,
+    320,
+    1040,
+    514
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    622,
+    343,
+    750,
+    451
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    748,
+    392,
+    870,
+    453
+   ]
+  }
+ ]
+}

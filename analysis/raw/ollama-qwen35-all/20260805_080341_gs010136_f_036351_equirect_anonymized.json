@@ -1,0 +1,157 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 17.59,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 5.25,
+   "prompt_tokens": 605,
+   "completion_tokens": 130,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 634]}, {\"category\": \"Bollards\", \"bbox_2d\": [57, 518, 84, 624]}, {\"category\": \"Bollards\", \"bbox_2d\": [192, 518, 219, 593]}, {\"category\": \"Barriers\", \"bbox_2d\": [0, 478, 228, 565]}]}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 3.81,
+   "prompt_tokens": 605,
+   "completion_tokens": 74,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [1, 1, 998, 996]}, {\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [430, 627, 815, 998]}]}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 4.85,
+   "prompt_tokens": 605,
+   "completion_tokens": 117,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        0,\n        998,\n        714\n      ]\n    },\n    {\n      \"category\": \"Lighting points\",\n      \"bbox_2d\": [\n        685,\n        398,\n        740,\n        692\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 3.68,
+   "prompt_tokens": 605,
+   "completion_tokens": 67,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 835, 796]}, {\"category\": \"Litter bins\", \"bbox_2d\": [914, 494, 942, 550]}]}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    441,
+    221,
+    1039,
+    758
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    220,
+    1479,
+    606
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    220,
+    1821,
+    650
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    0,
+    220,
+    599,
+    562
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    698,
+    559,
+    929,
+    759
+   ]
+  },
+  {
+   "category": "Barriers",
+   "box": [
+    0,
+    478,
+    137,
+    525
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1291,
+    435,
+    1324,
+    594
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    34,
+    500,
+    50,
+    557
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    115,
+    500,
+    131,
+    540
+   ]
+  },
+  {
+   "category": "Litter bins",
+   "box": [
+    1868,
+    487,
+    1885,
+    517
+   ]
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 18.12,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 2.46,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 5.31,
+   "prompt_tokens": 605,
+   "completion_tokens": 118,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        317,\n        845,\n        469\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        845,\n        367,\n        1000,\n        627\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 4.8,
+   "prompt_tokens": 605,
+   "completion_tokens": 97,
+   "raw_text": "{\n    \"objects\": [\n        {\n            \"category\": \"Trees\",\n            \"bbox_2d\": [135, 0, 998, 746]\n        },\n        {\n            \"category\": \"Lighting points\",\n            \"bbox_2d\": [318, 296, 365, 640]\n        }\n    ]\n}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 5.55,
+   "prompt_tokens": 605,
+   "completion_tokens": 124,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        0,\n        953,\n        841\n      ]\n    },\n    {\n      \"category\": \"Drainage grates and stormwater inlets\",\n      \"bbox_2d\": [\n        856,\n        764,\n        980,\n        863\n      ]\n    }\n  ]\n}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    220,
+    1892,
+    674
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    961,
+    220,
+    1479,
+    623
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    391,
+    947,
+    473
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    947,
+    418,
+    1040,
+    559
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1071,
+    380,
+    1099,
+    566
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1834,
+    633,
+    1908,
+    686
+   ]
+  }
+ ]
+}

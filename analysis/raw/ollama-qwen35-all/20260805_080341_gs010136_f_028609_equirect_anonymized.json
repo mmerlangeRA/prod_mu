@@ -1,0 +1,130 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 14.66,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 3.56,
+   "prompt_tokens": 605,
+   "completion_tokens": 63,
+   "raw_text": "{\n    \"objects\": [\n        {\n            \"category\": \"Trees\",\n            \"bbox_2d\": [\n                0,\n                0,\n                998,\n                1000\n            ]\n        }\n    ]\n}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 2.12,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 3.64,
+   "prompt_tokens": 605,
+   "completion_tokens": 66,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 734]}, {\"category\": \"Speed bumps\", \"bbox_2d\": [245, 591, 268, 625]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 5.34,
+   "prompt_tokens": 605,
+   "completion_tokens": 135,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 765]},{\"category\": \"Lighting points\", \"bbox_2d\": [184, 433, 238, 700]},{\"category\": \"Lighting points\", \"bbox_2d\": [298, 788, 381, 865]},{\"category\": \"Lighting points\", \"bbox_2d\": [548, 850, 645, 918]}]}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    0,
+    220,
+    599,
+    760
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    220,
+    1919,
+    633
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    220,
+    1479,
+    616
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1430,
+    454,
+    1463,
+    598
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1649,
+    679,
+    1707,
+    716
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1499,
+    646,
+    1549,
+    687
+   ]
+  },
+  {
+   "category": "Speed bumps",
+   "box": [
+    1027,
+    539,
+    1041,
+    558
+   ]
+  }
+ ]
+}

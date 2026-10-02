@@ -1,0 +1,166 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 23.66,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 4.55,
+   "prompt_tokens": 605,
+   "completion_tokens": 103,
+   "raw_text": "{\n    \"objects\": [\n        {\n            \"category\": \"Trees\",\n            \"bbox_2d\": [0, 85, 999, 564]\n        },\n        {\n            \"category\": \"Drainage grates and stormwater inlets\",\n            \"bbox_2d\": [301, 755, 999, 999]\n        }\n    ]\n}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 7.01,
+   "prompt_tokens": 605,
+   "completion_tokens": 203,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        34, 75, 206, 581\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        209, 264, 998, 596\n      ]\n    },\n    {\n      \"category\": \"Lighting points\",\n      \"bbox_2d\": [\n        753, 238, 851, 560\n      ]\n    },\n    {\n      \"category\": \"Lighting points\",\n      \"bbox_2d\": [\n        874, 392, 901, 511\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 8.55,
+   "prompt_tokens": 605,
+   "completion_tokens": 265,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [0, 324, 158, 507]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [156, 429, 198, 507]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [238, 381, 352, 511]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [490, 1, 1000, 627]\n    },\n    {\n      \"category\": \"Lighting points\",\n      \"bbox_2d\": [23, 238, 125, 571]\n    },\n    {\n      \"category\": \"Lighting points\",\n      \"bbox_2d\": [146, 390, 175, 511]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 3.55,
+   "prompt_tokens": 605,
+   "completion_tokens": 63,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        34,\n        998,\n        651\n      ]\n    }\n  ]\n}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    238,
+    1919,
+    572
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    0,
+    266,
+    599,
+    525
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1174,
+    221,
+    1480,
+    559
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    565,
+    363,
+    1039,
+    542
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    181,
+    628,
+    599,
+    759
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    460,
+    260,
+    564,
+    534
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    894,
+    349,
+    955,
+    528
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    395,
+    975,
+    494
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1023,
+    426,
+    1091,
+    496
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    968,
+    431,
+    985,
+    496
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    974,
+    452,
+    999,
+    494
+   ]
+  }
+ ]
+}

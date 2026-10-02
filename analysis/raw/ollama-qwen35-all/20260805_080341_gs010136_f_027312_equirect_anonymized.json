@@ -1,0 +1,139 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 16.27,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 3.54,
+   "prompt_tokens": 605,
+   "completion_tokens": 63,
+   "raw_text": "{\n    \"objects\": [\n        {\n            \"category\": \"Trees\",\n            \"bbox_2d\": [\n                34,\n                0,\n                998,\n                875\n            ]\n        }\n    ]\n}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 2.11,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 4.49,
+   "prompt_tokens": 605,
+   "completion_tokens": 102,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 734]},{\"category\": \"Lighting points\", \"bbox_2d\": [915, 436, 968, 734]},{\"category\": \"Lighting points\", \"bbox_2d\": [244, 594, 268, 636]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 6.13,
+   "prompt_tokens": 605,
+   "completion_tokens": 167,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 834]},{\"category\": \"Lighting points\", \"bbox_2d\": [187, 430, 250, 690]},{\"category\": \"Lighting points\", \"bbox_2d\": [298, 784, 388, 888]},{\"category\": \"Barriers\", \"bbox_2d\": [187, 430, 250, 690]},{\"category\": \"Barriers\", \"bbox_2d\": [298, 784, 388, 888]}]}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    20,
+    220,
+    599,
+    692
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    220,
+    1919,
+    670
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    220,
+    1480,
+    616
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1432,
+    452,
+    1470,
+    593
+   ]
+  },
+  {
+   "category": "Barriers",
+   "box": [
+    1432,
+    452,
+    1470,
+    593
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1499,
+    643,
+    1553,
+    700
+   ]
+  },
+  {
+   "category": "Barriers",
+   "box": [
+    1499,
+    643,
+    1553,
+    700
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1026,
+    541,
+    1041,
+    563
+   ]
+  }
+ ]
+}

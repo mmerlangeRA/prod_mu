@@ -1,0 +1,139 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 19.11,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 3.67,
+   "prompt_tokens": 605,
+   "completion_tokens": 67,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [48, 25, 997, 536]}, {\"category\": \"Barriers\", \"bbox_2d\": [61, 440, 998, 731]}]}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 4.83,
+   "prompt_tokens": 605,
+   "completion_tokens": 115,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        0,\n        678,\n        543\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        671,\n        369,\n        999,\n        550\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 5.73,
+   "prompt_tokens": 605,
+   "completion_tokens": 152,
+   "raw_text": "{\n    \"objects\": [\n        {\n            \"category\": \"Trees\",\n            \"bbox_2d\": [\n                345, 1, 998, 637\n            ]\n        },\n        {\n            \"category\": \"Trees\",\n            \"bbox_2d\": [\n                0, 355, 395, 567\n            ]\n        },\n        {\n            \"category\": \"Lighting points\",\n            \"bbox_2d\": [\n                261, 340, 308, 680\n            ]\n        }\n    ]\n}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 4.88,
+   "prompt_tokens": 605,
+   "completion_tokens": 117,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        0,\n        859,\n        814\n      ]\n    },\n    {\n      \"category\": \"Lighting points\",\n      \"bbox_2d\": [\n        823,\n        326,\n        857,\n        400\n      ]\n    }\n  ]\n}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    220,
+    1835,
+    660
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    29,
+    234,
+    598,
+    509
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1087,
+    221,
+    1479,
+    564
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    220,
+    847,
+    513
+   ]
+  },
+  {
+   "category": "Barriers",
+   "box": [
+    37,
+    458,
+    599,
+    615
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    412,
+    1117,
+    526
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1037,
+    404,
+    1065,
+    587
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1814,
+    396,
+    1834,
+    436
+   ]
+  }
+ ]
+}

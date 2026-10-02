@@ -1,0 +1,148 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 20.52,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 5.27,
+   "prompt_tokens": 605,
+   "completion_tokens": 100,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Lighting points\",\n      \"bbox_2d\": [73, 314, 118, 495]\n    },\n    {\n      \"category\": \"Lighting points\",\n      \"bbox_2d\": [368, 190, 390, 495]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 4.56,
+   "prompt_tokens": 605,
+   "completion_tokens": 68,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Lighting points\",\n      \"bbox_2d\": [\n        568,\n        274,\n        593,\n        560\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 2.68,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 8.01,
+   "prompt_tokens": 605,
+   "completion_tokens": 209,
+   "raw_text": "{\"objects\": [{\"category\": \"Bollards\", \"bbox_2d\": [645, 537, 660, 589]}, {\"category\": \"Bollards\", \"bbox_2d\": [714, 533, 728, 585]}, {\"category\": \"Bollards\", \"bbox_2d\": [788, 529, 802, 581]}, {\"category\": \"Bollards\", \"bbox_2d\": [846, 523, 858, 573]}, {\"category\": \"Bollards\", \"bbox_2d\": [888, 519, 900, 567]}, {\"category\": \"Bollards\", \"bbox_2d\": [904, 515, 914, 563]}]}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Lighting points",
+   "box": [
+    44,
+    390,
+    71,
+    487
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    781,
+    368,
+    796,
+    522
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    221,
+    323,
+    234,
+    487
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1707,
+    510,
+    1716,
+    538
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1793,
+    506,
+    1801,
+    534
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1748,
+    508,
+    1757,
+    536
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1828,
+    502,
+    1835,
+    529
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1853,
+    500,
+    1860,
+    526
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1862,
+    498,
+    1868,
+    524
+   ]
+  }
+ ]
+}

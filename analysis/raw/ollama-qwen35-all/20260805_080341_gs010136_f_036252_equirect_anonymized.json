@@ -1,0 +1,112 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 15.68,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 3.71,
+   "prompt_tokens": 605,
+   "completion_tokens": 69,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [547, 26, 958, 330]}, {\"category\": \"Benches\", \"bbox_2d\": [901, 591, 998, 688]}]}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 5.0,
+   "prompt_tokens": 605,
+   "completion_tokens": 122,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Benches\",\n      \"bbox_2d\": [\n        176,\n        589,\n        346,\n        680\n      ]\n    },\n    {\n      \"category\": \"Ashtrays\",\n      \"bbox_2d\": [\n        191,\n        726,\n        304,\n        875\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 4.85,
+   "prompt_tokens": 605,
+   "completion_tokens": 116,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        0,\n        998,\n        734\n      ]\n    },\n    {\n      \"category\": \"Lighting points\",\n      \"bbox_2d\": [\n        85,\n        426,\n        158,\n        450\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 2.12,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    220,
+    1479,
+    616
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    328,
+    234,
+    575,
+    398
+   ]
+  },
+  {
+   "category": "Ashtrays",
+   "box": [
+    555,
+    612,
+    622,
+    692
+   ]
+  },
+  {
+   "category": "Benches",
+   "box": [
+    546,
+    538,
+    648,
+    587
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    931,
+    450,
+    975,
+    463
+   ]
+  }
+ ]
+}

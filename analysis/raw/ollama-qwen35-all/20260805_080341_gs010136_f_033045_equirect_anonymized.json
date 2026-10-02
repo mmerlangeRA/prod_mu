@@ -1,0 +1,121 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 13.44,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 2.15,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 2.14,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 7.02,
+   "prompt_tokens": 605,
+   "completion_tokens": 199,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [84, 0, 997, 735]},{\"category\": \"Trees\", \"bbox_2d\": [0, 261, 100, 640]},{\"category\": \"Lighting points\", \"bbox_2d\": [518, 597, 564, 693]},{\"category\": \"Lighting points\", \"bbox_2d\": [244, 593, 270, 632]},{\"category\": \"Barriers\", \"bbox_2d\": [918, 429, 968, 850]},{\"category\": \"Barriers\", \"bbox_2d\": [938, 693, 997, 1000]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 2.13,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    930,
+    220,
+    1478,
+    617
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    361,
+    940,
+    566
+   ]
+  },
+  {
+   "category": "Barriers",
+   "box": [
+    1431,
+    452,
+    1461,
+    679
+   ]
+  },
+  {
+   "category": "Barriers",
+   "box": [
+    1443,
+    594,
+    1478,
+    760
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1191,
+    542,
+    1218,
+    594
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1026,
+    540,
+    1042,
+    561
+   ]
+  }
+ ]
+}

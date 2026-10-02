@@ -1,0 +1,148 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 20.75,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 5.6,
+   "prompt_tokens": 605,
+   "completion_tokens": 118,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Lighting points\",\n      \"bbox_2d\": [\n        65,\n        314,\n        98,\n        597\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        140,\n        50,\n        996,\n        563\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 6.69,
+   "prompt_tokens": 605,
+   "completion_tokens": 171,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        48,\n        796,\n        571\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        838,\n        279,\n        1000,\n        640\n      ]\n    },\n    {\n      \"category\": \"Barriers\",\n      \"bbox_2d\": [\n        405,\n        521,\n        508,\n        563\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 4.53,
+   "prompt_tokens": 605,
+   "completion_tokens": 94,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [0, 324, 196, 578]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [176, 0, 1000, 724]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 3.93,
+   "prompt_tokens": 605,
+   "completion_tokens": 66,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 935, 784]}, {\"category\": \"Benches\", \"bbox_2d\": [851, 526, 891, 566]}]}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    220,
+    1881,
+    643
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    986,
+    220,
+    1480,
+    611
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    84,
+    247,
+    598,
+    524
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    246,
+    918,
+    528
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    943,
+    371,
+    1040,
+    566
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    395,
+    998,
+    532
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    39,
+    390,
+    59,
+    542
+   ]
+  },
+  {
+   "category": "Barriers",
+   "box": [
+    683,
+    501,
+    745,
+    524
+   ]
+  },
+  {
+   "category": "Benches",
+   "box": [
+    1831,
+    504,
+    1855,
+    526
+   ]
+  }
+ ]
+}

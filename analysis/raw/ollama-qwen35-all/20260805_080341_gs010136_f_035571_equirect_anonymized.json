@@ -1,0 +1,238 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 24.82,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 17.85,
+   "prompt_tokens": 605,
+   "completion_tokens": 642,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [54, 1, 998, 876]},{\"category\": \"Trees\", \"bbox_2d\": [0, 230, 81, 500]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 54, 1000]},{\"category\": \"Trees\", \"bbox_2d\": [67, 129, 281, 638]},{\"category\": \"Trees\", \"bbox_2d\": [255, 1, 567, 740]},{\"category\": \"Trees\", \"bbox_2d\": [555, 0, 998, 855]},{\"category\": \"Trees\", \"bbox_2d\": [838, 0, 998, 861]},{\"category\": \"Trees\", \"bbox_2d\": [745, 0, 998, 861]},{\"category\": \"Trees\", \"bbox_2d\": [605, 0, 838, 755]},{\"category\": \"Trees\", \"bbox_2d\": [455, 0, 605, 755]},{\"category\": \"Trees\", \"bbox_2d\": [315, 0, 455, 755]},{\"category\": \"Trees\", \"bbox_2d\": [181, 0, 315, 690]},{\"category\": \"Trees\", \"bbox_2d\": [105, 0, 181, 540]},{\"category\": \"Trees\", \"bbox_2d\": [75, 0, 105, 530]},{\"category\": \"Trees\", \"bbox_2d\": [67, 0, 75, 520]},{\"category\": \"Trees\", \"bbox_2d\": [54, 0, 67, 510]},{\"category\": \"Trees\", \"bbox_2d\": [38, 0, 54, 500]},{\"category\": \"Trees\", \"bbox_2d\": [25, 0, 38, 490]},{\"category\": \"Trees\", \"bbox_2d\": [17, 0, 25, 480]},{\"category\": \"Trees\", \"bbox_2d\": [11, 0, 17, 470]},{\"category\": \"Trees\", \"bbox_2d\": [3, 0, 11, 460]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 3, 450]}]}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 2.11,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 2.08,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 2.78,
+   "prompt_tokens": 605,
+   "completion_tokens": 33,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 796]}]}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    32,
+    221,
+    599,
+    693
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    220,
+    1919,
+    650
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    153,
+    221,
+    340,
+    620
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    447,
+    220,
+    599,
+    685
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    363,
+    220,
+    503,
+    628
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    273,
+    220,
+    363,
+    628
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    40,
+    290,
+    169,
+    565
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    109,
+    220,
+    189,
+    593
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    0,
+    220,
+    32,
+    760
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    63,
+    220,
+    109,
+    512
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    0,
+    344,
+    49,
+    490
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    45,
+    220,
+    63,
+    506
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    23,
+    220,
+    32,
+    490
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    32,
+    220,
+    40,
+    495
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    15,
+    220,
+    23,
+    485
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    40,
+    220,
+    45,
+    501
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    10,
+    220,
+    15,
+    479
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    2,
+    220,
+    7,
+    468
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    7,
+    220,
+    10,
+    474
+   ]
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 13.8,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 3.24,
+   "prompt_tokens": 605,
+   "completion_tokens": 51,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [0, 0, 998, 846]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 2.1,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 6.08,
+   "prompt_tokens": 605,
+   "completion_tokens": 166,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 734]},{\"category\": \"Lighting points\", \"bbox_2d\": [516, 604, 568, 724]},{\"category\": \"Lighting points\", \"bbox_2d\": [914, 434, 964, 734]},{\"category\": \"Barriers\", \"bbox_2d\": [0, 630, 85, 1000]},{\"category\": \"Barriers\", \"bbox_2d\": [938, 630, 998, 1000]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 2.38,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    0,
+    220,
+    599,
+    677
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    220,
+    1479,
+    616
+   ]
+  },
+  {
+   "category": "Barriers",
+   "box": [
+    880,
+    560,
+    931,
+    760
+   ]
+  },
+  {
+   "category": "Barriers",
+   "box": [
+    1443,
+    560,
+    1479,
+    760
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1428,
+    454,
+    1458,
+    616
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1190,
+    546,
+    1221,
+    611
+   ]
+  }
+ ]
+}

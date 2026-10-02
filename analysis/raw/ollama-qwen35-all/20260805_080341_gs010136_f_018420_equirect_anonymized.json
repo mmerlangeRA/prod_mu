@@ -1,0 +1,148 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 18.04,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 3.66,
+   "prompt_tokens": 605,
+   "completion_tokens": 66,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [4, 3, 996, 658]}, {\"category\": \"Barriers\", \"bbox_2d\": [140, 537, 996, 745]}]}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 4.63,
+   "prompt_tokens": 605,
+   "completion_tokens": 96,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 543, 678]}, {\"category\": \"Trees\", \"bbox_2d\": [479, 241, 851, 534]}, {\"category\": \"Trees\", \"bbox_2d\": [848, 0, 1000, 536]}]}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 4.96,
+   "prompt_tokens": 605,
+   "completion_tokens": 115,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        314,\n        156,\n        517\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        128,\n        0,\n        999,\n        634\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 4.79,
+   "prompt_tokens": 605,
+   "completion_tokens": 114,
+   "raw_text": "{\n    \"objects\": [\n        {\n            \"category\": \"Trees\",\n            \"bbox_2d\": [\n                0,\n                0,\n                998,\n                631\n            ]\n        },\n        {\n            \"category\": \"Barriers\",\n            \"bbox_2d\": [\n                0,\n                475,\n                900,\n                755\n            ]\n        }\n    ]\n}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    2,
+    222,
+    598,
+    575
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    220,
+    1919,
+    561
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    957,
+    220,
+    1479,
+    562
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    220,
+    766,
+    586
+   ]
+  },
+  {
+   "category": "Barriers",
+   "box": [
+    1320,
+    476,
+    1860,
+    628
+   ]
+  },
+  {
+   "category": "Barriers",
+   "box": [
+    84,
+    510,
+    598,
+    622
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    727,
+    350,
+    951,
+    508
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    949,
+    220,
+    1040,
+    509
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    390,
+    974,
+    499
+   ]
+  }
+ ]
+}

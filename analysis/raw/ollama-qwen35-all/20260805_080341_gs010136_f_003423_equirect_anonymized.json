@@ -1,0 +1,202 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 29.28,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 7.97,
+   "prompt_tokens": 605,
+   "completion_tokens": 204,
+   "raw_text": "{\"objects\": [{\"category\": \"Lighting points\", \"bbox_2d\": [223, 204, 305, 529]}, {\"category\": \"Lighting points\", \"bbox_2d\": [126, 321, 157, 481]}, {\"category\": \"Lighting points\", \"bbox_2d\": [91, 379, 109, 479]}, {\"category\": \"Trees\", \"bbox_2d\": [276, 248, 415, 525]}, {\"category\": \"Trees\", \"bbox_2d\": [115, 348, 280, 521]}, {\"category\": \"Fire hydrants\", \"bbox_2d\": [647, 519, 665, 569]}]}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 5.46,
+   "prompt_tokens": 605,
+   "completion_tokens": 111,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Lighting points\",\n      \"bbox_2d\": [\n        463, 181, 479, 590\n      ]\n    },\n    {\n      \"category\": \"Lighting points\",\n      \"bbox_2d\": [\n        754, 364, 778, 511\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 2.74,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 13.11,
+   "prompt_tokens": 605,
+   "completion_tokens": 356,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Bollards\",\n      \"bbox_2d\": [\n        568, 694, 593, 788\n      ]\n    },\n    {\n      \"category\": \"Bollards\",\n      \"bbox_2d\": [\n        630, 619, 654, 712\n      ]\n    },\n    {\n      \"category\": \"Bollards\",\n      \"bbox_2d\": [\n        668, 575, 686, 643\n      ]\n    },\n    {\n      \"category\": \"Bollards\",\n      \"bbox_2d\": [\n        689, 550, 701, 608\n      ]\n    },\n    {\n      \"category\": \"Bollards\",\n      \"bbox_2d\": [\n        694, 535, 704, 581\n      ]\n    },\n    {\n      \"category\": \"Lighting points\",\n      \"bbox_2d\": [\n        486, 400, 501, 449\n      ]\n    },\n    {\n      \"category\": \"Lighting points\",\n      \"bbox_2d\": [\n        617, 358, 632, 449\n      ]\n    }\n  ]\n}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    166,
+    354,
+    249,
+    504
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    69,
+    408,
+    168,
+    501
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    134,
+    330,
+    183,
+    506
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    718,
+    318,
+    727,
+    539
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    76,
+    393,
+    94,
+    480
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    892,
+    417,
+    907,
+    496
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1661,
+    595,
+    1676,
+    646
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1698,
+    554,
+    1712,
+    604
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    55,
+    425,
+    65,
+    479
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1690,
+    413,
+    1699,
+    462
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1721,
+    530,
+    1732,
+    567
+   ]
+  },
+  {
+   "category": "Fire hydrants",
+   "box": [
+    388,
+    500,
+    399,
+    527
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1612,
+    436,
+    1621,
+    462
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1733,
+    517,
+    1741,
+    548
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1736,
+    509,
+    1742,
+    534
+   ]
+  }
+ ]
+}

@@ -1,0 +1,211 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 24.75,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 4.32,
+   "prompt_tokens": 605,
+   "completion_tokens": 63,
+   "raw_text": "{\n    \"objects\": [\n        {\n            \"category\": \"Trees\",\n            \"bbox_2d\": [\n                0,\n                0,\n                998,\n                1000\n            ]\n        }\n    ]\n}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 12.59,
+   "prompt_tokens": 605,
+   "completion_tokens": 411,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 997]},{\"category\": \"Trees\", \"bbox_2d\": [865, 143, 998, 625]},{\"category\": \"Trees\", \"bbox_2d\": [895, 350, 998, 625]},{\"category\": \"Trees\", \"bbox_2d\": [975, 314, 998, 625]},{\"category\": \"Trees\", \"bbox_2d\": [975, 285, 998, 350]},{\"category\": \"Trees\", \"bbox_2d\": [975, 251, 998, 285]},{\"category\": \"Trees\", \"bbox_2d\": [975, 216, 998, 251]},{\"category\": \"Trees\", \"bbox_2d\": [975, 180, 998, 216]},{\"category\": \"Trees\", \"bbox_2d\": [975, 143, 998, 180]},{\"category\": \"Trees\", \"bbox_2d\": [975, 107, 998, 143]},{\"category\": \"Trees\", \"bbox_2d\": [975, 71, 998, 107]},{\"category\": \"Trees\", \"bbox_2d\": [975, 36, 998, 71]},{\"category\": \"Trees\", \"bbox_2d\": [975, 0, 998, 36]}]}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 4.52,
+   "prompt_tokens": 605,
+   "completion_tokens": 93,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 734]},{\"category\": \"Trees\", \"bbox_2d\": [0, 156, 218, 674]},{\"category\": \"Trees\", \"bbox_2d\": [198, 0, 998, 734]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 3.32,
+   "prompt_tokens": 605,
+   "completion_tokens": 33,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 796]}]}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    0,
+    220,
+    599,
+    760
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    220,
+    1039,
+    758
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    220,
+    1919,
+    650
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    220,
+    1479,
+    616
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    304,
+    1011,
+    584
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    959,
+    297,
+    1039,
+    558
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1025,
+    390,
+    1039,
+    558
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1025,
+    374,
+    1039,
+    409
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1025,
+    297,
+    1039,
+    317
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1025,
+    278,
+    1039,
+    297
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1025,
+    317,
+    1039,
+    337
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1025,
+    258,
+    1039,
+    278
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1025,
+    220,
+    1039,
+    239
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1025,
+    337,
+    1039,
+    356
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1025,
+    239,
+    1039,
+    258
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1025,
+    356,
+    1039,
+    374
+   ]
+  }
+ ]
+}

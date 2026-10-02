@@ -1,0 +1,121 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 12.95,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 2.09,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 3.54,
+   "prompt_tokens": 605,
+   "completion_tokens": 64,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 835, 914]}, {\"category\": \"Trees\", \"bbox_2d\": [867, 0, 1000, 628]}]}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 5.16,
+   "prompt_tokens": 605,
+   "completion_tokens": 130,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 734]},{\"category\": \"Trees\", \"bbox_2d\": [0, 51, 168, 630]},{\"category\": \"Lighting points\", \"bbox_2d\": [918, 428, 968, 637]},{\"category\": \"Lighting points\", \"bbox_2d\": [245, 598, 268, 637]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 2.16,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    220,
+    941,
+    714
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    220,
+    1479,
+    616
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    248,
+    981,
+    560
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    960,
+    220,
+    1040,
+    559
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1431,
+    451,
+    1461,
+    564
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1027,
+    543,
+    1041,
+    564
+   ]
+  }
+ ]
+}

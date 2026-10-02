@@ -1,0 +1,121 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 16.8,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 2.71,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 3.96,
+   "prompt_tokens": 605,
+   "completion_tokens": 68,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 304, 735, 468]}, {\"category\": \"Trees\", \"bbox_2d\": [819, 181, 1000, 625]}]}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 4.76,
+   "prompt_tokens": 605,
+   "completion_tokens": 98,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [165, 48, 999, 730]\n    },\n    {\n      \"category\": \"Lighting points\",\n      \"bbox_2d\": [285, 328, 312, 575]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 5.37,
+   "prompt_tokens": 605,
+   "completion_tokens": 118,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        38,\n        974,\n        865\n      ]\n    },\n    {\n      \"category\": \"Lighting points\",\n      \"bbox_2d\": [\n        819,\n        320,\n        844,\n        340\n      ]\n    }\n  ]\n}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    241,
+    1904,
+    687
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    979,
+    246,
+    1479,
+    614
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    384,
+    881,
+    473
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    931,
+    318,
+    1040,
+    558
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1051,
+    397,
+    1067,
+    530
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1811,
+    393,
+    1826,
+    404
+   ]
+  }
+ ]
+}

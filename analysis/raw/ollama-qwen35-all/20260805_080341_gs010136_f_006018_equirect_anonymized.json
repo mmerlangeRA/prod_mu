@@ -1,0 +1,121 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 14.75,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 4.09,
+   "prompt_tokens": 605,
+   "completion_tokens": 70,
+   "raw_text": "{\"objects\": [{\"category\": \"Lighting points\", \"bbox_2d\": [47, 365, 72, 538]}, {\"category\": \"Barriers\", \"bbox_2d\": [109, 345, 995, 468]}]}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 4.16,
+   "prompt_tokens": 605,
+   "completion_tokens": 67,
+   "raw_text": "{\"objects\": [{\"category\": \"Lighting points\", \"bbox_2d\": [635, 248, 679, 677]}, {\"category\": \"Trees\", \"bbox_2d\": [0, 1, 531, 398]}]}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 4.0,
+   "prompt_tokens": 605,
+   "completion_tokens": 67,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 214, 175, 689]}, {\"category\": \"Trees\", \"bbox_2d\": [173, 235, 999, 730]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 2.5,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    984,
+    347,
+    1479,
+    614
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    221,
+    759,
+    435
+   ]
+  },
+  {
+   "category": "Barriers",
+   "box": [
+    65,
+    406,
+    597,
+    473
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    336,
+    985,
+    592
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    821,
+    354,
+    847,
+    586
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    28,
+    417,
+    43,
+    511
+   ]
+  }
+ ]
+}

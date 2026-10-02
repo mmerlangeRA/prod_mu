@@ -1,0 +1,121 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 14.6,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 4.94,
+   "prompt_tokens": 605,
+   "completion_tokens": 119,
+   "raw_text": "{\n    \"objects\": [\n        {\n            \"category\": \"Ashtrays\",\n            \"bbox_2d\": [\n                289,\n                673,\n                364,\n                805\n            ]\n        },\n        {\n            \"category\": \"Trees\",\n            \"bbox_2d\": [\n                1,\n                75,\n                1000,\n                709\n            ]\n        }\n    ]\n}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 3.93,
+   "prompt_tokens": 605,
+   "completion_tokens": 67,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 48, 997, 635]}, {\"category\": \"Benches\", \"bbox_2d\": [251, 711, 370, 808]}]}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 3.61,
+   "prompt_tokens": 605,
+   "completion_tokens": 66,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [193, 0, 1000, 745]}, {\"category\": \"Trees\", \"bbox_2d\": [0, 268, 268, 640]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 2.12,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    1,
+    260,
+    600,
+    603
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    996,
+    220,
+    1480,
+    622
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    246,
+    1038,
+    563
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    365,
+    1041,
+    566
+   ]
+  },
+  {
+   "category": "Benches",
+   "box": [
+    591,
+    604,
+    662,
+    656
+   ]
+  },
+  {
+   "category": "Ashtrays",
+   "box": [
+    173,
+    583,
+    218,
+    655
+   ]
+  }
+ ]
+}

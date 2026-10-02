@@ -1,0 +1,157 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 20.33,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 8.91,
+   "prompt_tokens": 605,
+   "completion_tokens": 278,
+   "raw_text": "{\n    \"objects\": [\n        {\n            \"category\": \"Trees\",\n            \"bbox_2d\": [\n                0,\n                248,\n                436,\n                715\n            ]\n        },\n        {\n            \"category\": \"Trees\",\n            \"bbox_2d\": [\n                390,\n                18,\n                780,\n                645\n            ]\n        },\n        {\n            \"category\": \"Trees\",\n            \"bbox_2d\": [\n                755,\n                25,\n            1000,\n            639\n            ]\n        },\n        {\n            \"category\": \"Benches\",\n            \"bbox_2d\": [\n                458,\n                545,\n                607,\n                652\n            ]\n        },\n        {\n            \"category\": \"Ashtrays\",\n            \"bbox_2d\": [\n                261,\n                610,\n                318,\n                724\n            ]\n        }\n    ]\n}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 4.43,
+   "prompt_tokens": 605,
+   "completion_tokens": 99,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [68, 0, 997, 734]}, {\"category\": \"Barriers\", \"bbox_2d\": [251, 615, 418, 855]}, {\"category\": \"Barriers\", \"bbox_2d\": [30, 615, 109, 917]}]}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 4.84,
+   "prompt_tokens": 605,
+   "completion_tokens": 116,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        145,\n        389,\n        670\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        255,\n        0,\n        1000,\n        740\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 2.15,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    481,
+    220,
+    1038,
+    616
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1033,
+    220,
+    1480,
+    620
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    234,
+    230,
+    468,
+    568
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    298,
+    1113,
+    582
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    0,
+    354,
+    262,
+    606
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    453,
+    234,
+    600,
+    565
+   ]
+  },
+  {
+   "category": "Barriers",
+   "box": [
+    591,
+    552,
+    691,
+    682
+   ]
+  },
+  {
+   "category": "Barriers",
+   "box": [
+    458,
+    552,
+    505,
+    715
+   ]
+  },
+  {
+   "category": "Benches",
+   "box": [
+    275,
+    514,
+    364,
+    572
+   ]
+  },
+  {
+   "category": "Ashtrays",
+   "box": [
+    157,
+    549,
+    191,
+    611
+   ]
+  }
+ ]
+}

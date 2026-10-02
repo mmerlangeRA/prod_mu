@@ -1,0 +1,121 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 13.08,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 2.12,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 3.53,
+   "prompt_tokens": 605,
+   "completion_tokens": 64,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 875]}, {\"category\": \"Trees\", \"bbox_2d\": [684, 0, 1000, 634]}]}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 5.29,
+   "prompt_tokens": 605,
+   "completion_tokens": 135,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 654]},{\"category\": \"Lighting points\", \"bbox_2d\": [913, 427, 970, 630]},{\"category\": \"Lighting points\", \"bbox_2d\": [245, 600, 278, 640]},{\"category\": \"Lighting points\", \"bbox_2d\": [518, 595, 560, 673]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 2.14,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    220,
+    1039,
+    692
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    220,
+    1479,
+    573
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    850,
+    220,
+    1040,
+    562
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1428,
+    451,
+    1462,
+    560
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1191,
+    541,
+    1216,
+    583
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1027,
+    544,
+    1047,
+    566
+   ]
+  }
+ ]
+}

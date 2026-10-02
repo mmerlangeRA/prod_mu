@@ -1,0 +1,8271 @@
+{
+ "F1462": {
+  "number": 1,
+  "category_en": "Benches",
+  "code": "BAN_CHO_01",
+  "confidence": "high",
+  "state": "good",
+  "evidence": [
+   "wooden slatted bench with backrest on wooden legs",
+   "not a described model",
+   "slats intact"
+  ]
+ },
+ "F1456": {
+  "number": 2,
+  "category_en": "Benches",
+  "code": "BAN_FEN_01",
+  "confidence": "high",
+  "state": "good",
+  "evidence": [
+   "round concrete tabletop on central pedestal with separate curved slab seats on flared pedestals"
+  ]
+ },
+ "F1449": {
+  "number": 3,
+  "category_en": "Benches",
+  "code": "BAN_CHO_01",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "wooden bench with two backrest planks behind log barriers",
+   "not a described model"
+  ]
+ },
+ "F1457": {
+  "number": 4,
+  "category_en": "Benches",
+  "code": "BAN_FEN_01",
+  "confidence": "high",
+  "state": "good",
+  "evidence": [
+   "round concrete tabletop on central pedestal with separate curved slab seats on flared pedestals"
+  ]
+ },
+ "F1450": {
+  "number": 5,
+  "category_en": "Benches",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "wooden post-and-log rail barriers at path entrance, not a bench",
+   "not a described barrier model"
+  ]
+ },
+ "F1455": {
+  "number": 6,
+  "category_en": "Benches",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "wooden post-and-log rail barriers at path entrance, not a bench",
+   "not a described barrier model"
+  ]
+ },
+ "F1454": {
+  "number": 7,
+  "category_en": "Benches",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "wooden post-and-log rail barriers at path entrance, not a bench",
+   "not a described barrier model"
+  ]
+ },
+ "F1458": {
+  "number": 8,
+  "category_en": "Benches",
+  "code": "BAN_FEN_01",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "pale round tabletop on central pedestal with low curved seats, distant"
+  ]
+ },
+ "F1453": {
+  "number": 9,
+  "category_en": "Benches",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "wooden post-and-log rail barriers at path entrance, not a bench",
+   "not a described barrier model"
+  ]
+ },
+ "F1452": {
+  "number": 10,
+  "category_en": "Benches",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "wooden post-and-log rail barriers at path entrance, not a bench",
+   "not a described barrier model"
+  ]
+ },
+ "F1459": {
+  "number": 11,
+  "category_en": "Benches",
+  "code": "BAN_FEN_01",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "pale round tabletop on central pedestal with low curved seats, distant"
+  ]
+ },
+ "F1451": {
+  "number": 12,
+  "category_en": "Benches",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "wooden post-and-log rail barriers at path entrance, not a bench",
+   "not a described barrier model"
+  ]
+ },
+ "F1461": {
+  "number": 13,
+  "category_en": "Benches",
+  "code": "BAN_CHO_01",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "small distant wooden bench with backrest, side view"
+  ]
+ },
+ "F1460": {
+  "number": 14,
+  "category_en": "Benches",
+  "code": "BAN_FEN_01",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "pale round tabletop on central pedestal with low curved seats, distant"
+  ]
+ },
+ "F1463": {
+  "number": 15,
+  "category_en": "Benches",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
+  "evidence": [
+   "small brown blob on verge, too small to confirm a bench"
+  ]
+ },
+ "F1471": {
+  "number": 16,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail"
+  ]
+ },
+ "F1473": {
+  "number": 17,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail"
+  ]
+ },
+ "F1474": {
+  "number": 18,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof and beacon"
+  ]
+ },
+ "F1478": {
+  "number": 19,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail"
+  ]
+ },
+ "F1479": {
+  "number": 20,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail"
+  ]
+ },
+ "F1480": {
+  "number": 21,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail"
+  ]
+ },
+ "F1481": {
+  "number": 22,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail"
+  ]
+ },
+ "F1482": {
+  "number": 23,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail"
+  ]
+ },
+ "F1488": {
+  "number": 24,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail"
+  ]
+ },
+ "F1489": {
+  "number": 25,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail"
+  ]
+ },
+ "F1490": {
+  "number": 26,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail"
+  ]
+ },
+ "F1493": {
+  "number": 27,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail"
+  ]
+ },
+ "F1494": {
+  "number": 28,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1497": {
+  "number": 29,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof and orange beacon"
+  ]
+ },
+ "F1500": {
+  "number": 30,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1504": {
+  "number": 31,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1506": {
+  "number": 32,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1507": {
+  "number": 33,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof and orange beacon"
+  ]
+ },
+ "F1509": {
+  "number": 34,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1511": {
+  "number": 35,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1512": {
+  "number": 36,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1513": {
+  "number": 37,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1515": {
+  "number": 38,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1516": {
+  "number": 39,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1517": {
+  "number": 40,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1528": {
+  "number": 41,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1534": {
+  "number": 42,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1536": {
+  "number": 43,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1538": {
+  "number": 44,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1539": {
+  "number": 45,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof and orange beacon"
+  ]
+ },
+ "F1544": {
+  "number": 46,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1548": {
+  "number": 47,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1549": {
+  "number": 48,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1550": {
+  "number": 49,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1551": {
+  "number": 50,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1552": {
+  "number": 51,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1553": {
+  "number": 52,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof and orange beacon"
+  ]
+ },
+ "F1554": {
+  "number": 53,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1559": {
+  "number": 54,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1562": {
+  "number": 55,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1565": {
+  "number": 56,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1569": {
+  "number": 57,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1571": {
+  "number": 58,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1572": {
+  "number": 59,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1575": {
+  "number": 60,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1579": {
+  "number": 61,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1581": {
+  "number": 62,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1585": {
+  "number": 63,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1613": {
+  "number": 64,
+  "category_en": "Barriers",
+  "code": "BAR_FEN_02",
+  "confidence": "high",
+  "state": "good",
+  "evidence": [
+   "long red-white tubular swing gate with diagonal brace at hinge end",
+   "paint intact, frame straight"
+  ]
+ },
+ "F1712": {
+  "number": 65,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1487": {
+  "number": 66,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1491": {
+  "number": 67,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1492": {
+  "number": 68,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1503": {
+  "number": 69,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1518": {
+  "number": 70,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "wooden post-and-rail railing along a path",
+   "not a described model"
+  ]
+ },
+ "F1519": {
+  "number": 71,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "wooden post-and-rail railing along a path",
+   "not a described model"
+  ]
+ },
+ "F1526": {
+  "number": 72,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1540": {
+  "number": 73,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1542": {
+  "number": 74,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1543": {
+  "number": 75,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1546": {
+  "number": 76,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1547": {
+  "number": 77,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1556": {
+  "number": 78,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1560": {
+  "number": 79,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1567": {
+  "number": 80,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1568": {
+  "number": 81,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1577": {
+  "number": 82,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1578": {
+  "number": 83,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1582": {
+  "number": 84,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1584": {
+  "number": 85,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1588": {
+  "number": 86,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1603": {
+  "number": 87,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1604": {
+  "number": 88,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1649": {
+  "number": 89,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "continuous wooden picket railing along a path",
+   "not a described model",
+   "long railing split into several features"
+  ]
+ },
+ "F1689": {
+  "number": 90,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1502": {
+  "number": 91,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1531": {
+  "number": 92,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1599": {
+  "number": 93,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1713": {
+  "number": 94,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "vegetation only, no barrier"
+  ]
+ },
+ "F1523": {
+  "number": 95,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "continuous wooden picket railing along a path",
+   "not a described model",
+   "long railing split into several features"
+  ]
+ },
+ "F1524": {
+  "number": 96,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "continuous wooden picket railing along a path",
+   "not a described model",
+   "long railing split into several features"
+  ]
+ },
+ "F1650": {
+  "number": 97,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "continuous wooden picket railing along a path",
+   "not a described model",
+   "long railing split into several features"
+  ]
+ },
+ "F1671": {
+  "number": 98,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1469": {
+  "number": 99,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "wooden post-and-log rail barrier beside path",
+   "not a described model"
+  ]
+ },
+ "F1520": {
+  "number": 100,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "continuous wooden picket railing along a path",
+   "not a described model",
+   "long railing split into several features"
+  ]
+ },
+ "F1672": {
+  "number": 101,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1521": {
+  "number": 102,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "continuous wooden picket railing along a path",
+   "not a described model",
+   "long railing split into several features"
+  ]
+ },
+ "F1591": {
+  "number": 103,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "continuous wooden picket railing along a path",
+   "not a described model",
+   "long railing split into several features"
+  ]
+ },
+ "F1593": {
+  "number": 104,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "continuous wooden picket railing along a path",
+   "not a described model",
+   "long railing split into several features"
+  ]
+ },
+ "F1667": {
+  "number": 105,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1668": {
+  "number": 106,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1652": {
+  "number": 107,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "continuous wooden picket railing along a path",
+   "not a described model",
+   "long railing split into several features"
+  ]
+ },
+ "F1654": {
+  "number": 108,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "continuous wooden picket railing along a path",
+   "not a described model",
+   "long railing split into several features"
+  ]
+ },
+ "F1595": {
+  "number": 109,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "continuous wooden picket railing along a path",
+   "not a described model",
+   "long railing split into several features"
+  ]
+ },
+ "F1690": {
+  "number": 110,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1596": {
+  "number": 111,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "continuous wooden picket railing along a path",
+   "not a described model",
+   "long railing split into several features"
+  ]
+ },
+ "F1594": {
+  "number": 112,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "continuous wooden picket railing along a path",
+   "not a described model",
+   "long railing split into several features"
+  ]
+ },
+ "F1590": {
+  "number": 113,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "continuous wooden picket railing along a path",
+   "not a described model",
+   "long railing split into several features"
+  ]
+ },
+ "F1670": {
+  "number": 114,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1666": {
+  "number": 115,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1669": {
+  "number": 116,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1673": {
+  "number": 117,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1470": {
+  "number": 118,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "damaged",
+  "evidence": [
+   "wooden post-and-log rail barrier",
+   "one rail appears dropped from its post"
+  ]
+ },
+ "F1466": {
+  "number": 119,
+  "category_en": "Barriers",
+  "code": "POT_CHO_04",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "single round wooden log post on paving",
+   "bollard, not a barrier"
+  ]
+ },
+ "F1557": {
+  "number": 120,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own roof rail or camera mast"
+  ]
+ },
+ "F1495": {
+  "number": 121,
+  "category_en": "Barriers",
+  "code": "BAR_FEN_01",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "dark round posts with white bands, top rail and diagonal",
+   "same chicane type as nearby X-and-ring panels"
+  ]
+ },
+ "F1496": {
+  "number": 122,
+  "category_en": "Barriers",
+  "code": "BAR_FEN_01",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "two round posts, top and bottom rails, full X diagonals"
+  ]
+ },
+ "F1486": {
+  "number": 123,
+  "category_en": "Barriers",
+  "code": "BAR_FEN_01",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "cycle-path chicane panels with X diagonals meeting at central ring",
+   "round posts with white bands"
+  ]
+ },
+ "F1674": {
+  "number": 124,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1692": {
+  "number": 125,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1586": {
+  "number": 126,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's camera mount on roof"
+  ]
+ },
+ "F1691": {
+  "number": 127,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1693": {
+  "number": 128,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1464": {
+  "number": 129,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "wooden log rail on two posts across path entrance",
+   "not a described model"
+  ]
+ },
+ "F1694": {
+  "number": 130,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1698": {
+  "number": 131,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1514": {
+  "number": 132,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1696": {
+  "number": 133,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1697": {
+  "number": 134,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1467": {
+  "number": 135,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's camera mount on roof"
+  ]
+ },
+ "F1617": {
+  "number": 136,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "wooden picket fence panel at path end in clearest view",
+   "first view is a guardrail"
+  ]
+ },
+ "F1621": {
+  "number": 137,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1628": {
+  "number": 138,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1623": {
+  "number": 139,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1626": {
+  "number": 140,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1624": {
+  "number": 141,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1695": {
+  "number": 142,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1699": {
+  "number": 143,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1615": {
+  "number": 144,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1700": {
+  "number": 145,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1485": {
+  "number": 146,
+  "category_en": "Barriers",
+  "code": "BAR_FEN_01",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "round post with white bands and X diagonal, as nearby chicane panels"
+  ]
+ },
+ "F1701": {
+  "number": 147,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1687": {
+  "number": 148,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "wire mesh boundary fence along field, not street furniture"
+  ]
+ },
+ "F1620": {
+  "number": 149,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1641": {
+  "number": 150,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1702": {
+  "number": 151,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1625": {
+  "number": 152,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail, beacon or camera mast"
+  ]
+ },
+ "F1683": {
+  "number": 153,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
+  "evidence": [
+   "thin fence post inside hedge"
+  ]
+ },
+ "F1606": {
+  "number": 154,
+  "category_en": "Barriers",
+  "code": "BAR_FEN_02",
+  "confidence": "high",
+  "state": "good",
+  "evidence": [
+   "long red-white tubular swing gate with diagonal brace",
+   "frame straight, paint intact"
+  ]
+ },
+ "F1627": {
+  "number": 155,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1636": {
+  "number": 156,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail, beacon or camera mast"
+  ]
+ },
+ "F1682": {
+  "number": 157,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "blue-white chevron delineator on bridge parapet, not a barrier"
+  ]
+ },
+ "F1639": {
+  "number": 158,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "metal vertical-bar pedestrian railing along bridge footway behind guardrail",
+   "not a described model"
+  ]
+ },
+ "F1574": {
+  "number": 159,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail, beacon or camera mast"
+  ]
+ },
+ "F1564": {
+  "number": 160,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail, beacon or camera mast"
+  ]
+ },
+ "F1640": {
+  "number": 161,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "metal vertical-bar pedestrian railing along bridge footway behind guardrail",
+   "not a described model"
+  ]
+ },
+ "F1508": {
+  "number": 162,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail, beacon or camera mast"
+  ]
+ },
+ "F1510": {
+  "number": 163,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail, beacon or camera mast"
+  ]
+ },
+ "F1619": {
+  "number": 164,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1530": {
+  "number": 165,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail, beacon or camera mast"
+  ]
+ },
+ "F1532": {
+  "number": 166,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail, beacon or camera mast"
+  ]
+ },
+ "F1570": {
+  "number": 167,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail, beacon or camera mast"
+  ]
+ },
+ "F1573": {
+  "number": 168,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail, beacon or camera mast"
+  ]
+ },
+ "F1576": {
+  "number": 169,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail, beacon or camera mast"
+  ]
+ },
+ "F1580": {
+  "number": 170,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail, beacon or camera mast"
+  ]
+ },
+ "F1583": {
+  "number": 171,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail, beacon or camera mast"
+  ]
+ },
+ "F1589": {
+  "number": 172,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail and orange beacon"
+  ]
+ },
+ "F1598": {
+  "number": 173,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail and orange beacon"
+  ]
+ },
+ "F1633": {
+  "number": 174,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1635": {
+  "number": 175,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1638": {
+  "number": 176,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "metal vertical-bar pedestrian railing along bridge footway behind guardrail",
+   "not a described model"
+  ]
+ },
+ "F1703": {
+  "number": 177,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1501": {
+  "number": 178,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail and orange beacon"
+  ]
+ },
+ "F1505": {
+  "number": 179,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail and orange beacon"
+  ]
+ },
+ "F1541": {
+  "number": 180,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail and orange beacon"
+  ]
+ },
+ "F1545": {
+  "number": 181,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail and orange beacon"
+  ]
+ },
+ "F1558": {
+  "number": 182,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail and orange beacon"
+  ]
+ },
+ "F1561": {
+  "number": 183,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail and orange beacon"
+  ]
+ },
+ "F1525": {
+  "number": 184,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail and orange beacon"
+  ]
+ },
+ "F1522": {
+  "number": 185,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail and orange beacon"
+  ]
+ },
+ "F1527": {
+  "number": 186,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail and orange beacon"
+  ]
+ },
+ "F1529": {
+  "number": 187,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail and orange beacon"
+  ]
+ },
+ "F1533": {
+  "number": 188,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail and orange beacon"
+  ]
+ },
+ "F1535": {
+  "number": 189,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail and orange beacon"
+  ]
+ },
+ "F1537": {
+  "number": 190,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail and orange beacon"
+  ]
+ },
+ "F1563": {
+  "number": 191,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail and orange beacon"
+  ]
+ },
+ "F1566": {
+  "number": 192,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail and orange beacon"
+  ]
+ },
+ "F1630": {
+  "number": 193,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1725": {
+  "number": 194,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail and orange beacon"
+  ]
+ },
+ "F1475": {
+  "number": 195,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail and orange beacon"
+  ]
+ },
+ "F1632": {
+  "number": 196,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "wooden pedestrian railing along footway behind road guardrail",
+   "not a described model"
+  ]
+ },
+ "F1637": {
+  "number": 197,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "wooden pedestrian railing along footway behind road guardrail",
+   "not a described model"
+  ]
+ },
+ "F1642": {
+  "number": 198,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "metal vertical-bar pedestrian railing on bridge",
+   "not a described model"
+  ]
+ },
+ "F1483": {
+  "number": 199,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail and orange beacon"
+  ]
+ },
+ "F1609": {
+  "number": 200,
+  "category_en": "Barriers",
+  "code": "BAR_FEN_02",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "red-white swing gate with diagonal brace in clearest view",
+   "closest view is car beacon"
+  ]
+ },
+ "F1675": {
+  "number": 201,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "metal vertical-bar pedestrian railing on bridge",
+   "not a described model"
+  ]
+ },
+ "F1472": {
+  "number": 202,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "wooden post-and-log rail barrier beside path",
+   "not a described model"
+  ]
+ },
+ "F1614": {
+  "number": 203,
+  "category_en": "Barriers",
+  "code": "BAR_FEN_02",
+  "confidence": "high",
+  "state": "good",
+  "evidence": [
+   "long red-white tubular swing gate with diagonal brace and vertical members",
+   "intact"
+  ]
+ },
+ "F1704": {
+  "number": 204,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1629": {
+  "number": 205,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "wooden pedestrian railing along footway behind road guardrail",
+   "not a described model"
+  ]
+ },
+ "F1612": {
+  "number": 206,
+  "category_en": "Barriers",
+  "code": "BAR_FEN_02",
+  "confidence": "high",
+  "state": "good",
+  "evidence": [
+   "long red-white tubular swing gate with diagonal brace and vertical members",
+   "intact"
+  ]
+ },
+ "F1646": {
+  "number": 207,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "continuous wooden picket railing along a path",
+   "not a described model"
+  ]
+ },
+ "F1706": {
+  "number": 208,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1634": {
+  "number": 209,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "wooden pedestrian railing along footway behind road guardrail",
+   "not a described model"
+  ]
+ },
+ "F1720": {
+  "number": 210,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1616": {
+  "number": 211,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road guardrail seen past survey car parts"
+  ]
+ },
+ "F1644": {
+  "number": 212,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road guardrail seen past survey car parts"
+  ]
+ },
+ "F1476": {
+  "number": 213,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "wooden post-and-rail barrier and tube chicane at path entrance",
+   "not a described model"
+  ]
+ },
+ "F1498": {
+  "number": 214,
+  "category_en": "Barriers",
+  "code": "BAR_FEN_01",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "round dark post, top rail and diagonal at cycle-path entrance, as nearby X chicanes"
+  ]
+ },
+ "F1643": {
+  "number": 215,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "continuous wooden picket railing along a path",
+   "not a described model"
+  ]
+ },
+ "F1705": {
+  "number": 216,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1484": {
+  "number": 217,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail and orange beacon"
+  ]
+ },
+ "F1645": {
+  "number": 218,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road guardrail seen past survey car parts"
+  ]
+ },
+ "F1677": {
+  "number": 219,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "metal vertical-bar pedestrian railing on bridge",
+   "not a described model"
+  ]
+ },
+ "F1587": {
+  "number": 220,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car camera mast, roof rail or beacon"
+  ]
+ },
+ "F1499": {
+  "number": 221,
+  "category_en": "Barriers",
+  "code": "BAR_FEN_01",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "dark round post with white band and diagonal bar at path entrance, as nearby X chicanes"
+  ]
+ },
+ "F1688": {
+  "number": 222,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "welded-mesh boundary fence, not street furniture"
+  ]
+ },
+ "F1555": {
+  "number": 223,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car camera mast, roof rail or beacon"
+  ]
+ },
+ "F1477": {
+  "number": 224,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "wooden post-and-log rail barrier at path entrance",
+   "not a described model"
+  ]
+ },
+ "F1707": {
+  "number": 225,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1718": {
+  "number": 226,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1600": {
+  "number": 227,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "wooden picket railing along a path",
+   "not a described model"
+  ]
+ },
+ "F1601": {
+  "number": 228,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "wooden picket railing along a path",
+   "not a described model"
+  ]
+ },
+ "F1605": {
+  "number": 229,
+  "category_en": "Barriers",
+  "code": "BAR_FEN_02",
+  "confidence": "high",
+  "state": "good",
+  "evidence": [
+   "long red-white tubular swing gate with vertical members",
+   "intact"
+  ]
+ },
+ "F1708": {
+  "number": 230,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1602": {
+  "number": 231,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "wooden picket railing along a path",
+   "not a described model"
+  ]
+ },
+ "F1592": {
+  "number": 232,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "wooden picket railing along a path",
+   "not a described model"
+  ]
+ },
+ "F1647": {
+  "number": 233,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1721": {
+  "number": 234,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "concrete parapet with chevron delineator, not a barrier"
+  ]
+ },
+ "F1722": {
+  "number": 235,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
+  "evidence": [
+   "small concrete block or kerb at vehicle edge"
+  ]
+ },
+ "F1660": {
+  "number": 236,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1684": {
+  "number": 237,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
+  "evidence": [
+   "thin post inside vegetation, not a barrier"
+  ]
+ },
+ "F1648": {
+  "number": 238,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1727": {
+  "number": 239,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "kerb and verge only"
+  ]
+ },
+ "F1611": {
+  "number": 240,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1618": {
+  "number": 241,
+  "category_en": "Barriers",
+  "code": "BAR_FEN_02",
+  "confidence": "high",
+  "state": "good",
+  "evidence": [
+   "long red-white tubular swing gate with vertical members",
+   "intact"
+  ]
+ },
+ "F1661": {
+  "number": 242,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1662": {
+  "number": 243,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1714": {
+  "number": 244,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
+  "evidence": [
+   "small white marker or reflection at bonnet edge, not a barrier"
+  ]
+ },
+ "F1723": {
+  "number": 245,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
+  "evidence": [
+   "small white marker or reflection at bonnet edge, not a barrier"
+  ]
+ },
+ "F1724": {
+  "number": 246,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
+  "evidence": [
+   "small white marker or reflection at bonnet edge, not a barrier"
+  ]
+ },
+ "F1729": {
+  "number": 247,
+  "category_en": "Barriers",
+  "code": "POT_CHO_04",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "row of white round bollards along footway grouped in one box",
+   "bollards, not a barrier"
+  ]
+ },
+ "F1653": {
+  "number": 248,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1728": {
+  "number": 249,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
+  "evidence": [
+   "small white marker or reflection at bonnet edge, not a barrier"
+  ]
+ },
+ "F1468": {
+  "number": 250,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
+  "evidence": [
+   "small white marker or reflection at bonnet edge, not a barrier"
+  ]
+ },
+ "F1676": {
+  "number": 251,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "metal vertical-bar pedestrian railing on bridge",
+   "not a described model"
+  ]
+ },
+ "F1680": {
+  "number": 252,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "red-white chevron delineator post, not a barrier"
+  ]
+ },
+ "F1608": {
+  "number": 253,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1730": {
+  "number": 254,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "chevron direction sign, not a barrier"
+  ]
+ },
+ "F1631": {
+  "number": 255,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "wooden picket railing along a path",
+   "not a described model"
+  ]
+ },
+ "F1716": {
+  "number": 256,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1610": {
+  "number": 257,
+  "category_en": "Barriers",
+  "code": "BAR_FEN_02",
+  "confidence": "high",
+  "state": "good",
+  "evidence": [
+   "long red-white tubular swing gate with vertical members",
+   "intact"
+  ]
+ },
+ "F1726": {
+  "number": 258,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
+  "evidence": [
+   "small white marker or reflection at bonnet edge, not a barrier"
+  ]
+ },
+ "F1651": {
+  "number": 259,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1681": {
+  "number": 260,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "red-white chevron delineator post, not a barrier"
+  ]
+ },
+ "F1709": {
+  "number": 261,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1597": {
+  "number": 262,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "wooden picket railing along a path",
+   "not a described model"
+  ]
+ },
+ "F1678": {
+  "number": 263,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "metal vertical-bar pedestrian railing on bridge",
+   "not a described model"
+  ]
+ },
+ "F1685": {
+  "number": 264,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
+  "evidence": [
+   "thin post inside vegetation, not a barrier"
+  ]
+ },
+ "F1655": {
+  "number": 265,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1658": {
+  "number": 266,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1656": {
+  "number": 267,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1664": {
+  "number": 268,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1657": {
+  "number": 269,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1659": {
+  "number": 270,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1663": {
+  "number": 271,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1711": {
+  "number": 272,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1622": {
+  "number": 273,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1665": {
+  "number": 274,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1710": {
+  "number": 275,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1607": {
+  "number": 276,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1717": {
+  "number": 277,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1465": {
+  "number": 278,
+  "category_en": "Barriers",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "dark metal tube chicane bars across cycle path",
+   "not a described model"
+  ]
+ },
+ "F1679": {
+  "number": 279,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "red-white chevron delineator post, not a barrier"
+  ]
+ },
+ "F1686": {
+  "number": 280,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
+  "evidence": [
+   "mesh boundary fence post"
+  ]
+ },
+ "F1715": {
+  "number": 281,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road crash guardrail (glissière), not a pedestrian barrier"
+  ]
+ },
+ "F1719": {
+  "number": 282,
+  "category_en": "Barriers",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "temporary red-white plastic road-works blocks, not street furniture"
+  ]
+ },
+ "F1764": {
+  "number": 283,
+  "category_en": "Litter bins",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "four-wheel collection container with green lid, not a street litter bin"
+  ]
+ },
+ "F1760": {
+  "number": 284,
+  "category_en": "Litter bins",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car side mirror"
+  ]
+ },
+ "F1759": {
+  "number": 285,
+  "category_en": "Litter bins",
+  "code": "COR_CHO_01",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "dark open-top cylindrical bin with grey annular rim beside picnic area",
+   "no hood, canopy or rust shell"
+  ]
+ },
+ "F1757": {
+  "number": 286,
+  "category_en": "Litter bins",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "pedestrian with wheeled cart"
+  ]
+ },
+ "F1761": {
+  "number": 287,
+  "category_en": "Litter bins",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
+  "evidence": [
+   "small grey object at bonnet edge, likely reflection"
+  ]
+ },
+ "F1758": {
+  "number": 288,
+  "category_en": "Litter bins",
+  "code": "BAR_CHO_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "wooden post-and-log rail barrier at picnic area, not a bin",
+   "not a described barrier model"
+  ]
+ },
+ "F1756": {
+  "number": 289,
+  "category_en": "Litter bins",
+  "code": "COR_CHO_01",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "dark open-top cylindrical bin with grey annular rim beside picnic area",
+   "no hood, canopy or rust shell"
+  ]
+ },
+ "F1763": {
+  "number": 290,
+  "category_en": "Litter bins",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
+  "evidence": [
+   "green box behind grass at wall, private bin or cabinet"
+  ]
+ },
+ "F1762": {
+  "number": 291,
+  "category_en": "Litter bins",
+  "code": "REJECT",
+  "confidence": "low",
+  "state": null,
+  "evidence": [
+   "small dark box across the road, too small to confirm a litter bin"
+  ]
+ },
+ "F1843": {
+  "number": 292,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1863": {
+  "number": 293,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1899": {
+  "number": 294,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1976": {
+  "number": 295,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
+  "evidence": [
+   "dark shape in bonnet reflection"
+  ]
+ },
+ "F1992": {
+  "number": 296,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2176": {
+  "number": 297,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2198": {
+  "number": 298,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "wooden utility pole with angled lamp head on top",
+   "not the solar mast model"
+  ]
+ },
+ "F2234": {
+  "number": 299,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2300": {
+  "number": 300,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1851": {
+  "number": 301,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1895": {
+  "number": 302,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1898": {
+  "number": 303,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1973": {
+  "number": 304,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2011": {
+  "number": 305,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2025": {
+  "number": 306,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2102": {
+  "number": 307,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car wiper or trim at bonnet edge"
+  ]
+ },
+ "F2104": {
+  "number": 308,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2115": {
+  "number": 309,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2118": {
+  "number": 310,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2146": {
+  "number": 311,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2219": {
+  "number": 312,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2231": {
+  "number": 313,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2022": {
+  "number": 314,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2233": {
+  "number": 315,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2235": {
+  "number": 316,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark pole with single flat LED head on top",
+   "no separate tilted solar panel or side arm visible"
+  ]
+ },
+ "F2106": {
+  "number": 317,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car wiper or trim at bonnet edge"
+  ]
+ },
+ "F2232": {
+  "number": 318,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark pole with single flat LED head on top",
+   "no separate tilted solar panel or side arm visible"
+  ]
+ },
+ "F2237": {
+  "number": 319,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark pole with single flat LED head on top",
+   "no separate tilted solar panel or side arm visible"
+  ]
+ },
+ "F2029": {
+  "number": 320,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1929": {
+  "number": 321,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's camera mount or its reflection on the bonnet"
+  ]
+ },
+ "F2141": {
+  "number": 322,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's camera mount or its reflection on the bonnet"
+  ]
+ },
+ "F1854": {
+  "number": 323,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's camera mount or its reflection on the bonnet"
+  ]
+ },
+ "F2148": {
+  "number": 324,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's camera mount or its reflection on the bonnet"
+  ]
+ },
+ "F2225": {
+  "number": 325,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's camera mount or its reflection on the bonnet"
+  ]
+ },
+ "F2003": {
+  "number": 326,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's camera mount or its reflection on the bonnet"
+  ]
+ },
+ "F2073": {
+  "number": 327,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's camera mount or its reflection on the bonnet"
+  ]
+ },
+ "F2246": {
+  "number": 328,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1902": {
+  "number": 329,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's camera mount or its reflection on the bonnet"
+  ]
+ },
+ "F1986": {
+  "number": 330,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2094": {
+  "number": 331,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's camera mount or its reflection on the bonnet"
+  ]
+ },
+ "F2249": {
+  "number": 332,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's camera mount or its reflection on the bonnet"
+  ]
+ },
+ "F1963": {
+  "number": 333,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "information board on posts, not a lighting point"
+  ]
+ },
+ "F2105": {
+  "number": 334,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's camera mount or its reflection on the bonnet"
+  ]
+ },
+ "F2101": {
+  "number": 335,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's camera mount or its reflection on the bonnet"
+  ]
+ },
+ "F1907": {
+  "number": 336,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's camera mount or its reflection on the bonnet"
+  ]
+ },
+ "F2097": {
+  "number": 337,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's camera mount or its reflection on the bonnet"
+  ]
+ },
+ "F2187": {
+  "number": 338,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with head in vegetation",
+   "not the solar model"
+  ]
+ },
+ "F2228": {
+  "number": 339,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "low",
+  "state": null,
+  "evidence": [
+   "thin pole in trees, head not visible",
+   "category not established"
+  ]
+ },
+ "F2229": {
+  "number": 340,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2203": {
+  "number": 341,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "warning sign on a cranked pole, not a lighting point"
+  ]
+ },
+ "F1919": {
+  "number": 342,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F1840": {
+  "number": 343,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "signpost with direction or traffic signs, not a lighting point"
+  ]
+ },
+ "F1903": {
+  "number": 344,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2125": {
+  "number": 345,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2221": {
+  "number": 346,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2223": {
+  "number": 347,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2245": {
+  "number": 348,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2165": {
+  "number": 349,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "signpost with direction or traffic signs, not a lighting point"
+  ]
+ },
+ "F2250": {
+  "number": 350,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2207": {
+  "number": 351,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F1938": {
+  "number": 352,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "signpost with direction or traffic signs, not a lighting point"
+  ]
+ },
+ "F2098": {
+  "number": 353,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2248": {
+  "number": 354,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "slender lamp pole with flat head in clearest view",
+   "closest view is the car mast"
+  ]
+ },
+ "F2265": {
+  "number": 355,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2184": {
+  "number": 356,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "tall pole with two flat LED heads on short arms",
+   "not the solar model"
+  ]
+ },
+ "F1909": {
+  "number": 357,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2260": {
+  "number": 358,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2294": {
+  "number": 359,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2017": {
+  "number": 360,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2202": {
+  "number": 361,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2262": {
+  "number": 362,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2211": {
+  "number": 363,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2285": {
+  "number": 364,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2275": {
+  "number": 365,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2096": {
+  "number": 366,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2189": {
+  "number": 367,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2199": {
+  "number": 368,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2280": {
+  "number": 369,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2181": {
+  "number": 370,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "tall pole with two flat LED heads on short arms",
+   "not the solar model"
+  ]
+ },
+ "F1857": {
+  "number": 371,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2075": {
+  "number": 372,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F2124": {
+  "number": 373,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2281": {
+  "number": 374,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "thin dark pole with curved top among trees",
+   "head small"
+  ]
+ },
+ "F2085": {
+  "number": 375,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2205": {
+  "number": 376,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2015": {
+  "number": 377,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2076": {
+  "number": 378,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1866": {
+  "number": 379,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1886": {
+  "number": 380,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2077": {
+  "number": 381,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2110": {
+  "number": 382,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2153": {
+  "number": 383,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2256": {
+  "number": 384,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F1868": {
+  "number": 385,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2218": {
+  "number": 386,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2230": {
+  "number": 387,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1847": {
+  "number": 388,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1853": {
+  "number": 389,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1881": {
+  "number": 390,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1888": {
+  "number": 391,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1889": {
+  "number": 392,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1954": {
+  "number": 393,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1975": {
+  "number": 394,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2000": {
+  "number": 395,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2012": {
+  "number": 396,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2034": {
+  "number": 397,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2035": {
+  "number": 398,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2060": {
+  "number": 399,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2071": {
+  "number": 400,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2093": {
+  "number": 401,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2107": {
+  "number": 402,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2119": {
+  "number": 403,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2145": {
+  "number": 404,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2150": {
+  "number": 405,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2272": {
+  "number": 406,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "slender lamp pole with flat head in clearest view",
+   "closest view is the car mast"
+  ]
+ },
+ "F2063": {
+  "number": 407,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2117": {
+  "number": 408,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2123": {
+  "number": 409,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2214": {
+  "number": 410,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2216": {
+  "number": 411,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F1864": {
+  "number": 412,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1880": {
+  "number": 413,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1901": {
+  "number": 414,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1918": {
+  "number": 415,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1941": {
+  "number": 416,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1979": {
+  "number": 417,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2069": {
+  "number": 418,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2070": {
+  "number": 419,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2086": {
+  "number": 420,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2099": {
+  "number": 421,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2226": {
+  "number": 422,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2253": {
+  "number": 423,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F1970": {
+  "number": 424,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1972": {
+  "number": 425,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2210": {
+  "number": 426,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2267": {
+  "number": 427,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1879": {
+  "number": 428,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1908": {
+  "number": 429,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1913": {
+  "number": 430,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2209": {
+  "number": 431,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "low",
+  "state": null,
+  "evidence": [
+   "thin post with white strip in hedge, no lamp head visible"
+  ]
+ },
+ "F2238": {
+  "number": 432,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2259": {
+  "number": 433,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1884": {
+  "number": 434,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1912": {
+  "number": 435,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2179": {
+  "number": 436,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "back of road sign on pole, not a lighting point"
+  ]
+ },
+ "F2200": {
+  "number": 437,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2161": {
+  "number": 438,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2158": {
+  "number": 439,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "back of road sign on pole, not a lighting point"
+  ]
+ },
+ "F2067": {
+  "number": 440,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2264": {
+  "number": 441,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F1856": {
+  "number": 442,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1862": {
+  "number": 443,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1906": {
+  "number": 444,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1924": {
+  "number": 445,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1965": {
+  "number": 446,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1969": {
+  "number": 447,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2001": {
+  "number": 448,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2004": {
+  "number": 449,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2028": {
+  "number": 450,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2052": {
+  "number": 451,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2054": {
+  "number": 452,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2074": {
+  "number": 453,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2100": {
+  "number": 454,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2149": {
+  "number": 455,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2191": {
+  "number": 456,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2049": {
+  "number": 457,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2254": {
+  "number": 458,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
+  "evidence": [
+   "wooden H-frame power-line poles with crossarm, no luminaire visible"
+  ]
+ },
+ "F2023": {
+  "number": 459,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1877": {
+  "number": 460,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1887": {
+  "number": 461,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1931": {
+  "number": 462,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1997": {
+  "number": 463,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2010": {
+  "number": 464,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2055": {
+  "number": 465,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2080": {
+  "number": 466,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2083": {
+  "number": 467,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2089": {
+  "number": 468,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2114": {
+  "number": 469,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2128": {
+  "number": 470,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2131": {
+  "number": 471,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2139": {
+  "number": 472,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2144": {
+  "number": 473,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2155": {
+  "number": 474,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2244": {
+  "number": 475,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender lamp pole with single head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2269": {
+  "number": 476,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1842": {
+  "number": 477,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "direction signpost, not a lighting point"
+  ]
+ },
+ "F1867": {
+  "number": 478,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1921": {
+  "number": 479,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1927": {
+  "number": 480,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1983": {
+  "number": 481,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2021": {
+  "number": 482,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2039": {
+  "number": 483,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2061": {
+  "number": 484,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2116": {
+  "number": 485,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2151": {
+  "number": 486,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1852": {
+  "number": 487,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1874": {
+  "number": 488,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1930": {
+  "number": 489,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1968": {
+  "number": 490,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1989": {
+  "number": 491,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2043": {
+  "number": 492,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2109": {
+  "number": 493,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2111": {
+  "number": 494,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2142": {
+  "number": 495,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2284": {
+  "number": 496,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1849": {
+  "number": 497,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1858": {
+  "number": 498,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1865": {
+  "number": 499,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1904": {
+  "number": 500,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1914": {
+  "number": 501,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1933": {
+  "number": 502,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1935": {
+  "number": 503,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1995": {
+  "number": 504,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1998": {
+  "number": 505,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2005": {
+  "number": 506,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2007": {
+  "number": 507,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2014": {
+  "number": 508,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2045": {
+  "number": 509,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2127": {
+  "number": 510,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2132": {
+  "number": 511,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2154": {
+  "number": 512,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2186": {
+  "number": 513,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2240": {
+  "number": 514,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2277": {
+  "number": 515,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2031": {
+  "number": 516,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2273": {
+  "number": 517,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "slender dark pole with small head at top along path, partly in hedge"
+  ]
+ },
+ "F1915": {
+  "number": 518,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1958": {
+  "number": 519,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1991": {
+  "number": 520,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2006": {
+  "number": 521,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2030": {
+  "number": 522,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2033": {
+  "number": 523,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2036": {
+  "number": 524,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2047": {
+  "number": 525,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2048": {
+  "number": 526,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2078": {
+  "number": 527,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2138": {
+  "number": 528,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2140": {
+  "number": 529,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2157": {
+  "number": 530,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2040": {
+  "number": 531,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2289": {
+  "number": 532,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2026": {
+  "number": 533,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2171": {
+  "number": 534,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2215": {
+  "number": 535,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F1951": {
+  "number": 536,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1950": {
+  "number": 537,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2066": {
+  "number": 538,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2122": {
+  "number": 539,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2175": {
+  "number": 540,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2183": {
+  "number": 541,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "tall pole with two LED heads on short arms",
+   "not the solar model"
+  ]
+ },
+ "F2204": {
+  "number": 542,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2282": {
+  "number": 543,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F1977": {
+  "number": 544,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2134": {
+  "number": 545,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F2136": {
+  "number": 546,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1845": {
+  "number": 547,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1855": {
+  "number": 548,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2050": {
+  "number": 549,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2056": {
+  "number": 550,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1916": {
+  "number": 551,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1920": {
+  "number": 552,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1925": {
+  "number": 553,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1988": {
+  "number": 554,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "sign panel on posts in woodland, not a lighting point"
+  ]
+ },
+ "F1959": {
+  "number": 555,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's orange roof beacon"
+  ]
+ },
+ "F1870": {
+  "number": 556,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1893": {
+  "number": 557,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1939": {
+  "number": 558,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1947": {
+  "number": 559,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1980": {
+  "number": 560,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2255": {
+  "number": 561,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
+  "evidence": [
+   "wooden power-line pole with insulators, no luminaire visible"
+  ]
+ },
+ "F2271": {
+  "number": 562,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2195": {
+  "number": 563,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "low",
+  "state": null,
+  "evidence": [
+   "thin pole in trees, no lamp head visible"
+  ]
+ },
+ "F2217": {
+  "number": 564,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2019": {
+  "number": 565,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2087": {
+  "number": 566,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2257": {
+  "number": 567,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1846": {
+  "number": 568,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1905": {
+  "number": 569,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1926": {
+  "number": 570,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1953": {
+  "number": 571,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1957": {
+  "number": 572,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1962": {
+  "number": 573,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2081": {
+  "number": 574,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2164": {
+  "number": 575,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2170": {
+  "number": 576,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "sign or marker post, not a lighting point"
+  ]
+ },
+ "F2174": {
+  "number": 577,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2182": {
+  "number": 578,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "tall grey pole with two LED heads on short arms",
+   "not the solar model"
+  ]
+ },
+ "F1894": {
+  "number": 579,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1917": {
+  "number": 580,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1982": {
+  "number": 581,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1994": {
+  "number": 582,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2243": {
+  "number": 583,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2046": {
+  "number": 584,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1896": {
+  "number": 585,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "sign or marker post, not a lighting point"
+  ]
+ },
+ "F2042": {
+  "number": 586,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2129": {
+  "number": 587,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1841": {
+  "number": 588,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F1873": {
+  "number": 589,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1876": {
+  "number": 590,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1946": {
+  "number": 591,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2018": {
+  "number": 592,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2024": {
+  "number": 593,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2058": {
+  "number": 594,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2084": {
+  "number": 595,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2126": {
+  "number": 596,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2137": {
+  "number": 597,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2168": {
+  "number": 598,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F2297": {
+  "number": 599,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "grey concrete or metal pole with small lamp head on short arm, overhead cable attached",
+   "not the solar model"
+  ]
+ },
+ "F1844": {
+  "number": 600,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F1900": {
+  "number": 601,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1937": {
+  "number": 602,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F1960": {
+  "number": 603,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F2051": {
+  "number": 604,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F2082": {
+  "number": 605,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F2213": {
+  "number": 606,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2279": {
+  "number": 607,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2298": {
+  "number": 608,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "grey concrete or metal pole with small lamp head on short arm, overhead cable attached",
+   "not the solar model"
+  ]
+ },
+ "F1952": {
+  "number": 609,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F1956": {
+  "number": 610,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2130": {
+  "number": 611,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F2152": {
+  "number": 612,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F2290": {
+  "number": 613,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F1936": {
+  "number": 614,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F1944": {
+  "number": 615,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F1967": {
+  "number": 616,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F1971": {
+  "number": 617,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F1985": {
+  "number": 618,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F2027": {
+  "number": 619,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2108": {
+  "number": 620,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F2160": {
+  "number": 621,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2274": {
+  "number": 622,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F1861": {
+  "number": 623,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F1981": {
+  "number": 624,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F1996": {
+  "number": 625,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F2009": {
+  "number": 626,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F1859": {
+  "number": 627,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F1885": {
+  "number": 628,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F1891": {
+  "number": 629,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1910": {
+  "number": 630,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1911": {
+  "number": 631,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1928": {
+  "number": 632,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
+  "evidence": [
+   "road-sign post in vegetation, not a lighting point"
+  ]
+ },
+ "F1932": {
+  "number": 633,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1942": {
+  "number": 634,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1978": {
+  "number": 635,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1984": {
+  "number": 636,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F2057": {
+  "number": 637,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F2092": {
+  "number": 638,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F2133": {
+  "number": 639,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F2143": {
+  "number": 640,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F2167": {
+  "number": 641,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F2173": {
+  "number": 642,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F1872": {
+  "number": 643,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "warning sign on a post, not a lighting point"
+  ]
+ },
+ "F1892": {
+  "number": 644,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1922": {
+  "number": 645,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F1964": {
+  "number": 646,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F2037": {
+  "number": 647,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F2065": {
+  "number": 648,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2090": {
+  "number": 649,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2156": {
+  "number": 650,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2177": {
+  "number": 651,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2247": {
+  "number": 652,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F1848": {
+  "number": 653,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1890": {
+  "number": 654,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1897": {
+  "number": 655,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1948": {
+  "number": 656,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2044": {
+  "number": 657,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2079": {
+  "number": 658,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2120": {
+  "number": 659,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2208": {
+  "number": 660,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with head at top, against trees"
+  ]
+ },
+ "F2227": {
+  "number": 661,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of camera mount on the bonnet"
+  ]
+ },
+ "F2292": {
+  "number": 662,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1850": {
+  "number": 663,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1882": {
+  "number": 664,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1923": {
+  "number": 665,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2016": {
+  "number": 666,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2020": {
+  "number": 667,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2038": {
+  "number": 668,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2068": {
+  "number": 669,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2072": {
+  "number": 670,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2112": {
+  "number": 671,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2163": {
+  "number": 672,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2190": {
+  "number": 673,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2242": {
+  "number": 674,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2270": {
+  "number": 675,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1993": {
+  "number": 676,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1999": {
+  "number": 677,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2053": {
+  "number": 678,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2295": {
+  "number": 679,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2185": {
+  "number": 680,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2303": {
+  "number": 681,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
+  "evidence": [
+   "concrete utility pole with overhead cables, no luminaire visible"
+  ]
+ },
+ "F1875": {
+  "number": 682,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "leaning signpost with sign panel, not a lighting point"
+  ]
+ },
+ "F2252": {
+  "number": 683,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2276": {
+  "number": 684,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2206": {
+  "number": 685,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2224": {
+  "number": 686,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2013": {
+  "number": 687,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2062": {
+  "number": 688,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2212": {
+  "number": 689,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2222": {
+  "number": 690,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2261": {
+  "number": 691,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2266": {
+  "number": 692,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F1974": {
+  "number": 693,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2241": {
+  "number": 694,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2293": {
+  "number": 695,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F1945": {
+  "number": 696,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1966": {
+  "number": 697,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1871": {
+  "number": 698,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1878": {
+  "number": 699,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1943": {
+  "number": 700,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1949": {
+  "number": 701,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2032": {
+  "number": 702,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2064": {
+  "number": 703,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2172": {
+  "number": 704,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2178": {
+  "number": 705,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2193": {
+  "number": 706,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2196": {
+  "number": 707,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2201": {
+  "number": 708,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2288": {
+  "number": 709,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1961": {
+  "number": 710,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2113": {
+  "number": 711,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2121": {
+  "number": 712,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2236": {
+  "number": 713,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2263": {
+  "number": 714,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2296": {
+  "number": 715,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2162": {
+  "number": 716,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "low",
+  "state": null,
+  "evidence": [
+   "short post with small solar panel and equipment box, no luminaire",
+   "likely a sensor or sign, not a lighting mast"
+  ]
+ },
+ "F1940": {
+  "number": 717,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2301": {
+  "number": 718,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "high",
+  "state": "good",
+  "evidence": [
+   "grey pole with twin decorative globe-cap lanterns on curved arms",
+   "not the solar model"
+  ]
+ },
+ "F2299": {
+  "number": 719,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "slender pale pole with small head at top in front of houses"
+  ]
+ },
+ "F2103": {
+  "number": 720,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2220": {
+  "number": 721,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2159": {
+  "number": 722,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "sign panels on a post, not a lighting point"
+  ]
+ },
+ "F2258": {
+  "number": 723,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
+  "evidence": [
+   "wooden power-line poles, no luminaire visible"
+  ]
+ },
+ "F1869": {
+  "number": 724,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
+  "evidence": [
+   "marker post in field, no lamp head"
+  ]
+ },
+ "F2091": {
+  "number": 725,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2059": {
+  "number": 726,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2095": {
+  "number": 727,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2135": {
+  "number": 728,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2169": {
+  "number": 729,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2268": {
+  "number": 730,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2283": {
+  "number": 731,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "low",
+  "state": null,
+  "evidence": [
+   "thin post on verge, no lamp head visible"
+  ]
+ },
+ "F1934": {
+  "number": 732,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1955": {
+  "number": 733,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1990": {
+  "number": 734,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "road sign on post in vegetation"
+  ]
+ },
+ "F2088": {
+  "number": 735,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2180": {
+  "number": 736,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "tall grey pole with two heads on short arms",
+   "not the solar model"
+  ]
+ },
+ "F2302": {
+  "number": 737,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "high",
+  "state": "good",
+  "evidence": [
+   "grey pole with twin decorative globe-cap lanterns on curved arms",
+   "not the solar model"
+  ]
+ },
+ "F1860": {
+  "number": 738,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1883": {
+  "number": 739,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2002": {
+  "number": 740,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2008": {
+  "number": 741,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2287": {
+  "number": 742,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2239": {
+  "number": 743,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F1987": {
+  "number": 744,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2041": {
+  "number": 745,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2147": {
+  "number": 746,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2188": {
+  "number": 747,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "slender dark pole with small head at top among trees"
+  ]
+ },
+ "F2192": {
+  "number": 748,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2194": {
+  "number": 749,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2197": {
+  "number": 750,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "low",
+  "state": null,
+  "evidence": [
+   "thin dark post in trees, no lamp head visible"
+  ]
+ },
+ "F2251": {
+  "number": 751,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2278": {
+  "number": 752,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car's own camera mast"
+  ]
+ },
+ "F2286": {
+  "number": 753,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "slender dark pole with small head at top among trees"
+  ]
+ },
+ "F2166": {
+  "number": 754,
+  "category_en": "Lighting points",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "sign panels on post in park, not a lighting point"
+  ]
+ },
+ "F2291": {
+  "number": 755,
+  "category_en": "Lighting points",
+  "code": "ECL_SIE_06",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "slender dark lamp pole with single flat LED head on top",
+   "no tilted solar panel"
+  ]
+ },
+ "F2312": {
+  "number": 756,
+  "category_en": "Bollards",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "blue-white chevron delineator panel (bent), road sign not a bollard"
+  ]
+ },
+ "F2306": {
+  "number": 757,
+  "category_en": "Bollards",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
+  "evidence": [
+   "red latch post with cross arm beside red-white swing gate",
+   "part of the gate, not a bollard"
+  ]
+ },
+ "F2313": {
+  "number": 758,
+  "category_en": "Bollards",
+  "code": "POT_FEN_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top in a row along cycle lane",
+   "flared base not resolved"
+  ]
+ },
+ "F2308": {
+  "number": 759,
+  "category_en": "Bollards",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "red-white hazard delineator panel, road sign not a bollard"
+  ]
+ },
+ "F2311": {
+  "number": 760,
+  "category_en": "Bollards",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "blue-white chevron delineator panel, road sign not a bollard"
+  ]
+ },
+ "F2307": {
+  "number": 761,
+  "category_en": "Bollards",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
+  "evidence": [
+   "red latch post with cross arm beside red-white swing gate",
+   "part of the gate, not a bollard"
+  ]
+ },
+ "F2320": {
+  "number": 762,
+  "category_en": "Bollards",
+  "code": "POT_FEN_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top in a row along cycle lane",
+   "flared base not resolved"
+  ]
+ },
+ "F2324": {
+  "number": 763,
+  "category_en": "Bollards",
+  "code": "POT_FEN_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top in a row along cycle lane",
+   "flared base not resolved"
+  ]
+ },
+ "F2316": {
+  "number": 764,
+  "category_en": "Bollards",
+  "code": "POT_FEN_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top in a row along cycle lane",
+   "flared base not resolved"
+  ]
+ },
+ "F2330": {
+  "number": 765,
+  "category_en": "Bollards",
+  "code": "POT_FEN_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top in a row along cycle lane",
+   "flared base not resolved"
+  ]
+ },
+ "F2310": {
+  "number": 766,
+  "category_en": "Bollards",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "blue-white chevron delineator panel, road sign not a bollard"
+  ]
+ },
+ "F2334": {
+  "number": 767,
+  "category_en": "Bollards",
+  "code": "POT_FEN_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top in a row along cycle lane",
+   "flared base not resolved"
+  ]
+ },
+ "F2338": {
+  "number": 768,
+  "category_en": "Bollards",
+  "code": "POT_FEN_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
+   "flared base not resolved"
+  ]
+ },
+ "F2314": {
+  "number": 769,
+  "category_en": "Bollards",
+  "code": "POT_FEN_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
+   "flared base not resolved"
+  ]
+ },
+ "F2332": {
+  "number": 770,
+  "category_en": "Bollards",
+  "code": "POT_FEN_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
+   "flared base not resolved"
+  ]
+ },
+ "F2315": {
+  "number": 771,
+  "category_en": "Bollards",
+  "code": "POT_FEN_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
+   "flared base not resolved"
+  ]
+ },
+ "F2339": {
+  "number": 772,
+  "category_en": "Bollards",
+  "code": "POT_FEN_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
+   "flared base not resolved"
+  ]
+ },
+ "F2340": {
+  "number": 773,
+  "category_en": "Bollards",
+  "code": "POT_FEN_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
+   "flared base not resolved"
+  ]
+ },
+ "F2337": {
+  "number": 774,
+  "category_en": "Bollards",
+  "code": "POT_FEN_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
+   "flared base not resolved"
+  ]
+ },
+ "F2309": {
+  "number": 775,
+  "category_en": "Bollards",
+  "code": "POT_FEN_04",
+  "confidence": "low",
+  "state": "damaged",
+  "evidence": [
+   "dark square-section post with flat cap on traffic island",
+   "visibly leaning in two views"
+  ]
+ },
+ "F2317": {
+  "number": 776,
+  "category_en": "Bollards",
+  "code": "POT_FEN_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
+   "flared base not resolved"
+  ]
+ },
+ "F2327": {
+  "number": 777,
+  "category_en": "Bollards",
+  "code": "POT_FEN_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
+   "flared base not resolved"
+  ]
+ },
+ "F2336": {
+  "number": 778,
+  "category_en": "Bollards",
+  "code": "POT_FEN_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
+   "flared base not resolved"
+  ]
+ },
+ "F2329": {
+  "number": 779,
+  "category_en": "Bollards",
+  "code": "POT_FEN_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
+   "flared base not resolved"
+  ]
+ },
+ "F2322": {
+  "number": 780,
+  "category_en": "Bollards",
+  "code": "POT_FEN_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
+   "flared base not resolved"
+  ]
+ },
+ "F2318": {
+  "number": 781,
+  "category_en": "Bollards",
+  "code": "POT_FEN_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
+   "flared base not resolved"
+  ]
+ },
+ "F2319": {
+  "number": 782,
+  "category_en": "Bollards",
+  "code": "POT_FEN_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
+   "flared base not resolved"
+  ]
+ },
+ "F2321": {
+  "number": 783,
+  "category_en": "Bollards",
+  "code": "POT_FEN_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
+   "flared base not resolved"
+  ]
+ },
+ "F2335": {
+  "number": 784,
+  "category_en": "Bollards",
+  "code": "POT_FEN_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
+   "flared base not resolved"
+  ]
+ },
+ "F2305": {
+  "number": 785,
+  "category_en": "Bollards",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
+  "evidence": [
+   "end post of wooden log-rail barrier, counted with the barrier"
+  ]
+ },
+ "F2304": {
+  "number": 786,
+  "category_en": "Bollards",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
+  "evidence": [
+   "end post of wooden log-rail barrier, counted with the barrier"
+  ]
+ },
+ "F2333": {
+  "number": 787,
+  "category_en": "Bollards",
+  "code": "POT_FEN_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
+   "flared base not resolved"
+  ]
+ },
+ "F2325": {
+  "number": 788,
+  "category_en": "Bollards",
+  "code": "POT_FEN_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
+   "flared base not resolved"
+  ]
+ },
+ "F2323": {
+  "number": 789,
+  "category_en": "Bollards",
+  "code": "POT_FEN_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
+   "flared base not resolved"
+  ]
+ },
+ "F2331": {
+  "number": 790,
+  "category_en": "Bollards",
+  "code": "POT_FEN_03",
+  "confidence": "low",
+  "state": "good",
+  "evidence": [
+   "pale cylindrical delineator bollard with stacked grey reflective bands and rounded top, in a row along cycle lane",
+   "flared base not resolved"
+  ]
+ },
+ "F2326": {
+  "number": 791,
+  "category_en": "Bollards",
+  "code": "REJECT",
+  "confidence": "low",
+  "state": null,
+  "evidence": [
+   "box on empty pavement in front of wall",
+   "nearest bollard is a separate feature"
+  ]
+ },
+ "F2328": {
+  "number": 792,
+  "category_en": "Bollards",
+  "code": "REJECT",
+  "confidence": "low",
+  "state": null,
+  "evidence": [
+   "box on empty pavement in front of wall",
+   "nearest bollard is a separate feature"
+  ]
+ },
+ "F2364": {
+  "number": 793,
+  "category_en": "Bicycle racks and shelters",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car camera mast and a cyclist"
+  ]
+ },
+ "F2341": {
+  "number": 794,
+  "category_en": "Speed bumps",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car wiper or trim at bonnet edge"
+  ]
+ },
+ "F2350": {
+  "number": 795,
+  "category_en": "Speed bumps",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail and beacon"
+  ]
+ },
+ "F2353": {
+  "number": 796,
+  "category_en": "Speed bumps",
+  "code": "REJECT",
+  "confidence": "medium",
+  "state": null,
+  "evidence": [
+   "single painted transverse line on path, no shark teeth, ramp or surface change"
+  ]
+ },
+ "F2351": {
+  "number": 797,
+  "category_en": "Speed bumps",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "survey car roof rail and beacon"
+  ]
+ },
+ "F2346": {
+  "number": 798,
+  "category_en": "Speed bumps",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection on the bonnet, no raised road section"
+  ]
+ },
+ "F2343": {
+  "number": 799,
+  "category_en": "Speed bumps",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection on the bonnet, no raised road section"
+  ]
+ },
+ "F2345": {
+  "number": 800,
+  "category_en": "Speed bumps",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection on the bonnet, no raised road section"
+  ]
+ },
+ "F2354": {
+  "number": 801,
+  "category_en": "Speed bumps",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of the camera mount on the bonnet"
+  ]
+ },
+ "F2342": {
+  "number": 802,
+  "category_en": "Speed bumps",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of the camera mount on the bonnet"
+  ]
+ },
+ "F2355": {
+  "number": 803,
+  "category_en": "Speed bumps",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection on the bonnet, no raised road section"
+  ]
+ },
+ "F2344": {
+  "number": 804,
+  "category_en": "Speed bumps",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of the camera mount on the bonnet"
+  ]
+ },
+ "F2348": {
+  "number": 805,
+  "category_en": "Speed bumps",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of the camera mount on the bonnet"
+  ]
+ },
+ "F2349": {
+  "number": 806,
+  "category_en": "Speed bumps",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of the camera mount on the bonnet"
+  ]
+ },
+ "F2347": {
+  "number": 807,
+  "category_en": "Speed bumps",
+  "code": "REJECT",
+  "confidence": "high",
+  "state": null,
+  "evidence": [
+   "reflection of the camera mount on the bonnet"
+  ]
+ },
+ "F2352": {
+  "number": 808,
+  "category_en": "Speed bumps",
+  "code": "RAL01",
+  "confidence": "medium",
+  "state": "good",
+  "evidence": [
+   "row of five shark-teeth triangles across the lane beside a pedestrian-crossing sign",
+   "far ramp and top length not visible",
+   "markings crisp"
+  ]
+ }
+}

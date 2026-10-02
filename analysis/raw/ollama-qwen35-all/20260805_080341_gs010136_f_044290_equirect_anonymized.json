@@ -1,0 +1,256 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 25.74,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 3.61,
+   "prompt_tokens": 605,
+   "completion_tokens": 65,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 319, 875, 469]},{\"category\": \"Trees\", \"bbox_2d\": [0, 319, 160, 504]}]}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 2.11,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 7.14,
+   "prompt_tokens": 605,
+   "completion_tokens": 208,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [145, 378, 746, 549]},{\"category\": \"Trees\", \"bbox_2d\": [0, 398, 34, 511]},{\"category\": \"Lighting points\", \"bbox_2d\": [914, 432, 967, 664]},{\"category\": \"Lighting points\", \"bbox_2d\": [517, 600, 561, 708]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [243, 590, 267, 624]},{\"category\": \"Barriers\", \"bbox_2d\": [0, 618, 1000, 1000]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 12.88,
+   "prompt_tokens": 605,
+   "completion_tokens": 430,
+   "raw_text": "{\"objects\": [{\"category\": \"Lighting points\", \"bbox_2d\": [794, 398, 826, 615]}, {\"category\": \"Trees\", \"bbox_2d\": [850, 400, 999, 508]}, {\"category\": \"Trees\", \"bbox_2d\": [0, 473, 19, 508]}, {\"category\": \"Trees\", \"bbox_2d\": [106, 473, 156, 508]}, {\"category\": \"Trees\", \"bbox_2d\": [348, 473, 389, 500]}, {\"category\": \"Trees\", \"bbox_2d\": [473, 473, 516, 496]}, {\"category\": \"Trees\", \"bbox_2d\": [526, 473, 568, 496]}, {\"category\": \"Trees\", \"bbox_2d\": [570, 473, 612, 496]}, {\"category\": \"Trees\", \"bbox_2d\": [612, 473, 654, 496]}, {\"category\": \"Trees\", \"bbox_2d\": [654, 473, 680, 496]}, {\"category\": \"Trees\", \"bbox_2d\": [680, 473, 712, 496]}, {\"category\": \"Trees\", \"bbox_2d\": [712, 473, 750, 496]}, {\"category\": \"Trees\", \"bbox_2d\": [750, 473, 780, 496]}]}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Barriers",
+   "box": [
+    880,
+    554,
+    1480,
+    760
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    0,
+    392,
+    525,
+    473
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    967,
+    424,
+    1328,
+    516
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    0,
+    392,
+    96,
+    492
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1830,
+    436,
+    1919,
+    494
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1428,
+    453,
+    1460,
+    579
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1796,
+    435,
+    1816,
+    552
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1190,
+    544,
+    1217,
+    602
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    435,
+    900,
+    496
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1384,
+    475,
+    1414,
+    494
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1529,
+    475,
+    1553,
+    490
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1604,
+    475,
+    1630,
+    488
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1636,
+    475,
+    1661,
+    488
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1662,
+    475,
+    1687,
+    488
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1687,
+    475,
+    1712,
+    488
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1747,
+    475,
+    1770,
+    488
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1026,
+    539,
+    1040,
+    557
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1728,
+    475,
+    1747,
+    488
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1770,
+    475,
+    1788,
+    488
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    475,
+    1331,
+    494
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1712,
+    475,
+    1728,
+    488
+   ]
+  }
+ ]
+}

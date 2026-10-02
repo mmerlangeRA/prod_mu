@@ -1,0 +1,130 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 13.73,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 5.08,
+   "prompt_tokens": 605,
+   "completion_tokens": 125,
+   "raw_text": "{\"objects\": [{\"category\": \"Benches\", \"bbox_2d\": [123, 475, 176, 508]},{\"category\": \"Trees\", \"bbox_2d\": [0, 109, 138, 495]},{\"category\": \"Trees\", \"bbox_2d\": [128, 1, 999, 556]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 70, 128]}]}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 2.13,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 4.39,
+   "prompt_tokens": 605,
+   "completion_tokens": 97,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 734]}, {\"category\": \"Trees\", \"bbox_2d\": [0, 516, 68, 734]}, {\"category\": \"Lighting points\", \"bbox_2d\": [914, 431, 961, 734]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 2.13,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    220,
+    1479,
+    616
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    77,
+    221,
+    599,
+    520
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    0,
+    279,
+    83,
+    487
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    499,
+    921,
+    616
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1428,
+    453,
+    1457,
+    616
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    0,
+    220,
+    42,
+    289
+   ]
+  },
+  {
+   "category": "Benches",
+   "box": [
+    74,
+    476,
+    106,
+    494
+   ]
+  }
+ ]
+}

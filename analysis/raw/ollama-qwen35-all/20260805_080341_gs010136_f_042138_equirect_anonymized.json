@@ -1,0 +1,212 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 21.5,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [
+  {
+   "category": "Manholes",
+   "box": [
+    1230,
+    700,
+    1297,
+    736
+   ]
+  },
+  {
+   "category": "Ashtrays",
+   "box": [
+    1278,
+    666,
+    1335,
+    698
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1280,
+    669,
+    1336,
+    700
+   ]
+  }
+ ],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 3.53,
+   "prompt_tokens": 605,
+   "completion_tokens": 62,
+   "raw_text": "{\n    \"objects\": [\n        {\n            \"category\": \"Trees\",\n            \"bbox_2d\": [\n                0,\n                0,\n                998,\n                675\n            ]\n        }\n    ]\n}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 7.94,
+   "prompt_tokens": 605,
+   "completion_tokens": 241,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 734]},{\"category\": \"Trees\", \"bbox_2d\": [561, 0, 661, 690]},{\"category\": \"Trees\", \"bbox_2d\": [835, 0, 998, 588]},{\"category\": \"Trees\", \"bbox_2d\": [748, 0, 855, 581]},{\"category\": \"Trees\", \"bbox_2d\": [658, 0, 753, 590]},{\"category\": \"Trees\", \"bbox_2d\": [445, 0, 565, 658]},{\"category\": \"Trees\", \"bbox_2d\": [218, 0, 355, 575]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 240, 490]}]}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 6.37,
+   "prompt_tokens": 605,
+   "completion_tokens": 175,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 634]},{\"category\": \"Lighting points\", \"bbox_2d\": [917, 430, 975, 840]},{\"category\": \"Manholes\", \"bbox_2d\": [584, 888, 695, 955]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [667, 831, 760, 888]},{\"category\": \"Ashtrays\", \"bbox_2d\": [664, 825, 759, 886]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 3.66,
+   "prompt_tokens": 605,
+   "completion_tokens": 67,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [58, 97, 463, 612]}, {\"category\": \"Trees\", \"bbox_2d\": [608, 149, 999, 500]}]}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    220,
+    1039,
+    616
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    0,
+    220,
+    599,
+    584
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    220,
+    1479,
+    562
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1355,
+    272,
+    1598,
+    550
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1685,
+    300,
+    1919,
+    490
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    220,
+    584,
+    485
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    941,
+    220,
+    1039,
+    538
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    707,
+    220,
+    779,
+    575
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    571,
+    220,
+    653,
+    530
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    777,
+    220,
+    837,
+    593
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    889,
+    220,
+    953,
+    534
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    835,
+    220,
+    892,
+    539
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1430,
+    452,
+    1465,
+    674
+   ]
+  }
+ ]
+}

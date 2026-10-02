@@ -1,0 +1,121 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 13.18,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 2.09,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 2.08,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 6.89,
+   "prompt_tokens": 605,
+   "completion_tokens": 199,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 734]},{\"category\": \"Lighting points\", \"bbox_2d\": [516, 600, 562, 692]},{\"category\": \"Lighting points\", \"bbox_2d\": [242, 592, 268, 630]},{\"category\": \"Barriers\", \"bbox_2d\": [0, 627, 81, 1000]},{\"category\": \"Barriers\", \"bbox_2d\": [428, 605, 890, 743]},{\"category\": \"Lighting points\", \"bbox_2d\": [912, 429, 975, 640]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 2.12,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    220,
+    1479,
+    616
+   ]
+  },
+  {
+   "category": "Barriers",
+   "box": [
+    1137,
+    547,
+    1414,
+    621
+   ]
+  },
+  {
+   "category": "Barriers",
+   "box": [
+    880,
+    559,
+    929,
+    760
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1427,
+    452,
+    1465,
+    566
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1190,
+    544,
+    1217,
+    594
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1025,
+    540,
+    1041,
+    560
+   ]
+  }
+ ]
+}

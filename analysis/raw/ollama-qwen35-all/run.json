@@ -1,0 +1,5 @@
+{
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "prompt": "Find street equipment in this crop of a street panorama taken from a camera on a car roof.\nCategories (use exactly these names): Manholes; Drainage grates and stormwater inlets; Trees; Planters; Decorative features; Bus shelters; Benches; Parking meters; Advertising displays; Public toilets; Bicycle racks and shelters; Ashtrays; Litter bins; Waste and recycling drop-off points; Barriers; Fire hydrants; Bollards; Speed bumps; Lighting points.\nRules:\n- One box per physical object; a row of bollards gives one box per bollard. Never invent repeated boxes.\n- Bicycle racks are \"Bicycle racks and shelters\", not bollards. A pole carrying a lamp is a lighting point, not a bollard.\n- Zebra stripes alone are not a speed bump; report a speed bump only with shark-teeth triangles, a ramp or a raised section.\n- Ignore the car (roof, bonnet, mirrors, beacon, camera mount) and reflections on it. Ignore private bins and fences.\nOutput JSON: {\"objects\": [{\"category\": str, \"bbox_2d\": [x1, y1, x2, y2]}]} with coordinates on a 0-1000 scale. Empty list if nothing."
+}

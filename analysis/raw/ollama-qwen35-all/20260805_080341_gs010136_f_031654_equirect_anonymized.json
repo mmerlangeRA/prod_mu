@@ -1,0 +1,148 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 18.72,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 2.14,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 9.68,
+   "prompt_tokens": 605,
+   "completion_tokens": 309,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 997]},{\"category\": \"Barriers\", \"bbox_2d\": [413, 625, 812, 998]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [808, 538, 907, 640]},{\"category\": \"Trees\", \"bbox_2d\": [858, 1, 998, 630]},{\"category\": \"Trees\", \"bbox_2d\": [548, 98, 862, 637]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 550, 998]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [684, 691, 731, 728]},{\"category\": \"Trees\", \"bbox_2d\": [550, 98, 862, 637]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [808, 538, 907, 640]}]}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 4.54,
+   "prompt_tokens": 605,
+   "completion_tokens": 101,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 734]},{\"category\": \"Lighting points\", \"bbox_2d\": [915, 436, 960, 734]},{\"category\": \"Lighting points\", \"bbox_2d\": [518, 600, 565, 694]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 2.36,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    220,
+    1039,
+    758
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    220,
+    1479,
+    616
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    769,
+    273,
+    957,
+    564
+   ]
+  },
+  {
+   "category": "Barriers",
+   "box": [
+    688,
+    558,
+    927,
+    759
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    955,
+    221,
+    1039,
+    560
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1429,
+    455,
+    1456,
+    616
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    925,
+    511,
+    984,
+    566
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1191,
+    544,
+    1219,
+    595
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    850,
+    593,
+    879,
+    613
+   ]
+  }
+ ]
+}

@@ -1,0 +1,500 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 58.21,
+ "filtered_repetitions": [
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1176,
+    572,
+    1182,
+    580
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1190,
+    574,
+    1196,
+    582
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1260,
+    584,
+    1266,
+    593
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1106,
+    562,
+    1112,
+    570
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1316,
+    593,
+    1322,
+    601
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1456,
+    613,
+    1462,
+    621
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1078,
+    558,
+    1084,
+    566
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1134,
+    566,
+    1140,
+    574
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1148,
+    568,
+    1154,
+    576
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1204,
+    576,
+    1210,
+    584
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1218,
+    578,
+    1224,
+    586
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1246,
+    582,
+    1252,
+    590
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1274,
+    586,
+    1280,
+    594
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1288,
+    588,
+    1294,
+    596
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1344,
+    596,
+    1350,
+    604
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1358,
+    599,
+    1364,
+    607
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1386,
+    602,
+    1392,
+    610
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1414,
+    607,
+    1420,
+    615
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1092,
+    560,
+    1098,
+    568
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1120,
+    563,
+    1126,
+    572
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1162,
+    570,
+    1168,
+    578
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1232,
+    580,
+    1238,
+    588
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1302,
+    590,
+    1308,
+    599
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1330,
+    594,
+    1336,
+    602
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1372,
+    601,
+    1378,
+    609
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1400,
+    604,
+    1406,
+    613
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1470,
+    615,
+    1476,
+    623
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1442,
+    610,
+    1448,
+    619
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1064,
+    556,
+    1070,
+    563
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1428,
+    609,
+    1434,
+    616
+   ]
+  }
+ ],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 3.49,
+   "prompt_tokens": 605,
+   "completion_tokens": 62,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        0,\n        998,\n        754\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 4.79,
+   "prompt_tokens": 605,
+   "completion_tokens": 114,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        0,\n        854,\n        996\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        837,\n        0,\n        1000,\n        626\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 46.85,
+   "prompt_tokens": 605,
+   "completion_tokens": 1796,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 734]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [158, 609, 200, 638]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [247, 600, 265, 627]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [138, 595, 155, 614]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [107, 588, 122, 604]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [93, 584, 107, 599]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [122, 591, 136, 607]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [148, 595, 162, 612]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [170, 599, 183, 614]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [190, 602, 203, 618]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [215, 607, 227, 622]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [238, 611, 248, 625]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [260, 614, 270, 629]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [283, 618, 295, 633]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [307, 622, 317, 636]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [330, 625, 340, 640]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [353, 629, 363, 644]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [377, 633, 387, 648]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [400, 636, 410, 651]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [423, 640, 433, 655]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [447, 644, 457, 659]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [470, 648, 480, 663]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [493, 651, 503, 667]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [517, 655, 527, 671]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [540, 659, 550, 674]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [563, 663, 573, 678]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [587, 667, 597, 682]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [610, 671, 620, 686]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [633, 674, 643, 690]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [657, 678, 667, 693]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [680, 682, 690, 697]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [703, 686, 713, 701]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [727, 690, 737, 705]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [750, 693, 760, 708]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [773, 697, 783, 712]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [797, 701, 807, 716]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [820, 705, 830, 720]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [843, 708, 853, 723]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [867, 712, 877, 727]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [890, 716, 900, 731]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [913, 720, 923, 734]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [937, 723, 947, 738]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [960, 727, 970, 742]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [983, 731, 993, 746]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 3.08,
+   "prompt_tokens": 605,
+   "completion_tokens": 33,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 865]}]}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    220,
+    1919,
+    687
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    220,
+    952,
+    758
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    0,
+    220,
+    599,
+    627
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    220,
+    1480,
+    616
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    942,
+    220,
+    1040,
+    558
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    975,
+    549,
+    1000,
+    565
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1028,
+    544,
+    1039,
+    559
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    963,
+    541,
+    973,
+    552
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    944,
+    538,
+    953,
+    546
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    969,
+    541,
+    977,
+    550
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    953,
+    539,
+    962,
+    548
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    936,
+    535,
+    944,
+    543
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    994,
+    545,
+    1002,
+    554
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    982,
+    543,
+    990,
+    552
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1009,
+    548,
+    1016,
+    556
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1050,
+    554,
+    1057,
+    562
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1036,
+    552,
+    1042,
+    560
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1023,
+    550,
+    1029,
+    558
+   ]
+  }
+ ]
+}

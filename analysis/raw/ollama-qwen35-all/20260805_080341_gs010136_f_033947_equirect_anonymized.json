@@ -1,0 +1,121 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 16.62,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 2.11,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 7.54,
+   "prompt_tokens": 605,
+   "completion_tokens": 226,
+   "raw_text": "{\n    \"objects\": [\n        {\n            \"category\": \"Trees\",\n            \"bbox_2d\": [\n                0,\n                0,\n            998,\n                735\n            ]\n        },\n        {\n            \"category\": \"Benches\",\n            \"bbox_2d\": [\n                486,\n                615,\n                665,\n                740\n            ]\n        },\n        {\n            \"category\": \"Ashtrays\",\n            \"bbox_2d\": [\n                385,\n                730,\n                459,\n                861\n            ]\n        },\n        {\n            \"category\": \"Litter bins\",\n            \"bbox_2d\": [\n                650,\n                565,\n                815,\n                617\n            ]\n        }\n    ]\n}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 4.82,
+   "prompt_tokens": 605,
+   "completion_tokens": 116,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        0,\n        1000,\n        734\n      ]\n    },\n    {\n      \"category\": \"Advertising displays\",\n      \"bbox_2d\": [\n        28,\n        490,\n        125,\n        569\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 2.15,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    220,
+    1480,
+    616
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    220,
+    1039,
+    617
+   ]
+  },
+  {
+   "category": "Benches",
+   "box": [
+    732,
+    552,
+    839,
+    620
+   ]
+  },
+  {
+   "category": "Ashtrays",
+   "box": [
+    671,
+    614,
+    715,
+    685
+   ]
+  },
+  {
+   "category": "Litter bins",
+   "box": [
+    830,
+    525,
+    929,
+    553
+   ]
+  },
+  {
+   "category": "Advertising displays",
+   "box": [
+    897,
+    485,
+    955,
+    527
+   ]
+  }
+ ]
+}

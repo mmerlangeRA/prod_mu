@@ -1,0 +1,130 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 18.06,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 3.56,
+   "prompt_tokens": 605,
+   "completion_tokens": 64,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        69,\n        1000,\n        854\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 6.22,
+   "prompt_tokens": 605,
+   "completion_tokens": 173,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        54,\n        63,\n        998,\n        610\n      ]\n    },\n    {\n      \"category\": \"Benches\",\n      \"bbox_2d\": [\n        627,\n        550,\n        824,\n        653\n      ]\n    },\n    {\n      \"category\": \"Ashtrays\",\n      \"bbox_2d\": [\n        609,\n        615,\n        657,\n        708\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 4.79,
+   "prompt_tokens": 605,
+   "completion_tokens": 114,
+   "raw_text": "{\n    \"objects\": [\n        {\n            \"category\": \"Trees\",\n            \"bbox_2d\": [\n                0,\n                0,\n            998,\n                635\n            ]\n        },\n        {\n            \"category\": \"Benches\",\n            \"bbox_2d\": [\n                0,\n                547,\n                120,\n                645\n            ]\n        }\n    ]\n}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 3.49,
+   "prompt_tokens": 605,
+   "completion_tokens": 62,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        0,\n        897,\n        816\n      ]\n    }\n  ]\n}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    0,
+    257,
+    600,
+    681
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    220,
+    1858,
+    661
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    220,
+    1479,
+    563
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    472,
+    254,
+    1039,
+    549
+   ]
+  },
+  {
+   "category": "Benches",
+   "box": [
+    816,
+    517,
+    934,
+    573
+   ]
+  },
+  {
+   "category": "Benches",
+   "box": [
+    880,
+    515,
+    952,
+    568
+   ]
+  },
+  {
+   "category": "Ashtrays",
+   "box": [
+    805,
+    552,
+    834,
+    602
+   ]
+  }
+ ]
+}

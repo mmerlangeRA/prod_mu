@@ -1,0 +1,112 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 15.01,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 3.64,
+   "prompt_tokens": 605,
+   "completion_tokens": 67,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Manholes\",\n      \"bbox_2d\": [\n        158,\n        867,\n        319,\n        964\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 5.49,
+   "prompt_tokens": 605,
+   "completion_tokens": 142,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [367, 294, 650, 548]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [910, 276, 1000, 544]\n    },\n    {\n      \"category\": \"Lighting points\",\n      \"bbox_2d\": [835, 392, 860, 454]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 3.75,
+   "prompt_tokens": 605,
+   "completion_tokens": 71,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [184, 196, 587, 613]}, {\"category\": \"Lighting points\", \"bbox_2d\": [109, 400, 134, 468]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 2.13,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    990,
+    326,
+    1232,
+    551
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    660,
+    379,
+    830,
+    516
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    986,
+    369,
+    1040,
+    514
+   ]
+  },
+  {
+   "category": "Manholes",
+   "box": [
+    95,
+    688,
+    191,
+    741
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    945,
+    436,
+    960,
+    473
+   ]
+  }
+ ]
+}

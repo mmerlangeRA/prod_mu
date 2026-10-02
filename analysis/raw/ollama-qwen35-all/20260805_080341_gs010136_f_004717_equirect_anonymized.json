@@ -1,0 +1,103 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 15.46,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 2.8,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 4.79,
+   "prompt_tokens": 605,
+   "completion_tokens": 99,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 294, 368, 425]}, {\"category\": \"Trees\", \"bbox_2d\": [437, 331, 655, 450]}, {\"category\": \"Trees\", \"bbox_2d\": [755, 329, 999, 581]}]}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 5.36,
+   "prompt_tokens": 605,
+   "completion_tokens": 120,
+   "raw_text": "{\n    \"objects\": [\n        {\n            \"category\": \"Lighting points\",\n            \"bbox_2d\": [\n                335,\n                278,\n                384,\n                610\n            ]\n        },\n        {\n            \"category\": \"Trees\",\n            \"bbox_2d\": [\n                49,\n                320,\n                275,\n                468\n            ]\n        }\n    ]\n}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 2.51,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    893,
+    398,
+    1039,
+    534
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    379,
+    661,
+    450
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    702,
+    399,
+    833,
+    463
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1081,
+    370,
+    1110,
+    549
+   ]
+  }
+ ]
+}

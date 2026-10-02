@@ -1,0 +1,166 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 22.99,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 3.72,
+   "prompt_tokens": 605,
+   "completion_tokens": 68,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 74, 986, 503]}, {\"category\": \"Lighting points\", \"bbox_2d\": [588, 486, 621, 714]}]}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 5.07,
+   "prompt_tokens": 605,
+   "completion_tokens": 119,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        234,\n        998,\n        567\n      ]\n    },\n    {\n      \"category\": \"Lighting points\",\n      \"bbox_2d\": [\n        891,\n        284,\n        970,\n        538\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 9.34,
+   "prompt_tokens": 605,
+   "completion_tokens": 297,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0, 345, 338, 567\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        341, 390, 450, 530\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        468, 37, 999, 620\n      ]\n    },\n    {\n      \"category\": \"Speed bumps\",\n      \"bbox_2d\": [\n        251, 525, 341, 545\n      ]\n    },\n    {\n      \"category\": \"Lighting points\",\n      \"bbox_2d\": [\n        170, 283, 250, 560\n      ]\n    },\n    {\n      \"category\": \"Lighting points\",\n      \"bbox_2d\": [\n        270, 410, 300, 505\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 4.86,
+   "prompt_tokens": 605,
+   "completion_tokens": 116,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        0,\n        998,\n        614\n      ]\n    },\n    {\n      \"category\": \"Advertising displays\",\n      \"bbox_2d\": [\n        513,\n        387,\n        584,\n        508\n      ]\n    }\n  ]\n}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    220,
+    1919,
+    552
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    0,
+    260,
+    592,
+    492
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    346,
+    1039,
+    526
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1161,
+    240,
+    1479,
+    555
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    406,
+    1083,
+    526
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    982,
+    373,
+    1030,
+    522
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1085,
+    431,
+    1150,
+    506
+   ]
+  },
+  {
+   "category": "Advertising displays",
+   "box": [
+    1628,
+    429,
+    1670,
+    494
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    353,
+    482,
+    373,
+    606
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1042,
+    441,
+    1060,
+    493
+   ]
+  },
+  {
+   "category": "Speed bumps",
+   "box": [
+    1031,
+    504,
+    1085,
+    514
+   ]
+  }
+ ]
+}

@@ -1,0 +1,139 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 15.95,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 3.6,
+   "prompt_tokens": 605,
+   "completion_tokens": 65,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [3, 1, 997, 645]}, {\"category\": \"Barriers\", \"bbox_2d\": [88, 460, 997, 720]}]}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 3.59,
+   "prompt_tokens": 605,
+   "completion_tokens": 64,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 643]}, {\"category\": \"Barriers\", \"bbox_2d\": [1, 527, 714, 700]}]}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 3.96,
+   "prompt_tokens": 605,
+   "completion_tokens": 65,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [148, 0, 999, 735]}, {\"category\": \"Trees\", \"bbox_2d\": [0, 306, 161, 594]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 4.8,
+   "prompt_tokens": 605,
+   "completion_tokens": 115,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        0,\n        943,\n        715\n      ]\n    },\n    {\n      \"category\": \"Barriers\",\n      \"bbox_2d\": [\n        86,\n        468,\n        908,\n        765\n      ]\n    }\n  ]\n}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    220,
+    1886,
+    606
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    220,
+    1039,
+    567
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    2,
+    221,
+    598,
+    568
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    969,
+    220,
+    1479,
+    617
+   ]
+  },
+  {
+   "category": "Barriers",
+   "box": [
+    1372,
+    473,
+    1865,
+    633
+   ]
+  },
+  {
+   "category": "Barriers",
+   "box": [
+    53,
+    468,
+    598,
+    609
+   ]
+  },
+  {
+   "category": "Barriers",
+   "box": [
+    441,
+    505,
+    868,
+    598
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    385,
+    977,
+    541
+   ]
+  }
+ ]
+}

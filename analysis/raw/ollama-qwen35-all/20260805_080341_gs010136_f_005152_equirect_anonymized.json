@@ -1,0 +1,103 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 14.15,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 2.26,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 5.04,
+   "prompt_tokens": 605,
+   "completion_tokens": 105,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0, 145, 263, 548\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        570, 379, 994, 524\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 2.44,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 4.41,
+   "prompt_tokens": 605,
+   "completion_tokens": 77,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [453, 67, 998, 824]}, {\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [870, 619, 947, 667]}]}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    1592,
+    256,
+    1919,
+    665
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    298,
+    598,
+    516
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    782,
+    425,
+    1036,
+    503
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1842,
+    554,
+    1888,
+    580
+   ]
+  }
+ ]
+}

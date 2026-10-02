@@ -1,0 +1,130 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 18.09,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 4.65,
+   "prompt_tokens": 605,
+   "completion_tokens": 96,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [107, 65, 998, 573]\n    },\n    {\n      \"category\": \"Lighting points\",\n      \"bbox_2d\": [24, 392, 56, 598]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 5.36,
+   "prompt_tokens": 605,
+   "completion_tokens": 118,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        67,\n        985,\n        543\n      ]\n    },\n    {\n      \"category\": \"Lighting points\",\n      \"bbox_2d\": [\n        741,\n        296,\n        770,\n        636\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 4.08,
+   "prompt_tokens": 605,
+   "completion_tokens": 66,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [168, 0, 997, 734]}, {\"category\": \"Lighting points\", \"bbox_2d\": [0, 295, 41, 630]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 4.0,
+   "prompt_tokens": 605,
+   "completion_tokens": 66,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 938, 845]}, {\"category\": \"Benches\", \"bbox_2d\": [871, 546, 902, 584]}]}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    220,
+    1883,
+    676
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    981,
+    220,
+    1478,
+    616
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    256,
+    1031,
+    513
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    64,
+    255,
+    599,
+    529
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    880,
+    379,
+    905,
+    560
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    14,
+    432,
+    34,
+    543
+   ]
+  },
+  {
+   "category": "Benches",
+   "box": [
+    1843,
+    515,
+    1861,
+    535
+   ]
+  }
+ ]
+}

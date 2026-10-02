@@ -1,0 +1,130 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 16.2,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 3.27,
+   "prompt_tokens": 605,
+   "completion_tokens": 52,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [48, 0, 997, 596]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 4.83,
+   "prompt_tokens": 605,
+   "completion_tokens": 115,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        0,\n        794,\n        583\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        846,\n        198,\n        999,\n        540\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 4.45,
+   "prompt_tokens": 605,
+   "completion_tokens": 99,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [564, 0, 998, 734]}, {\"category\": \"Trees\", \"bbox_2d\": [118, 208, 348, 540]}, {\"category\": \"Trees\", \"bbox_2d\": [345, 106, 609, 575]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 3.65,
+   "prompt_tokens": 605,
+   "completion_tokens": 67,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 734]}, {\"category\": \"Bollards\", \"bbox_2d\": [751, 536, 774, 667]}]}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    220,
+    1919,
+    616
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    29,
+    220,
+    598,
+    542
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    220,
+    916,
+    535
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1218,
+    220,
+    1479,
+    616
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1087,
+    277,
+    1245,
+    530
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    951,
+    332,
+    1089,
+    512
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1771,
+    509,
+    1784,
+    580
+   ]
+  }
+ ]
+}

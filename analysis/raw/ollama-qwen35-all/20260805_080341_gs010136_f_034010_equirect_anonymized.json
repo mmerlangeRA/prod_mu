@@ -1,0 +1,139 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 15.08,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 5.64,
+   "prompt_tokens": 605,
+   "completion_tokens": 133,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 74, 998, 635]}, {\"category\": \"Benches\", \"bbox_2d\": [225, 631, 288, 674]}, {\"category\": \"Benches\", \"bbox_2d\": [320, 658, 414, 750]}, {\"category\": \"Litter bins\", \"bbox_2d\": [92, 578, 136, 654]}]}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 3.77,
+   "prompt_tokens": 605,
+   "completion_tokens": 72,
+   "raw_text": "{\"objects\": [{\"category\": \"Lighting points\", \"bbox_2d\": [354, 367, 548, 869]}, {\"category\": \"Advertising displays\", \"bbox_2d\": [377, 461, 500, 742]}]}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 3.55,
+   "prompt_tokens": 605,
+   "completion_tokens": 65,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [148, 0, 999, 735]}, {\"category\": \"Trees\", \"bbox_2d\": [0, 226, 208, 635]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 2.12,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    969,
+    220,
+    1479,
+    617
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    0,
+    260,
+    599,
+    563
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    652,
+    418,
+    769,
+    689
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    342,
+    1005,
+    563
+   ]
+  },
+  {
+   "category": "Advertising displays",
+   "box": [
+    666,
+    469,
+    740,
+    621
+   ]
+  },
+  {
+   "category": "Benches",
+   "box": [
+    192,
+    575,
+    248,
+    625
+   ]
+  },
+  {
+   "category": "Litter bins",
+   "box": [
+    55,
+    532,
+    82,
+    573
+   ]
+  },
+  {
+   "category": "Benches",
+   "box": [
+    135,
+    561,
+    173,
+    584
+   ]
+  }
+ ]
+}

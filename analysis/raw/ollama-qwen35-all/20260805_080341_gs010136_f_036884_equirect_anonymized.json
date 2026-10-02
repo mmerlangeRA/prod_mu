@@ -1,0 +1,104 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 205.84,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 195.36,
+   "prompt_tokens": 605,
+   "completion_tokens": 7587,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 563]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 1000, 947]},{\"category\": \"Trees\", \"bbox_2d\": [0,",
+   "error": "invalid JSON"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 3.82,
+   "prompt_tokens": 605,
+   "completion_tokens": 65,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 945]}, {\"category\": \"Trees\", \"bbox_2d\": [761, 238, 998, 620]}]}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 4.06,
+   "prompt_tokens": 605,
+   "completion_tokens": 67,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 675]}, {\"category\": \"Lighting points\", \"bbox_2d\": [914, 432, 972, 998]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 2.6,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    220,
+    1039,
+    730
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    220,
+    1479,
+    584
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    897,
+    349,
+    1039,
+    555
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1428,
+    453,
+    1463,
+    759
+   ]
+  }
+ ]
+}

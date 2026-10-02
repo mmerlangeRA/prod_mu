@@ -1,0 +1,229 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 33.63,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 4.96,
+   "prompt_tokens": 605,
+   "completion_tokens": 103,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [358, 304, 507, 569]}, {\"category\": \"Lighting points\", \"bbox_2d\": [568, 259, 610, 534]}, {\"category\": \"Trees\", \"bbox_2d\": [718, 275, 998, 569]}]}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 5.65,
+   "prompt_tokens": 605,
+   "completion_tokens": 133,
+   "raw_text": "{\"objects\": [{\"category\": \"Lighting points\", \"bbox_2d\": [395, 154, 467, 558]}, {\"category\": \"Trees\", \"bbox_2d\": [0, 281, 200, 545]}, {\"category\": \"Trees\", \"bbox_2d\": [235, 229, 345, 567]}, {\"category\": \"Trees\", \"bbox_2d\": [315, 225, 480, 567]}]}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 11.21,
+   "prompt_tokens": 605,
+   "completion_tokens": 343,
+   "raw_text": "{\n    \"objects\": [\n        {\n            \"category\": \"Bollards\",\n            \"bbox_2d\": [\n                384,\n                536,\n                410,\n                597\n            ]\n        },\n        {\n            \"category\": \"Bollards\",\n            \"bbox_2d\": [\n                408,\n                536,\n                428,\n                589\n            ]\n        },\n        {\n            \"category\": \"Bollards\",\n            \"bbox_2d\": [\n                427,\n                531,\n                440,\n                576\n            ]\n        },\n        {\n            \"category\": \"Bollards\",\n            \"bbox_2d\": [\n                442,\n                529,\n                454,\n                568\n            ]\n        },\n        {\n            \"category\": \"Bollards\",\n            \"bbox_2d\": [\n                683,\n                627,\n                708,\n                691\n            ]\n        },\n        {\n            \"category\": \"Bollards\",\n            \"bbox_2d\": [\n                885,\n                634,\n                916,\n                720\n            ]\n        }\n    ]\n}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 11.81,
+   "prompt_tokens": 605,
+   "completion_tokens": 355,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Parking meters\",\n      \"bbox_2d\": [\n        187, 435, 236, 540\n      ]\n    },\n    {\n      \"category\": \"Bollards\",\n      \"bbox_2d\": [\n        159, 620, 184, 705\n      ]\n    },\n    {\n      \"category\": \"Bollards\",\n      \"bbox_2d\": [\n        334, 605, 361, 690\n      ]\n    },\n    {\n      \"category\": \"Bollards\",\n      \"bbox_2d\": [\n        434, 587, 457, 670\n      ]\n    },\n    {\n      \"category\": \"Bollards\",\n      \"bbox_2d\": [\n        509, 571, 528, 643\n      ]\n    },\n    {\n      \"category\": \"Bollards\",\n      \"bbox_2d\": [\n        558, 560, 574, 620\n      ]\n    },\n    {\n      \"category\": \"Litter bins\",\n      \"bbox_2d\": [\n        561, 523, 614, 615\n      ]\n    }\n  ]\n}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    431,
+    368,
+    599,
+    527
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    629,
+    342,
+    728,
+    526
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    215,
+    384,
+    304,
+    527
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    581,
+    344,
+    647,
+    526
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    677,
+    303,
+    720,
+    521
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    341,
+    360,
+    366,
+    508
+   ]
+  },
+  {
+   "category": "Parking meters",
+   "box": [
+    1432,
+    455,
+    1462,
+    512
+   ]
+  },
+  {
+   "category": "Litter bins",
+   "box": [
+    1657,
+    502,
+    1688,
+    552
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1411,
+    562,
+    1430,
+    609
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1520,
+    547,
+    1537,
+    593
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1580,
+    537,
+    1594,
+    582
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1290,
+    559,
+    1305,
+    593
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1110,
+    509,
+    1126,
+    542
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1625,
+    528,
+    1637,
+    567
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1125,
+    509,
+    1137,
+    538
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1655,
+    522,
+    1664,
+    555
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1136,
+    507,
+    1144,
+    531
+   ]
+  },
+  {
+   "category": "Bollards",
+   "box": [
+    1145,
+    506,
+    1152,
+    527
+   ]
+  }
+ ]
+}

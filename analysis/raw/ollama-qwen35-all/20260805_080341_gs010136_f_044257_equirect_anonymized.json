@@ -1,0 +1,121 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 14.47,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 5.49,
+   "prompt_tokens": 605,
+   "completion_tokens": 140,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 304, 987, 506]},{\"category\": \"Lighting points\", \"bbox_2d\": [397, 419, 417, 524]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [0, 804, 60, 998]},{\"category\": \"Speed bumps\", \"bbox_2d\": [397, 514, 417, 524]}]}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 4.76,
+   "prompt_tokens": 605,
+   "completion_tokens": 97,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [279, 354, 768, 511]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [860, 399, 999, 554]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 2.12,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 2.1,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    0,
+    384,
+    592,
+    493
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    607,
+    411,
+    901,
+    496
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    956,
+    435,
+    1039,
+    519
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    0,
+    654,
+    36,
+    759
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    238,
+    446,
+    250,
+    503
+   ]
+  },
+  {
+   "category": "Speed bumps",
+   "box": [
+    238,
+    498,
+    250,
+    503
+   ]
+  }
+ ]
+}

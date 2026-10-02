@@ -1,0 +1,121 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 14.52,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 2.13,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 6.47,
+   "prompt_tokens": 605,
+   "completion_tokens": 167,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [345, 368, 997, 518]},{\"category\": \"Lighting points\", \"bbox_2d\": [328, 430, 343, 578]},{\"category\": \"Trees\", \"bbox_2d\": [0, 416, 349, 460]},{\"category\": \"Trees\", \"bbox_2d\": [895, 416, 999, 530]},{\"category\": \"Lighting points\", \"bbox_2d\": [327, 430, 343, 578]}]}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 3.67,
+   "prompt_tokens": 605,
+   "completion_tokens": 67,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 423, 105, 516]}, {\"category\": \"Trees\", \"bbox_2d\": [189, 375, 688, 534]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 2.25,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    647,
+    419,
+    1038,
+    500
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    993,
+    422,
+    1293,
+    508
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    445,
+    649,
+    468
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    977,
+    445,
+    1039,
+    506
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    448,
+    943,
+    499
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    636,
+    452,
+    646,
+    532
+   ]
+  }
+ ]
+}

@@ -1,0 +1,185 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 20.24,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    849,
+    595,
+    877,
+    614
+   ]
+  }
+ ],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 5.93,
+   "prompt_tokens": 605,
+   "completion_tokens": 154,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [54, 38, 997, 698]},{\"category\": \"Trees\", \"bbox_2d\": [1, 0, 240, 685]},{\"category\": \"Trees\", \"bbox_2d\": [237, 71, 400, 435]},{\"category\": \"Trees\", \"bbox_2d\": [400, 0, 998, 435]},{\"category\": \"Barriers\", \"bbox_2d\": [0, 569, 71, 685]}]}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 4.83,
+   "prompt_tokens": 605,
+   "completion_tokens": 108,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 998, 734]},{\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [681, 695, 728, 730]},{\"category\": \"Lighting points\", \"bbox_2d\": [975, 584, 998, 628]}]}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 4.41,
+   "prompt_tokens": 605,
+   "completion_tokens": 97,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 65, 198, 634]}, {\"category\": \"Trees\", \"bbox_2d\": [178, 180, 500, 614]}, {\"category\": \"Trees\", \"bbox_2d\": [500, 0, 1000, 690]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 5.07,
+   "prompt_tokens": 605,
+   "completion_tokens": 116,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        0,\n        998,\n        514\n      ]\n    },\n    {\n      \"category\": \"Barriers\",\n      \"bbox_2d\": [\n        876,\n        583,\n        998,\n        708\n      ]\n    }\n  ]\n}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    220,
+    1039,
+    616
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    32,
+    241,
+    598,
+    597
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    220,
+    1919,
+    498
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1180,
+    220,
+    1480,
+    593
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    240,
+    220,
+    599,
+    455
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1,
+    220,
+    144,
+    590
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    987,
+    317,
+    1180,
+    552
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    255,
+    999,
+    562
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    142,
+    258,
+    240,
+    455
+   ]
+  },
+  {
+   "category": "Barriers",
+   "box": [
+    1846,
+    535,
+    1919,
+    602
+   ]
+  },
+  {
+   "category": "Barriers",
+   "box": [
+    0,
+    527,
+    43,
+    590
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    1025,
+    535,
+    1039,
+    559
+   ]
+  }
+ ]
+}

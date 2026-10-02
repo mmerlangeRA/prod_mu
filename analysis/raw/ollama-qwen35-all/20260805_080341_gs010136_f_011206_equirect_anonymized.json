@@ -1,0 +1,202 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 27.05,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 5.96,
+   "prompt_tokens": 605,
+   "completion_tokens": 160,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        458, 79, 736, 518\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0, 107, 500, 490\n      ]\n    },\n    {\n      \"category\": \"Drainage grates and stormwater inlets\",\n      \"bbox_2d\": [\n        386, 684, 999, 851\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 7.76,
+   "prompt_tokens": 605,
+   "completion_tokens": 234,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Drainage grates and stormwater inlets\",\n      \"bbox_2d\": [\n        0,\n        714,\n        583,\n        856\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        198,\n        888,\n        574\n      ]\n    },\n    {\n      \"category\": \"Lighting points\",\n      \"bbox_2d\": [\n        608,\n        103,\n        765,\n        639\n      ]\n    },\n    {\n      \"category\": \"Lighting points\",\n      \"bbox_2d\": [\n        814,\n        385,\n        840,\n        485\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 8.48,
+   "prompt_tokens": 605,
+   "completion_tokens": 263,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [0, 435, 167, 538]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [219, 360, 344, 538]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [347, 405, 508, 538]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [506, 1, 999, 705]\n    },\n    {\n      \"category\": \"Lighting points\",\n      \"bbox_2d\": [84, 387, 124, 538]\n    },\n    {\n      \"category\": \"Speed bumps\",\n      \"bbox_2d\": [130, 540, 269, 560]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 4.85,
+   "prompt_tokens": 605,
+   "completion_tokens": 116,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0,\n        0,\n        638,\n        714\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        595,\n        118,\n        1000,\n        468\n      ]\n    }\n  ]\n}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    220,
+    1703,
+    606
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1184,
+    221,
+    1479,
+    601
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    327,
+    973,
+    530
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    0,
+    278,
+    300,
+    485
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1677,
+    284,
+    1920,
+    473
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    275,
+    263,
+    442,
+    500
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    232,
+    589,
+    599,
+    680
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    805,
+    276,
+    899,
+    565
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    440,
+    606,
+    790,
+    682
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1011,
+    414,
+    1086,
+    511
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1088,
+    439,
+    1185,
+    511
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    455,
+    980,
+    511
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    930,
+    429,
+    954,
+    511
+   ]
+  },
+  {
+   "category": "Speed bumps",
+   "box": [
+    958,
+    512,
+    1041,
+    522
+   ]
+  },
+  {
+   "category": "Lighting points",
+   "box": [
+    928,
+    428,
+    944,
+    482
+   ]
+  }
+ ]
+}

@@ -1,0 +1,157 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 18.68,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 3.62,
+   "prompt_tokens": 605,
+   "completion_tokens": 66,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 73, 294, 568]}, {\"category\": \"Trees\", \"bbox_2d\": [219, 64, 1000, 520]}]}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 3.63,
+   "prompt_tokens": 605,
+   "completion_tokens": 66,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [3, 64, 658, 547]}, {\"category\": \"Trees\", \"bbox_2d\": [619, 140, 998, 564]}]}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 6.91,
+   "prompt_tokens": 605,
+   "completion_tokens": 199,
+   "raw_text": "{\n  \"objects\": [\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        0, 138, 145, 607\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        145, 290, 300, 597\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        638, 155, 905, 520\n      ]\n    },\n    {\n      \"category\": \"Trees\",\n      \"bbox_2d\": [\n        875, 194, 999, 685\n      ]\n    }\n  ]\n}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 4.52,
+   "prompt_tokens": 605,
+   "completion_tokens": 98,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 165, 184, 579]}, {\"category\": \"Trees\", \"bbox_2d\": [283, 0, 700, 614]}, {\"category\": \"Advertising displays\", \"bbox_2d\": [750, 304, 989, 598]}]}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    131,
+    255,
+    600,
+    501
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    442,
+    255,
+    835,
+    515
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1490,
+    220,
+    1740,
+    552
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    811,
+    296,
+    1039,
+    525
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    0,
+    259,
+    176,
+    527
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1263,
+    304,
+    1423,
+    501
+   ]
+  },
+  {
+   "category": "Advertising displays",
+   "box": [
+    1770,
+    384,
+    1913,
+    543
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    880,
+    295,
+    967,
+    548
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1405,
+    325,
+    1479,
+    590
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    967,
+    377,
+    1060,
+    542
+   ]
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "source": "ollama",
+ "model": "qwen3.5:9b",
+ "tiles": 4,
+ "band_fraction": [
+  0.229,
+  0.792
+ ],
+ "coordinates": "0-1000 per axis of each tile, converted to panorama pixels",
+ "width": 1920,
+ "height": 960,
+ "seconds": 13.13,
+ "filtered_repetitions": [],
+ "filtered_vehicle": [],
+ "calls": [
+  {
+   "tile": [
+    0,
+    220,
+    600,
+    760
+   ],
+   "seconds": 2.12,
+   "prompt_tokens": 605,
+   "completion_tokens": 6,
+   "raw_text": "{\"objects\": []}"
+  },
+  {
+   "tile": [
+    440,
+    220,
+    1040,
+    760
+   ],
+   "seconds": 3.6,
+   "prompt_tokens": 605,
+   "completion_tokens": 67,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 45, 793, 586]}, {\"category\": \"Trees\", \"bbox_2d\": [831, 175, 1000, 500]}]}"
+  },
+  {
+   "tile": [
+    880,
+    220,
+    1480,
+    760
+   ],
+   "seconds": 3.63,
+   "prompt_tokens": 605,
+   "completion_tokens": 67,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [114, 173, 425, 568]}, {\"category\": \"Trees\", \"bbox_2d\": [430, 0, 999, 625]}]}"
+  },
+  {
+   "tile": [
+    1320,
+    220,
+    1920,
+    760
+   ],
+   "seconds": 3.78,
+   "prompt_tokens": 605,
+   "completion_tokens": 74,
+   "raw_text": "{\"objects\": [{\"category\": \"Trees\", \"bbox_2d\": [0, 0, 987, 654]}, {\"category\": \"Drainage grates and stormwater inlets\", \"bbox_2d\": [531, 748, 687, 808]}]}"
+  }
+ ],
+ "objects": [
+  {
+   "category": "Trees",
+   "box": [
+    1320,
+    220,
+    1912,
+    573
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    440,
+    244,
+    916,
+    536
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    1138,
+    220,
+    1479,
+    558
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    948,
+    313,
+    1135,
+    527
+   ]
+  },
+  {
+   "category": "Trees",
+   "box": [
+    939,
+    314,
+    1040,
+    490
+   ]
+  },
+  {
+   "category": "Drainage grates and stormwater inlets",
+   "box": [
+    1639,
+    624,
+    1732,
+    656
+   ]
+  }
+ ]
+}
